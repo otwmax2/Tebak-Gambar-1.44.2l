@@ -1,0 +1,42 @@
+{
+  "sequence": 100,
+  "archive": "resources/assets/level/android-level-5/ff4a880809acbc6106764b525f3a8970.zip",
+  "archive_sha256": "516a8e6408905307b618f0dbc46db8e2d4de8c66ac01791097a3a792a5c20afa",
+  "global_index": 99,
+  "level": 5,
+  "question_type": "raja",
+  "answer": "kerajinan buatan warga kampung",
+  "metadata": "99#raja#5#kerajinan buatan warga kampung",
+  "encrypted_entry_name": "d27fd7b7181d699a9c374ff7401d83f82d3c752c28397539a4589d5430dba81f21d28ee0fb0531b802fd21f179474f13",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 16730,
+  "image_sha256": "f98f11a7b01f4650d47983375e5fd68ffc787ba9bac3f97c9c40a63b67eb0743",
+  "output_image": "images/level-05/question-099.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 15899
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 244,
+  "archive": "resources/assets/level/android-level-13/60537a1156660f207f25e239e8c97a51.zip",
+  "archive_sha256": "e42c4a06d28bc27934e2c0ca852e77b06a75f3d7ee2de77d7b9a4cfc5310ab3d",
+  "global_index": 247,
+  "level": 13,
+  "question_type": "biasa",
+  "answer": "cerita imajinasi",
+  "metadata": "247#biasa#13#cerita imajinasi",
+  "encrypted_entry_name": "5cee9e60865002db797ff75c224bea9ec34a3227f4ae44aa2d7801d59fc3d5ff",
+  "metadata_padding_bytes": 3,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11427,
+  "image_sha256": "028d11df47afe3a60349d35dd8d3fc2bff723e0454cb6127c8c41f113fc12d60",
+  "output_image": "images/level-13/question-247.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 10593
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,4 @@
+# Optional dependencies for decrypt_levels.py (not required by original audit tools)
+pyzipper==0.3.6
+pycryptodomex==3.24.1
+Pillow==12.0.0

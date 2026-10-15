@@ -1,0 +1,42 @@
+{
+  "sequence": 77,
+  "archive": "resources/assets/level/android-level-4/c2e052f6d961fde54dfdcb9ab8707046.zip",
+  "archive_sha256": "5f0a6eeb5d31954eff288751549533a7a7dd63da8c4b0cb11691a660603327e0",
+  "global_index": 66,
+  "level": 4,
+  "question_type": "biasa",
+  "answer": "hitung persentase",
+  "metadata": "66#biasa#4#hitung persentase",
+  "encrypted_entry_name": "b20cf5b6b1327c7901050178244ce9d3f6a704031ae9bba0ccfb6e89e80d621d",
+  "metadata_padding_bytes": 4,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11099,
+  "image_sha256": "203d96787853d192e398cdbae6f45052eb29cac0c9fbcaf86b710d9d9627afd1",
+  "output_image": "images/level-04/question-066.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 10265
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

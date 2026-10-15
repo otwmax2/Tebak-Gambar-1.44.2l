@@ -1,0 +1,42 @@
+{
+  "sequence": 34,
+  "archive": "resources/assets/level/android-level-2/868eb97973c7d278b526c08102724b65.zip",
+  "archive_sha256": "916ab342d7d1087b36407c2bee6e1cf15ddea867106b9faeea9dcd94d5d4bf58",
+  "global_index": 34,
+  "level": 2,
+  "question_type": "biasa",
+  "answer": "lebih baik",
+  "metadata": "34#biasa#2#lebih baik",
+  "encrypted_entry_name": "b424e92a55d8f419cfcbdda64c59c8c25ccf3e063141dcf83d3f5c37d6d2fe3d",
+  "metadata_padding_bytes": 11,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 19212,
+  "image_sha256": "238e5fa795f6a7bea6004cc4d0a0610c385ccb9d3228af08950d2c80b2ee9df5",
+  "output_image": "images/level-02/question-034.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 18384
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

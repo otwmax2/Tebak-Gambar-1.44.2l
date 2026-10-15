@@ -1,0 +1,42 @@
+{
+  "sequence": 374,
+  "archive": "resources/assets/level/android-level-19/bc626c6896067daefcafbf15a98e2852.zip",
+  "archive_sha256": "6c45b85d40350759da04bf0dc8736fffd6c5eebcb7012bbce69b7136fe81b53c",
+  "global_index": 361,
+  "level": 19,
+  "question_type": "biasa",
+  "answer": "umpan silang",
+  "metadata": "361#biasa#19#umpan silang",
+  "encrypted_entry_name": "85d5b0493adb3200a5c8a18096ae75bd1c7c942aae4c9bb6cf824b35b1a5dd65",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 4633,
+  "image_sha256": "4d65652b4a598b83cfac6f43e9e57a0d9469e47917cd7da3b0bae5c96d408c3b",
+  "output_image": "images/level-19/question-361.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 3805
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

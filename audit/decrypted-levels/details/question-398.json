@@ -1,0 +1,42 @@
+{
+  "sequence": 392,
+  "archive": "resources/assets/level/android-level-20/b42cb603da3fbf9c96921363d3843002.zip",
+  "archive_sha256": "d47b308db0e2a2ad21b9546ef8e8d05ddabd76997d4f6986210bddf625f93cb0",
+  "global_index": 398,
+  "level": 20,
+  "question_type": "biasa",
+  "answer": "asli manado",
+  "metadata": "398#biasa#20#asli manado",
+  "encrypted_entry_name": "1b1ad06f1bc50b68082b60ce07d8bd4b82fdd071e9563c65bed1718c5070c8c6",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8461,
+  "image_sha256": "974b7585838833958e168d6ff31cb0d9363583e319a115cb993cb80a0b2b0e3f",
+  "output_image": "images/level-20/question-398.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7633
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

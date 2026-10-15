@@ -1,0 +1,42 @@
+{
+  "sequence": 123,
+  "archive": "resources/assets/level/android-level-7/190927e6ecec1cecf53624ab8f85027c.zip",
+  "archive_sha256": "55d05b198652ee72111778b8ef5cc3c5eb420c70b41c702020aa0043f95a4f49",
+  "global_index": 128,
+  "level": 7,
+  "question_type": "biasa",
+  "answer": "belum dewasa",
+  "metadata": "128#biasa#7#belum dewasa",
+  "encrypted_entry_name": "a648230a0c95a51d300263bf168a0275e41c15e0cf8fffe2c5fa2198f8ae6d0e",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10746,
+  "image_sha256": "39f0b2795758207ee3d72babf3f0448dcba24926ab1b13ea66c13aafb09d737b",
+  "output_image": "images/level-07/question-128.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9915
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

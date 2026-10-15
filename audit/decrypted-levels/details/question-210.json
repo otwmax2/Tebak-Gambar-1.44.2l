@@ -1,0 +1,42 @@
+{
+  "sequence": 215,
+  "archive": "resources/assets/level/android-level-11/a87b1200564c8f2bcc606d2ac21a6929.zip",
+  "archive_sha256": "3ef2c0cc5b4556338f77356eb450fab94c5c4cf7c1b1fe4e8ad477d5d1735bb4",
+  "global_index": 210,
+  "level": 11,
+  "question_type": "biasa",
+  "answer": "sumbangan donatur",
+  "metadata": "210#biasa#11#sumbangan donatur",
+  "encrypted_entry_name": "8e591fa38a699e6c59e4f57c286a5f5c88d25c09bed7078b9eb4493b0b3a188e",
+  "metadata_padding_bytes": 2,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10413,
+  "image_sha256": "c7f80aafca573b6d6be1ba436e97125c3a5031f99bc43a6b9002b96af3b6a0a4",
+  "output_image": "images/level-11/question-210.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9582
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

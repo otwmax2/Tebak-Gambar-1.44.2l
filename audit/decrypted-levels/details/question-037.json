@@ -1,0 +1,42 @@
+{
+  "sequence": 33,
+  "archive": "resources/assets/level/android-level-2/83ee8764aa49818b062d63798414a845.zip",
+  "archive_sha256": "369df9b834d58313456cc83a9ccaa8c3c4312029fc762d0f67fd8fbfb86fa020",
+  "global_index": 37,
+  "level": 2,
+  "question_type": "biasa",
+  "answer": "senam otak",
+  "metadata": "37#biasa#2#senam otak",
+  "encrypted_entry_name": "da007e645c85c52813f6709fff5882e8da47921514f0f7c09f1cfb8916954e9a",
+  "metadata_padding_bytes": 11,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8703,
+  "image_sha256": "9f184e842a1757b40f4bb059effd4fba20ab0638fe93de64ee20a9adb3258431",
+  "output_image": "images/level-02/question-037.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 738
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7896
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 283,
+  "archive": "resources/assets/level/android-level-15/0db73bdd8bb65b9a166cab08512a2230.zip",
+  "archive_sha256": "b6141fb6ef24cde3e5d437470b7c1c97a80411d66817fa247a5ded85556c2149",
+  "global_index": 284,
+  "level": 15,
+  "question_type": "biasa",
+  "answer": "banyak mulut",
+  "metadata": "284#biasa#15#banyak mulut",
+  "encrypted_entry_name": "77371ce11673b9c0d1733a605797e7507eebcc0eddf8b9eaa525853f78ae3932",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 6140,
+  "image_sha256": "d2b35af6ef57f64189d688bff2319e28553ae027f67cc30205ae319881484f47",
+  "output_image": "images/level-15/question-284.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 717
+    },
+    {
+      "type": "IDAT",
+      "bytes": 5354
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

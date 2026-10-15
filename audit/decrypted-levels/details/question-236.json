@@ -1,0 +1,42 @@
+{
+  "sequence": 226,
+  "archive": "resources/assets/level/android-level-12/2fbef27e12e9d856473d527e80a8a2b8.zip",
+  "archive_sha256": "48186ee5ef00a3d887371265c12fa67990bcf9b542183da8fa2082628ec81905",
+  "global_index": 236,
+  "level": 12,
+  "question_type": "biasa",
+  "answer": "harga solar",
+  "metadata": "236#biasa#12#harga solar",
+  "encrypted_entry_name": "3f7ff7d7acca861570d764d0a24310a10470fcbeb18a3d42e5c8c3b56e583d33",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 7621,
+  "image_sha256": "b1d9c9d917aa88d004e9dc2d4d093bbc48c3ea14021abbd58d347c3c9735ca2e",
+  "output_image": "images/level-12/question-236.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 6790
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

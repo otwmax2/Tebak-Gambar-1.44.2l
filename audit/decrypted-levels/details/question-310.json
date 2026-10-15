@@ -1,0 +1,42 @@
+{
+  "sequence": 301,
+  "archive": "resources/assets/level/android-level-16/0486e693685b9d8a9e8e774f1a203867.zip",
+  "archive_sha256": "1f728d40bb37ff11b3ea936a5ccdacf97ebcd0e20d021929ba4c581e180a32e1",
+  "global_index": 310,
+  "level": 16,
+  "question_type": "biasa",
+  "answer": "kelipatan ribuan",
+  "metadata": "310#biasa#16#kelipatan ribuan",
+  "encrypted_entry_name": "0d8546408bfa11fd4b9f59e06c40b1ba93d2eaf9260096ead7086e3f40b70f63",
+  "metadata_padding_bytes": 3,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11834,
+  "image_sha256": "be17e8b16248b0f13dcde2297c77a0e204e2af13fa9b474e2578245c8c9ad6bd",
+  "output_image": "images/level-16/question-310.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 11000
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

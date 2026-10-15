@@ -1,0 +1,42 @@
+{
+  "sequence": 234,
+  "archive": "resources/assets/level/android-level-12/8a65c744f42ad8fa3bbba163d716695c.zip",
+  "archive_sha256": "2cb45b61861d9a0c7465ab5ad09a862cf2bbf5c8f39dd6fea4b766045e471778",
+  "global_index": 230,
+  "level": 12,
+  "question_type": "biasa",
+  "answer": "layar kaca",
+  "metadata": "230#biasa#12#layar kaca",
+  "encrypted_entry_name": "ccbdc47574307804ebb9a12f81dd848673f16f18b04265fa2b344860bb8aa833",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 5494,
+  "image_sha256": "1e69c95e5606c86042c01c4675bcd1dca11e5d6f54456c2255c8fc9cbc25d257",
+  "output_image": "images/level-12/question-230.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 4657
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

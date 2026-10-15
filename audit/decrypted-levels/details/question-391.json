@@ -1,0 +1,42 @@
+{
+  "sequence": 383,
+  "archive": "resources/assets/level/android-level-20/0a55bdff93de3e60274929c9e631cec0.zip",
+  "archive_sha256": "b9a1ce5778114e83ac9a50e34a19673f54a0a7945db3751dd54a64fc3a688eb1",
+  "global_index": 391,
+  "level": 20,
+  "question_type": "biasa",
+  "answer": "dongkrak popularitas",
+  "metadata": "391#biasa#20#dongkrak popularitas",
+  "encrypted_entry_name": "6a419cf9fbeb5c72b8eb073747ccec2083969f02e440f6a5dfc79765fa186f092b71ed608356bd70bbeb90f3e253d064",
+  "metadata_padding_bytes": 15,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 17419,
+  "image_sha256": "3a41f9eca91931d888ca87a8c39809a53588d442ef8aaaa056fb7e9c25d745fa",
+  "output_image": "images/level-20/question-391.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 16582
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

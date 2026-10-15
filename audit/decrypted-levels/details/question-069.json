@@ -1,0 +1,42 @@
+{
+  "sequence": 65,
+  "archive": "resources/assets/level/android-level-4/4c8665b7b896c92fd83fb29c76ab26eb.zip",
+  "archive_sha256": "01ac01dd02c788af13f8d29a86d15530e8aec9ba4823cbf5b02dbe970dfa5e61",
+  "global_index": 69,
+  "level": 4,
+  "question_type": "biasa",
+  "answer": "pasukan khusus",
+  "metadata": "69#biasa#4#pasukan khusus",
+  "encrypted_entry_name": "b941ef59ea4fc411c12de0f2153cedaa3d052485d8545b40dda5cc99854d8611",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 12064,
+  "image_sha256": "b11d93af4b16e5e03a0d5a46aa996f33824d613aeb7335a06e3ce420a832a377",
+  "output_image": "images/level-04/question-069.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 11227
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

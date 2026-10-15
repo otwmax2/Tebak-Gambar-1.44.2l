@@ -1,0 +1,42 @@
+{
+  "sequence": 60,
+  "archive": "resources/assets/level/android-level-3/f506295a84755a4d51f5e87aab9c2642.zip",
+  "archive_sha256": "50a826c1c2b2d5bc6b7c362f574a523c554f792dbb64fbd9973f889c20b10e6e",
+  "global_index": 58,
+  "level": 3,
+  "question_type": "biasa",
+  "answer": "pancing ikan",
+  "metadata": "58#biasa#3#pancing ikan",
+  "encrypted_entry_name": "1198e36f69235ceb681421008975db6c0123d7866b7adb9a4317f118c6b379e4",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9713,
+  "image_sha256": "7431e82b4bf43d2a62a3a23b6a4d4f2d4f61701ab6b64e56d37d6cf800877695",
+  "output_image": "images/level-03/question-058.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8876
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

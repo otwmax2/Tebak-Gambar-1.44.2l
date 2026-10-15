@@ -1,0 +1,42 @@
+{
+  "sequence": 348,
+  "archive": "resources/assets/level/android-level-18/3819a86f7cf0f06873b4950de1bd061e.zip",
+  "archive_sha256": "f8eac1d5f83e44ef0b16c3cd07fb074e4e38a6c2c404b5d2e95f3996f202768b",
+  "global_index": 345,
+  "level": 18,
+  "question_type": "biasa",
+  "answer": "lahar panas",
+  "metadata": "345#biasa#18#lahar panas",
+  "encrypted_entry_name": "11d5f32228c3ca30069ef2122b4d3b5282ff6121d0a1522880a0bf4f7c1c6bde",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10467,
+  "image_sha256": "275333fe8c9cd87752f2c65eb25fd4de22a9eba202758ca27fbe48c9dc241ff5",
+  "output_image": "images/level-18/question-345.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9630
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 55,
+  "archive": "resources/assets/level/android-level-3/86ca07ae60b8c8b04fcf86d1d67bbf40.zip",
+  "archive_sha256": "d299052289b3724abe929453bfcbd274b0252b501c07fa8b85077292d37fc266",
+  "global_index": 59,
+  "level": 3,
+  "question_type": "raja",
+  "answer": "sebelas korban kebakaran",
+  "metadata": "59#raja#3#sebelas korban kebakaran",
+  "encrypted_entry_name": "84a73010b8b50c48ef644b9932e9d59ee1c79af3300fb1c1a54a17cb0387d4f4fc734eb58ab46849bba17dac7225270d",
+  "metadata_padding_bytes": 14,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 16824,
+  "image_sha256": "549d077e6d1e557267e5e8ac9398f336fb3ea48b40b6dfd2a3c0fda84193996b",
+  "output_image": "images/level-03/question-059.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 15987
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

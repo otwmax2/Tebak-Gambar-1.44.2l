@@ -1,0 +1,42 @@
+{
+  "sequence": 24,
+  "archive": "resources/assets/level/android-level-2/1e33d0ad6b788ed4b97edd0eb6b3fbe5.zip",
+  "archive_sha256": "bf5512754080d0786782d06673decd483081211a2936cb68b0c4ce35fc75b6a5",
+  "global_index": 22,
+  "level": 2,
+  "question_type": "biasa",
+  "answer": "jangka kaki",
+  "metadata": "22#biasa#2#jangka kaki",
+  "encrypted_entry_name": "eee1451784ec1c81f1399a15704aae22afe593017be6d0360e5ab9d0f4b83fd3",
+  "metadata_padding_bytes": 10,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 6671,
+  "image_sha256": "ea42f1b1ee1dbf11b68c0b13a68c749233bdc974b91af1fa9939ff56abbaac5f",
+  "output_image": "images/level-02/question-022.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 5834
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

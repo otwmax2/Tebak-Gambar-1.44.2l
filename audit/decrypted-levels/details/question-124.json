@@ -1,0 +1,42 @@
+{
+  "sequence": 121,
+  "archive": "resources/assets/level/android-level-7/05865783503f71a334db8761065fa7b8.zip",
+  "archive_sha256": "45467a6533ec82e4254f9362619961b117742425fdebefbe96c08936c59e4994",
+  "global_index": 124,
+  "level": 7,
+  "question_type": "biasa",
+  "answer": "lapang dada",
+  "metadata": "124#biasa#7#lapang dada",
+  "encrypted_entry_name": "31b1869232ef80fb5cedadc1ec88db23d107ebace36cd0723f714bb34deaae0b",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 5975,
+  "image_sha256": "884d033cafede9999319a2343ed5b7a86419b4499c417e6d3275d6f4d60c94d7",
+  "output_image": "images/level-07/question-124.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 5141
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

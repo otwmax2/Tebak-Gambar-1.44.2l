@@ -1,0 +1,42 @@
+{
+  "sequence": 319,
+  "archive": "resources/assets/level/android-level-16/de0fd31f92c4ebcb95347e453dc12653.zip",
+  "archive_sha256": "81849cf570de963caa1e7a78e93cd2a5cc5a32d0f427c9b049b0eca18a5d19b3",
+  "global_index": 306,
+  "level": 16,
+  "question_type": "biasa",
+  "answer": "demam menggigil",
+  "metadata": "306#biasa#16#demam menggigil",
+  "encrypted_entry_name": "68866f94305b7a3d9739146e195de076d6af4d5f7e1afd9dc940c966bbec3805",
+  "metadata_padding_bytes": 4,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11556,
+  "image_sha256": "d8f93e17ce792eaa8fa5f9033430506a753409b90cdeeb4f7e69f47bd25c7eca",
+  "output_image": "images/level-16/question-306.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 10725
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 358,
+  "archive": "resources/assets/level/android-level-18/e224fd314d6d38655988586ceb7af4d9.zip",
+  "archive_sha256": "1396b974a8d08a397fefc0889e7c18792b2f51a59cc720fdd77a16753a646b4a",
+  "global_index": 352,
+  "level": 18,
+  "question_type": "biasa",
+  "answer": "putar film",
+  "metadata": "352#biasa#18#putar film",
+  "encrypted_entry_name": "4c83ff6ca016d0e8f7b33824cb914881aef8d155fc7eba6c002180c24863c603",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 7304,
+  "image_sha256": "283aa197d05dc0b3fdae3e36fd83b2d5dd34203bef76376a79c1d86974ef4bed",
+  "output_image": "images/level-18/question-352.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 741
+    },
+    {
+      "type": "IDAT",
+      "bytes": 6494
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

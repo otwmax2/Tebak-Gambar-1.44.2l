@@ -1,0 +1,42 @@
+{
+  "sequence": 69,
+  "archive": "resources/assets/level/android-level-4/735fa0d240878849857b53cf1bcd514f.zip",
+  "archive_sha256": "4cbea7fdfac0286b98132e77a35136d891fe5f87d04eea1fd02027e8f408f841",
+  "global_index": 75,
+  "level": 4,
+  "question_type": "biasa",
+  "answer": "gelang perak",
+  "metadata": "75#biasa#4#gelang perak",
+  "encrypted_entry_name": "2af5a6bd2792da8dafe5df899a3f04f2ad64a9c5d728399b9bdf6eaa3899ebd5",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9182,
+  "image_sha256": "4eea9610a0421fd48a6736bf3cda048e335b74ff05b4f8f2b329c684d2ea5637",
+  "output_image": "images/level-04/question-075.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8348
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 256,
+  "archive": "resources/assets/level/android-level-13/ab2f4ad028d47998632fc9a359c8e39c.zip",
+  "archive_sha256": "4240818d24a3214bfbeebd294e64e0ce6dd3026f2ebd715c582db30b021c2d7a",
+  "global_index": 243,
+  "level": 13,
+  "question_type": "biasa",
+  "answer": "pusat evaluasi",
+  "metadata": "243#biasa#13#pusat evaluasi",
+  "encrypted_entry_name": "bb2d532ffa392c407b79e5b7a9301a44838b1d0a2d91f7413cc98514f2ef3633",
+  "metadata_padding_bytes": 5,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10091,
+  "image_sha256": "c5ef0ab190ae684dd301e58c7df9c32fd856b1dd441caf8643fa41ca75ef8dd8",
+  "output_image": "images/level-13/question-243.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9260
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

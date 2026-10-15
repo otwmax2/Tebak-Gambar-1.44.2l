@@ -1,0 +1,42 @@
+{
+  "sequence": 155,
+  "archive": "resources/assets/level/android-level-8/deab6371079f7f0010f49ed5ada2d0a8.zip",
+  "archive_sha256": "833e57096642ca14b5a6fe8f70c2cf4a3f161b0852a296d92bf35ee8ec009cda",
+  "global_index": 157,
+  "level": 8,
+  "question_type": "biasa",
+  "answer": "masa reformasi",
+  "metadata": "157#biasa#8#masa reformasi",
+  "encrypted_entry_name": "3b2313b468c793791165f4e439b0887eedc792fc009c8306f9a9296ccacd4760",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10968,
+  "image_sha256": "872e3c5d307f0db754c8ad91329f4a3fa95f353c1ac369d659d5044d3885075d",
+  "output_image": "images/level-08/question-157.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 10134
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

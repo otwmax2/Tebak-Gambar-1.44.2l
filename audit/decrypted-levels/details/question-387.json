@@ -1,0 +1,42 @@
+{
+  "sequence": 385,
+  "archive": "resources/assets/level/android-level-20/22b4a9408ac92e541e69df1cb8fa7e9f.zip",
+  "archive_sha256": "2f27e4c897ed3e7180767d8db4d09bf0cd5b49e6d7b1cf2955b70d6593be59cf",
+  "global_index": 387,
+  "level": 20,
+  "question_type": "biasa",
+  "answer": "setelan busana",
+  "metadata": "387#biasa#20#setelan busana",
+  "encrypted_entry_name": "51c3297d12c73e107cf32aeb92196ebf00d54dd76d40e7b355113addd4bcfd8d",
+  "metadata_padding_bytes": 5,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11558,
+  "image_sha256": "799ac3007bd59a6f08a4c77061a81d2dc880afa76a0255d77119a4d6f056e7f9",
+  "output_image": "images/level-20/question-387.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 10721
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

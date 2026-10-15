@@ -1,0 +1,42 @@
+{
+  "sequence": 45,
+  "archive": "resources/assets/level/android-level-3/571bb3bfbe0de7327e9a6ad1b78d2ea0.zip",
+  "archive_sha256": "b870ecda5185ec3af96773a446879b5011bc08583f80e0e04b8a7d53af12dafa",
+  "global_index": 45,
+  "level": 3,
+  "question_type": "biasa",
+  "answer": "calon penari",
+  "metadata": "45#biasa#3#calon penari",
+  "encrypted_entry_name": "e3a7a99cea492136362c91d00fd788a406864a54e0c05ea2c34d6b309233193a",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9892,
+  "image_sha256": "12ebd3d69675b26dfcc86d145aa74025cf6e8ea018d964bf80cf3a37752f394a",
+  "output_image": "images/level-03/question-045.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9061
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

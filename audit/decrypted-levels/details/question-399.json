@@ -1,0 +1,42 @@
+{
+  "sequence": 394,
+  "archive": "resources/assets/level/android-level-20/c8a2590d19d339a8bc44090ffefc0352.zip",
+  "archive_sha256": "9f9ab289567b8adc2a7b482b5721c708983cc6e7360a1885e9a364143094ee26",
+  "global_index": 399,
+  "level": 20,
+  "question_type": "raja",
+  "answer": "remaja pria pecinta budidaya bunga teratai",
+  "metadata": "399#raja#20#remaja pria pecinta budidaya bunga teratai",
+  "encrypted_entry_name": "35fbc02587be5b5e8fcce4746e4c96e0d360fa948b18d915cbf468a28a2e9a92bbb3e26f365a539b8ea6679b753e9753213fcb3f87cc047ff333d2466476ebd1",
+  "metadata_padding_bytes": 10,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 26209,
+  "image_sha256": "c08b23a54ee3c7cb10dcb908f0b0b67c9c30a1548230a8aa331abdf8d0f2ecdc",
+  "output_image": "images/level-20/question-399.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 25372
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 349,
+  "archive": "resources/assets/level/android-level-18/53b32e58b75bd2437ad7f0641fc60078.zip",
+  "archive_sha256": "b24ca5138e44c9cbe6d50f476fbf9c15238f3e906a36fce539aad282b8549eb5",
+  "global_index": 359,
+  "level": 18,
+  "question_type": "raja",
+  "answer": "para jawara silat bakar catatan keramat",
+  "metadata": "359#raja#18#para jawara silat bakar catatan keramat",
+  "encrypted_entry_name": "078e3717bbf6943b1695e02d70ae2d225f58b77bb64e1ab13b566bfb02127b873c7041863d488779e4fdb91a8d77a65db78aea7020e2d356377073a4f3bb05e9",
+  "metadata_padding_bytes": 13,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 19312,
+  "image_sha256": "6b455e0607006dfd2c7884a09f9913d61cc8b997079ca8cfa6d28bc4b733ff81",
+  "output_image": "images/level-18/question-359.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 18481
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

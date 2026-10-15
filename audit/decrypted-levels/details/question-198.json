@@ -1,0 +1,42 @@
+{
+  "sequence": 183,
+  "archive": "resources/assets/level/android-level-10/0f60d3bcd78487839e24336b8e80b337.zip",
+  "archive_sha256": "11a0504364bc9415de14cf6b5706271bdc1de748e4c7352ce731d07827423736",
+  "global_index": 198,
+  "level": 10,
+  "question_type": "biasa",
+  "answer": "sekoper liontin",
+  "metadata": "198#biasa#10#sekoper liontin",
+  "encrypted_entry_name": "e1e809f4afcb095f711538bceb4699ec9b30a0ac712d1ea5a51d12289bc8cdcd",
+  "metadata_padding_bytes": 4,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11333,
+  "image_sha256": "106d250e7a3f73f00173b55168aa4e09bd24e915bf2f8966871205621a073459",
+  "output_image": "images/level-10/question-198.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 10499
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

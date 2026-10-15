@@ -1,0 +1,42 @@
+{
+  "sequence": 151,
+  "archive": "resources/assets/level/android-level-8/c10415236e9d9c739652f34a594f3abd.zip",
+  "archive_sha256": "8264c0ef78bc9b0624d91ee1fcd192cddff66c85601b1f2873a2124a99b9c6a1",
+  "global_index": 158,
+  "level": 8,
+  "question_type": "biasa",
+  "answer": "distribusi gas",
+  "metadata": "158#biasa#8#distribusi gas",
+  "encrypted_entry_name": "f6804e49b02689a489ad683de1f7101f6dddee033ed53c7711952590f388680b",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 13717,
+  "image_sha256": "9d1257f6a6d58049744ac3d991edde1a4d2a362103215ddb298bbbe40a418c6f",
+  "output_image": "images/level-08/question-158.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 12886
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

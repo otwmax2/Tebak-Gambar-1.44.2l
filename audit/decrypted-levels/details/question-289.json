@@ -1,0 +1,42 @@
+{
+  "sequence": 289,
+  "archive": "resources/assets/level/android-level-15/613f3c3d00593d3a359a79bdfc3ae38b.zip",
+  "archive_sha256": "55c730f8e08e7c383cf534d8b74af0d01f414e2034ddccd462d8659c73aab8e3",
+  "global_index": 289,
+  "level": 15,
+  "question_type": "raja",
+  "answer": "nenek minta aku jangan merokok lagi",
+  "metadata": "289#raja#15#nenek minta aku jangan merokok lagi",
+  "encrypted_entry_name": "f191290973c56b6aabfe632e18ffed0a91014cb15d436105b3f2b913df37a50a88abf8ebebad7e3396fa63137d4392ff",
+  "metadata_padding_bytes": 1,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 18462,
+  "image_sha256": "f1d413106e401457ab9d62530551f6082104ca7feddd1be74dce3a25a54a4735",
+  "output_image": "images/level-15/question-289.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 17628
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

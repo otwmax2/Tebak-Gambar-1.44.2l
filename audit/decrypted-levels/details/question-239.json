@@ -1,0 +1,42 @@
+{
+  "sequence": 239,
+  "archive": "resources/assets/level/android-level-12/f264d2a1c6e534195a98c9c95a3bd954.zip",
+  "archive_sha256": "f60e3aad1c2e856a911e49e0078585898ab551601da21a3c102d72cfa9fa4394",
+  "global_index": 239,
+  "level": 12,
+  "question_type": "raja",
+  "answer": "surat edaran asli penangkapan pejabat nakal",
+  "metadata": "239#raja#12#surat edaran asli penangkapan pejabat nakal",
+  "encrypted_entry_name": "c3af5c177f5770533b1dfd4ffb050806823ade69b57d8b2b039c92f2dad412da029deb4ce74a3f1e55c2d3e535cee8068a6caf5d25ae3d6de5a8f0d888cca2fa",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 17325,
+  "image_sha256": "692c6b6ef0611efa96f32924a83ea9310cdf9fb9c83b6c71bfbfe8b0ac135d93",
+  "output_image": "images/level-12/question-239.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 16494
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

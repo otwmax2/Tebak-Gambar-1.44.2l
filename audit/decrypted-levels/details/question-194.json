@@ -1,0 +1,42 @@
+{
+  "sequence": 197,
+  "archive": "resources/assets/level/android-level-10/db115b9771433e40abb9128127a87faf.zip",
+  "archive_sha256": "f3ee4dfe425c865c9d2bca3621343cbd49b6ae162f1654af6b773bd18b7fcdae",
+  "global_index": 194,
+  "level": 10,
+  "question_type": "biasa",
+  "answer": "induksi magnet",
+  "metadata": "194#biasa#10#induksi magnet",
+  "encrypted_entry_name": "364f7e9d98520c4d6c0cf5c36a69f7ae5ab326805b31d502118099e0d131f611",
+  "metadata_padding_bytes": 5,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8456,
+  "image_sha256": "6756d97891a0086beacde99cfd003636c792dbe165f32e8a1cdd385d74022b28",
+  "output_image": "images/level-10/question-194.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7628
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

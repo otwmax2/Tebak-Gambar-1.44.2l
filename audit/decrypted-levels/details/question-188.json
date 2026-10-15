@@ -1,0 +1,42 @@
+{
+  "sequence": 181,
+  "archive": "resources/assets/level/android-level-10/06148c8d897dc55bd1ba3224c019d8db.zip",
+  "archive_sha256": "086a248eba1e496787eec5566ef7d818881a1587bcb89ba0af38ff9ed2a47349",
+  "global_index": 188,
+  "level": 10,
+  "question_type": "biasa",
+  "answer": "kecantikan wajah",
+  "metadata": "188#biasa#10#kecantikan wajah",
+  "encrypted_entry_name": "5a2c7a8a72d586ebc8a59fcdbdf2ffd0697407b9cbc6888d08d6f08624ec4c18",
+  "metadata_padding_bytes": 3,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 12589,
+  "image_sha256": "fafdcea5c596f08c5d1b0647fc40d24c1d2e33882f5d16b82ed805fb97994c83",
+  "output_image": "images/level-10/question-188.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 11755
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

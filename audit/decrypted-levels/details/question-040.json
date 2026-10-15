@@ -1,0 +1,42 @@
+{
+  "sequence": 47,
+  "archive": "resources/assets/level/android-level-3/5a24ed6f6f211c419b0fe7facd420169.zip",
+  "archive_sha256": "983f785246a54b2e42093a44364c86678c7761cf0a53633a8887da96ab59dc78",
+  "global_index": 40,
+  "level": 3,
+  "question_type": "biasa",
+  "answer": "pelampung renang",
+  "metadata": "40#biasa#3#pelampung renang",
+  "encrypted_entry_name": "2ffa098fd0154a0233d99df13b15a498dfc11b4165f3a40f3eb1a37883a18305",
+  "metadata_padding_bytes": 5,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 13890,
+  "image_sha256": "103c738272ba34044dbd617b46c8e06b97569a01101985655123368e3f90aa18",
+  "output_image": "images/level-03/question-040.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 13059
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

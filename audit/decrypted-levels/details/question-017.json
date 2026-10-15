@@ -1,0 +1,42 @@
+{
+  "sequence": 18,
+  "archive": "resources/assets/level/android-level-1/d2a72e5e93a57dec5cebbf93b9adb914.zip",
+  "archive_sha256": "7b3876b79fc55c43bcc37624b0dc82a16eb73ad905315f7c5f0844fcadd5207d",
+  "global_index": 17,
+  "level": 1,
+  "question_type": "biasa",
+  "answer": "kambing guling",
+  "metadata": "17#biasa#1#kambing guling",
+  "encrypted_entry_name": "2640e2d137e472c50118cf7d454bd7ae5af0744f1acbe758592d7bfd9f5ba3b3",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10264,
+  "image_sha256": "53fadae03f21f3676ad6d259cefd55d86405a353ffa02d3e05a502cc735d8215",
+  "output_image": "images/level-01/question-017.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9433
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

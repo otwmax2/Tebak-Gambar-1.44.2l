@@ -1,0 +1,42 @@
+{
+  "sequence": 11,
+  "archive": "resources/assets/level/android-level-1/652a9360d5ba3788abf38da95783cc30.zip",
+  "archive_sha256": "b78dc34c76114f5c8ffa5b70d711b0a91dc9d99b249180d7b71bce5d6798f5b9",
+  "global_index": 11,
+  "level": 1,
+  "question_type": "biasa",
+  "answer": "alas kaki",
+  "metadata": "11#biasa#1#alas kaki",
+  "encrypted_entry_name": "f61b04072fe5ecff52039d560c00408a5aa25e74acf2aacbf882b0ee36561b61",
+  "metadata_padding_bytes": 12,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10051,
+  "image_sha256": "f6eca20af8b46d868b53a08c173844cd8aedf90576a1b522d280adf62afc0ea1",
+  "output_image": "images/level-01/question-011.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9223
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

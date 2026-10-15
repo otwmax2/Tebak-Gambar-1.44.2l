@@ -1,0 +1,42 @@
+{
+  "sequence": 133,
+  "archive": "resources/assets/level/android-level-7/89de673790c8e99c77d62d9e0692be12.zip",
+  "archive_sha256": "d4dd62705b8c1e3ee9ded140c309eee9add494e6af04fecfa34c9084e0e9c7ee",
+  "global_index": 132,
+  "level": 7,
+  "question_type": "biasa",
+  "answer": "bunga sakura",
+  "metadata": "132#biasa#7#bunga sakura",
+  "encrypted_entry_name": "c8d62460a9b0f2cd1f770ee9502b323a2f3fcaeb4da9c78c3444b6e60d215352",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10948,
+  "image_sha256": "25fbe0d442a87f66bb4885303ea33d09b7db2881f2fdc627f2c84a9944a92b68",
+  "output_image": "images/level-07/question-132.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 10111
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

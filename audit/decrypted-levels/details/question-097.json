@@ -1,0 +1,42 @@
+{
+  "sequence": 87,
+  "archive": "resources/assets/level/android-level-5/6aab9e233d85897ba666ec3cee662201.zip",
+  "archive_sha256": "090ef723b56bfc63085173c58aec82f75e88aa822bfa2901f550128af771d169",
+  "global_index": 97,
+  "level": 5,
+  "question_type": "biasa",
+  "answer": "calon mertua",
+  "metadata": "97#biasa#5#calon mertua",
+  "encrypted_entry_name": "e52e1c2c90f6d91f38281ae89592934655d544ce34cc2b1aa2baaa711bf97c13",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10443,
+  "image_sha256": "814490e54e834be77e9bed48a7fca60ee1596c7aab5e11021e485da84d6d1a2d",
+  "output_image": "images/level-05/question-097.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9612
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

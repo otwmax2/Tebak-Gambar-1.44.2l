@@ -1,0 +1,42 @@
+{
+  "sequence": 373,
+  "archive": "resources/assets/level/android-level-19/b3c328789f9c14ef15b5c141f8f2b2c2.zip",
+  "archive_sha256": "06d3513e7c1cb46ee43ccc3e1162403e10f480298f02312c1bd88ed3c2373c37",
+  "global_index": 372,
+  "level": 19,
+  "question_type": "biasa",
+  "answer": "peristiwa ganjil",
+  "metadata": "372#biasa#19#peristiwa ganjil",
+  "encrypted_entry_name": "cfa875276c8dfec5b9b6cd3020db82def1b5c2bc433f4371a0e22390deba53a5",
+  "metadata_padding_bytes": 3,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 12716,
+  "image_sha256": "9fd6a5e9ef1a7c2bbe01846e9ef2c455627f0e3b3ad77f4dc1050f8a1b37ddab",
+  "output_image": "images/level-19/question-372.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 11882
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 352,
+  "archive": "resources/assets/level/android-level-18/aadfb8d51266d66d0b34086c8a14cfe5.zip",
+  "archive_sha256": "b3f71bf55ca2b6cd75f3f8fc3d4915c806fc8ea1b87d0c8695498c29b530ad11",
+  "global_index": 351,
+  "level": 18,
+  "question_type": "biasa",
+  "answer": "melatih gajah",
+  "metadata": "351#biasa#18#melatih gajah",
+  "encrypted_entry_name": "469174e9d051118d710ab8b9bbe5a9a240932a08be6bd827b3d0ac19575bac45",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8685,
+  "image_sha256": "fe04c3d09dea656ba34624e9895a4b0ea19be13e7f7238638bd0547d01f910d2",
+  "output_image": "images/level-18/question-351.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7851
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

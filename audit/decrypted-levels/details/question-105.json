@@ -1,0 +1,42 @@
+{
+  "sequence": 112,
+  "archive": "resources/assets/level/android-level-6/7826143481e8779b930472a7626d0e5e.zip",
+  "archive_sha256": "e6b1a8ad2fff40a25f3f69f4ad53254da55d564d1633adf310f91852b9e48306",
+  "global_index": 105,
+  "level": 6,
+  "question_type": "biasa",
+  "answer": "bandar tekor",
+  "metadata": "105#biasa#6#bandar tekor",
+  "encrypted_entry_name": "d4c502865dd66d8df24823e21fef7c7a897ee3c132d2ab240f8d7741feb976a6",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11491,
+  "image_sha256": "de1858786d645890c15c9cb1e33de963d423141aa159f3e5305842f745b25a05",
+  "output_image": "images/level-06/question-105.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 10654
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

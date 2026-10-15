@@ -1,0 +1,42 @@
+{
+  "sequence": 332,
+  "archive": "resources/assets/level/android-level-17/966d6c235349763622b7e8d43b7ddf10.zip",
+  "archive_sha256": "37178dc9dee75e374c6ba7f52f10b0d275b4be73e81eadfb7bfb241acf47ce38",
+  "global_index": 322,
+  "level": 17,
+  "question_type": "biasa",
+  "answer": "sedot wc",
+  "metadata": "322#biasa#17#sedot wc",
+  "encrypted_entry_name": "e6b43f596be6001296194909cb4de0551a803fb0ffd67c212c73cac27a164c4b",
+  "metadata_padding_bytes": 11,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 7685,
+  "image_sha256": "10a37212cb01318da884f48db546614759dab2ce1d83254834412c51e08f7b18",
+  "output_image": "images/level-17/question-322.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 6854
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

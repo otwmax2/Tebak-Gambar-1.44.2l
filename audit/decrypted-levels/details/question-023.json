@@ -1,0 +1,42 @@
+{
+  "sequence": 35,
+  "archive": "resources/assets/level/android-level-2/86bbc281ffcb6caa6a7aa5433f13df0e.zip",
+  "archive_sha256": "afa087fc030037bea17b380d69d120231091b8d6a9e33e7c2e78875a12d4c912",
+  "global_index": 23,
+  "level": 2,
+  "question_type": "biasa",
+  "answer": "polisi tidur",
+  "metadata": "23#biasa#2#polisi tidur",
+  "encrypted_entry_name": "00bf0ddef3fe19c8aeaed4e8567e183aa046ff1715c1ad325eb4a1716d267768",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8014,
+  "image_sha256": "bcdd24c149463790af911160b4534628415a6a357c8648b313f1783550b99639",
+  "output_image": "images/level-02/question-023.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7177
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

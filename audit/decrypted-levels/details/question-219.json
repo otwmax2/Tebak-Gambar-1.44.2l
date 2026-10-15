@@ -1,0 +1,42 @@
+{
+  "sequence": 207,
+  "archive": "resources/assets/level/android-level-11/5a0cc0c0893474bf367bb6419403314c.zip",
+  "archive_sha256": "07213c195d6b3e70a2275ae00706e02e1a51d31dea334d7dc8e0df2e5189af11",
+  "global_index": 219,
+  "level": 11,
+  "question_type": "raja",
+  "answer": "jangan kamu paksakan bila tak cinta",
+  "metadata": "219#raja#11#jangan kamu paksakan bila tak cinta",
+  "encrypted_entry_name": "97c049153fab67ff28cbe31a47898e5c2d8967b1bcc238b549195bb21f1248fa70ecf26ca7b204fc80af2315d23c1dbd",
+  "metadata_padding_bytes": 1,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 17956,
+  "image_sha256": "7741cd9ef728b136c5f5ecc0010f53aaf8ee6c71537bb61ced7dd65fabd6e2c6",
+  "output_image": "images/level-11/question-219.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 17119
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

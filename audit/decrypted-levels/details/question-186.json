@@ -1,0 +1,42 @@
+{
+  "sequence": 200,
+  "archive": "resources/assets/level/android-level-10/f8cafd6571547d8b5fb82afb9db2aa95.zip",
+  "archive_sha256": "999df276fe4e16f5afb3c937cc79ce0492e81a71fd085959a858b92754688056",
+  "global_index": 186,
+  "level": 10,
+  "question_type": "biasa",
+  "answer": "kode pos",
+  "metadata": "186#biasa#10#kode pos",
+  "encrypted_entry_name": "1d9dbf5532f8cc6af54aa6e80f2d6d09d879e9e7f8aaeaeb7ad924746e28a5f2",
+  "metadata_padding_bytes": 11,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 7983,
+  "image_sha256": "13dcca68622c14b9d75daf8329a25c8f8339c31a6c76fb2fcf1cf5ba3cfa7286",
+  "output_image": "images/level-10/question-186.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7149
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

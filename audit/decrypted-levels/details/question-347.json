@@ -1,0 +1,42 @@
+{
+  "sequence": 354,
+  "archive": "resources/assets/level/android-level-18/ba8068c2a2cc3fa231ce56900af243e0.zip",
+  "archive_sha256": "a9e44e7b08261d6f4df5ba3f6d9d971eb1b216c07a4b6a13298b5df6ae43c4e5",
+  "global_index": 347,
+  "level": 18,
+  "question_type": "biasa",
+  "answer": "gagal diskusi",
+  "metadata": "347#biasa#18#gagal diskusi",
+  "encrypted_entry_name": "02ad575b390aaa6766a48dffa0ba6ba5915c13377ac06cb5a1f048be2892f297",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9669,
+  "image_sha256": "f981aa765963a26d34d21d8b0487cd39ba1a7e05cc1996d8ab163ab825701559",
+  "output_image": "images/level-18/question-347.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8841
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

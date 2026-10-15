@@ -1,0 +1,42 @@
+{
+  "sequence": 400,
+  "archive": "resources/assets/level/android-level-20/fde3e4a326f81fbdb3e9aaf9345b02c3.zip",
+  "archive_sha256": "9a7b7348830209dbb3a0bec3f7c74cbbed89130484320a5756645dd9bcde074b",
+  "global_index": 382,
+  "level": 20,
+  "question_type": "biasa",
+  "answer": "laba kotor",
+  "metadata": "382#biasa#20#laba kotor",
+  "encrypted_entry_name": "575d7787315ca78c506b8641e7e66d8653db1de4da88caba95f49b7a8d339333",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10631,
+  "image_sha256": "60eea79152a6579d13baf897ce994340dba15a3418256aff51291fe184a5ed37",
+  "output_image": "images/level-20/question-382.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9794
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

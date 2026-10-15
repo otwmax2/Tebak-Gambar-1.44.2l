@@ -1,0 +1,42 @@
+{
+  "sequence": 243,
+  "archive": "resources/assets/level/android-level-13/1ae81a5699a0215407903b33b49ae542.zip",
+  "archive_sha256": "5c1553d7411c057d8be96a8926123fde5287d482d3337d1eb4c65a1b32bd4bac",
+  "global_index": 255,
+  "level": 13,
+  "question_type": "biasa",
+  "answer": "rambut keriting",
+  "metadata": "255#biasa#13#rambut keriting",
+  "encrypted_entry_name": "0515af1c18a0e3d1162d1de2a8f719b050f583151ab38a30c4f79aebf4c01655",
+  "metadata_padding_bytes": 4,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 12220,
+  "image_sha256": "183e60504d7a76056263e204370fcf1a9f76af2767133e7cca28a3ac7e673789",
+  "output_image": "images/level-13/question-255.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 11383
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

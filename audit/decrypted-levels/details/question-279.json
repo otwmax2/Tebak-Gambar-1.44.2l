@@ -1,0 +1,42 @@
+{
+  "sequence": 268,
+  "archive": "resources/assets/level/android-level-14/68e6debc14c35c897260c6898691cbc0.zip",
+  "archive_sha256": "a02b406730f81c7a011cbb8d834ea7c782ff2a653c1d41a32316a125bbbba31c",
+  "global_index": 279,
+  "level": 14,
+  "question_type": "raja",
+  "answer": "mulut tuan tanah bau semur jengkol",
+  "metadata": "279#raja#14#mulut tuan tanah bau semur jengkol",
+  "encrypted_entry_name": "7d6acb422ab6d67aa0c952fc676b7e5ecf08d1325cb05462c63b9e99cdc54d5e5548ada763f1b674534b56b2c8f3891a",
+  "metadata_padding_bytes": 2,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 18984,
+  "image_sha256": "40749b746be8218056f67671373273f63ef6e96ab3ac66a8789b2bab43e0d36c",
+  "output_image": "images/level-14/question-279.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 18153
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

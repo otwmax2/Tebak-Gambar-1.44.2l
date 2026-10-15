@@ -1,0 +1,42 @@
+{
+  "sequence": 323,
+  "archive": "resources/assets/level/android-level-17/22c2cfbe1987c1b9c9900c661ef2ad1b.zip",
+  "archive_sha256": "ec3bbd3c1fbd8ac07fd6fbe817c6e9af14774bc6b0b4b8abc7cfb0170cefc593",
+  "global_index": 333,
+  "level": 17,
+  "question_type": "biasa",
+  "answer": "sponsor bank",
+  "metadata": "333#biasa#17#sponsor bank",
+  "encrypted_entry_name": "88b7975db711aa39e8d95aa7ac935c0729ed26aa978cbe15a2e9c2b679d73ca6",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8691,
+  "image_sha256": "6541d11106f60e5b2659e7cb2e6a4bd561d5d977f567afca63eb207f739c249a",
+  "output_image": "images/level-17/question-333.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7854
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

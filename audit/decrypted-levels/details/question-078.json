@@ -1,0 +1,42 @@
+{
+  "sequence": 62,
+  "archive": "resources/assets/level/android-level-4/2d1b15456b75cfad861602b5dfa119af.zip",
+  "archive_sha256": "578eb84b5db88b5be3f9eb2628b856264f4683e5fc7f404d9b91063ddee0f669",
+  "global_index": 78,
+  "level": 4,
+  "question_type": "biasa",
+  "answer": "datang petaka",
+  "metadata": "78#biasa#4#datang petaka",
+  "encrypted_entry_name": "6bd3f467eb765ca0f22b6ed3f296aa5c4c7f2450e3738c27ac1080f0a5f2b81f",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10202,
+  "image_sha256": "dba79460451920e97b1df18a0d1363c90043fa2f7929750b353428df586d86f8",
+  "output_image": "images/level-04/question-078.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9371
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 230,
+  "archive": "resources/assets/level/android-level-12/482bf3b04a80fa7025eab2e52cffe7a4.zip",
+  "archive_sha256": "3cba63185aadc132e44255e29259cf670091aa7a354eb81646f4f95a8ac98b84",
+  "global_index": 226,
+  "level": 12,
+  "question_type": "biasa",
+  "answer": "kota besar",
+  "metadata": "226#biasa#12#kota besar",
+  "encrypted_entry_name": "76691ffb92db0bee60bbe6d63020b826f0b260bc0187f60f29ea75fa6851bb36",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 21475,
+  "image_sha256": "4f255f926c11f9aa88f8320119870ea2f860257ed688b5eb0cf30b028dea533c",
+  "output_image": "images/level-12/question-226.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 675
+    },
+    {
+      "type": "IDAT",
+      "bytes": 20731
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

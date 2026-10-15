@@ -1,0 +1,42 @@
+{
+  "sequence": 272,
+  "archive": "resources/assets/level/android-level-14/93db83685ed688f6a55f93eed0ad2477.zip",
+  "archive_sha256": "c83cd225844dfd1ce734bdddd7e86f3aa87fa2f9c682d89f1cd621300b0f1a6a",
+  "global_index": 265,
+  "level": 14,
+  "question_type": "biasa",
+  "answer": "racun serangga",
+  "metadata": "265#biasa#14#racun serangga",
+  "encrypted_entry_name": "9e1f66b9d8f368f16ac8bc518fb61a806ccdc232adb51b65eb9da64869f3fe40",
+  "metadata_padding_bytes": 5,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10048,
+  "image_sha256": "4d16ef0f8f35625b5c32622d94e6cd2369d04d81e6a685936616177ec5ba36e6",
+  "output_image": "images/level-14/question-265.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9214
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 350,
+  "archive": "resources/assets/level/android-level-18/588ab298aaafe124691158b81c64e595.zip",
+  "archive_sha256": "4f2381294f6d1a7156fd384162399c9ecfe26698a42231c6c4ea27306f06d248",
+  "global_index": 357,
+  "level": 18,
+  "question_type": "biasa",
+  "answer": "bayi tengkurap",
+  "metadata": "357#biasa#18#bayi tengkurap",
+  "encrypted_entry_name": "6f50977748615ca0e52b5a6d4f32d1f87a616198de1db2b7a356670cc73b7306",
+  "metadata_padding_bytes": 5,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11371,
+  "image_sha256": "f85ad322708720982644133920fb4cd682ac542d41724b5bfa8a9f36b45a7a41",
+  "output_image": "images/level-18/question-357.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 10540
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

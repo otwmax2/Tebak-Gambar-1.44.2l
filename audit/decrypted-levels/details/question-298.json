@@ -1,0 +1,42 @@
+{
+  "sequence": 287,
+  "archive": "resources/assets/level/android-level-15/55876e5c1b11413e6f040e46dd6b8dd6.zip",
+  "archive_sha256": "f83501bfe2dd62fea6f077646f262bc94609adb434c122ea7fc4a8e727200020",
+  "global_index": 298,
+  "level": 15,
+  "question_type": "biasa",
+  "answer": "pilot handal",
+  "metadata": "298#biasa#15#pilot handal",
+  "encrypted_entry_name": "eb2f574b9870b6468d5420e053449c926d2d71e94ef9173e10158655a57f2ffd",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8998,
+  "image_sha256": "66bf0d67101e44a12ac4507739712281836f212a2dd8b1591e100f7e3354b9fd",
+  "output_image": "images/level-15/question-298.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8167
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

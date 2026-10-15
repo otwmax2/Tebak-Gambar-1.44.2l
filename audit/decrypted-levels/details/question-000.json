@@ -1,0 +1,42 @@
+{
+  "sequence": 6,
+  "archive": "resources/assets/level/android-level-1/3bf92666e03c490906c722bf31c8d64c.zip",
+  "archive_sha256": "111fd4ca15e8fdab2c1c93238b1282f0472bc669d4a2aac8877b1cfd964bb508",
+  "global_index": 0,
+  "level": 1,
+  "question_type": "biasa",
+  "answer": "jambu batu",
+  "metadata": "0#biasa#1#jambu batu",
+  "encrypted_entry_name": "f0eec1f3260b75856301c41f7e60dab55b08cbcada98d891d02d62fa62ed0adf",
+  "metadata_padding_bytes": 12,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 12504,
+  "image_sha256": "fd6f26475e40fc097b1cb2444d9aa14ba29ff8a55b186c7ca5b9d3e05acac501",
+  "output_image": "images/level-01/question-000.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 11670
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

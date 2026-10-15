@@ -1,0 +1,42 @@
+{
+  "sequence": 261,
+  "archive": "resources/assets/level/android-level-14/0280e96c5111c8dd4235fcda1016ca32.zip",
+  "archive_sha256": "8ae7073d0224cbe0f601f39b7a2367b5a7622584579f7bb8ef3b78993962b286",
+  "global_index": 277,
+  "level": 14,
+  "question_type": "biasa",
+  "answer": "hidung belang",
+  "metadata": "277#biasa#14#hidung belang",
+  "encrypted_entry_name": "ddc8e21447138327108fd8b51daa5c4fae413b93b3b8d64dbc6a3b6923e3df35",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9447,
+  "image_sha256": "a737371b4f10ecd2a9efc5769b44c7e74181f0bb8f84847743517a3ee087b270",
+  "output_image": "images/level-14/question-277.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8610
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

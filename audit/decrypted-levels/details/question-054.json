@@ -1,0 +1,42 @@
+{
+  "sequence": 41,
+  "archive": "resources/assets/level/android-level-3/1a50bc2d36e6e05513737fff24ed20af.zip",
+  "archive_sha256": "1b6ddc42147ac9e7be912af0dedf6b4e4995b6ed803649fc01e93251dee44ccd",
+  "global_index": 54,
+  "level": 3,
+  "question_type": "biasa",
+  "answer": "menangkap ular",
+  "metadata": "54#biasa#3#menangkap ular",
+  "encrypted_entry_name": "e26072cb2cf714586eaed8634640000939694f053f32c017c897f5e7b227ac22",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 12035,
+  "image_sha256": "8c1d95e1e42e027d9ab22502dfbb2b4c516d9923a76880d6947cd495030fb9de",
+  "output_image": "images/level-03/question-054.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 11207
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

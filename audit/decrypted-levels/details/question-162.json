@@ -1,0 +1,42 @@
+{
+  "sequence": 161,
+  "archive": "resources/assets/level/android-level-9/037a50dc021e687ede5ba589e5b4cd6b.zip",
+  "archive_sha256": "2f8558b12bf44070833c95bf80bc49dc4622b70bc4fe91d7509b41aadd8ffbe9",
+  "global_index": 162,
+  "level": 9,
+  "question_type": "biasa",
+  "answer": "informasi cuaca",
+  "metadata": "162#biasa#9#informasi cuaca",
+  "encrypted_entry_name": "fe2307d996c123197b6d55b1b18c796ae8e7e92a936d2c11aba1cc3ea29c085c",
+  "metadata_padding_bytes": 5,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 13098,
+  "image_sha256": "6247181306ab9cf535784f6a9e16e20ce2686c5b2e2e13e258b5ba2c52a4ebb2",
+  "output_image": "images/level-09/question-162.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 12264
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

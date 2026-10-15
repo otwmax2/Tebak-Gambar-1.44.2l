@@ -1,0 +1,42 @@
+{
+  "sequence": 187,
+  "archive": "resources/assets/level/android-level-10/333c038aafad1fea6c031f0d6914c602.zip",
+  "archive_sha256": "5bc5c94f72deb467d2b0e227761d592cf115f89f64d03eee4311897d1c638ecb",
+  "global_index": 196,
+  "level": 10,
+  "question_type": "biasa",
+  "answer": "anak panglima",
+  "metadata": "196#biasa#10#anak panglima",
+  "encrypted_entry_name": "c53354c6b9e26c1d46555aca4df5e6d83458b4340fdd7860ed8a63ff7d68dc31",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9111,
+  "image_sha256": "778a63c04437933924dd70314f2ce43dd78eb917a81122fc389fcdf335a9b9d0",
+  "output_image": "images/level-10/question-196.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8280
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

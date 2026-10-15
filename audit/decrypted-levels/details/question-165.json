@@ -1,0 +1,42 @@
+{
+  "sequence": 164,
+  "archive": "resources/assets/level/android-level-9/2cfc1a1253468eee7efa54bbdf209182.zip",
+  "archive_sha256": "23c1e7c027df23d97ab75a609273bc494a4541c1688abee76c1f0c3b87f4ce7a",
+  "global_index": 165,
+  "level": 9,
+  "question_type": "biasa",
+  "answer": "buku ekonomi",
+  "metadata": "165#biasa#9#buku ekonomi",
+  "encrypted_entry_name": "086afb414714f41095b03b50d4f8431f973c9169a12639764d21e2a377f0bd22",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11878,
+  "image_sha256": "606eb40a7d2583416f7746804d139b35ff529762fcb055d32b892bb1e1884702",
+  "output_image": "images/level-09/question-165.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 11050
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

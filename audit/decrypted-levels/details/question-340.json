@@ -1,0 +1,42 @@
+{
+  "sequence": 351,
+  "archive": "resources/assets/level/android-level-18/8d7a6789b4b2632a76911596b0cafc3c.zip",
+  "archive_sha256": "ebef6c204fb960ef74a02227e5f9ddae7b55ad494c3ab54e8387d9a8d65e29d6",
+  "global_index": 340,
+  "level": 18,
+  "question_type": "biasa",
+  "answer": "kertas loak",
+  "metadata": "340#biasa#18#kertas loak",
+  "encrypted_entry_name": "396f12204ad613c3087ba9b28bf38179bc270f22ceb5b9a6a7668dcc6fff2b0d",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 7302,
+  "image_sha256": "5d8eeb2f58c88563b170d888627f3ef9334f93643175c261761bc0cff76bb558",
+  "output_image": "images/level-18/question-340.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 6474
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

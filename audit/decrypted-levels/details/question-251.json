@@ -1,0 +1,42 @@
+{
+  "sequence": 250,
+  "archive": "resources/assets/level/android-level-13/862e8e345bc7990df5309f13c6560675.zip",
+  "archive_sha256": "0829035886ff230b332e603d17b84e0d1b6fab713053618bc35519403e5af2d1",
+  "global_index": 251,
+  "level": 13,
+  "question_type": "biasa",
+  "answer": "baskom air",
+  "metadata": "251#biasa#13#baskom air",
+  "encrypted_entry_name": "11f8c93b45306cb327c178eed7a248645c58f8aacb59a53386c4bf43b226ab26",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10596,
+  "image_sha256": "bf9c3972d721ecf692c210929a67a08ce177e6d43ee17cdf11a12d6faf6236f7",
+  "output_image": "images/level-13/question-251.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9768
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

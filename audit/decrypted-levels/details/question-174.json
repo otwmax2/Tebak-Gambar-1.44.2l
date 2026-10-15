@@ -1,0 +1,42 @@
+{
+  "sequence": 170,
+  "archive": "resources/assets/level/android-level-9/673293d241c0d9ab779db3bd12970881.zip",
+  "archive_sha256": "53e5de3684b7406b36ba43eb4e4e0cd1b1c3fdb070962c8ebda4ad1e056a83e4",
+  "global_index": 174,
+  "level": 9,
+  "question_type": "biasa",
+  "answer": "sedang pameran",
+  "metadata": "174#biasa#9#sedang pameran",
+  "encrypted_entry_name": "21fc4e1e480d506bf180032e77d1b2ad966be8019a5623570c5d7a3656617f5c",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 12539,
+  "image_sha256": "48c17a7e3bdd22ae64daa95b26c8076fb2540e65b4028e916746bbd5286c8362",
+  "output_image": "images/level-09/question-174.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 11705
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

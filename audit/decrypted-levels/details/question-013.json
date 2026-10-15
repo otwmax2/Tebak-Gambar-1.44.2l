@@ -1,0 +1,42 @@
+{
+  "sequence": 2,
+  "archive": "resources/assets/level/android-level-1/04f016804a5e57ba65f2b0512260f6d2.zip",
+  "archive_sha256": "f43441a90533b5d717b387979f5a49a733d4b7873b69ae21d6c77009f4cdc3c3",
+  "global_index": 13,
+  "level": 1,
+  "question_type": "biasa",
+  "answer": "tantangan seru",
+  "metadata": "13#biasa#1#tantangan seru",
+  "encrypted_entry_name": "fb944c6b1b4e73163e9b43c382f5f4aad3bae87c125aaa7f63fb0c2a5391d2e5",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10244,
+  "image_sha256": "8a9bd25c041f34713b1302562b40e1a029168ad10ba047b002dc6b0065e305f9",
+  "output_image": "images/level-01/question-013.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9410
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

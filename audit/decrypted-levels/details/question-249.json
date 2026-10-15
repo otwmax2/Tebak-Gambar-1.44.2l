@@ -1,0 +1,42 @@
+{
+  "sequence": 260,
+  "archive": "resources/assets/level/android-level-13/f82648589466d4eb62b9aa9358cdeb06.zip",
+  "archive_sha256": "5ad6390567b0e3c29d719ad532bac994ea7f71dce2a9dd04f84152cb365b66ea",
+  "global_index": 249,
+  "level": 13,
+  "question_type": "raja",
+  "answer": "presiden prihatin nasib penduduk miskin",
+  "metadata": "249#raja#13#presiden prihatin nasib penduduk miskin",
+  "encrypted_entry_name": "4110ed9637642b8341652b4e5e9bba53ff1460bdc7f1f07a82c038c37eb42fe6b1cf16849ec62a6938a28a659dbc21a6b6ebeb7274bb72c685fef5b25e708962",
+  "metadata_padding_bytes": 13,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 20720,
+  "image_sha256": "7627bf70432be8ab592bf83b3cf67288d4e3057b19f11ed35bcd336843fe4647",
+  "output_image": "images/level-13/question-249.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 19886
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

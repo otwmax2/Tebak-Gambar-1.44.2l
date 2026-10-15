@@ -1,0 +1,42 @@
+{
+  "sequence": 236,
+  "archive": "resources/assets/level/android-level-12/caa326f4de1c309e06148b94506ea077.zip",
+  "archive_sha256": "219975e1199383fcb6eb9a10409ecf9d73ea78dd6dd0c55c465329e34674a5c4",
+  "global_index": 231,
+  "level": 12,
+  "question_type": "biasa",
+  "answer": "pedangdut ganteng",
+  "metadata": "231#biasa#12#pedangdut ganteng",
+  "encrypted_entry_name": "2eeaa7eebd24431b68a2c701dee5108f348d2ba5394c1ff328c9466a3d186399",
+  "metadata_padding_bytes": 2,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10656,
+  "image_sha256": "598f5af7316e010be6a8b592abacb801528404fea03accf89dbaef30f01ace80",
+  "output_image": "images/level-12/question-231.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9819
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

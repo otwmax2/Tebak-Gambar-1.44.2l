@@ -1,0 +1,42 @@
+{
+  "sequence": 84,
+  "archive": "resources/assets/level/android-level-5/5b86a94eeef1d89976a5bcf21ed43cbb.zip",
+  "archive_sha256": "e800a44f76b27de73fc5a9eeea1472b7d6f824ba58396f78def094d2c76bd490",
+  "global_index": 82,
+  "level": 5,
+  "question_type": "biasa",
+  "answer": "tarif bulanan",
+  "metadata": "82#biasa#5#tarif bulanan",
+  "encrypted_entry_name": "ff601b72f08183cf6164b8638a0f0ea83846a41ad5d7a5c5b04de2d81c4851e8",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9244,
+  "image_sha256": "4c49dc0107fcee3904c2aa80f6594375ee7bcc875787be4ae1aa71e08cbe0e3e",
+  "output_image": "images/level-05/question-082.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8407
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

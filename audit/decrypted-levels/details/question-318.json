@@ -1,0 +1,42 @@
+{
+  "sequence": 308,
+  "archive": "resources/assets/level/android-level-16/37288ceda72e16871256f1f1416e0e45.zip",
+  "archive_sha256": "b22c636cb6c573810ceaa028b0acab8767d8facad0d1daeb2642883fdc4d39f0",
+  "global_index": 318,
+  "level": 16,
+  "question_type": "biasa",
+  "answer": "pementasan wayang",
+  "metadata": "318#biasa#16#pementasan wayang",
+  "encrypted_entry_name": "b24a6f81172ddb55fc2f7aa51f5106f1453312cc3e60e6ba1b349749b3f7a6c1",
+  "metadata_padding_bytes": 2,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10799,
+  "image_sha256": "b845c24f05f2a5c79ce63666bba3c9d5b03f25be170ac69a05b402767343eed9",
+  "output_image": "images/level-16/question-318.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9965
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

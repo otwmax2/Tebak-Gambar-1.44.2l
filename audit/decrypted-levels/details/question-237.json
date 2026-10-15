@@ -1,0 +1,42 @@
+{
+  "sequence": 232,
+  "archive": "resources/assets/level/android-level-12/698d27805f112b2b4d275cba49061902.zip",
+  "archive_sha256": "e30cbe21c1e1b1ede5e385d1894af4ccd869425d97e509b3641da73cf3c7fbd8",
+  "global_index": 237,
+  "level": 12,
+  "question_type": "biasa",
+  "answer": "nama warga",
+  "metadata": "237#biasa#12#nama warga",
+  "encrypted_entry_name": "8795f01f29060110179b4c82eca7cae2049a1719c4fee3007debd83ee3544041",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10400,
+  "image_sha256": "b9840bb649f90f9ea6dad384c4ee911398150e0a222ecd093aa68e6af8d06712",
+  "output_image": "images/level-12/question-237.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9563
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

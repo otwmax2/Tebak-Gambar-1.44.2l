@@ -1,0 +1,42 @@
+{
+  "sequence": 254,
+  "archive": "resources/assets/level/android-level-13/a7d61586047a9bcbf276cae2525e47d8.zip",
+  "archive_sha256": "dc71c9579da1949ff5e7476172fe09e833e1776d9815a0ad8df217edce3dc598",
+  "global_index": 256,
+  "level": 13,
+  "question_type": "biasa",
+  "answer": "bahan tulisan",
+  "metadata": "256#biasa#13#bahan tulisan",
+  "encrypted_entry_name": "3772334ea17df41fce1af1392007ca327eb16b129384ed0517a08ee45f361430",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11240,
+  "image_sha256": "f8555c6796020076b3974de6532188426c2103b2722b268a169569cd9fbe42ff",
+  "output_image": "images/level-13/question-256.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 10406
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

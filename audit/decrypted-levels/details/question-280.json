@@ -1,0 +1,42 @@
+{
+  "sequence": 281,
+  "archive": "resources/assets/level/android-level-15/04ce214165f92f3c9cc4d5433f418d68.zip",
+  "archive_sha256": "dd6199a19041b65d1b04c712b62e024bf924be16111f67577ab71e84b12dd8aa",
+  "global_index": 280,
+  "level": 15,
+  "question_type": "biasa",
+  "answer": "injak gas",
+  "metadata": "280#biasa#15#injak gas",
+  "encrypted_entry_name": "dd2045540ec2f015b89a308c076469a69fce7fffc414b72330e3e7469ba77d4d",
+  "metadata_padding_bytes": 10,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 7458,
+  "image_sha256": "794d3e7e3b0447dc32761cc0c4e3adf3494c4933139bef4ad407a4e42e698dbd",
+  "output_image": "images/level-15/question-280.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 6627
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

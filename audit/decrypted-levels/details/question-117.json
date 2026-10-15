@@ -1,0 +1,42 @@
+{
+  "sequence": 116,
+  "archive": "resources/assets/level/android-level-6/a86b1f3e7fcd186c9943e20a7eb6bffa.zip",
+  "archive_sha256": "b15a1fc780c42be8ed5569f40d8e89c401abcce36581d2cbfd216886c55bf955",
+  "global_index": 117,
+  "level": 6,
+  "question_type": "biasa",
+  "answer": "borong baju",
+  "metadata": "117#biasa#6#borong baju",
+  "encrypted_entry_name": "908281a881a81feed9b224b66fd4061fe21afb45934041967a9a59fb3dc3e6fb",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 12080,
+  "image_sha256": "6972e544d7a67d7c01b981a7755082005efa78d690bc7d4a7fdf07ba15fa896c",
+  "output_image": "images/level-06/question-117.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 11243
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

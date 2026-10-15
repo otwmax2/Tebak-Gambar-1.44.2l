@@ -1,0 +1,42 @@
+{
+  "sequence": 229,
+  "archive": "resources/assets/level/android-level-12/471249a638161f5ef35f0a92b2349211.zip",
+  "archive_sha256": "c09dee57dcee2696fde6b0202cd8dd5175cb73c69bd2e77c40dc3a19af76c3db",
+  "global_index": 222,
+  "level": 12,
+  "question_type": "biasa",
+  "answer": "kalkulasi putaran",
+  "metadata": "222#biasa#12#kalkulasi putaran",
+  "encrypted_entry_name": "860494a82d997779712319e7b64120e9af55c34051293a0f8c938483a0240273",
+  "metadata_padding_bytes": 2,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 14638,
+  "image_sha256": "9e19677dee976db574fd81a08108e41fdb167c3456200fbd1b55504d8fa0ef91",
+  "output_image": "images/level-12/question-222.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 13801
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

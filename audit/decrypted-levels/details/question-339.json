@@ -1,0 +1,42 @@
+{
+  "sequence": 333,
+  "archive": "resources/assets/level/android-level-17/96806daffdcf800dd666a04942948ceb.zip",
+  "archive_sha256": "c49a6700ccbd8ea1cf8751b6650d126fb58ce0626be8af5590ac3b5617a9088e",
+  "global_index": 339,
+  "level": 17,
+  "question_type": "raja",
+  "answer": "seratus lampu tempel bersinar terang benderang",
+  "metadata": "339#raja#17#seratus lampu tempel bersinar terang benderang",
+  "encrypted_entry_name": "1fa4e401d0c7c46c63f8c4de72c32b9b0f00fb9e0566040ac4966e60d667b53d641bd20dfb8379d801ad8402fa68e911ee5aa0eed182ee2a9c100fdbf50b6d1f",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 18590,
+  "image_sha256": "d4b7db96e20e0d297c3cb1fff338d4baef75202caa9d49c5d15a5f1524da9b8e",
+  "output_image": "images/level-17/question-339.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 17759
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

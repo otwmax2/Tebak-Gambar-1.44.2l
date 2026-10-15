@@ -1,0 +1,42 @@
+{
+  "sequence": 324,
+  "archive": "resources/assets/level/android-level-17/334746e2d4ba1b7d71ff1cbfa5e6a9e5.zip",
+  "archive_sha256": "3c59f78d690ed1b9489cd2cce4b8180c45f313f65a8babecafcc03268e551e78",
+  "global_index": 337,
+  "level": 17,
+  "question_type": "biasa",
+  "answer": "garis bawah",
+  "metadata": "337#biasa#17#garis bawah",
+  "encrypted_entry_name": "65b64517af3b192099b78d01ae5bf794a1cfedf89c1177f4a8e8bcf7186e4190",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 2888,
+  "image_sha256": "da4a743e9ece5a0022a255370c0a2eaf11e49f1c218e9f103366da60b387d836",
+  "output_image": "images/level-17/question-337.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 672
+    },
+    {
+      "type": "IDAT",
+      "bytes": 2147
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

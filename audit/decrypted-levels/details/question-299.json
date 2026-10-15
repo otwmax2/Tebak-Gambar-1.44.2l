@@ -1,0 +1,42 @@
+{
+  "sequence": 290,
+  "archive": "resources/assets/level/android-level-15/6bcad5d9858e9fcf5f96a123c9869df9.zip",
+  "archive_sha256": "00610268046769534cf57cdb75253307034b3f4e29d6dde1c41134d93cec9298",
+  "global_index": 299,
+  "level": 15,
+  "question_type": "raja",
+  "answer": "pemimpin harus hadapi kelicikan warga kapitalis",
+  "metadata": "299#raja#15#pemimpin harus hadapi kelicikan warga kapitalis",
+  "encrypted_entry_name": "981af1e57839ce8ae594df6e310350f2b7c33e7e196514c0ac4fd70c316530864519b251c816d574167e3510bae63bf9a9cfa4308707ec1d60c22db41c89a7c3",
+  "metadata_padding_bytes": 5,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 23634,
+  "image_sha256": "ebe6fbfab0068bd3cc143dc83c9fc1a898a0736a869c536442fe79b59fdae3fe",
+  "output_image": "images/level-15/question-299.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 22800
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

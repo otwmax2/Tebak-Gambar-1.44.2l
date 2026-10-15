@@ -1,0 +1,42 @@
+{
+  "sequence": 341,
+  "archive": "resources/assets/level/android-level-18/0085d511786bb7ed39f74745094cfc2a.zip",
+  "archive_sha256": "f6b1ed887ac597afff97726367f6b4a75f17ff5011fe4c6a2a6557f535681cc5",
+  "global_index": 350,
+  "level": 18,
+  "question_type": "biasa",
+  "answer": "isu miring",
+  "metadata": "350#biasa#18#isu miring",
+  "encrypted_entry_name": "77ec17245ba59a654c88192e942ddca3d46901a1680dd3d5e283c53b9503d506",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8006,
+  "image_sha256": "3a572bdd51e195fa7c423ab06d5d9a891b4abeec5f1b8e21ca20a20d209e93d2",
+  "output_image": "images/level-18/question-350.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7172
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 152,
+  "archive": "resources/assets/level/android-level-8/c45c60c2bfe812b20d9106c491f083b4.zip",
+  "archive_sha256": "318047ddfbeecec000a2c0b36d4e258de820b0377d51d2defd7b28b43e68caf5",
+  "global_index": 151,
+  "level": 8,
+  "question_type": "biasa",
+  "answer": "tendang selangkangan",
+  "metadata": "151#biasa#8#tendang selangkangan",
+  "encrypted_entry_name": "f7600c55e7a98cbb58612b4dfb67704548cbd733763d0925bea2f90ca2234fe1",
+  "metadata_padding_bytes": 0,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11240,
+  "image_sha256": "2c617397822bce185f2449c45ca6bca11a3b1b1a115efab1f5e5f83720a0db1d",
+  "output_image": "images/level-08/question-151.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 10409
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 303,
+  "archive": "resources/assets/level/android-level-16/1d12da9c0fcbb8950d9c3f9a46bcee12.zip",
+  "archive_sha256": "82487e9f46bc18cd77bdffae072555abfe451f5c0d1e8eb2e2911d929ac155e8",
+  "global_index": 319,
+  "level": 16,
+  "question_type": "raja",
+  "answer": "kaki berdarah ditabrak tukang becak amatir",
+  "metadata": "319#raja#16#kaki berdarah ditabrak tukang becak amatir",
+  "encrypted_entry_name": "7db00287f19bc9e473d021a09c76b62245cfcc324d37ae7c10e88633ebdb54cb36891e473ff70f64ec6bbb9a745c04b36633d237229506cf339e99c722c2c7fd",
+  "metadata_padding_bytes": 10,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 20157,
+  "image_sha256": "afc7a7801a16db593d105cdfdff54acc52e06bca078e9f93d50c6357ae959071",
+  "output_image": "images/level-16/question-319.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 19323
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

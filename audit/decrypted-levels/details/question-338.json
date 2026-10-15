@@ -1,0 +1,42 @@
+{
+  "sequence": 331,
+  "archive": "resources/assets/level/android-level-17/87e5e316cf11da42130b668e7dc6582e.zip",
+  "archive_sha256": "ccaedb6a38c6c4f19c7a6f34f6d32e68a967fbde74203833b9bee61355a0fa39",
+  "global_index": 338,
+  "level": 17,
+  "question_type": "biasa",
+  "answer": "pesan minuman",
+  "metadata": "338#biasa#17#pesan minuman",
+  "encrypted_entry_name": "99b6e225133e9498f6e38c95bae52c3587504ebc7079845cd5399fc496f465a7",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8953,
+  "image_sha256": "1297bafd876b39c1779e92ac6a7452f190f9f61afae5ac22440c51d3eb1b6975",
+  "output_image": "images/level-17/question-338.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8119
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

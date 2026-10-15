@@ -1,0 +1,42 @@
+{
+  "sequence": 158,
+  "archive": "resources/assets/level/android-level-8/f6b0464fab8ca62ef2fde1fff9ae687a.zip",
+  "archive_sha256": "e6b1e3106b72eb2c95551dc4939689cb25ab095258970fa9ba3196d5740f8a2b",
+  "global_index": 145,
+  "level": 8,
+  "question_type": "biasa",
+  "answer": "patroli gabungan",
+  "metadata": "145#biasa#8#patroli gabungan",
+  "encrypted_entry_name": "8083784819176cb2240220184540021f6f98e9293cb7131705d2a2499341b591",
+  "metadata_padding_bytes": 4,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10362,
+  "image_sha256": "e2691eae0f5f0035299b376066301e441dac8760f0126ba043e56ce65668ab2e",
+  "output_image": "images/level-08/question-145.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9534
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 255,
+  "archive": "resources/assets/level/android-level-13/a8c73d771bad72c93e45aa17162ff74d.zip",
+  "archive_sha256": "4c047b11f01d4ede148cbbc773ddfe71d6946a8b526dcce7e787867afdd84b95",
+  "global_index": 254,
+  "level": 13,
+  "question_type": "biasa",
+  "answer": "pantauan polisi",
+  "metadata": "254#biasa#13#pantauan polisi",
+  "encrypted_entry_name": "a5cc8dbef0811b1a4eb6523fe574e19cf089d34363b650a4f450136888f3437f",
+  "metadata_padding_bytes": 4,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11229,
+  "image_sha256": "a1b5eac461ebd547cd34be930eb3ffc1b60572c5bc082719a7932786cd1f4f8e",
+  "output_image": "images/level-13/question-254.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 10392
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

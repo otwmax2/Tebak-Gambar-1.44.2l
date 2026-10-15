@@ -1,0 +1,42 @@
+{
+  "sequence": 369,
+  "archive": "resources/assets/level/android-level-19/8d8e949441a766054db5e5c4bc55fdb2.zip",
+  "archive_sha256": "354a1e2721c99484f12e9405721634b9beccb94988620a3a924ed1270b71df16",
+  "global_index": 371,
+  "level": 19,
+  "question_type": "biasa",
+  "answer": "tiga persen",
+  "metadata": "371#biasa#19#tiga persen",
+  "encrypted_entry_name": "bfdccd7ef440616a6423a5ad32f98faa56eb8611b394748d39ec82b6507f9f7a",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 6670,
+  "image_sha256": "433c6a7637eaf27e6b8a9c2802cb8f2f3111f94523a651c29fb02184e283dd11",
+  "output_image": "images/level-19/question-371.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 684
+    },
+    {
+      "type": "IDAT",
+      "bytes": 5917
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

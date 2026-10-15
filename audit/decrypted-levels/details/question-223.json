@@ -1,0 +1,42 @@
+{
+  "sequence": 224,
+  "archive": "resources/assets/level/android-level-12/198dfc2129a8f4f2c5b8cec35307a83e.zip",
+  "archive_sha256": "91a5e13a48f80c8377267ce8eae60dd1159b81aec55337b044668fa2003eec0c",
+  "global_index": 223,
+  "level": 12,
+  "question_type": "biasa",
+  "answer": "baju melayu",
+  "metadata": "223#biasa#12#baju melayu",
+  "encrypted_entry_name": "8d5024fcfd41274ac403ccc12d9ec20767e68f4da8afb21ca4c1418f03fa8fe7",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8930,
+  "image_sha256": "09463b9a88407b9c58176442e2803ad13aa0b74b59a792ba889b96770f4f20e9",
+  "output_image": "images/level-12/question-223.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8099
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

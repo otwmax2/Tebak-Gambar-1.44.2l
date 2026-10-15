@@ -1,0 +1,78 @@
+{
+  "reference_commit": "e313da3a3a8aab8bf7797398be714e28197b2f5d",
+  "tracked_files_read": 26562,
+  "text_files_scanned": 25243,
+  "key_reference_hits": 1008,
+  "matched_files": 287,
+  "archive_count": 400,
+  "opened": 400,
+  "failed": 0,
+  "total_image_bytes": 4259250,
+  "distinct_indices": 400,
+  "index_range": [
+    0,
+    399
+  ],
+  "levels": {
+    "1": 20,
+    "2": 20,
+    "3": 20,
+    "4": 20,
+    "5": 20,
+    "6": 20,
+    "7": 20,
+    "8": 20,
+    "9": 20,
+    "10": 20,
+    "11": 20,
+    "12": 20,
+    "13": 20,
+    "14": 20,
+    "15": 20,
+    "16": 20,
+    "17": 20,
+    "18": 20,
+    "19": 20,
+    "20": 20
+  },
+  "question_types": {
+    "biasa": 370,
+    "raja": 30
+  },
+  "zip_aes_versions": {
+    "2": 400
+  },
+  "zip_compression": {
+    "stored": 196,
+    "deflate": 204
+  },
+  "image_formats": {
+    "PNG": 400
+  },
+  "image_sizes": {
+    "400x400": 370,
+    "400x480": 30
+  },
+  "png_chunk_types": {
+    "IHDR": 400,
+    "PLTE": 400,
+    "IDAT": 400,
+    "IEND": 400
+  },
+  "all_zip_authentication_passed": true,
+  "all_png_verified_and_decoded": true,
+  "nested_archives_detected": 0,
+  "trailing_bytes_detected": 0,
+  "password_derivation": "MD5(ASCII(global_index) + ASCII(secretkey)); hex lowercase used as ASCII password",
+  "filename_derivation": "MD5(ASCII(secretkey) + ASCII(global_index)) + .zip",
+  "metadata_cipher": "AES-256-CBC/NoPadding; hex entry filename; Java trim removes leading/trailing U+0000..U+0020",
+  "key_source": "resources/res/values/strings.xml: secretkey; matches sources/y8/k.java f37055d",
+  "iv_source": "resources/res/values/strings.xml: ivkey; matches sources/y8/k.java f37052a",
+  "zip_payload_note": "WinZip AES authentication checked by pyzipper.read; AES-2 ZIP CRC field is not an independent payload CRC check.",
+  "limitations": [
+    "No server/app execution or password brute force",
+    "No claim of steganographic analysis of decoded pixels",
+    "All actual decoded payloads are PNG, not nested ZIP",
+    "Key-reference matching is automated, not manual reading of every repository line"
+  ]
+}

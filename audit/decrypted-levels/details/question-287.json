@@ -1,0 +1,42 @@
+{
+  "sequence": 295,
+  "archive": "resources/assets/level/android-level-15/b8995b74c4c4c03c27ea888bb7a54f8c.zip",
+  "archive_sha256": "4cd39203d9856ad1509431d2466683ef432764939f9f1d897a3d2400a99890d7",
+  "global_index": 287,
+  "level": 15,
+  "question_type": "biasa",
+  "answer": "muka tembok",
+  "metadata": "287#biasa#15#muka tembok",
+  "encrypted_entry_name": "de3cb2bda910ae0c09fd4220e59565bf0a85962f882f277922c544905a8c9c7f",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 6952,
+  "image_sha256": "9de586920d196414452b8f4514e13e89026440799bc759f1eb20596ba9bff25e",
+  "output_image": "images/level-15/question-287.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 756
+    },
+    {
+      "type": "IDAT",
+      "bytes": 6127
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

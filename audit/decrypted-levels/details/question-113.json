@@ -1,0 +1,42 @@
+{
+  "sequence": 117,
+  "archive": "resources/assets/level/android-level-6/b2835e536f09e506f6432e05fcd23e8e.zip",
+  "archive_sha256": "3b90047515ff830ed975b6f17d7a6695154f6c4c7b61ab7cfe144210c20cd7c0",
+  "global_index": 113,
+  "level": 6,
+  "question_type": "biasa",
+  "answer": "hutan gundul",
+  "metadata": "113#biasa#6#hutan gundul",
+  "encrypted_entry_name": "709d651ebff504887d7d656b68506d505b4fb3a23025116d8210d37466a1b765",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 7361,
+  "image_sha256": "a40ed7da972ac01542aa52394fc806e5ccbee3676ce310bf0d29011037f137aa",
+  "output_image": "images/level-06/question-113.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 6530
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

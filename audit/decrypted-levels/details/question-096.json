@@ -1,0 +1,42 @@
+{
+  "sequence": 85,
+  "archive": "resources/assets/level/android-level-5/6a5aeace4986505d94957be19d5a2ec4.zip",
+  "archive_sha256": "ac8892c07814c579455bd49e1f4862f1f35e7057560868c620d1f93128f906b4",
+  "global_index": 96,
+  "level": 5,
+  "question_type": "biasa",
+  "answer": "dekorasi ruang",
+  "metadata": "96#biasa#5#dekorasi ruang",
+  "encrypted_entry_name": "4ca9607d37eccf4a24e9be9dbdd72b6af82773e9531dc14913da3e944f3bc4ee",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10253,
+  "image_sha256": "6804a12c08f48880456d926230ceb1e9dbfb49793b204cbaac6c90821de24c36",
+  "output_image": "images/level-05/question-096.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9419
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 166,
+  "archive": "resources/assets/level/android-level-9/39da6a3ba47655faeccd0d6d2d44ad53.zip",
+  "archive_sha256": "dcf0a3de14dbf4047bc9c260b4924608b4e194f47a523386fbe85c332c5b0064",
+  "global_index": 179,
+  "level": 9,
+  "question_type": "raja",
+  "answer": "semangka dipotong separuh pakai pisau",
+  "metadata": "179#raja#9#semangka dipotong separuh pakai pisau",
+  "encrypted_entry_name": "1f9968a9bc845efef33186d88b6130a15f7f56066fba86b7707a1182a442e665458ed14759020c28fd608ba51cf2ed58",
+  "metadata_padding_bytes": 0,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11962,
+  "image_sha256": "954c1fb346153792aa42c9f5e07ebbe1d29538bbdae4584f8a5a42383a6749df",
+  "output_image": "images/level-09/question-179.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 11128
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

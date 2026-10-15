@@ -1,0 +1,42 @@
+{
+  "sequence": 50,
+  "archive": "resources/assets/level/android-level-3/66d352e2b910a5cc8c099ff556e875e1.zip",
+  "archive_sha256": "00d07362a43bd6df7c2411f6582fbd41cb388699308aecc5248c328069e2c7ff",
+  "global_index": 57,
+  "level": 3,
+  "question_type": "biasa",
+  "answer": "darah muda",
+  "metadata": "57#biasa#3#darah muda",
+  "encrypted_entry_name": "046859da06e3b05bc2beda1ec5640195785ee326a65d4666a950372838574792",
+  "metadata_padding_bytes": 11,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9370,
+  "image_sha256": "91b60b843743b00e3a22ba45e93544234fa159bc214bbf4f762cd6bad1d99547",
+  "output_image": "images/level-03/question-057.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8539
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

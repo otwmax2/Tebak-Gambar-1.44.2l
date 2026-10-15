@@ -1,0 +1,42 @@
+{
+  "sequence": 136,
+  "archive": "resources/assets/level/android-level-7/acd1165ad7ee22de62d1827ee13ff522.zip",
+  "archive_sha256": "d26cec577bb4f88e91672345c1eb75044654706369df1ac73ba289cbf0aeb87f",
+  "global_index": 123,
+  "level": 7,
+  "question_type": "biasa",
+  "answer": "gudang lampion",
+  "metadata": "123#biasa#7#gudang lampion",
+  "encrypted_entry_name": "b036c17f6bd81e3dfb208ed9159de73dcc2e3d839198f14f7faec3793b5b851e",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9412,
+  "image_sha256": "3404500d77a5d47484e3305f0d6ce6f4a4fcce63619f1bfc2cf275ca890497bf",
+  "output_image": "images/level-07/question-123.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8581
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

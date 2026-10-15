@@ -1,0 +1,42 @@
+{
+  "sequence": 128,
+  "archive": "resources/assets/level/android-level-7/68cb6d5c2db2a532fdec55b8902d8773.zip",
+  "archive_sha256": "51e2beb81fa5e376f9b45c78bb8a3b34be06b2538c4170ffb2cb0d0822ec8a6a",
+  "global_index": 122,
+  "level": 7,
+  "question_type": "biasa",
+  "answer": "malam kelabu",
+  "metadata": "122#biasa#7#malam kelabu",
+  "encrypted_entry_name": "4add4050af2f188ce2e1670e911459f3b2c740065909fe0d47d7f5c393a12bda",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8156,
+  "image_sha256": "46445b9057bda09ab985e11e7bf0056ad74e30a4599db18f54a6689f12d7f968",
+  "output_image": "images/level-07/question-122.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7322
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 269,
+  "archive": "resources/assets/level/android-level-14/6a9961b36e50e69905942399a9ae0c6d.zip",
+  "archive_sha256": "64ec73caf1e74689c8cae0ba0b8c82090b8b1c373dd66f8a2ac19380a8837227",
+  "global_index": 270,
+  "level": 14,
+  "question_type": "biasa",
+  "answer": "tanggal tua",
+  "metadata": "270#biasa#14#tanggal tua",
+  "encrypted_entry_name": "9919a63a34dff546ab3384911dc7a7ff1bb0952a00107a3c6903f2ab503aace5",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 5618,
+  "image_sha256": "ae6d2116731cc6fb128ebbb045d4f58e87537b60736c62563195269b4868762a",
+  "output_image": "images/level-14/question-270.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 4784
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

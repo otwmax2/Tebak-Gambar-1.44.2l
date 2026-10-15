@@ -1,0 +1,42 @@
+{
+  "sequence": 98,
+  "archive": "resources/assets/level/android-level-5/ebdb79f2d4fb1bc3349888343d283630.zip",
+  "archive_sha256": "ac00a9068f8723903e812be7d403f0212cab9327f67e1f70501c0da0756d233b",
+  "global_index": 81,
+  "level": 5,
+  "question_type": "biasa",
+  "answer": "penyumbatan pipa",
+  "metadata": "81#biasa#5#penyumbatan pipa",
+  "encrypted_entry_name": "8684420851d8c9991f9dfdcea0b13e46d11cf3f14f0aa73621fa6be9dfac7555",
+  "metadata_padding_bytes": 5,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8466,
+  "image_sha256": "6676d9eb750ca905d7a3dab6b44b412b3a0a04f00dbe078d850bc67360dc9aff",
+  "output_image": "images/level-05/question-081.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7638
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

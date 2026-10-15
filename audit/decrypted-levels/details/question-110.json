@@ -1,0 +1,42 @@
+{
+  "sequence": 119,
+  "archive": "resources/assets/level/android-level-6/d7aafe1a3cd55f2a2bd1770423198a2f.zip",
+  "archive_sha256": "a6cd793df1588d5c338294b6ba6eca54418eb3af80b9a43340a83a5570bfa92e",
+  "global_index": 110,
+  "level": 6,
+  "question_type": "biasa",
+  "answer": "nafas cinta",
+  "metadata": "110#biasa#6#nafas cinta",
+  "encrypted_entry_name": "0595fc747d0b524375d6bc3adcc9bb03c58ed538a72649434b6ec6c904998712",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 6929,
+  "image_sha256": "93a086018a354dbb27f39df57114e29602f5b162560df5bdeb9c416b7115a7ab",
+  "output_image": "images/level-06/question-110.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 6098
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

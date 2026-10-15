@@ -1,0 +1,42 @@
+{
+  "sequence": 326,
+  "archive": "resources/assets/level/android-level-17/3b30fd39c001f1039a7eaf066bee7bdd.zip",
+  "archive_sha256": "1b16958fba4a272310c5bd3929e8d65b795cfa4be0ac00938e6b08c96ac05d6e",
+  "global_index": 332,
+  "level": 17,
+  "question_type": "biasa",
+  "answer": "hantu penasaran",
+  "metadata": "332#biasa#17#hantu penasaran",
+  "encrypted_entry_name": "128045dc2f504e24be93f03c696749c12ab0c9a0d9bc730004a41562a4ed75e6",
+  "metadata_padding_bytes": 4,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8706,
+  "image_sha256": "14aab13b0d92926c2d7829fb08917176c009cac1ee407a3a7216bcc2b4473d41",
+  "output_image": "images/level-17/question-332.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7875
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

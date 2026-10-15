@@ -1,0 +1,42 @@
+{
+  "sequence": 279,
+  "archive": "resources/assets/level/android-level-14/f65397b415c8e62e05bb6b13ebeba2d3.zip",
+  "archive_sha256": "7208a1b2730b6a9378a361a947e449aa2ed7354428f6c4bdd412da73cf2cb63b",
+  "global_index": 268,
+  "level": 14,
+  "question_type": "biasa",
+  "answer": "tular penyakit",
+  "metadata": "268#biasa#14#tular penyakit",
+  "encrypted_entry_name": "d3b62e3795acfaa21f4332cd27d1784117c579ca8500c7e14bb364c5c1ba3941",
+  "metadata_padding_bytes": 5,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 12654,
+  "image_sha256": "f31111b4bc439c41b74d1bbecd62423586fee0254c9c82ed0840521b5399bc80",
+  "output_image": "images/level-14/question-268.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 11820
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

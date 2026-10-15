@@ -1,0 +1,42 @@
+{
+  "sequence": 102,
+  "archive": "resources/assets/level/android-level-6/0ce4c565867194d6955696109844aba8.zip",
+  "archive_sha256": "3856325d1715fbf7a3ce5473e5c2f0c380da1577ec30599b3ceb04b3e0a61059",
+  "global_index": 109,
+  "level": 6,
+  "question_type": "biasa",
+  "answer": "merakit sepeda",
+  "metadata": "109#biasa#6#merakit sepeda",
+  "encrypted_entry_name": "4a54af42def197b92bc7b8fac0f9bfe77460c1b81952f16095f1dceb5b60d690",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 14305,
+  "image_sha256": "718418f3b91c3be012246dc66cf1ff0668db0640b500d49870de1a2ec701c7cc",
+  "output_image": "images/level-06/question-109.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 13468
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

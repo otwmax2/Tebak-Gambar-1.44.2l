@@ -1,0 +1,42 @@
+{
+  "sequence": 154,
+  "archive": "resources/assets/level/android-level-8/de69bb6d3fdacb8f7800df4f62f45998.zip",
+  "archive_sha256": "4f4432f03690155ef8b833ee43f6b8519144b49fbb2e74269f2fd277c2dd2ae2",
+  "global_index": 142,
+  "level": 8,
+  "question_type": "biasa",
+  "answer": "upil jorok",
+  "metadata": "142#biasa#8#upil jorok",
+  "encrypted_entry_name": "7ec89620c0b853c58fac60abf5a4694330830128cfe98e765686c2c2317f8d13",
+  "metadata_padding_bytes": 10,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11168,
+  "image_sha256": "7bbff82ff5b5d281431597c3bceeca7f57e50e80c4f608360288a0ba44623417",
+  "output_image": "images/level-08/question-142.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 10337
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

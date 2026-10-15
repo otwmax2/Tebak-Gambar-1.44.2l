@@ -1,0 +1,42 @@
+{
+  "sequence": 357,
+  "archive": "resources/assets/level/android-level-18/d41336b51de731d838cbe9ede50827b5.zip",
+  "archive_sha256": "44464b69dc0899bcc562c7d7ced5e24b81c344cf4e3dba59fb319773e6c1a032",
+  "global_index": 353,
+  "level": 18,
+  "question_type": "biasa",
+  "answer": "lirik puitis",
+  "metadata": "353#biasa#18#lirik puitis",
+  "encrypted_entry_name": "3462d9d925d67745bc397bcb43e5aa9acd9a69a1602254d0c075515b23071b3e",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8776,
+  "image_sha256": "1a913bb94427afb753d55228b242526437f8b4db31905f2c24a252766ce912b8",
+  "output_image": "images/level-18/question-353.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7948
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

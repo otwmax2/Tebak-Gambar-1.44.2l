@@ -1,0 +1,42 @@
+{
+  "sequence": 61,
+  "archive": "resources/assets/level/android-level-4/07f9072120060ca0e67567ff0e218636.zip",
+  "archive_sha256": "f3864a27bd5211c86be6f12ff2c50fd6095149f9fafb61bd002348b574b3a90d",
+  "global_index": 68,
+  "level": 4,
+  "question_type": "biasa",
+  "answer": "bau badan",
+  "metadata": "68#biasa#4#bau badan",
+  "encrypted_entry_name": "ba1190bb7507fa75e3d7ae8388e2a5996eb15884091828286a3351d4a07155f9",
+  "metadata_padding_bytes": 12,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8434,
+  "image_sha256": "bd550ab3beafa752eadcf792c34b193a0692f1a73d62121fc1cdfa0428149dc6",
+  "output_image": "images/level-04/question-068.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7600
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

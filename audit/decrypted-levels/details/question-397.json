@@ -1,0 +1,42 @@
+{
+  "sequence": 393,
+  "archive": "resources/assets/level/android-level-20/c89a525f8437f258378b3de3ac46b216.zip",
+  "archive_sha256": "b330c847555387bfed28969b4dc31ec02a8624e11ff4d7fc00617533dadb51ec",
+  "global_index": 397,
+  "level": 20,
+  "question_type": "biasa",
+  "answer": "meja rumahan",
+  "metadata": "397#biasa#20#meja rumahan",
+  "encrypted_entry_name": "45f5284799a823cf68e3c7ca70e38c50fe0f6840050c0a839215abb1d0f25977",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10207,
+  "image_sha256": "4b1aba895ca7d96286432fd43210cc40a3af85eab662d6eaecff15f28e312a4d",
+  "output_image": "images/level-20/question-397.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9370
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

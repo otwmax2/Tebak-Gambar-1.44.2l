@@ -1,0 +1,42 @@
+{
+  "sequence": 306,
+  "archive": "resources/assets/level/android-level-16/32aad1fb48c441d135819cd4e4fe80fa.zip",
+  "archive_sha256": "f5be2ea3b27e9f5d1d20f8bd302bfa25870767cba463bdfc4dc7aadf43b01484",
+  "global_index": 305,
+  "level": 16,
+  "question_type": "biasa",
+  "answer": "biodata supir",
+  "metadata": "305#biasa#16#biodata supir",
+  "encrypted_entry_name": "35a17e006e60fb12d87cb58e4a6c5327ff714b157af0d27b6a44c832071e817d",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11899,
+  "image_sha256": "6d0a114401555e5a3cfa89b59c392ff51496f2e5b62b477c5c916b63097e2cb4",
+  "output_image": "images/level-16/question-305.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 11062
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

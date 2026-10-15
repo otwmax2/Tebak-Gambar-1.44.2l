@@ -1,0 +1,42 @@
+{
+  "sequence": 355,
+  "archive": "resources/assets/level/android-level-18/bfc3f5ad4cc3e7c844503f6ec9196833.zip",
+  "archive_sha256": "b31a5baecf2902dfb8556abbe8eac401d2820e5f9b108996665e0beead7e8929",
+  "global_index": 358,
+  "level": 18,
+  "question_type": "biasa",
+  "answer": "alat berat",
+  "metadata": "358#biasa#18#alat berat",
+  "encrypted_entry_name": "de37ae9c00e65b336853b15e2b691a3d84b201d558ffedb46e9c17d7c74d8f7c",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9621,
+  "image_sha256": "f6f349fdc1c621995b101a359351f403e76523e856041129cb7d9576d9d36fdd",
+  "output_image": "images/level-18/question-358.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8790
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

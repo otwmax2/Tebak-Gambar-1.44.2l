@@ -1,0 +1,42 @@
+{
+  "sequence": 142,
+  "archive": "resources/assets/level/android-level-8/1c7172b02035dc93b94db0e90f56d32a.zip",
+  "archive_sha256": "c8d598ceaae08ee6e7549bee68d429fe9366d1cf610f954e5c79fc98ede33554",
+  "global_index": 141,
+  "level": 8,
+  "question_type": "biasa",
+  "answer": "rekening gendut",
+  "metadata": "141#biasa#8#rekening gendut",
+  "encrypted_entry_name": "933a92703e99e912c4585fb3f0900d87c151f34566a5f89deb297bed25e67efc",
+  "metadata_padding_bytes": 5,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9082,
+  "image_sha256": "ec225fb73e7c2548c823ffa3cfacbea71f3cbbd46e4555328a8cd7e8385206b7",
+  "output_image": "images/level-08/question-141.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8245
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

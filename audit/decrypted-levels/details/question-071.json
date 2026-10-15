@@ -1,0 +1,42 @@
+{
+  "sequence": 72,
+  "archive": "resources/assets/level/android-level-4/97ee5cf300d9ca7f745ea3dfb2c35cc0.zip",
+  "archive_sha256": "d619bedb8119e3ac7127e1f589061f2b7c0391e49b08690fdf78bbf3b313117c",
+  "global_index": 71,
+  "level": 4,
+  "question_type": "biasa",
+  "answer": "pulau batam",
+  "metadata": "71#biasa#4#pulau batam",
+  "encrypted_entry_name": "fa4afd1fcfc91a6dac5dcfc869af64dc310e652126924db63a90310c141e3539",
+  "metadata_padding_bytes": 10,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8016,
+  "image_sha256": "75eab12c4c4fb5221cbbeff9841443110c5d63b965766c8b81c2668533679b89",
+  "output_image": "images/level-04/question-071.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7185
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

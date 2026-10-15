@@ -1,0 +1,42 @@
+{
+  "sequence": 388,
+  "archive": "resources/assets/level/android-level-20/88e2bad04753fa8f0a342324a68102d3.zip",
+  "archive_sha256": "1ec370ee5e5320abe8b17b9bf3cf3a5e348c03ab55d7ad25e227251ea2e127b2",
+  "global_index": 384,
+  "level": 20,
+  "question_type": "biasa",
+  "answer": "opera sabun",
+  "metadata": "384#biasa#20#opera sabun",
+  "encrypted_entry_name": "a5e4a83c6a2092efc5b393b44d09f372ce2776ab874f35ba227f78a6088f525c",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 7755,
+  "image_sha256": "2adfcb0a90689353f52f47dd7036cc3e456fd8f26263bfec0b8b83915353a44f",
+  "output_image": "images/level-20/question-384.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 6924
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

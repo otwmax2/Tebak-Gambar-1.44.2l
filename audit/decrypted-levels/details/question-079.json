@@ -1,0 +1,42 @@
+{
+  "sequence": 79,
+  "archive": "resources/assets/level/android-level-4/ef91eb8871d69d9170e08fb027c7f311.zip",
+  "archive_sha256": "8538150fbc188234628d79d60e59e7953ed65703d9392b0c20045441f357ed30",
+  "global_index": 79,
+  "level": 4,
+  "question_type": "raja",
+  "answer": "kita harus hormati bunda",
+  "metadata": "79#raja#4#kita harus hormati bunda",
+  "encrypted_entry_name": "71ee7cc9da03811d7937acc78cc1906d4865565b1e62f89ab253bbcca43fdf9e51161bb901e85f2255a63ef79bce95bb",
+  "metadata_padding_bytes": 14,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 14650,
+  "image_sha256": "dc3f3767f25c4f3fa1e591e46103d9bbab5ef091e67f5ac71d78ceef24d49f7a",
+  "output_image": "images/level-04/question-079.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 13813
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

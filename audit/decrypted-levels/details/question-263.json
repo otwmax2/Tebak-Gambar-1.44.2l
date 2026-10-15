@@ -1,0 +1,42 @@
+{
+  "sequence": 266,
+  "archive": "resources/assets/level/android-level-14/548b0f26e02f5c7977a3cb88ad794dfa.zip",
+  "archive_sha256": "b70eda292bc277327b303e0aeea0426335791755296ef111cb3fe968af1f252f",
+  "global_index": 263,
+  "level": 14,
+  "question_type": "biasa",
+  "answer": "dua peristiwa",
+  "metadata": "263#biasa#14#dua peristiwa",
+  "encrypted_entry_name": "72493918fab95cd9a2c541ed0692ad5288a1c580e0bc7f715944eb9c45d46d79",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9332,
+  "image_sha256": "4c5e33926706028be395a468657a7e191801ba62b1f4787d349274b0b86a49d6",
+  "output_image": "images/level-14/question-263.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8495
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

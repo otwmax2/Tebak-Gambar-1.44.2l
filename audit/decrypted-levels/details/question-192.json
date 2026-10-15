@@ -1,0 +1,42 @@
+{
+  "sequence": 184,
+  "archive": "resources/assets/level/android-level-10/1af01f3c188117074733f02680416209.zip",
+  "archive_sha256": "02c697bae12375a409506beb5d98430c268de0bf9cac551ae66dd584faedf37d",
+  "global_index": 192,
+  "level": 10,
+  "question_type": "biasa",
+  "answer": "relokasi narapidana",
+  "metadata": "192#biasa#10#relokasi narapidana",
+  "encrypted_entry_name": "96b613d7d218c9056e60825d05c0d7f50723880e903413cb468a758bbd8ab9c3",
+  "metadata_padding_bytes": 0,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 13204,
+  "image_sha256": "c154a7a3fca0be335f242ecdb68b4b97fa09b6950223d0eb34c6d9ae12cc764c",
+  "output_image": "images/level-10/question-192.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 12370
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

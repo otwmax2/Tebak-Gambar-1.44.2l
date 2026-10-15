@@ -1,0 +1,42 @@
+{
+  "sequence": 372,
+  "archive": "resources/assets/level/android-level-19/a19155194c2e1c95019e3f20391d121b.zip",
+  "archive_sha256": "3b4139dc41f5ac9b9687efd35aa0deffa51d875e9bf85e73be4168aad57230d9",
+  "global_index": 377,
+  "level": 19,
+  "question_type": "biasa",
+  "answer": "urusan dunia",
+  "metadata": "377#biasa#19#urusan dunia",
+  "encrypted_entry_name": "80583ca22ef70e2beba42a615bbe8d853b9273c33907184bb6fff3c2b4c74e7f",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9838,
+  "image_sha256": "db84672dee1acc9b63f89772717eb3985855ece9227a61280406157b72088c09",
+  "output_image": "images/level-19/question-377.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9007
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

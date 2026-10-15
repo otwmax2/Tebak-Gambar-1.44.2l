@@ -1,0 +1,42 @@
+{
+  "sequence": 291,
+  "archive": "resources/assets/level/android-level-15/81051dd730c1368254075a9e58cca0ce.zip",
+  "archive_sha256": "19198e51c2603f5f6574f58d2c53075039685a62d45ab5f1c77e126284090967",
+  "global_index": 282,
+  "level": 15,
+  "question_type": "biasa",
+  "answer": "petaka suram",
+  "metadata": "282#biasa#15#petaka suram",
+  "encrypted_entry_name": "fc55b0e3e3241c8eeb46c0feb62f62ec4df254db51d12ed8cf9c8dfbc7d5d16f",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8581,
+  "image_sha256": "106f16d1e3614c02745e62abe4a900ee4e18c68bea70d5e9d5d6fc7b4dc3417b",
+  "output_image": "images/level-15/question-282.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7750
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

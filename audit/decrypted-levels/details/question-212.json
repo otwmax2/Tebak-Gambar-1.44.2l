@@ -1,0 +1,42 @@
+{
+  "sequence": 210,
+  "archive": "resources/assets/level/android-level-11/7fd419378cc1f791ad6b9cdfb99142d6.zip",
+  "archive_sha256": "217d02de7e830d4db49d7c13a76e7129138b8140da076e5c6a12d6138cd327a5",
+  "global_index": 212,
+  "level": 11,
+  "question_type": "biasa",
+  "answer": "kembar siam",
+  "metadata": "212#biasa#11#kembar siam",
+  "encrypted_entry_name": "72ace765d2e31878a4ae81b716367dbaaa7b93f0d94d6de50198e5f8b5b55fef",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10024,
+  "image_sha256": "e08dc2b91811b49d1cb3736b611ddba60bda582535d9aa55a3f0e21896cc9139",
+  "output_image": "images/level-11/question-212.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9187
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 337,
+  "archive": "resources/assets/level/android-level-17/ce30aed9c1f8b362572795050d0b967a.zip",
+  "archive_sha256": "0ba5aaf052f17a4aaee7d0260033e153892c6c0d7c676d0ba040525301a298a2",
+  "global_index": 326,
+  "level": 17,
+  "question_type": "biasa",
+  "answer": "bersilat lidah",
+  "metadata": "326#biasa#17#bersilat lidah",
+  "encrypted_entry_name": "12028e792fd0338709944bc25ce7f516a9d490c766c229c9b4cf538d19d05116",
+  "metadata_padding_bytes": 5,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10758,
+  "image_sha256": "2678c91bc632c8f2d00aa70ffa17df9ad428cc1db38995a636b96e30ff14062f",
+  "output_image": "images/level-17/question-326.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9927
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

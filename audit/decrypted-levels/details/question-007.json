@@ -1,0 +1,42 @@
+{
+  "sequence": 20,
+  "archive": "resources/assets/level/android-level-1/e5e7fef66fb9e32a254322645757637d.zip",
+  "archive_sha256": "586a8cff3ec378778d4828846a43c7d976f3b140cf607a52a09d73e805cec8d0",
+  "global_index": 7,
+  "level": 1,
+  "question_type": "biasa",
+  "answer": "tenaga listrik",
+  "metadata": "7#biasa#1#tenaga listrik",
+  "encrypted_entry_name": "0e952e88cb241be04a9d9867054146d890f63d53e8b8d9e2d638155065e0c25b",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 14117,
+  "image_sha256": "a9e9d3e1b977e8367f6a7f096b50dd70d80f0e09590a782656d1ab7dd476d9fe",
+  "output_image": "images/level-01/question-007.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 13286
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

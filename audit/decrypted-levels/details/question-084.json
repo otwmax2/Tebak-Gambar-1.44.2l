@@ -1,0 +1,42 @@
+{
+  "sequence": 82,
+  "archive": "resources/assets/level/android-level-5/28ee568c74d4767547fb9ee9c9fc769e.zip",
+  "archive_sha256": "867afe1d911617605a689e89e62de4534631a5d291ba290e9b43446a49f57b32",
+  "global_index": 84,
+  "level": 5,
+  "question_type": "biasa",
+  "answer": "tanah air",
+  "metadata": "84#biasa#5#tanah air",
+  "encrypted_entry_name": "24ce095326294888fa257904a74c6c83fa36e080c3bb7ea2882abf8a61e34fa8",
+  "metadata_padding_bytes": 12,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 6572,
+  "image_sha256": "0d3ecc3f19b03624a862a866e38cc5d958121bbb704717f188061323cbf13926",
+  "output_image": "images/level-05/question-084.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 5741
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

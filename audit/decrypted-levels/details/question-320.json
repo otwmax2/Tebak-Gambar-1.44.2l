@@ -1,0 +1,42 @@
+{
+  "sequence": 338,
+  "archive": "resources/assets/level/android-level-17/d795557691e7842840b286500e4e455d.zip",
+  "archive_sha256": "30676f6bddd781cc878e7ed81817b8c466a7142e3d6af1ec722156cc06da7df0",
+  "global_index": 320,
+  "level": 17,
+  "question_type": "biasa",
+  "answer": "fase kemoterapi",
+  "metadata": "320#biasa#17#fase kemoterapi",
+  "encrypted_entry_name": "1df387f9312dc1853650b8f1db7c85793006a45af1a7b085c1b2eb786116f28a",
+  "metadata_padding_bytes": 4,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10683,
+  "image_sha256": "5fe11764bb844225e7fad8fd329b11428c9ca61f61edcb84495e8f9f79c8fd0b",
+  "output_image": "images/level-17/question-320.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9849
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

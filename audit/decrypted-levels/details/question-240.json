@@ -1,0 +1,42 @@
+{
+  "sequence": 259,
+  "archive": "resources/assets/level/android-level-13/bd4f0fa0cc5edafa6bd91e9dffb13fb9.zip",
+  "archive_sha256": "92cf8c5738088b23240fa0aa48669f15876aabe7c43cafad309e1edaedd067ef",
+  "global_index": 240,
+  "level": 13,
+  "question_type": "biasa",
+  "answer": "hormati gadis",
+  "metadata": "240#biasa#13#hormati gadis",
+  "encrypted_entry_name": "61b88b953f5e8c2d35f6779768bb71424d40e8205ac4787b60f34652328f199c",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9715,
+  "image_sha256": "374f6d6c2921ff0ae516f4de030fc36144ed4c728780883fb18a7c24c0d41548",
+  "output_image": "images/level-13/question-240.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8878
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

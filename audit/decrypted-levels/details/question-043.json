@@ -1,0 +1,42 @@
+{
+  "sequence": 57,
+  "archive": "resources/assets/level/android-level-3/d2f0e3126f9f7a5b0a2b8701424846e1.zip",
+  "archive_sha256": "e64b170d9fba0813b5b5ab05687fac47764f0872e94b46c5a7e092b436c841fa",
+  "global_index": 43,
+  "level": 3,
+  "question_type": "biasa",
+  "answer": "penduduk asli",
+  "metadata": "43#biasa#3#penduduk asli",
+  "encrypted_entry_name": "fef7d8cf850986fdbadb5e5ff148be95c2fcbd2b95213f71a90063228147266c",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8572,
+  "image_sha256": "b5d78dba36f63edc86b9f0622bff379c122f7577c5a78c745b1a2196e6c4d7a1",
+  "output_image": "images/level-03/question-043.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7735
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

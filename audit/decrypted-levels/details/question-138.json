@@ -1,0 +1,42 @@
+{
+  "sequence": 126,
+  "archive": "resources/assets/level/android-level-7/51ebe4c24c743e6e63b319b225ffb3a7.zip",
+  "archive_sha256": "9a6df88df7431738bd352072f72bed6650843829bba6cde2f5ece3e4d87765cd",
+  "global_index": 138,
+  "level": 7,
+  "question_type": "biasa",
+  "answer": "kualitas film",
+  "metadata": "138#biasa#7#kualitas film",
+  "encrypted_entry_name": "971bb3a5c10efe478e1c2d3666826bb6838f03cc8101ab98df45a4ef0c80122a",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 12997,
+  "image_sha256": "74ab08a6d34d973ad510b8f5f751256cae642bc5dadc6fbc77627c9924a14c35",
+  "output_image": "images/level-07/question-138.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 12166
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

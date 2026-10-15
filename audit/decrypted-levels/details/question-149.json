@@ -1,0 +1,42 @@
+{
+  "sequence": 143,
+  "archive": "resources/assets/level/android-level-8/2f219ecceb6676c27e36ffa93ccddd7e.zip",
+  "archive_sha256": "09e1c60c9a5a1011c57df3ff0dbd6cdcfe73ef83f70f9a0b585eea65cb68f7ad",
+  "global_index": 149,
+  "level": 8,
+  "question_type": "biasa",
+  "answer": "gulat jepang",
+  "metadata": "149#biasa#8#gulat jepang",
+  "encrypted_entry_name": "c9d429003340323e55b6dacd359080cbc5ded4cc5805577b34a17ea058b5b7e5",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8301,
+  "image_sha256": "7fe8bad0469a9f90f8c77e97aca949ab42fcc4799458047013186acebb4da117",
+  "output_image": "images/level-08/question-149.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7473
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

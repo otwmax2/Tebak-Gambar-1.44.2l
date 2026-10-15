@@ -1,0 +1,6 @@
+{
+  "purpose": "Offline bundled level content only; not account/OAuth credentials",
+  "metadata_aes_key_ascii": "c670c13c2af975f1f72e19692cd70998",
+  "metadata_iv_ascii": "fedcba3450126789",
+  "password_formula": "MD5(ASCII(global_index) + ASCII(secretkey)), lowercase hex ASCII"
+}

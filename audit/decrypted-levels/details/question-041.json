@@ -1,0 +1,42 @@
+{
+  "sequence": 42,
+  "archive": "resources/assets/level/android-level-3/439adb68a9af9dc9802ba00103e4e3a4.zip",
+  "archive_sha256": "22d548c5badbfcfbbc9e549fb0fc1cc96ad8d4f6c47a2fd84f37864d03f8d536",
+  "global_index": 41,
+  "level": 3,
+  "question_type": "biasa",
+  "answer": "komputer lelet",
+  "metadata": "41#biasa#3#komputer lelet",
+  "encrypted_entry_name": "0b5578ee0f0149de358d6cca339edd0c2eaae4981aae9414ecc78b95a0a711da",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11487,
+  "image_sha256": "5aca43248a94aa84ba470f9d0fba37b0fd283150d6bc68d492ec0d344ab91e5c",
+  "output_image": "images/level-03/question-041.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 10656
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

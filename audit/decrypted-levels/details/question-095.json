@@ -1,0 +1,42 @@
+{
+  "sequence": 89,
+  "archive": "resources/assets/level/android-level-5/87fa8e005ef4fc6a8cbc709eaf3fe8d4.zip",
+  "archive_sha256": "b915044308ce7ac6c2dad2d77639656d6777c50c95b61000ff7ad53a4b8c7586",
+  "global_index": 95,
+  "level": 5,
+  "question_type": "biasa",
+  "answer": "satelit indonesia",
+  "metadata": "95#biasa#5#satelit indonesia",
+  "encrypted_entry_name": "821be92935a3211f1e4feab7fec57c22d359c4429ca01ebfcd872a702b49d8c3",
+  "metadata_padding_bytes": 4,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 5253,
+  "image_sha256": "9952ed43359c9d2f5069032453fc20bb33017dbeffd309e448dfd8427a367d42",
+  "output_image": "images/level-05/question-095.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 4416
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

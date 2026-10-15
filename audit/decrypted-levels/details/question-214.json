@@ -1,0 +1,42 @@
+{
+  "sequence": 201,
+  "archive": "resources/assets/level/android-level-11/0321b956cbed76e95c027f884ccf69ac.zip",
+  "archive_sha256": "e9f558970e40d619e7a0d89322382ac061cbcd5e940cdbd9a8ef7225df542701",
+  "global_index": 214,
+  "level": 11,
+  "question_type": "biasa",
+  "answer": "tangan kosong",
+  "metadata": "214#biasa#11#tangan kosong",
+  "encrypted_entry_name": "48c7a50dc97bc81b61694af396ecc8353eed7d850e3498a4566ce7ff03ed0403",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 5502,
+  "image_sha256": "c5be99246d7d483332c466c37cc25091472994b1fde48fa4732633bfe08b5886",
+  "output_image": "images/level-11/question-214.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 720
+    },
+    {
+      "type": "IDAT",
+      "bytes": 4713
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

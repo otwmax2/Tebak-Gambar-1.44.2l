@@ -1,0 +1,42 @@
+{
+  "sequence": 342,
+  "archive": "resources/assets/level/android-level-18/0f33af677d898b9175448294fb849183.zip",
+  "archive_sha256": "e0c5273bf3688ad757630e26b935997e78d55f5ceee92b575ca15203a207461b",
+  "global_index": 349,
+  "level": 18,
+  "question_type": "raja",
+  "answer": "tetangga kepergok bawa sekoper permata curian",
+  "metadata": "349#raja#18#tetangga kepergok bawa sekoper permata curian",
+  "encrypted_entry_name": "545f8eb3dff99f513ee4f747a650f0f2c18a4f3249547084011c7a40cb32d5e6c6ed7993b49e14efa2a1e4d7d58895f73603e782638aa3be992485892dd62d4c",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 21053,
+  "image_sha256": "580951add6b92b2523804757f8dbbd99cbe4719a3fcb6af02e9e223782b14bca",
+  "output_image": "images/level-18/question-349.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 20216
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

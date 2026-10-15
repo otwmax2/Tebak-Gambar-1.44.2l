@@ -1,0 +1,42 @@
+{
+  "sequence": 38,
+  "archive": "resources/assets/level/android-level-2/beb5d48e8b3e1d07b33783cd306243dd.zip",
+  "archive_sha256": "1147525ec6eae2f1e3e49e3f4b5695e3923c22b2734f0fcfe7cb80723dc3ac54",
+  "global_index": 25,
+  "level": 2,
+  "question_type": "biasa",
+  "answer": "minum jamu",
+  "metadata": "25#biasa#2#minum jamu",
+  "encrypted_entry_name": "9b8a012c175c22271197fc65f58cbe5377400be7e63b903a820f92cc5d1f27b1",
+  "metadata_padding_bytes": 11,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10261,
+  "image_sha256": "b850c62f9f477f092cbc9c2a4e9c2e7e17a350a6a9c9225571bb60853a9f3a60",
+  "output_image": "images/level-02/question-025.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9427
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

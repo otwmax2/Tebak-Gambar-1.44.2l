@@ -1,0 +1,42 @@
+{
+  "sequence": 36,
+  "archive": "resources/assets/level/android-level-2/9ed6c954b551e595774bd0bf3e727e30.zip",
+  "archive_sha256": "a7c63fa443b40ccb726f8e42e89dccb2f62b4328b93c78fe942f1e14ab636b5a",
+  "global_index": 35,
+  "level": 2,
+  "question_type": "biasa",
+  "answer": "petenis handal",
+  "metadata": "35#biasa#2#petenis handal",
+  "encrypted_entry_name": "416181ed60445d537de9cf9014d48abb305eb4512a37885dae1c60b2cc624aa9",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 13312,
+  "image_sha256": "6bdda16836e80a0fcb02b7287990ade6e191a5319db64684e098a9558b234fa9",
+  "output_image": "images/level-02/question-035.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 12475
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 219,
+  "archive": "resources/assets/level/android-level-11/dde5f2e3369b29a95e876fdeb956e1d3.zip",
+  "archive_sha256": "f6235fb0eb2adb570098c3f4d1bebd93708e4f96ce6abc5578ba90e9da287186",
+  "global_index": 201,
+  "level": 11,
+  "question_type": "biasa",
+  "answer": "garis polisi",
+  "metadata": "201#biasa#11#garis polisi",
+  "encrypted_entry_name": "e7a2fb5812135a2375193c3aa540e109979fce9921351fda82c38be1c6f9d155",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 6544,
+  "image_sha256": "3d7a98de8f86a6c280ffde1514515f7c46f1443de42af4cdd9734a4bf1aa6bde",
+  "output_image": "images/level-11/question-201.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 5707
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

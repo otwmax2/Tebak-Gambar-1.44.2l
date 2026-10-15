@@ -1,0 +1,42 @@
+{
+  "sequence": 212,
+  "archive": "resources/assets/level/android-level-11/8ada3a9df706f6960f538328da09f81c.zip",
+  "archive_sha256": "8c6e53756281a4bc31d77c752f33a3d6421688235a7e227d225f6eee8444fe8f",
+  "global_index": 207,
+  "level": 11,
+  "question_type": "biasa",
+  "answer": "sekuat tenaga",
+  "metadata": "207#biasa#11#sekuat tenaga",
+  "encrypted_entry_name": "383f5f1d52ade9bc93ed9c78687a6341c37270701b1e93e36eacad05e52fe4d9",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11381,
+  "image_sha256": "dab8956c5e1affae691a5f74d6bcb30e76e217687a3c226dbbbd84f30c2d7c15",
+  "output_image": "images/level-11/question-207.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 738
+    },
+    {
+      "type": "IDAT",
+      "bytes": 10574
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

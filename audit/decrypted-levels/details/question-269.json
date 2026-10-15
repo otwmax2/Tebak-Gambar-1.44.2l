@@ -1,0 +1,42 @@
+{
+  "sequence": 263,
+  "archive": "resources/assets/level/android-level-14/264f9d06d65639c165ad8de0e8ce98b0.zip",
+  "archive_sha256": "c491313a4406006ed4fe6a27bf73471b7471680eab71476d845b20a9d9eff5b3",
+  "global_index": 269,
+  "level": 14,
+  "question_type": "raja",
+  "answer": "rona wajah alami ratu kecantikan dunia",
+  "metadata": "269#raja#14#rona wajah alami ratu kecantikan dunia",
+  "encrypted_entry_name": "84ceaedef8508156f39097055f6c2c2e40e0d22c92703c9a5cff4e55eea9e1c73c20a86a7c6463a41be1190156f0a5c23de24a673e675c05532ec92a178a5f8e",
+  "metadata_padding_bytes": 14,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 22314,
+  "image_sha256": "b1cdfd188bca92f75553af7184a777d47f44fef0aef1968f3b87899fdbf7db3a",
+  "output_image": "images/level-14/question-269.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 21480
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

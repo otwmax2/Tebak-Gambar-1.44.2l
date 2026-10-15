@@ -1,0 +1,42 @@
+{
+  "sequence": 95,
+  "archive": "resources/assets/level/android-level-5/a547d803987af495582939f7b9f8d403.zip",
+  "archive_sha256": "7212495e83d3f201f76239e588eb12dae484e63ff01d942992c228181aece022",
+  "global_index": 91,
+  "level": 5,
+  "question_type": "biasa",
+  "answer": "kerangka rumah",
+  "metadata": "91#biasa#5#kerangka rumah",
+  "encrypted_entry_name": "bf8c033f0a98dd0673f43dd995b468b4093870dbe3da62e8aea414419333745b",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 7435,
+  "image_sha256": "f9b07e17f41d12910b578c7593d68b5ffa38f45f23a37892055e45deaa05b46e",
+  "output_image": "images/level-05/question-091.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 6607
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

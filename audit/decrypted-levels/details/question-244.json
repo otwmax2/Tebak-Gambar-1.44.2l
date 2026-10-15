@@ -1,0 +1,42 @@
+{
+  "sequence": 247,
+  "archive": "resources/assets/level/android-level-13/7663fabd5136a3238b467dd524ecfec0.zip",
+  "archive_sha256": "e25a926882a43ee1160e0f5bb368f02cccf833d9d2e9e8de6075c3aeab068809",
+  "global_index": 244,
+  "level": 13,
+  "question_type": "biasa",
+  "answer": "pria dungu",
+  "metadata": "244#biasa#13#pria dungu",
+  "encrypted_entry_name": "4964f760dbfae6e7df4f0add85c8f95054b5005e2b12253c897abb4d084cc821",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8922,
+  "image_sha256": "f2d66da7ba2162ef7961fe7081620ede1061186f17f745fa524a8a828b5aac88",
+  "output_image": "images/level-13/question-244.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 756
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8097
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

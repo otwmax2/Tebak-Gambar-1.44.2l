@@ -1,0 +1,42 @@
+{
+  "sequence": 322,
+  "archive": "resources/assets/level/android-level-17/19efb7468892fef93887a096dedf0b04.zip",
+  "archive_sha256": "08469b8cefcf3b01e8a24ae73d948b09395908382370ea3fd66e416a4fe5c151",
+  "global_index": 321,
+  "level": 17,
+  "question_type": "biasa",
+  "answer": "listrik mati",
+  "metadata": "321#biasa#17#listrik mati",
+  "encrypted_entry_name": "8f172b7a695acc38271e1e837280de1d4998f4aae034ea67c7099ecef5b77e23",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 6303,
+  "image_sha256": "da29f23d6b8b64a10987b7fe1f1944c62d60b793c2db05bacc1da635cf674b5d",
+  "output_image": "images/level-17/question-321.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 5469
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

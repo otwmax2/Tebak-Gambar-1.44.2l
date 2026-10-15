@@ -1,0 +1,42 @@
+{
+  "sequence": 282,
+  "archive": "resources/assets/level/android-level-15/0acb237fcc4cb9a7e71a96ea10d83e5f.zip",
+  "archive_sha256": "1e67fa8b154336ba0d54f9c0cc98afb982394d28b9021f5809d00b1e7343f03c",
+  "global_index": 294,
+  "level": 15,
+  "question_type": "biasa",
+  "answer": "kutub selatan",
+  "metadata": "294#biasa#15#kutub selatan",
+  "encrypted_entry_name": "5b5ca6ccf7c58905f3b5e5168bd8fd9ef309b069521148a2e6c940f0c79a5a5f",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 12871,
+  "image_sha256": "1853d071de3e041fb604d59bbcfbfc3b431c2f5632e6cf88dc1152210c62de79",
+  "output_image": "images/level-15/question-294.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 12037
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

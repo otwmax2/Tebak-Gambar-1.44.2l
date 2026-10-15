@@ -1,0 +1,42 @@
+{
+  "sequence": 141,
+  "archive": "resources/assets/level/android-level-8/15df821e5678da4f394c1aa0561b0e35.zip",
+  "archive_sha256": "c3652ddcc97156f18f5ef2a9fc244daff96e21b562fec589e67ac482ff1ee28c",
+  "global_index": 159,
+  "level": 8,
+  "question_type": "raja",
+  "answer": "saudagar kopi berusaha merayu raja",
+  "metadata": "159#raja#8#saudagar kopi berusaha merayu raja",
+  "encrypted_entry_name": "dc7b5b5d0d17b3806925eb3e8be093ba0ddc0dd0bd6d6f7809fab9ac544f0c9526eab7da3db8c2db408f8e95d6449c6e",
+  "metadata_padding_bytes": 3,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 20320,
+  "image_sha256": "6ee2fc5f7caaadc91e1e8d2b435c4fd1b133cf1584821dbc40336b2461c93ba5",
+  "output_image": "images/level-08/question-159.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 19483
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

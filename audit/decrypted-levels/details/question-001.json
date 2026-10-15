@@ -1,0 +1,42 @@
+{
+  "sequence": 9,
+  "archive": "resources/assets/level/android-level-1/60e166e1bab9f5b95ccf47f465c1499e.zip",
+  "archive_sha256": "c31f4445ced77b91caa97e41551a1d5fedb4e5e13a7cb3a264e5687148aeeacb",
+  "global_index": 1,
+  "level": 1,
+  "question_type": "biasa",
+  "answer": "pisau tajam",
+  "metadata": "1#biasa#1#pisau tajam",
+  "encrypted_entry_name": "5a9cc7cc786356e5f5c145e08904eb2b69a225980f3f974e2f40cc6b1de47c20",
+  "metadata_padding_bytes": 11,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9947,
+  "image_sha256": "4ee4046bbdf20039c96f371be5618864e9184a15e4d4253834821dbf37535012",
+  "output_image": "images/level-01/question-001.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9116
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 381,
+  "archive": "resources/assets/level/android-level-20/06659cfdb247198a4ca0b02b4e3a1024.zip",
+  "archive_sha256": "17381842f1e913b1e93018d0fce3a3b5807d41d3e39afafb0aa5dc08e350f924",
+  "global_index": 396,
+  "level": 20,
+  "question_type": "biasa",
+  "answer": "kamar tidur",
+  "metadata": "396#biasa#20#kamar tidur",
+  "encrypted_entry_name": "80e89bf1a1143ce328d258b626b7be2b17c254c6ab693bdf053e1edcd33b57b5",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9651,
+  "image_sha256": "f004d7e1dbd7849e22b0e750c92e6e50ebc9732a14cac903dc21ba883698b548",
+  "output_image": "images/level-20/question-396.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8814
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

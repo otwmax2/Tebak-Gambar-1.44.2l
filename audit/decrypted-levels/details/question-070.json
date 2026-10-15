@@ -1,0 +1,42 @@
+{
+  "sequence": 71,
+  "archive": "resources/assets/level/android-level-4/8fe24f36a085918dd0b27c192ebf1e52.zip",
+  "archive_sha256": "e8eb342faae330377139d3036c2fd3042f6f8f30cca8e1ed87c2e33765d2de2d",
+  "global_index": 70,
+  "level": 4,
+  "question_type": "biasa",
+  "answer": "meniti waktu",
+  "metadata": "70#biasa#4#meniti waktu",
+  "encrypted_entry_name": "26086732cbd86c82ba6347afad243b1847393d71cefaf3b2606903a56f96a70a",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8146,
+  "image_sha256": "94e67f69728c37b01ed628d6dbe8dfda5059c809fe81e498dce55bbb9bec2556",
+  "output_image": "images/level-04/question-070.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7318
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

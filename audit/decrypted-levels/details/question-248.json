@@ -1,0 +1,42 @@
+{
+  "sequence": 252,
+  "archive": "resources/assets/level/android-level-13/90b02b322d12bbf3accf7d97679701a7.zip",
+  "archive_sha256": "70731add69d42808254764a3412013f60b62598c04f5a81c1754bfda4b2d11c2",
+  "global_index": 248,
+  "level": 13,
+  "question_type": "biasa",
+  "answer": "hubungan memanas",
+  "metadata": "248#biasa#13#hubungan memanas",
+  "encrypted_entry_name": "7435839d69c8a05ae6877396b1b56fb1677940085827a0a6dea84008c8fed875",
+  "metadata_padding_bytes": 3,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9576,
+  "image_sha256": "ddc479a611e89f5f286e3a6f79057c442248b2b75f034884c5a2a2ce52bc6a34",
+  "output_image": "images/level-13/question-248.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8748
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

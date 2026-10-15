@@ -1,0 +1,42 @@
+{
+  "sequence": 359,
+  "archive": "resources/assets/level/android-level-18/f6a3c37f7b098291c156ae6499c4cb06.zip",
+  "archive_sha256": "e09aeefc73996a17d5c365a848407608ff0be2f067e59dd5ee60e8786531530a",
+  "global_index": 346,
+  "level": 18,
+  "question_type": "biasa",
+  "answer": "ruang kapal",
+  "metadata": "346#biasa#18#ruang kapal",
+  "encrypted_entry_name": "440714f2d99e8ba8d79a5bac72279d213926cf398a52edd04dac4af21cddbb0f",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10701,
+  "image_sha256": "4b9852fffd3c67425f9c6e176af6dcc7703c2188fc755c2d3b1956e31d66b92a",
+  "output_image": "images/level-18/question-346.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9870
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 233,
+  "archive": "resources/assets/level/android-level-12/77276a7e5c0c2391a8da44a5d6791bf5.zip",
+  "archive_sha256": "4f0a8493e7cfc56b85b19f6e75076150ee7844c0d813440f3f5eec9e70169f42",
+  "global_index": 233,
+  "level": 12,
+  "question_type": "biasa",
+  "answer": "kamera rusak",
+  "metadata": "233#biasa#12#kamera rusak",
+  "encrypted_entry_name": "e0c66a30b89673fcacb9e6036b84c241a1767262d24a6e6bd114658226bde3c7",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 7115,
+  "image_sha256": "c12483f3731e50fb523dc8b2646897e8d95cfa45ccfaa5e2eaa070016b2fd3c5",
+  "output_image": "images/level-12/question-233.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 6278
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

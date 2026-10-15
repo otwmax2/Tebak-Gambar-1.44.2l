@@ -1,0 +1,42 @@
+{
+  "sequence": 334,
+  "archive": "resources/assets/level/android-level-17/a0b6e190e925e73fd95189cb9d54465d.zip",
+  "archive_sha256": "79e7f69b8909f69a23004b8c3794f6928e98cb479f18bbb21f1b3295cad1feea",
+  "global_index": 329,
+  "level": 17,
+  "question_type": "raja",
+  "answer": "mari panjatkan doa supaya kita selamat",
+  "metadata": "329#raja#17#mari panjatkan doa supaya kita selamat",
+  "encrypted_entry_name": "9a865b333af9e3ba2e021c3ad8a7b2a15b59eb9388d4a7358de7b37e225a2e28b53a2643f7f7db47813a0e024be939ba951d22428b264a690e1fc3360b9e1629",
+  "metadata_padding_bytes": 14,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 20767,
+  "image_sha256": "8e7f0520fbfc38f28835dde819c1b7057ae608e9dc69e12a7a1d1995f4d9c034",
+  "output_image": "images/level-17/question-329.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 19930
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

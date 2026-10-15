@@ -1,0 +1,42 @@
+{
+  "sequence": 274,
+  "archive": "resources/assets/level/android-level-14/a28f6006388843b57b5e95e1f1656476.zip",
+  "archive_sha256": "835a57034bdd21234646342fd403d5210fc67c839abbf212d664955305c9d02b",
+  "global_index": 273,
+  "level": 14,
+  "question_type": "biasa",
+  "answer": "pangkat polisi",
+  "metadata": "273#biasa#14#pangkat polisi",
+  "encrypted_entry_name": "be175c3aaf570bc7edf16e50eba06a617a21f6d8734e374c64a37b44f7d4ed13",
+  "metadata_padding_bytes": 5,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11978,
+  "image_sha256": "c6eb1d1b7a40cbeb03dd92040cddb7f891408dd31b55771c1669ff93c5b8cb37",
+  "output_image": "images/level-14/question-273.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 11144
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 286,
+  "archive": "resources/assets/level/android-level-15/546ed8d841ccf6e48b8ed9e4bb0b3564.zip",
+  "archive_sha256": "77852a0b24b9c1b86c947fdbad3d5e19827847993cfdb3b7c22384c45caee69f",
+  "global_index": 293,
+  "level": 15,
+  "question_type": "biasa",
+  "answer": "pameran komputer",
+  "metadata": "293#biasa#15#pameran komputer",
+  "encrypted_entry_name": "b64fe1a335dc1b0709d70977c4c185bf8764dfcd0cf33e809f25687048bca511",
+  "metadata_padding_bytes": 3,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 7687,
+  "image_sha256": "818b3fbee47dde0ca04f1e4acbce3b72b471ff40e3efe49102edae644ed62d30",
+  "output_image": "images/level-15/question-293.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 6856
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

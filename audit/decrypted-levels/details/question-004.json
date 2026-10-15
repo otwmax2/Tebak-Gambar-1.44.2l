@@ -1,0 +1,42 @@
+{
+  "sequence": 15,
+  "archive": "resources/assets/level/android-level-1/a6368c764d5de0f4b4ac7bc9fe15738a.zip",
+  "archive_sha256": "379839a4cb2d1822d1c4ae85fdd9235830b359617112811da9a6f8a3fea125ab",
+  "global_index": 4,
+  "level": 1,
+  "question_type": "biasa",
+  "answer": "iga bakar",
+  "metadata": "4#biasa#1#iga bakar",
+  "encrypted_entry_name": "c614445a2529b0cacb9351d6527b128929f8f27c0d1b9dff07ca85d7ce191003",
+  "metadata_padding_bytes": 13,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11812,
+  "image_sha256": "7aee3de4c695c81249928f413ad886325e5534f82caf8a5217324476ab766c7e",
+  "output_image": "images/level-01/question-004.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 10984
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

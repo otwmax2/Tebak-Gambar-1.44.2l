@@ -1,0 +1,42 @@
+{
+  "sequence": 132,
+  "archive": "resources/assets/level/android-level-7/84db0cecf2aad85b3b9b3326711d4b53.zip",
+  "archive_sha256": "1be27e2a945dafe5b43189beee946551acab19c55f28854dea0dfd182bd41f74",
+  "global_index": 121,
+  "level": 7,
+  "question_type": "biasa",
+  "answer": "baling pesawat",
+  "metadata": "121#biasa#7#baling pesawat",
+  "encrypted_entry_name": "47fe0f2e1a7057d49113f100943e3038b5f8526485014901c0b93d737b1e6844",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10149,
+  "image_sha256": "fec0f2c18356885f9db98a2d7388a0719e965e6b54eaa3c31acbcfe0d9069cb8",
+  "output_image": "images/level-07/question-121.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9315
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

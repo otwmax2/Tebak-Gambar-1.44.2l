@@ -1,0 +1,42 @@
+{
+  "sequence": 217,
+  "archive": "resources/assets/level/android-level-11/d120ad86ce40ae611e87bc6a1a071a0e.zip",
+  "archive_sha256": "f6bee19dfff68588b9dbe30c5f953dc40520f039b2bdfea369666c2cc48f4c5c",
+  "global_index": 211,
+  "level": 11,
+  "question_type": "biasa",
+  "answer": "titik dua",
+  "metadata": "211#biasa#11#titik dua",
+  "encrypted_entry_name": "926def3d6371b05692aa1069450bbb86637d3bd5e375c043a5d9b07ca1241a26",
+  "metadata_padding_bytes": 10,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 5849,
+  "image_sha256": "9d034ff2acd0c31079193560cd26d4f0f06e59711bb0dcababe8fab890bdac24",
+  "output_image": "images/level-11/question-211.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 5015
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

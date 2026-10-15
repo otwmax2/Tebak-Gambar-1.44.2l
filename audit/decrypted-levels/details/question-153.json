@@ -1,0 +1,42 @@
+{
+  "sequence": 148,
+  "archive": "resources/assets/level/android-level-8/9a5100f5ce51d7f4f250e0dff99199aa.zip",
+  "archive_sha256": "e491d8800f9bab4e9cb3e4fad625df3c61e9b0fc1ccb6b205ced3fa2de2c090f",
+  "global_index": 153,
+  "level": 8,
+  "question_type": "biasa",
+  "answer": "kencing manis",
+  "metadata": "153#biasa#8#kencing manis",
+  "encrypted_entry_name": "affefa2aced0b9943a272a6e691f2e1c747654352ce57b2f61d006ae36813819",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 7669,
+  "image_sha256": "865ce4472cf4b9a227fc36ba70d82eb1049365abc0aab6c91156a3aac93a63b4",
+  "output_image": "images/level-08/question-153.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 6838
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

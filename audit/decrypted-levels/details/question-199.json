@@ -1,0 +1,42 @@
+{
+  "sequence": 199,
+  "archive": "resources/assets/level/android-level-10/f75bc69c42383388feaff77f2f2a94e3.zip",
+  "archive_sha256": "3dca68c36fbb2ebbb324efe00b9527a0553534fe73fe7c48fcbb0083eafbd0b0",
+  "global_index": 199,
+  "level": 10,
+  "question_type": "raja",
+  "answer": "serdadu gagah diangkat jadi komandan",
+  "metadata": "199#raja#10#serdadu gagah diangkat jadi komandan",
+  "encrypted_entry_name": "816f50e1477580116e9b4cdce36b5008ca9890a88e416772b4fd6cc97e3cebae7c2c348b859ec1ab4537f814c326c11d",
+  "metadata_padding_bytes": 0,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 16886,
+  "image_sha256": "d9527fbf58180bbaa4642b92b35b86be1a94d0b877e58ef604daa562643bbd1e",
+  "output_image": "images/level-10/question-199.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 16049
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

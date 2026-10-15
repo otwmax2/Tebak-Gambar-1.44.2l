@@ -1,0 +1,42 @@
+{
+  "sequence": 180,
+  "archive": "resources/assets/level/android-level-9/c1c91b52bf4b1c64d037c294cfdad21a.zip",
+  "archive_sha256": "388ff86d073e5e21a4571aac68e97ae2d6aba657781de60635e96b8b8c89d007",
+  "global_index": 176,
+  "level": 9,
+  "question_type": "biasa",
+  "answer": "perempuan pilihanku",
+  "metadata": "176#biasa#9#perempuan pilihanku",
+  "encrypted_entry_name": "87c045f8960c8624afcf9731f322dc1b4bcf93c7748417831620d364868e61eb",
+  "metadata_padding_bytes": 1,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 17531,
+  "image_sha256": "74048dd02f69c72ed7f388b236ab1ed3ce6407344bf4cadc7165c7c8e2b2c36e",
+  "output_image": "images/level-09/question-176.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 16700
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

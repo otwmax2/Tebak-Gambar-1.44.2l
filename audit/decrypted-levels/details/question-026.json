@@ -1,0 +1,42 @@
+{
+  "sequence": 21,
+  "archive": "resources/assets/level/android-level-2/05d6ffe45e905c72918e2887406e7b88.zip",
+  "archive_sha256": "66b41c4a8cb067f38753f68f51264ef73e041c2512428ce9261efa6b689226ab",
+  "global_index": 26,
+  "level": 2,
+  "question_type": "biasa",
+  "answer": "harga pas",
+  "metadata": "26#biasa#2#harga pas",
+  "encrypted_entry_name": "8a9c809e22e4f2686517421d962df52d26b294cd2479b90bf038fe65f2b4bfb7",
+  "metadata_padding_bytes": 12,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 6066,
+  "image_sha256": "0e9727903a1dfaf68ee7ecd21fc98a82750716fb2d8dbde6dde1f971c8d0fe5e",
+  "output_image": "images/level-02/question-026.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 720
+    },
+    {
+      "type": "IDAT",
+      "bytes": 5277
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

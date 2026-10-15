@@ -1,0 +1,42 @@
+{
+  "sequence": 203,
+  "archive": "resources/assets/level/android-level-11/1f9b9a08cff80adf7623d67764715b68.zip",
+  "archive_sha256": "7fea8c394206cc8f07346aa4caa7bbb69f4858d12456578d9352ca083bf72b96",
+  "global_index": 203,
+  "level": 11,
+  "question_type": "biasa",
+  "answer": "motivasi belajar",
+  "metadata": "203#biasa#11#motivasi belajar",
+  "encrypted_entry_name": "5edb0042739d24c48aabe7718cd5d674a5d4ce936556c33366854bf4b1000546",
+  "metadata_padding_bytes": 3,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9987,
+  "image_sha256": "8cc815e315de674aad74ab941c6d587d2044f4cf99a5d1b6084449f09cf1cc51",
+  "output_image": "images/level-11/question-203.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9150
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

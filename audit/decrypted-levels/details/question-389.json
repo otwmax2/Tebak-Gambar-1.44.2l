@@ -1,0 +1,42 @@
+{
+  "sequence": 395,
+  "archive": "resources/assets/level/android-level-20/cbef0375844e282e09654fc2db344c18.zip",
+  "archive_sha256": "ed4f7cdbb754fdf4bcf63536e78a8d67cfb629e4c1cd37af8f39ccc7d0f9b3d5",
+  "global_index": 389,
+  "level": 20,
+  "question_type": "raja",
+  "answer": "penyusutan anggaran yang kurang memihak rakyat",
+  "metadata": "389#raja#20#penyusutan anggaran yang kurang memihak rakyat",
+  "encrypted_entry_name": "e61b3897e20201ce511b952af3a9ea9c8423fb04009dd2c3eb416e49aec32287831ce1b6c9223afda575e9db8910910067926a831317075d04b77cf054c51f54",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 23865,
+  "image_sha256": "234ae486db6cffeace3f47c35d2c68438450dc895faa1d60c76919d71ad113b9",
+  "output_image": "images/level-20/question-389.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 23028
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

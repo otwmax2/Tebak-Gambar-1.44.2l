@@ -1,0 +1,42 @@
+{
+  "sequence": 238,
+  "archive": "resources/assets/level/android-level-12/d567a6ac3c919f7da3ed21602f70f186.zip",
+  "archive_sha256": "ff2182de5549f510b1bee203c12a70579e21adcdc56c67559a222073655e9e26",
+  "global_index": 227,
+  "level": 12,
+  "question_type": "biasa",
+  "answer": "tarik kesimpulan",
+  "metadata": "227#biasa#12#tarik kesimpulan",
+  "encrypted_entry_name": "9a72045c2bed473fd98ffd670c46b9a4ea4ced5e84a9471433cf690f6f0e41c7",
+  "metadata_padding_bytes": 3,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10283,
+  "image_sha256": "bc22d6289cf28b044bc28d432126a8b96abe349d44b2213ee8f0a2fd1aeb4d53",
+  "output_image": "images/level-12/question-227.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9446
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

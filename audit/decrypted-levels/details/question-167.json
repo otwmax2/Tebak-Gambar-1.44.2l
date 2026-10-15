@@ -1,0 +1,42 @@
+{
+  "sequence": 171,
+  "archive": "resources/assets/level/android-level-9/742f27e8145c4b8c60b590c783b0a916.zip",
+  "archive_sha256": "0c1ccfd5a55063f105d0b6ee8c7e4f061c989935d6fb8f6ee4045c4a00a0228f",
+  "global_index": 167,
+  "level": 9,
+  "question_type": "biasa",
+  "answer": "roti kadaluarsa",
+  "metadata": "167#biasa#9#roti kadaluarsa",
+  "encrypted_entry_name": "e10ea610aca641086c2c7c793c6c5b04b519374d4275f99008c0d1e6928b7a4b",
+  "metadata_padding_bytes": 5,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10795,
+  "image_sha256": "c2a49ca92c3772590c6bbb88c699fc7c09d5fa738f5d6eddc27b0f83a94648f3",
+  "output_image": "images/level-09/question-167.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9958
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

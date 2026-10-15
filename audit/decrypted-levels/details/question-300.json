@@ -1,0 +1,42 @@
+{
+  "sequence": 311,
+  "archive": "resources/assets/level/android-level-16/5ab1d23c7553f0184cb362de7cbfeefb.zip",
+  "archive_sha256": "75e4a8582e31605eb2c2a5e4471ca3b85dc27c520caffe10ad9606c698b4f4fa",
+  "global_index": 300,
+  "level": 16,
+  "question_type": "biasa",
+  "answer": "asa pasti",
+  "metadata": "300#biasa#16#asa pasti",
+  "encrypted_entry_name": "47df6bdbdc154c7fa5ff150f56ff49c63893e11efc394e145b4dc62b983b5313",
+  "metadata_padding_bytes": 10,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 7857,
+  "image_sha256": "35478ab26e42b67323258f665719dcbed768f443ad357d0e32282f5feddb1fe0",
+  "output_image": "images/level-16/question-300.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7029
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

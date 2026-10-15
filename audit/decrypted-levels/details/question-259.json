@@ -1,0 +1,42 @@
+{
+  "sequence": 245,
+  "archive": "resources/assets/level/android-level-13/6b585164843c08c1e54401302ee81fa6.zip",
+  "archive_sha256": "7f010b237de8e938de2661bba97bf7d375162c8537de6f7ab8c4436faeea6aaa",
+  "global_index": 259,
+  "level": 13,
+  "question_type": "raja",
+  "answer": "gadis bisu merangkul guling ketika tidur",
+  "metadata": "259#raja#13#gadis bisu merangkul guling ketika tidur",
+  "encrypted_entry_name": "d5bcd12ac7e223a91928b80753bbe7092abced426204296c703ff9a3a12c5a49c319165265e7bea8dbe06a8c8e0f9cc07c255e19ce1fd849824f6e0d7ed32a67",
+  "metadata_padding_bytes": 12,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 20346,
+  "image_sha256": "b9103748768abcdeadf720cfd989d0b1e372423e108befbdf3b2ab5dcfbba172",
+  "output_image": "images/level-13/question-259.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 19512
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

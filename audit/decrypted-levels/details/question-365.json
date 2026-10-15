@@ -1,0 +1,42 @@
+{
+  "sequence": 376,
+  "archive": "resources/assets/level/android-level-19/d09c3e2429f690f297a4e6b2664087eb.zip",
+  "archive_sha256": "352206dd1ef4c3aaa7ac15859fa0ea6d72c21b49a4e1ccdb903ba1d9a0ce8ce8",
+  "global_index": 365,
+  "level": 19,
+  "question_type": "biasa",
+  "answer": "usir nyamuk",
+  "metadata": "365#biasa#19#usir nyamuk",
+  "encrypted_entry_name": "803f69ead83dda0ca9eb4c7fc7f69baf0911dd8cda906856a043056d9062768b",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11221,
+  "image_sha256": "b70af4ab91705911e656d91e94b16bbbd031df3f4aaedf30337bba21e33ee04c",
+  "output_image": "images/level-19/question-365.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 10384
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

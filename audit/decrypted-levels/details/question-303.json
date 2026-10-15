@@ -1,0 +1,42 @@
+{
+  "sequence": 318,
+  "archive": "resources/assets/level/android-level-16/d5a7de2122051d72948e18ca4a3695b7.zip",
+  "archive_sha256": "6cbdab04bdb43b524fb2f0e4d01b670b0d72606f1e65c1fe3628f742992e4899",
+  "global_index": 303,
+  "level": 16,
+  "question_type": "biasa",
+  "answer": "cuma sepele",
+  "metadata": "303#biasa#16#cuma sepele",
+  "encrypted_entry_name": "e05a640e6e38bebb5915947b297cf81be02e1a11aca911bfc9ed4e3b0f72ac21",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 13346,
+  "image_sha256": "7be9f65b1ae32f480ef8ee08c518d948d0bf59fa3db72bd129e41e9ac48238b4",
+  "output_image": "images/level-16/question-303.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 12515
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

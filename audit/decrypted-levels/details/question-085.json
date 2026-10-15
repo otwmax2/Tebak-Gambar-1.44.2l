@@ -1,0 +1,42 @@
+{
+  "sequence": 91,
+  "archive": "resources/assets/level/android-level-5/8cb08032f4803e7286ee2a3228d62e12.zip",
+  "archive_sha256": "c2a50429bff815f48b60ccdda8ce303095ae3a3a977d3eab612e29a8cabbf9ab",
+  "global_index": 85,
+  "level": 5,
+  "question_type": "biasa",
+  "answer": "pintu tobat",
+  "metadata": "85#biasa#5#pintu tobat",
+  "encrypted_entry_name": "2f0b88fa65fde960f0f88d9c06fe345d251118ed2fc54d9af0db0772cca2f074",
+  "metadata_padding_bytes": 10,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 6432,
+  "image_sha256": "aca4c661fda0f143c705ab21fd0dee55fc30deacb377a01ce8d67ed08ac546a9",
+  "output_image": "images/level-05/question-085.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 5598
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

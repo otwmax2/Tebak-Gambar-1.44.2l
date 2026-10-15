@@ -1,0 +1,42 @@
+{
+  "sequence": 398,
+  "archive": "resources/assets/level/android-level-20/e5a5b96653452a5afc29f383d4474613.zip",
+  "archive_sha256": "92a726cf344ed0178136497d9226431e205993e02462f5bff07e0ee0ad4b74e2",
+  "global_index": 383,
+  "level": 20,
+  "question_type": "biasa",
+  "answer": "zebra liar",
+  "metadata": "383#biasa#20#zebra liar",
+  "encrypted_entry_name": "0532bd75b7854a1b195a2b08696dd3725333fff6362cf78580cfb4ab7931d73e",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11366,
+  "image_sha256": "0b467fa77255d165bb861e4bbb7f6cff0e37afa4c3df57c2be4e7832cf5e085b",
+  "output_image": "images/level-20/question-383.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 702
+    },
+    {
+      "type": "IDAT",
+      "bytes": 10595
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

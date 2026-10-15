@@ -1,0 +1,42 @@
+{
+  "sequence": 307,
+  "archive": "resources/assets/level/android-level-16/32d3f6aad3dd8e8b07c34069d5d51212.zip",
+  "archive_sha256": "511ce2402e3c4ebc7bd5d10a0f7fd24756c2a8e3a4ca3a152b7d885c7647e60e",
+  "global_index": 316,
+  "level": 16,
+  "question_type": "biasa",
+  "answer": "frekuensi getaran",
+  "metadata": "316#biasa#16#frekuensi getaran",
+  "encrypted_entry_name": "07d769ae4599cf1edff76b7ef8db6e26b3a2a16384ce7de9cd07701edf4e11b3",
+  "metadata_padding_bytes": 2,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 13156,
+  "image_sha256": "8ceae505ecbde5c4047681e24863f78e7f61eba0a5d530ed30fd0308898157b9",
+  "output_image": "images/level-16/question-316.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 12319
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

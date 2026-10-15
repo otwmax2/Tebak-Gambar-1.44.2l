@@ -8,6 +8,10 @@ Paket ini berisi analisis statis berbahasa Indonesia atas snapshot repository `o
 
 **Kesimpulan singkat:** ini arsip hasil dekompilasi APK, bukan project Android siap build. Seluruh file snapshot terinventarisasi, tetapi tidak seluruh perilaku runtime dapat diverifikasi dari hasil dekompilasi.
 
+## Pembaruan: dekripsi seluruh ZIP selesai
+
+**[LAPORAN_DEKRIPSI.md](LAPORAN_DEKRIPSI.md): 400/400 ZIP dibuka, 400 metadata/jawaban dipulihkan, 400 PNG terverifikasi, 0 gagal.** Script lanjutan `tools/decrypt_levels.py` dan `tools/test_decrypt_levels.py` memakai dependency opsional pada `tools/requirements-decrypt.txt`. Hasil kerja media, password dan jawaban lengkap berada di `/home/user/tebak-gambar-decrypted/`. Atas permintaan eksplisit pengguna untuk push semuanya, salinan hasil final tersedia di [decrypted-levels/](decrypted-levels/index.html), termasuk 400 gambar dan seluruh metadata/jawaban/password/key konten. Paket unduhan: [ZIP hasil lengkap](downloads/tebak-gambar-400-zip-terbuka.zip). Cache dependensi dan percobaan gagal tidak disertakan. Ringkasan/bukti tanpa jawaban di `data/decryption-summary.json`, `data/decryption-results.csv`, dan `data/decryption-validation.txt`. Batas “payload belum dibuka” pada uraian audit awal di bawah telah diselesaikan oleh tindak lanjut ini. APK/backend tetap belum dijalankan/diuji.
+
 ## Dokumen
 
 | Dokumen | Isi |
@@ -99,6 +103,6 @@ Rerun inventory/atlas menimpa berkas data/atlas yang dibangkitkan, tidak menimpa
 
 Karena itu frasa “seluruh repo sudah diinventarisasi” **tidak sama dengan** “100% semua perilaku dan keamanan sudah terbukti”.
 
-## Perubahan yang dibuat dalam sesi ini
+## Perubahan dan publikasi
 
-Semua artefak baru ada di `audit/`. File aplikasi asli tidak diedit, tidak ada commit/push/PR, dan tidak ada dependency pihak ketiga diinstal. Rahasia asli tidak dihapus/dirotasi karena itu memerlukan tindakan pemilik di layanan resmi; dokumen ini tidak mengklaim temuan aplikasi telah diperbaiki.
+Semua artefak repository baru ada di `audit/`; file aplikasi asli tidak diedit. Audit awal menggunakan Python stdlib tanpa dependency tambahan, kemudian tahap dekripsi memakai dependency opsional yang dipasang di cache, bukan di Git. Audit awal sudah di-commit/push; pengguna kemudian meminta publikasi seluruh hasil dekripsi, sehingga salinan hasil final dan paket ZIP juga disertakan. Tidak dibuat PR atau merge ke master. Rahasia layanan asli tidak dihapus/dirotasi karena itu memerlukan tindakan pemilik di layanan resmi; dokumen ini tidak mengklaim temuan aplikasi telah diperbaiki.

@@ -1,0 +1,42 @@
+{
+  "sequence": 276,
+  "archive": "resources/assets/level/android-level-14/d0a8c6b45da6fddbd07b62b39cc72a40.zip",
+  "archive_sha256": "1089651a515b059c511b5f9255817d9f624c4aed18ac59b9647510c61969a8c5",
+  "global_index": 274,
+  "level": 14,
+  "question_type": "biasa",
+  "answer": "gapura jawa",
+  "metadata": "274#biasa#14#gapura jawa",
+  "encrypted_entry_name": "831fd024c0b31464025c855f561ae51ceb1eb586cc31c89192a5710e7f38cb10",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9732,
+  "image_sha256": "5917f8f0d1d42655d9f1c0093f5c3198827c0aeabd1899a5ecbc5fa5482f8c54",
+  "output_image": "images/level-14/question-274.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8898
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

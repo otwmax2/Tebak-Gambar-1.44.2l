@@ -1,0 +1,42 @@
+{
+  "sequence": 14,
+  "archive": "resources/assets/level/android-level-1/a575ac45443871a8a9d412b761a41569.zip",
+  "archive_sha256": "9b5e9d18ce04e17c2479a1d1abd6728ca0b074815c8d92e1feece23319bf51eb",
+  "global_index": 19,
+  "level": 1,
+  "question_type": "raja",
+  "answer": "aku sayang ayah",
+  "metadata": "19#raja#1#aku sayang ayah",
+  "encrypted_entry_name": "eef6da729880999073c350a9195bfb27eefe5f08312560010b84d22aab540a10",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10691,
+  "image_sha256": "5c79effd07738721ca7588a73ee9d3ab953cb3672a941b821b6f8f38339b163c",
+  "output_image": "images/level-01/question-019.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9854
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

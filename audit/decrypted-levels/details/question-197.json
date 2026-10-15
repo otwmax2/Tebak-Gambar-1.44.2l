@@ -1,0 +1,42 @@
+{
+  "sequence": 195,
+  "archive": "resources/assets/level/android-level-10/cfb619c70222b997a7b5dd93f80235d7.zip",
+  "archive_sha256": "24264224c7b9daae80129d3e6efbd18cedc5ad1ccc3af6e4f90f6e7eb5fc291c",
+  "global_index": 197,
+  "level": 10,
+  "question_type": "biasa",
+  "answer": "tes laboratorium",
+  "metadata": "197#biasa#10#tes laboratorium",
+  "encrypted_entry_name": "593a673d5484b5d138fbb21a57e2ffecca4a6826265aeb5f1cf7e5556a14b140",
+  "metadata_padding_bytes": 3,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11555,
+  "image_sha256": "c57c632961118b73db15397dc5156385b4d1017998d4bef068bbde90a5b0a7b7",
+  "output_image": "images/level-10/question-197.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 10724
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

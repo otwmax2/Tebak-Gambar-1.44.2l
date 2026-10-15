@@ -1,0 +1,42 @@
+{
+  "sequence": 328,
+  "archive": "resources/assets/level/android-level-17/47350b8f6d2514a27d3dba13f71b9eb1.zip",
+  "archive_sha256": "71ba8cfc4c3651676a3779734f7a507fa05e51efc29f0fb881bbe650b67389b5",
+  "global_index": 336,
+  "level": 17,
+  "question_type": "biasa",
+  "answer": "rangkul lawan",
+  "metadata": "336#biasa#17#rangkul lawan",
+  "encrypted_entry_name": "e5f39d6bd8b20d8c5536b3fcc286e3c1a1f57709ef267350d9adb69fa232361a",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 7039,
+  "image_sha256": "3cc5722dc9d21f3b3e06e6b199ffd8fed36b628b6a6bbe089caac1852053febe",
+  "output_image": "images/level-17/question-336.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 750
+    },
+    {
+      "type": "IDAT",
+      "bytes": 6220
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

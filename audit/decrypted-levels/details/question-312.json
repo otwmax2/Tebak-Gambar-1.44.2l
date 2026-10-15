@@ -1,0 +1,42 @@
+{
+  "sequence": 305,
+  "archive": "resources/assets/level/android-level-16/2bd28c3033dcaf9f2114a0fdaa4a9392.zip",
+  "archive_sha256": "3fdba38708c41a9c043bab81fb484c619225ad6e3aca4a7b29394e6b2cd6757a",
+  "global_index": 312,
+  "level": 16,
+  "question_type": "biasa",
+  "answer": "meski disakiti",
+  "metadata": "312#biasa#16#meski disakiti",
+  "encrypted_entry_name": "e2fb6b6af10182769b0ead33ad9b513f5208e3c58067510ebe44282dabb4231a",
+  "metadata_padding_bytes": 5,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9244,
+  "image_sha256": "7abdd10ac41d0ab2e53b19a74d183058628f135dff7e2083adb310f9d3c9c549",
+  "output_image": "images/level-16/question-312.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8407
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

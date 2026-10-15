@@ -1,0 +1,42 @@
+{
+  "sequence": 104,
+  "archive": "resources/assets/level/android-level-6/181ccfda99dd4505a6bb78f0213abea5.zip",
+  "archive_sha256": "44936f7a0f01522ab4d2a7e1d3bfc8191e9dbab1861ea6ef0f1642f2bd496597",
+  "global_index": 101,
+  "level": 6,
+  "question_type": "biasa",
+  "answer": "bunga imitasi",
+  "metadata": "101#biasa#6#bunga imitasi",
+  "encrypted_entry_name": "923cd771f224cf8b5534f15246312870e3f60d569bfd6583a37eaf73b6cd8c4a",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9992,
+  "image_sha256": "0f9c279260a1a120e1eb3a4f44e1e5c5221c301be9c2003d771207d7b703cd79",
+  "output_image": "images/level-06/question-101.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9164
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

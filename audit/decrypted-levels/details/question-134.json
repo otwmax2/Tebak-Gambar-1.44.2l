@@ -1,0 +1,42 @@
+{
+  "sequence": 125,
+  "archive": "resources/assets/level/android-level-7/3f5da458a552df9945901f91ff16c801.zip",
+  "archive_sha256": "f220f7355d5429ecc358500578ed8c0ef5a93a2652711ecc86629cefbbce001d",
+  "global_index": 134,
+  "level": 7,
+  "question_type": "biasa",
+  "answer": "solidaritas buruh",
+  "metadata": "134#biasa#7#solidaritas buruh",
+  "encrypted_entry_name": "5a44ffc356408c7e4e4fc9ba12e188dc2b921f914c31c52cbd29e655b46b1b53",
+  "metadata_padding_bytes": 3,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10485,
+  "image_sha256": "ddb0d9a510fb3515edadd6dd2ac156c7a991853d477c99864f15446bdbe13b4b",
+  "output_image": "images/level-07/question-134.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9648
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

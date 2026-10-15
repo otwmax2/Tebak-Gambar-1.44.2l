@@ -1,0 +1,42 @@
+{
+  "sequence": 222,
+  "archive": "resources/assets/level/android-level-12/14d805a6d399c811459bd7b692ebe13a.zip",
+  "archive_sha256": "b88f39e4ae049f3fee23895a9c377d4d99ae637da7e5ffa9440a878cc70c6967",
+  "global_index": 224,
+  "level": 12,
+  "question_type": "biasa",
+  "answer": "panjang kartu",
+  "metadata": "224#biasa#12#panjang kartu",
+  "encrypted_entry_name": "396d2d8e310f48be2b712578340fa071491559ca7a1a7206e9b2a87aff61c873",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 7408,
+  "image_sha256": "e407dae187d2db0357da3cd7938c7b8098b0dfff01939398226d976144394576",
+  "output_image": "images/level-12/question-224.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 6577
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

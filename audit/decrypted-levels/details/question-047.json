@@ -1,0 +1,42 @@
+{
+  "sequence": 53,
+  "archive": "resources/assets/level/android-level-3/70c913abe0a7cc5ec213f70a21734379.zip",
+  "archive_sha256": "775236f55c1689c335ea9d41f7962cea33111b637939d224058fb62e11ba767c",
+  "global_index": 47,
+  "level": 3,
+  "question_type": "biasa",
+  "answer": "panjang umur",
+  "metadata": "47#biasa#3#panjang umur",
+  "encrypted_entry_name": "38bfcb7424e4edd4d4f12bdf5c79203c737dfa4b218a1fd5625f5c549d9b52d7",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 12854,
+  "image_sha256": "33b5f5d106f2fe1beae6ab914fc8faff2fdab1a3a8d56183978dd7bd68ee5188",
+  "output_image": "images/level-03/question-047.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 12020
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

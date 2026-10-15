@@ -1,0 +1,42 @@
+{
+  "sequence": 28,
+  "archive": "resources/assets/level/android-level-2/5a565413b27c5488edc5b0aa7afbd7cb.zip",
+  "archive_sha256": "a9850715e446e3be71ac312609da51a5d75b8ddc1e4467d53901d64ad6619d2e",
+  "global_index": 28,
+  "level": 2,
+  "question_type": "biasa",
+  "answer": "buku cerita",
+  "metadata": "28#biasa#2#buku cerita",
+  "encrypted_entry_name": "e5b4403054e3bdf95cbadd2905967defaf79b749bd9c62051c2a934e7e27ec80",
+  "metadata_padding_bytes": 10,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8478,
+  "image_sha256": "6e3e1292342ef7f59767effa0cb043bd82d7d28c12bdbfc35033944c672d8e59",
+  "output_image": "images/level-02/question-028.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7644
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

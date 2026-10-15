@@ -1,0 +1,42 @@
+{
+  "sequence": 251,
+  "archive": "resources/assets/level/android-level-13/895ab0d946035238e12c6b405370f18e.zip",
+  "archive_sha256": "590a57298df11cc22f2622137c02e958aaf129b0e419c28ce57a2ec2c70582b2",
+  "global_index": 253,
+  "level": 13,
+  "question_type": "biasa",
+  "answer": "koin tipis",
+  "metadata": "253#biasa#13#koin tipis",
+  "encrypted_entry_name": "b7d7e34951313f307a4036659c7e10e27b84d41482c9e34ba4b299e850f9869e",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8270,
+  "image_sha256": "08303f85b5e0412aa6aff38cd0f0da9faa7d96b18e4c93e392e3dba23f88912e",
+  "output_image": "images/level-13/question-253.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7436
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

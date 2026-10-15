@@ -1,0 +1,42 @@
+{
+  "sequence": 73,
+  "archive": "resources/assets/level/android-level-4/9d1ebdf973c0f7eee667f2d49c9769b6.zip",
+  "archive_sha256": "12fe847f3211622cb6f1f7f20e03a2dbfa777ff00bc98e5694f069813f8ffab4",
+  "global_index": 64,
+  "level": 4,
+  "question_type": "biasa",
+  "answer": "matador banteng",
+  "metadata": "64#biasa#4#matador banteng",
+  "encrypted_entry_name": "cbedd82a33967d4558463ab540773224127dbdbdd208f881d5f3941cb21d937b",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11900,
+  "image_sha256": "6eb8f8149265c93ccf48892aac52196eacacf7725a0c65cf5f08fa5c9cb8f043",
+  "output_image": "images/level-04/question-064.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 11063
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

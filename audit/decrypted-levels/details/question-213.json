@@ -1,0 +1,42 @@
+{
+  "sequence": 220,
+  "archive": "resources/assets/level/android-level-11/fa65b3193a97aeeffe741c29b6cfb7b3.zip",
+  "archive_sha256": "e5c262bf280157e3d2a0084ec48116dce998e1ff3b907213efeeb29e1e812fbf",
+  "global_index": 213,
+  "level": 11,
+  "question_type": "biasa",
+  "answer": "rumput liar",
+  "metadata": "213#biasa#11#rumput liar",
+  "encrypted_entry_name": "5cd1aaef51a48f85ee4e5ea402979e0afb94222019ddcf6e3e21ad566d5cb30c",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10060,
+  "image_sha256": "df1e7c01ea90b25147c1c8965e4b247dc1f6d43733d7cf85c5a9d7345efbd99e",
+  "output_image": "images/level-11/question-213.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9229
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

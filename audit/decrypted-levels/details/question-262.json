@@ -1,0 +1,42 @@
+{
+  "sequence": 262,
+  "archive": "resources/assets/level/android-level-14/0c42a7d0d346d818bf127d0c8be55b89.zip",
+  "archive_sha256": "acc22a789789f04d78a120b9eb67c279ee0ca5af1d6e905bbe14ba3443db1d84",
+  "global_index": 262,
+  "level": 14,
+  "question_type": "biasa",
+  "answer": "pelukan mama",
+  "metadata": "262#biasa#14#pelukan mama",
+  "encrypted_entry_name": "958b073ee5d4a237ff2fe6f7ac266adbd84a521284fa2c5fa2b24db868badb52",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10226,
+  "image_sha256": "aa936b0d27d70cfcf1137043eca439f112187ea3705eb0d561ab6279e143c0d7",
+  "output_image": "images/level-14/question-262.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9395
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

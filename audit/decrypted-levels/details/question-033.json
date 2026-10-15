@@ -1,0 +1,42 @@
+{
+  "sequence": 29,
+  "archive": "resources/assets/level/android-level-2/5ae89539571a13fd4ba913bc4f8d9182.zip",
+  "archive_sha256": "26a43310b2fb8745d2df9c7773fde788bb4e270e22bac3ed6cb8a827c92b73dc",
+  "global_index": 33,
+  "level": 2,
+  "question_type": "biasa",
+  "answer": "pulang sekolah",
+  "metadata": "33#biasa#2#pulang sekolah",
+  "encrypted_entry_name": "cced7f131dba729fce277a136b8b178e53c3454a4e301841e46aac513c1eeed3",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9619,
+  "image_sha256": "73526dc4420829bb5537c8c0123ac9170d7d0cd2db54ef7b3704a3789e97c1d9",
+  "output_image": "images/level-02/question-033.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8782
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

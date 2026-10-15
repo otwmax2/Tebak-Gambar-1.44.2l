@@ -1,0 +1,42 @@
+{
+  "sequence": 23,
+  "archive": "resources/assets/level/android-level-2/1918c94c1155903a113106a2f1d40d57.zip",
+  "archive_sha256": "9d4949b5a39886912c8e6170bc011e5ffdb95d7e85a92140aa72352ee8dc8dab",
+  "global_index": 27,
+  "level": 2,
+  "question_type": "biasa",
+  "answer": "tempat makan",
+  "metadata": "27#biasa#2#tempat makan",
+  "encrypted_entry_name": "011bd18082ee75c1a523657fef5186094d1b1ff73df885922502c0c02538cd8b",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 7648,
+  "image_sha256": "ede75cc13671d4584695f5a5456a091e8f9041242f81e16b55d32585d4e3d86a",
+  "output_image": "images/level-02/question-027.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 6820
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

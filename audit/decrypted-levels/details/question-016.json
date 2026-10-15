@@ -1,0 +1,42 @@
+{
+  "sequence": 7,
+  "archive": "resources/assets/level/android-level-1/4f9cd551ad9228e826d2c0a9ce61b2f3.zip",
+  "archive_sha256": "557c9647d68f2e28440a29f919e0378d849cb114df45bd4f1d511c1cfcf995a8",
+  "global_index": 16,
+  "level": 1,
+  "question_type": "biasa",
+  "answer": "udang rebus",
+  "metadata": "16#biasa#1#udang rebus",
+  "encrypted_entry_name": "9f51557f7da442f095a57291a6007ff32672476bc875c5755134bd0f864a4a3e",
+  "metadata_padding_bytes": 10,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9924,
+  "image_sha256": "2b8ac697a2f48ca80140a30844940a12a601a95555ef82259e0d5da2d12e640a",
+  "output_image": "images/level-01/question-016.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9090
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

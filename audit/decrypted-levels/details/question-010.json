@@ -1,0 +1,42 @@
+{
+  "sequence": 8,
+  "archive": "resources/assets/level/android-level-1/56500c257315b8fd78cc0d942311cab8.zip",
+  "archive_sha256": "99c5cd293fe0bc8794ce0a2c262efc82683b98aefa985f8a1d0ce18197501cf2",
+  "global_index": 10,
+  "level": 1,
+  "question_type": "biasa",
+  "answer": "tuang air",
+  "metadata": "10#biasa#1#tuang air",
+  "encrypted_entry_name": "b2a0c3511db42685fe24c6da63135d35581b8ff4d70c7b2515a7e1d5a55fd2b5",
+  "metadata_padding_bytes": 12,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11078,
+  "image_sha256": "79f28a0f836b3e52f372eac056335fc5d0b051896773e824efb1e033027d2144",
+  "output_image": "images/level-01/question-010.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 10247
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

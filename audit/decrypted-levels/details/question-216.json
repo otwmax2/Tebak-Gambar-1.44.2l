@@ -1,0 +1,42 @@
+{
+  "sequence": 209,
+  "archive": "resources/assets/level/android-level-11/6dfaed33169f7517bc29208af871628a.zip",
+  "archive_sha256": "197074eb77ca6beb036486af77cf89bd99c51298f1fb1fa1342120c036b8b51c",
+  "global_index": 216,
+  "level": 11,
+  "question_type": "biasa",
+  "answer": "mami papi",
+  "metadata": "216#biasa#11#mami papi",
+  "encrypted_entry_name": "bbd8bde7b96a665e09d42a6aa2f8cf98389dbd72abaeb97946bff68ae75267e8",
+  "metadata_padding_bytes": 10,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9991,
+  "image_sha256": "ed0e207e434d990d852799c281102e7dd76ad906aea220be52fbb4dabfed8a34",
+  "output_image": "images/level-11/question-216.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9157
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

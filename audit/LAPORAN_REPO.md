@@ -6,6 +6,10 @@
 **Workspace:** `/home/user/Tebak-Gambar-1.44.2l`  
 **Branch pekerjaan:** `arena/2926bc24-tebak-gambar-1-44-2l`
 
+## Pembaruan lanjutan: payload 400 ZIP kini terverifikasi
+
+Setelah audit statis awal ini, seluruh **400/400 ZIP berhasil dibuka**, metadata dan jawaban didekripsi, serta 400 PNG didekode dan divalidasi. **0 kegagalan**. Lihat [LAPORAN_DEKRIPSI.md](LAPORAN_DEKRIPSI.md) untuk bukti, galeri, password per arsip dan 10 test integrasi tambahan. Pernyataan “ZIP belum dibuka” di bagian audit awal di bawah adalah batas pemeriksaan **pada tahap awal**, bukan status hasil lanjutan. Batas runtime APK/backend tetap berlaku.
+
 ## Peta laporan
 
 1. [Kesimpulan utama](#1-kesimpulan-utama)

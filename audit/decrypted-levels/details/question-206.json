@@ -1,0 +1,42 @@
+{
+  "sequence": 218,
+  "archive": "resources/assets/level/android-level-11/d330361fcbf22fbfecee1ee9667c3441.zip",
+  "archive_sha256": "bf989edbf2dd09bf46746b87073f2d41c57cb2c51ccc182983711cb3d93eeaee",
+  "global_index": 206,
+  "level": 11,
+  "question_type": "biasa",
+  "answer": "tisu mobil",
+  "metadata": "206#biasa#11#tisu mobil",
+  "encrypted_entry_name": "384031b8b6d0a7fd20c94c3a84a9b33988ddf6e06fb62a9a7440899554a87d70",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9293,
+  "image_sha256": "99c3454769ec0bb2741a233121fe0df38aa43838e45e34123faeacb1328497bf",
+  "output_image": "images/level-11/question-206.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8456
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

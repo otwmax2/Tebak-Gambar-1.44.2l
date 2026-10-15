@@ -1,0 +1,42 @@
+{
+  "sequence": 139,
+  "archive": "resources/assets/level/android-level-7/ede1490c359dc5a64c88803f3d4553d0.zip",
+  "archive_sha256": "8ab26fb4d01c0a2f3503c7c0369296924436b5d2f56afa3af432f291cd3a6005",
+  "global_index": 139,
+  "level": 7,
+  "question_type": "raja",
+  "answer": "tak tahu arah jalan pulang",
+  "metadata": "139#raja#7#tak tahu arah jalan pulang",
+  "encrypted_entry_name": "6e2827ff47facf5f8f8f9e2e8dd29af4f696ec64fc0da8a907630086f7b033dcbd385dad1464f9d1d82e7e44fa2a979e",
+  "metadata_padding_bytes": 11,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 12436,
+  "image_sha256": "238d8126376f9edaa22d465996f340dc3d70a12cd497eec0b659ce0380106825",
+  "output_image": "images/level-07/question-139.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 11602
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

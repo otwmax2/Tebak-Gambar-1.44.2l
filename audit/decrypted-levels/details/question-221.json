@@ -1,0 +1,42 @@
+{
+  "sequence": 227,
+  "archive": "resources/assets/level/android-level-12/378e102ccd680d1d0e6173ae6036adfb.zip",
+  "archive_sha256": "ef557ca8ad8d0c7ab93ccf0b15ccb82999054b95f311e28045708e7366677629",
+  "global_index": 221,
+  "level": 12,
+  "question_type": "biasa",
+  "answer": "bagian langka",
+  "metadata": "221#biasa#12#bagian langka",
+  "encrypted_entry_name": "6eb95af544df903e6db8957464bffae528e2c9b2ade52650217bfd9b3b155d86",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9725,
+  "image_sha256": "bf4450a03b54f60264737618e21e19fa65afea007c1360ff2b069c9fa3fc173e",
+  "output_image": "images/level-12/question-221.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 708
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8948
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

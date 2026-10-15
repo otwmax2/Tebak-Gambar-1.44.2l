@@ -1,0 +1,42 @@
+{
+  "sequence": 396,
+  "archive": "resources/assets/level/android-level-20/d1fa25c2ef6a31fda4a5bacaf9144007.zip",
+  "archive_sha256": "818d02c12079af637434546c2141ca68a3b0db21a7f41b7a0dd6817c700ab53a",
+  "global_index": 388,
+  "level": 20,
+  "question_type": "biasa",
+  "answer": "sedang kagumi",
+  "metadata": "388#biasa#20#sedang kagumi",
+  "encrypted_entry_name": "f5aeac4419b315646c53be877d49cb370db11966a8751db82a984ac946665ee6",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10864,
+  "image_sha256": "5d731b154a6fca13b5a28489b76371b6c08c11039a337f3876255de783b15883",
+  "output_image": "images/level-20/question-388.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 10030
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

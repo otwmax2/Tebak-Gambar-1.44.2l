@@ -1,0 +1,42 @@
+{
+  "sequence": 205,
+  "archive": "resources/assets/level/android-level-11/330221e33814e26eaab9ab56bbb25c86.zip",
+  "archive_sha256": "aed567c4bd7b0a20a0471096a3d32ccaa31a23cdd3a5e6d36a4a56b0c1a1a152",
+  "global_index": 205,
+  "level": 11,
+  "question_type": "biasa",
+  "answer": "toko borgol",
+  "metadata": "205#biasa#11#toko borgol",
+  "encrypted_entry_name": "095b8107d9c1f3647986c780edb6f2d541c9f84de54ece9c9b3849e84dc96317",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10378,
+  "image_sha256": "b3bea4ece2d678a1cbefe90f4c2e80c8640addd8749034a3d6c83084de09c8e0",
+  "output_image": "images/level-11/question-205.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9547
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 109,
+  "archive": "resources/assets/level/android-level-6/3eed958fcbc0e28a8f1ed588d826d9ed.zip",
+  "archive_sha256": "88e947ae3f54791bf10b7fc0ee6d5ba218e485d0f87a26f1581d5afcc4c8280f",
+  "global_index": 115,
+  "level": 6,
+  "question_type": "biasa",
+  "answer": "mobil mobilan",
+  "metadata": "115#biasa#6#mobil mobilan",
+  "encrypted_entry_name": "6ef251d3093463d2ad8de53e6a19336f5340e222da50476066076da8d91b9ff7",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 7793,
+  "image_sha256": "359b0a8c1f78023734b0c7208f2acc5506c2cda3eb3843c1ef49acd2d67e47b3",
+  "output_image": "images/level-06/question-115.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 6956
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 327,
+  "archive": "resources/assets/level/android-level-17/3b65230a58a9fbaf898889939f7cc40a.zip",
+  "archive_sha256": "6e49c85b32993c8e80fdca1fb853cfd481ffb151496baa9a4625813b3b85cbd5",
+  "global_index": 335,
+  "level": 17,
+  "question_type": "biasa",
+  "answer": "pelurus akidah",
+  "metadata": "335#biasa#17#pelurus akidah",
+  "encrypted_entry_name": "5741ac05dfcd9aecfad569499d17c5b94e36b62053694e19ca1ace6739cce561",
+  "metadata_padding_bytes": 5,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8625,
+  "image_sha256": "e006752309c8d7fa49ced3acf6947b407e9ca9f63e5a56f211b6f11d6fdebb10",
+  "output_image": "images/level-17/question-335.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7791
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

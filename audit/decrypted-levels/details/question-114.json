@@ -1,0 +1,42 @@
+{
+  "sequence": 118,
+  "archive": "resources/assets/level/android-level-6/cfd8f30df319463b593a2694ea3fa3f5.zip",
+  "archive_sha256": "9af2c992b665bd8b9a3dcca76da2fd79a1c753012c5e7f83916c7be04bb26721",
+  "global_index": 114,
+  "level": 6,
+  "question_type": "biasa",
+  "answer": "gulali matang",
+  "metadata": "114#biasa#6#gulali matang",
+  "encrypted_entry_name": "e8e28b7b7b91ace1cfa0308736f1591b581f700e6899806e6f851f38236d8b36",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8737,
+  "image_sha256": "d498f779bb449a72a9ecada3a616ac97ea2be9bab836aeb72ceabe3060712c46",
+  "output_image": "images/level-06/question-114.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7903
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

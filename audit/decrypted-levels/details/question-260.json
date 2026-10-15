@@ -1,0 +1,42 @@
+{
+  "sequence": 270,
+  "archive": "resources/assets/level/android-level-14/7381280837c1cb5f5e486a34e03e7931.zip",
+  "archive_sha256": "4d6f47bf867fb2b016ee6aadb37cca8acd80ddce1ad6bf3e1a34b4f5679eb949",
+  "global_index": 260,
+  "level": 14,
+  "question_type": "biasa",
+  "answer": "macan ompong",
+  "metadata": "260#biasa#14#macan ompong",
+  "encrypted_entry_name": "63fef7702480b7bacb8fc2ad88103834a2f8835524a1313e8de61a651492b57a",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9316,
+  "image_sha256": "888f055178bc2595e9b0bd25029e55955833abb086dbf820901a58bad4f6dcfa",
+  "output_image": "images/level-14/question-260.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8485
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

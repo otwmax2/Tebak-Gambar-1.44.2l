@@ -1,0 +1,42 @@
+{
+  "sequence": 26,
+  "archive": "resources/assets/level/android-level-2/302f70d19b6e74ed53cafa66e71e9a0e.zip",
+  "archive_sha256": "b809bdd98c40b854aa6f0efca9c1347d98f6c6dda2d5fe4e16421b93c6071eb8",
+  "global_index": 29,
+  "level": 2,
+  "question_type": "biasa",
+  "answer": "racun tikus",
+  "metadata": "29#biasa#2#racun tikus",
+  "encrypted_entry_name": "4a0114cc6fa856610166ea74ed1cc7c070c069a8977d72091c4edc4b998cd99b",
+  "metadata_padding_bytes": 10,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 7702,
+  "image_sha256": "4514a3817f061c58853c1ba206b6e983b8b4ba001744205f8e5fd6fb94529ad6",
+  "output_image": "images/level-02/question-029.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 6868
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

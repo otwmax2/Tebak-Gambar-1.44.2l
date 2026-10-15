@@ -1,0 +1,42 @@
+{
+  "sequence": 44,
+  "archive": "resources/assets/level/android-level-3/4f2585261271c0155b1d3d86e07b6729.zip",
+  "archive_sha256": "4a85f03aa43e9b7f5da5655b703d98c34e52561cfb9a6aae01100eed13ce258e",
+  "global_index": 52,
+  "level": 3,
+  "question_type": "biasa",
+  "answer": "patah hati",
+  "metadata": "52#biasa#3#patah hati",
+  "encrypted_entry_name": "bc4fef466da723d3fb729bdcbe4a344b105263917cb0ae006e2ad381f5594f2d",
+  "metadata_padding_bytes": 11,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8507,
+  "image_sha256": "9e1ac0671d6292f57c33ddad28bb564fab695c77fb3ecd62d7d6e25cb83bec04",
+  "output_image": "images/level-03/question-052.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7670
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

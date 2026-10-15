@@ -1,0 +1,42 @@
+{
+  "sequence": 144,
+  "archive": "resources/assets/level/android-level-8/560c83d3df1a4b841f58dac5e80d568c.zip",
+  "archive_sha256": "4fb40b2b62e9ebcb1e723c64bfe30ed325813cb3a7ec943dd3540cafe8c96ebf",
+  "global_index": 152,
+  "level": 8,
+  "question_type": "biasa",
+  "answer": "menanak nasi",
+  "metadata": "152#biasa#8#menanak nasi",
+  "encrypted_entry_name": "fddae67454c54f6b0674b73395ed2ff80bb5a05451bfa80c0129a3f8bcb81a4c",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8394,
+  "image_sha256": "8814581a85f6f4cf97b94b03f721415af1290837ad0b5a0e2db707b5e2183548",
+  "output_image": "images/level-08/question-152.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7560
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 185,
+  "archive": "resources/assets/level/android-level-10/220fcb26929d1c7b89a598152692a84a.zip",
+  "archive_sha256": "d3c8e312733439b35de67525bfcac2b8be7446213999023e8624fe8c4dc275f2",
+  "global_index": 193,
+  "level": 10,
+  "question_type": "biasa",
+  "answer": "nota hutang",
+  "metadata": "193#biasa#10#nota hutang",
+  "encrypted_entry_name": "053e3f2071822514c3444d6b4b1655b580a9dc94496188e4acbfbec183699efb",
+  "metadata_padding_bytes": 8,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8211,
+  "image_sha256": "94a85800525bf5869be4228217f740624d545e06250764ecfd625032ad858108",
+  "output_image": "images/level-10/question-193.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7374
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

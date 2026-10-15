@@ -1,0 +1,42 @@
+{
+  "sequence": 211,
+  "archive": "resources/assets/level/android-level-11/8995a59e025a70bc57cf6068bad6df76.zip",
+  "archive_sha256": "867cec7e315d96007e4a5def0a51ff79c2545195452c2b191b1cc3e3a6789680",
+  "global_index": 209,
+  "level": 11,
+  "question_type": "raja",
+  "answer": "tukang bubur ayam sekarang naik pelaminan",
+  "metadata": "209#raja#11#tukang bubur ayam sekarang naik pelaminan",
+  "encrypted_entry_name": "e10f8c98f361f485e6f86a9cb6859b7c92b72943ca04b4284b6f4d5f765d3eea233fe3df583690c8139c1bc89f0c82d2decc2e721427493cb820d7997a338e18",
+  "metadata_padding_bytes": 11,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 20381,
+  "image_sha256": "899b54c493081897eb7e78c0e00108028e598f8f91bae31928becbd1d53e3a67",
+  "output_image": "images/level-11/question-209.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 19544
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

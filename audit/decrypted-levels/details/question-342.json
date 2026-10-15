@@ -1,0 +1,42 @@
+{
+  "sequence": 346,
+  "archive": "resources/assets/level/android-level-18/2688747ec76bb59d053edcd7fdc528bf.zip",
+  "archive_sha256": "a4f8626b4284c7cb0babe1be0b6cde0296c87ba0c6cd80046b6b7e76d557e507",
+  "global_index": 342,
+  "level": 18,
+  "question_type": "biasa",
+  "answer": "petik apel",
+  "metadata": "342#biasa#18#petik apel",
+  "encrypted_entry_name": "97325318fd58246194417e33fd21ecab38863c71bc1174d8920e98859f2ff1eb",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 5641,
+  "image_sha256": "912a94aa7cb8f2486f4b1ac1a69bbe7192ea8bc7a6e9dae0375ea68d555cb313",
+  "output_image": "images/level-18/question-342.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 4804
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 237,
+  "archive": "resources/assets/level/android-level-12/d1d86671ef60335553c2854ec3ee1240.zip",
+  "archive_sha256": "8243bedd7034e4b242780e64f15c836a4f161f5fbb6ef7d05c66b31987acdd75",
+  "global_index": 234,
+  "level": 12,
+  "question_type": "biasa",
+  "answer": "harga lontong",
+  "metadata": "234#biasa#12#harga lontong",
+  "encrypted_entry_name": "4b5c3129d8ecdcaede539bf7e62dee597432db184449b5621675b702ab4f3d97",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8614,
+  "image_sha256": "857574acb091a096e79d2b4bba410e477800d869b0269eb9cc8871fe3bdd1e69",
+  "output_image": "images/level-12/question-234.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7786
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

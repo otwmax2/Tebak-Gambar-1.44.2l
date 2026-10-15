@@ -1,0 +1,42 @@
+{
+  "sequence": 389,
+  "archive": "resources/assets/level/android-level-20/a090035a3d097805f41103e9dbabc779.zip",
+  "archive_sha256": "e6e969ff88083ea4a73f257e1772e10e13202ea03a6767dbe8316caa44d8ea21",
+  "global_index": 390,
+  "level": 20,
+  "question_type": "biasa",
+  "answer": "petinggi polisi",
+  "metadata": "390#biasa#20#petinggi polisi",
+  "encrypted_entry_name": "63e42e2c1416556b7c20e75fd68319ad1ef87b8db2f24ab010d1b65cae24d101",
+  "metadata_padding_bytes": 4,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 7808,
+  "image_sha256": "3b49059c30abb0437c79eb9b41a1a381e95cc3caf1c2a797dcee0702545f05fd",
+  "output_image": "images/level-20/question-390.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 6974
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

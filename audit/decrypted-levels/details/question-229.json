@@ -1,0 +1,42 @@
+{
+  "sequence": 225,
+  "archive": "resources/assets/level/android-level-12/2a79be35b3ac344a47e54bc00b30cc18.zip",
+  "archive_sha256": "d4d8d5834644ede73571d056d97f0de3344ab6121da3d2033cfe500f417dc48d",
+  "global_index": 229,
+  "level": 12,
+  "question_type": "raja",
+  "answer": "belajar keras siang malam sampai pusing",
+  "metadata": "229#raja#12#belajar keras siang malam sampai pusing",
+  "encrypted_entry_name": "0b04fdd4ba284e99eb39691579e6fef6d6687a0470ec1b0f500c62a2c3a5189ff9e7aba58909747b46c0a7a543d68e0d3b06d51c75afc7caf5fe8d92858dba74",
+  "metadata_padding_bytes": 13,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 16684,
+  "image_sha256": "f52d16648928479cf22d8b50f2c47bbbf7933965033f7c467b961354733b2b6a",
+  "output_image": "images/level-12/question-229.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 15853
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

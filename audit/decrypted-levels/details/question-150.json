@@ -1,0 +1,42 @@
+{
+  "sequence": 159,
+  "archive": "resources/assets/level/android-level-8/fbe0d5cd9bf11e3342e0e40c4fc6d60c.zip",
+  "archive_sha256": "f4bbfc24e011c289b869577cd40e52b4a86e92d0beaeb2b6646536c061cf1d5b",
+  "global_index": 150,
+  "level": 8,
+  "question_type": "biasa",
+  "answer": "keracunan formalin",
+  "metadata": "150#biasa#8#keracunan formalin",
+  "encrypted_entry_name": "01c808de2524a72a75a3b89f7085c1538857bfc0d9a85bec36b36faddcf9783e",
+  "metadata_padding_bytes": 2,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 16942,
+  "image_sha256": "1ae5e1eaf66b1575e140f4a8ed1bc7d46a3f03247b4c3776db8ed7162224a972",
+  "output_image": "images/level-08/question-150.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 16105
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

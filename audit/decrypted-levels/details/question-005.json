@@ -1,0 +1,42 @@
+{
+  "sequence": 12,
+  "archive": "resources/assets/level/android-level-1/6beae4aaa3aea19094bacfebd3be5cf0.zip",
+  "archive_sha256": "d4f2a215414652e5a936207991bc8fa8b9ccd738a663d79f47cc399cb5a0a4b4",
+  "global_index": 5,
+  "level": 1,
+  "question_type": "biasa",
+  "answer": "mati rasa",
+  "metadata": "5#biasa#1#mati rasa",
+  "encrypted_entry_name": "f402d24bc9361fe24cb6d6b414c6bbfdf8cdd84bb6ba23d9ff700418bb9853d9",
+  "metadata_padding_bytes": 13,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9854,
+  "image_sha256": "28f1e9e860a5aff53721b8c52e31210d21370fcb72e0ad3591be6edc0492ce8b",
+  "output_image": "images/level-01/question-005.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9017
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

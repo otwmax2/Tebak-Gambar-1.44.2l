@@ -1,0 +1,42 @@
+{
+  "sequence": 258,
+  "archive": "resources/assets/level/android-level-13/b9ec2de1e633a9bee2c2cbe0f5e3b7ea.zip",
+  "archive_sha256": "f65f4cf589161b069f8166cd09c91810b4e7b01b2efaf782298d086df19cd454",
+  "global_index": 245,
+  "level": 13,
+  "question_type": "biasa",
+  "answer": "perusahaan kecil",
+  "metadata": "245#biasa#13#perusahaan kecil",
+  "encrypted_entry_name": "358c757514f5a4c3df224cfc41f666aced6bb17bc2546f3412696e80428c4565",
+  "metadata_padding_bytes": 3,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11061,
+  "image_sha256": "0ddcfc675fea3d6665ae0b193acb20a27221fc69c99e04882780272354a0e2cb",
+  "output_image": "images/level-13/question-245.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 10233
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

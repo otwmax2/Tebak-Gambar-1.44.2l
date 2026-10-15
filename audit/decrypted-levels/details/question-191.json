@@ -1,0 +1,42 @@
+{
+  "sequence": 190,
+  "archive": "resources/assets/level/android-level-10/6f75188919cd48162c9f0e71a1478c85.zip",
+  "archive_sha256": "e06231d9f8945a820776367669bd850e796f42b1625e3e150f534d4559e9f7d6",
+  "global_index": 191,
+  "level": 10,
+  "question_type": "biasa",
+  "answer": "mendadak mimisan",
+  "metadata": "191#biasa#10#mendadak mimisan",
+  "encrypted_entry_name": "0885483bf86d355781e179f9c7e824c93c6f8572e9cc8d13d2e42da5cd147fd6",
+  "metadata_padding_bytes": 3,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 13015,
+  "image_sha256": "26a1b4a5a8a2910dd34138643b8f70511a8e879f4ff3fc706e07759c4fbe8245",
+  "output_image": "images/level-10/question-191.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 12178
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 314,
+  "archive": "resources/assets/level/android-level-16/a257cb8768ac146755b1e7619341302e.zip",
+  "archive_sha256": "3444f4b89d2e552efa68bfe223f5705747750c0da7b2162cad6b587b6738b5a9",
+  "global_index": 309,
+  "level": 16,
+  "question_type": "raja",
+  "answer": "maling mobil menangis meratapi nasib pilu",
+  "metadata": "309#raja#16#maling mobil menangis meratapi nasib pilu",
+  "encrypted_entry_name": "d58b901e2f7b054512a389092118d1dcded438af6dd29ba2a8f63d3f5f92d17efbc1c0c054b04feb67e47488ce576be739112432c7f92d1728757c02dfb50c9d",
+  "metadata_padding_bytes": 11,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 19926,
+  "image_sha256": "b13dc9b066099d1d29c12a11fbca57d66c5d4104d4581da88fea6d08a0348c7e",
+  "output_image": "images/level-16/question-309.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 19089
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

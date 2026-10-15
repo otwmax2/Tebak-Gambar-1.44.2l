@@ -1,0 +1,42 @@
+{
+  "sequence": 299,
+  "archive": "resources/assets/level/android-level-15/ebde6845f6bc4063fd98be408c2e04f2.zip",
+  "archive_sha256": "0334569747ad47476089dd0c5e72b698067df6b63982e824e260c3f4a0414478",
+  "global_index": 285,
+  "level": 15,
+  "question_type": "biasa",
+  "answer": "dilanda musibah",
+  "metadata": "285#biasa#15#dilanda musibah",
+  "encrypted_entry_name": "ca9c4446ba1ad47eaff74fa0d017ec7fe430d69f15369eae231aa1bbec877844",
+  "metadata_padding_bytes": 4,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11176,
+  "image_sha256": "0c7ec4c7fa72cdd3eea5c416088cfbd1ba0ada6ca1713f036db3c88a61a1aab5",
+  "output_image": "images/level-15/question-285.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 10345
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

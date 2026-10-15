@@ -1,0 +1,42 @@
+{
+  "sequence": 113,
+  "archive": "resources/assets/level/android-level-6/8b9a45a316cbcb6de68d3c550092bcdf.zip",
+  "archive_sha256": "5ac924d6b87f33cb2af61d01827123a8cb99533e7d2a7eec42faf96d6f2e785c",
+  "global_index": 102,
+  "level": 6,
+  "question_type": "biasa",
+  "answer": "kepala suku",
+  "metadata": "102#biasa#6#kepala suku",
+  "encrypted_entry_name": "dbc770edeec0ca816492ef648d5006022974ed38428611855547700ed83af27a",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8506,
+  "image_sha256": "293e7997ebd2c2a8247e8b29b87675cc4340e6d28685b9586d9168e71376b4af",
+  "output_image": "images/level-06/question-102.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7678
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

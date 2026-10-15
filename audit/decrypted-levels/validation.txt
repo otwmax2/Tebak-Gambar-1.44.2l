@@ -1,0 +1,15 @@
+test_authenticated_read_equals_output_all_400 (__main__.DecryptionTests.test_authenticated_read_equals_output_all_400) ... ok
+test_exact_all_archive_coverage (__main__.DecryptionTests.test_exact_all_archive_coverage) ... ok
+test_filename_and_metadata_all_400 (__main__.DecryptionTests.test_filename_and_metadata_all_400) ... ok
+test_full_png_validation_and_pixel_decode_all_400 (__main__.DecryptionTests.test_full_png_validation_and_pixel_decode_all_400) ... ok
+test_full_processing_log_and_detail_files (__main__.DecryptionTests.test_full_processing_log_and_detail_files) ... ok
+test_modified_authentication_tag_rejected_all_400 (__main__.DecryptionTests.test_modified_authentication_tag_rejected_all_400) ... ok
+test_original_archives_unchanged (__main__.DecryptionTests.test_original_archives_unchanged) ... ok
+test_repository_scan_and_summary_consistency (__main__.DecryptionTests.test_repository_scan_and_summary_consistency) ... ok
+test_type_and_compression_distributions (__main__.DecryptionTests.test_type_and_compression_distributions) ... ok
+test_wrong_password_rejected_all_400 (__main__.DecryptionTests.test_wrong_password_rejected_all_400) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.823s
+
+OK

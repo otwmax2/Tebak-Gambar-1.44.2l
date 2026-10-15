@@ -1,0 +1,42 @@
+{
+  "sequence": 275,
+  "archive": "resources/assets/level/android-level-14/a77003b4ac3ecceda2d655e59691df6d.zip",
+  "archive_sha256": "0cab986d0cea48595db4e1f381567cb3a3f7e4d41ebf59ddf16d1b28f791bf80",
+  "global_index": 267,
+  "level": 14,
+  "question_type": "biasa",
+  "answer": "tersipu malu",
+  "metadata": "267#biasa#14#tersipu malu",
+  "encrypted_entry_name": "363f0570e7c5caf917e214cc0abfae63d4426cd54ef2d19c610bf94c8f9956a6",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 13692,
+  "image_sha256": "1e09cd24c5eb6841b9e218a33176ecee9961a67012d09ed761773fbbf8300291",
+  "output_image": "images/level-14/question-267.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 12858
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

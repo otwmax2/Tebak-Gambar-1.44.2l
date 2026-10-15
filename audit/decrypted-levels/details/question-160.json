@@ -1,0 +1,42 @@
+{
+  "sequence": 173,
+  "archive": "resources/assets/level/android-level-9/7b6c3d4fb9a1546262ebab850e91a89d.zip",
+  "archive_sha256": "aab3460c4eb6758c6a751887018a17a67e7c5e7e6eb38465bb8cffe066aac60d",
+  "global_index": 160,
+  "level": 9,
+  "question_type": "biasa",
+  "answer": "struktur kristal",
+  "metadata": "160#biasa#9#struktur kristal",
+  "encrypted_entry_name": "7fd5adcf44093ea49715435f3fcd6950c8b37633d27d74871685e8041b5ad054",
+  "metadata_padding_bytes": 4,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11900,
+  "image_sha256": "66250b4c4a9fe1dd91537697b46465e93cb61930557721fc2fd86f6bd6640ea1",
+  "output_image": "images/level-09/question-160.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 11069
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

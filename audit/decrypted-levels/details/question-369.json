@@ -1,0 +1,42 @@
+{
+  "sequence": 380,
+  "archive": "resources/assets/level/android-level-19/f65719b5cfc0794d000f1ebfa414256a.zip",
+  "archive_sha256": "6ef8caf4c7bb98bdfbf74eaf465598f9d9fbb63ca4a4ea327d919459e19ef010",
+  "global_index": 369,
+  "level": 19,
+  "question_type": "raja",
+  "answer": "hati akan tenang bila rajin ibadah",
+  "metadata": "369#raja#19#hati akan tenang bila rajin ibadah",
+  "encrypted_entry_name": "800e9cb5e41be450b8cb51cd5cb890dc351e9f604f4be2e341fea6c9ad6f1f6fc2ff5297843c9d045ff0eb638ad3c52b",
+  "metadata_padding_bytes": 2,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 18842,
+  "image_sha256": "6a76380c1c206731a882d27049e53ff1cef77c835191eb3d746a94f0448e3d8b",
+  "output_image": "images/level-19/question-369.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 18011
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

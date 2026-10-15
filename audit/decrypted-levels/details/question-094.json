@@ -1,0 +1,42 @@
+{
+  "sequence": 88,
+  "archive": "resources/assets/level/android-level-5/7fb695194b35b55ef69fe240467b5ca9.zip",
+  "archive_sha256": "a8b37863a3809da0e15abfd85377b9a3be0b7203adb320914ca0c3c8062b4345",
+  "global_index": 94,
+  "level": 5,
+  "question_type": "biasa",
+  "answer": "laba bisnis",
+  "metadata": "94#biasa#5#laba bisnis",
+  "encrypted_entry_name": "ece2b9155b0c77999226bd2240971aa0a16d1a9e752457ab4e0bb8548aa54461",
+  "metadata_padding_bytes": 10,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 12051,
+  "image_sha256": "d418ddf5071f393cac3447e2880ed4a3829682efa31269db2a2e962a3dcc60e4",
+  "output_image": "images/level-05/question-094.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 11220
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 399,
+  "archive": "resources/assets/level/android-level-20/f69bda6f068607bc5f2ff28ff6f6c048.zip",
+  "archive_sha256": "ff6f1f8af7125cc779c53cb7f502c81dfae51f8aaf5208083d229e25353d4b25",
+  "global_index": 380,
+  "level": 20,
+  "question_type": "biasa",
+  "answer": "disusupi maling",
+  "metadata": "380#biasa#20#disusupi maling",
+  "encrypted_entry_name": "095daf5d5fca86bd62ecce20236e4d44d81c7c69f6f55127f479e326d4f53b66",
+  "metadata_padding_bytes": 4,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10809,
+  "image_sha256": "931406de56f57b980359f54d29403c3fa1a85c49bfbabdb57b9730e542f4fb0e",
+  "output_image": "images/level-20/question-380.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9975
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 5,
+  "archive": "resources/assets/level/android-level-1/37a819e3ec42c86c0b2f705e25fd99a2.zip",
+  "archive_sha256": "c45959cdd23b2ccded06452ac1d8d8969c317a4457a5ea8eac0283a1b170bb23",
+  "global_index": 15,
+  "level": 1,
+  "question_type": "biasa",
+  "answer": "potongan harga",
+  "metadata": "15#biasa#1#potongan harga",
+  "encrypted_entry_name": "1f4a3d124b433f16db0a189a635c9b297b9ba64541ac2d6ea0ccb6dde7a801a4",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8842,
+  "image_sha256": "1776f6b579a70f40a7a2e450b4d03654d41cf7a9b1aadfff88a9cd2ec58a934b",
+  "output_image": "images/level-01/question-015.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8011
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

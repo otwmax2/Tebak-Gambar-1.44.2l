@@ -1,0 +1,42 @@
+{
+  "sequence": 386,
+  "archive": "resources/assets/level/android-level-20/28a8cfc4ad0b7ea58b14baf8b8993b4c.zip",
+  "archive_sha256": "3f22bf5f674058ecd994221b519202414efb011a432f0bb7694a361424ebe606",
+  "global_index": 393,
+  "level": 20,
+  "question_type": "biasa",
+  "answer": "tindakan positif",
+  "metadata": "393#biasa#20#tindakan positif",
+  "encrypted_entry_name": "ec5370a7c699a4a8809e9b1551b015f4797c42c4edb144778030817715963109",
+  "metadata_padding_bytes": 3,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8372,
+  "image_sha256": "4dbd9c7daaf7dfe8416e58a9af479041f19dcee4550490bff7262c7025a8bea7",
+  "output_image": "images/level-20/question-393.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7538
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

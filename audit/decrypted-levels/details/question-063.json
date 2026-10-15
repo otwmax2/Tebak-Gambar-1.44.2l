@@ -1,0 +1,42 @@
+{
+  "sequence": 70,
+  "archive": "resources/assets/level/android-level-4/873bc3049d72d619849bed5683082081.zip",
+  "archive_sha256": "540c621d8f2f162042aec9f16a908978fbed865ce165c6bef95f6eea12ed924f",
+  "global_index": 63,
+  "level": 4,
+  "question_type": "biasa",
+  "answer": "keramik lantai",
+  "metadata": "63#biasa#4#keramik lantai",
+  "encrypted_entry_name": "041a4612b3c3112fd775494e590b4024475dc3031968d2eba1be8485514dc164",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 11585,
+  "image_sha256": "510a4ad4cbb1fe07cf670a39c1bbb957d23b7884b21c68619bf88ac6c39756e1",
+  "output_image": "images/level-04/question-063.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 10748
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 178,
+  "archive": "resources/assets/level/android-level-9/9534b09e4795255943553581d1d383d0.zip",
+  "archive_sha256": "8578138a09d806c5ddf035768d1a53022d03924a187af5eefd5457a605ae6c2b",
+  "global_index": 172,
+  "level": 9,
+  "question_type": "biasa",
+  "answer": "isu pengasingan",
+  "metadata": "172#biasa#9#isu pengasingan",
+  "encrypted_entry_name": "14aa36bb549c470c860d67bfccb09004b2cf8462626fb0b84ebf2782fd67288a",
+  "metadata_padding_bytes": 5,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 13797,
+  "image_sha256": "1e2ccf9a0cd9ae253a2c91a66434175ef0764f068dfbad4ea5adc8a07ed3c0ac",
+  "output_image": "images/level-09/question-172.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 12966
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

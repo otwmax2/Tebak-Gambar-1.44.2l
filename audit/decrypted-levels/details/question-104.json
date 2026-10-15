@@ -1,0 +1,42 @@
+{
+  "sequence": 105,
+  "archive": "resources/assets/level/android-level-6/1f5ae44dc3a51b3885cb492a7aff7dd4.zip",
+  "archive_sha256": "8b6ae9e01397ec2918fee41161883468195271a8947db0d842de410055e4ba07",
+  "global_index": 104,
+  "level": 6,
+  "question_type": "biasa",
+  "answer": "gigit jari",
+  "metadata": "104#biasa#6#gigit jari",
+  "encrypted_entry_name": "e1ad219109711fcac0c60cc1e98727e88b8cefc98183d4a9c76fc65cddd002b5",
+  "metadata_padding_bytes": 10,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 6041,
+  "image_sha256": "f6d4d70e1989ebd0b7fd81248ce591d2398039cf81c0d10dd05df2ae4641066b",
+  "output_image": "images/level-06/question-104.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 5204
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

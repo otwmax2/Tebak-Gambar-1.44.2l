@@ -1,0 +1,42 @@
+{
+  "sequence": 54,
+  "archive": "resources/assets/level/android-level-3/80c87a9e54bbe942b2899938d3928938.zip",
+  "archive_sha256": "ae6ff47849953212532957f2fe2cded15be9c277466185a2c55d856304a778c3",
+  "global_index": 49,
+  "level": 3,
+  "question_type": "biasa",
+  "answer": "fermentasi susu",
+  "metadata": "49#biasa#3#fermentasi susu",
+  "encrypted_entry_name": "cb63d8c51d34292e68cd8cac887b5f4da75e8e4f0dc9b13cca08dd9a58a9ffc3",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 14352,
+  "image_sha256": "c336fece85d3556872189bf8d917703879a9914f5859cfc0099677f8a5154417",
+  "output_image": "images/level-03/question-049.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 756
+    },
+    {
+      "type": "IDAT",
+      "bytes": 13527
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

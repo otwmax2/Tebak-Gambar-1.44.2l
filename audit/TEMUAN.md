@@ -155,6 +155,8 @@ Level NONE pada release; debug logging harus opt-in, redaksi header/field sensit
 
 **Prioritas P1 untuk asumsi trust/integritas; bukan bukti backend bisa dicurangi.**
 
+**Pembaruan terverifikasi:** tindak lanjut [LAPORAN_DEKRIPSI.md](LAPORAN_DEKRIPSI.md) berhasil membuka 400/400 ZIP bundel, memulihkan metadata/jawaban dan mendekode seluruh PNG menggunakan kunci lokal, tanpa brute force atau server. Pemulihan konten offline kini telah dibuktikan, bukan hanya inferensi statis. Validasi state backend tetap tidak diketahui.
+
 ### Bukti
 
 - `sources/y8/k.java:14–23,63,77`: key dan IV literal; cipher `AES/CBC/NoPadding` dengan padding spasi buatan.

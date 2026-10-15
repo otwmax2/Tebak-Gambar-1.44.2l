@@ -1,0 +1,42 @@
+{
+  "sequence": 235,
+  "archive": "resources/assets/level/android-level-12/bd929f94e19692d0fc25c675a8c90b95.zip",
+  "archive_sha256": "68dd4a2787579fa4939365da1da04c23b43d00d02d3408f212ead4b69bbb7b8f",
+  "global_index": 220,
+  "level": 12,
+  "question_type": "biasa",
+  "answer": "kecamatan maju",
+  "metadata": "220#biasa#12#kecamatan maju",
+  "encrypted_entry_name": "61c5f4a9ac4646e6e706ebb448260d04f0ce8b79ca61e8689033bf47fa4a1cb8",
+  "metadata_padding_bytes": 5,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10434,
+  "image_sha256": "b8dc173f36c88409ba3801ec784a76dbb8598238a429bd0c64b7357831d8bb24",
+  "output_image": "images/level-12/question-220.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 759
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9606
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

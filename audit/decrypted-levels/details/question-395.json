@@ -1,0 +1,42 @@
+{
+  "sequence": 382,
+  "archive": "resources/assets/level/android-level-20/0a250aebf2d90648d6dca73a6c22bf79.zip",
+  "archive_sha256": "f22a164083d2cdff57e29614b7ca7d29ffd8cc36e6d6a2b46c79522ac8c1fca9",
+  "global_index": 395,
+  "level": 20,
+  "question_type": "biasa",
+  "answer": "kosmetik mama",
+  "metadata": "395#biasa#20#kosmetik mama",
+  "encrypted_entry_name": "a2fc595941936f4a8722b059a108f448db61aaa0d729396a163ca7b6a33a9f29",
+  "metadata_padding_bytes": 6,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 13285,
+  "image_sha256": "56304b110902336d6b51e906b897c35e460f7707548961a17fcb512817035448",
+  "output_image": "images/level-20/question-395.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 12451
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

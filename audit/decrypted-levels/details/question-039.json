@@ -1,0 +1,42 @@
+{
+  "sequence": 31,
+  "archive": "resources/assets/level/android-level-2/75a73bfa6888f9ec8686feed596e2b35.zip",
+  "archive_sha256": "089803811c39110a5b82b0d559fe76ca4b591bb76cd1f404ee5a72fcbdde29ae",
+  "global_index": 39,
+  "level": 2,
+  "question_type": "raja",
+  "answer": "pohon rambutan roboh",
+  "metadata": "39#raja#2#pohon rambutan roboh",
+  "encrypted_entry_name": "23e09b2a140d46de61210b5547f84edf5820c1568196bb987862dd40d04d3e61",
+  "metadata_padding_bytes": 2,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9560,
+  "image_sha256": "ece402c3b98912473bd68ee7a51b33b94be9f0321947d0870b28b8efecb5a233",
+  "output_image": "images/level-02/question-039.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8723
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

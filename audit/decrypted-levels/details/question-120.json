@@ -1,0 +1,42 @@
+{
+  "sequence": 137,
+  "archive": "resources/assets/level/android-level-7/b4ab2b990035c3dcd5941ee1f1471b99.zip",
+  "archive_sha256": "52d82911141066193b4418905534e000cce397e45d25143156d88982f36b6db0",
+  "global_index": 120,
+  "level": 7,
+  "question_type": "biasa",
+  "answer": "koperasi mandiri",
+  "metadata": "120#biasa#7#koperasi mandiri",
+  "encrypted_entry_name": "072c6decc17e38faace9562b5fac98482e220eb7372e47b359b855cf4a1c83c9",
+  "metadata_padding_bytes": 4,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9249,
+  "image_sha256": "9209a47cbc05244354d262a9d60106ab355e845bbc6e6a7eff92bc39727ed6e8",
+  "output_image": "images/level-07/question-120.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 762
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8418
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "sequence": 106,
+  "archive": "resources/assets/level/android-level-6/2227fd8e60356dc18048893908533d2c.zip",
+  "archive_sha256": "7f8cda344700d4affb8ea4c03d0d0cd4dc678aabcab8780825ef0484638e6636",
+  "global_index": 119,
+  "level": 6,
+  "question_type": "raja",
+  "answer": "supir mobil tinja sedang kecapekan",
+  "metadata": "119#raja#6#supir mobil tinja sedang kecapekan",
+  "encrypted_entry_name": "4cd64d47c02dae6b249eb91a51dd7d3289bbd1899263b042cc59735ce0c6af18316104ff5f91a4547159636df8bd5a3a",
+  "metadata_padding_bytes": 3,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 15862,
+  "image_sha256": "327c332d5e74e4d9f9a6ad1b0ad49cbbe5cf5e40a85026b73e7f8c07aedb5ded",
+  "output_image": "images/level-06/question-119.png",
+  "width": 400,
+  "height": 480,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 15028
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

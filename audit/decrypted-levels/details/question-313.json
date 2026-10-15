@@ -1,0 +1,42 @@
+{
+  "sequence": 313,
+  "archive": "resources/assets/level/android-level-16/963250ab77047b1a3fadd4e6fc144383.zip",
+  "archive_sha256": "b4adf489543d55296ee13ffd3b87af5b010231feb4d1c88d1e0a32231e18c0c3",
+  "global_index": 313,
+  "level": 16,
+  "question_type": "biasa",
+  "answer": "aura jahat",
+  "metadata": "313#biasa#16#aura jahat",
+  "encrypted_entry_name": "caddec6680277c841e2d9dc45f6301e63d5d7155c086635e8dd3c9df17e05b6e",
+  "metadata_padding_bytes": 9,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 9700,
+  "image_sha256": "6a408934617ad490d0fc5b03751f18be36821f5a28cee0a2db3841a6722f88d6",
+  "output_image": "images/level-16/question-313.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 8866
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

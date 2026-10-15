@@ -1,0 +1,42 @@
+{
+  "sequence": 329,
+  "archive": "resources/assets/level/android-level-17/7ad6183a247cd398f692df19b9d30552.zip",
+  "archive_sha256": "855d9de02d05672494578da6e137c6f5a78ca7dfd2d9358c6c30acdd9a0bb004",
+  "global_index": 325,
+  "level": 17,
+  "question_type": "biasa",
+  "answer": "makalah akuntansi",
+  "metadata": "325#biasa#17#makalah akuntansi",
+  "encrypted_entry_name": "14095f7e916356df1f74f8072fb9da25bcf0076a8763ee6da09b26d37dc64c6c",
+  "metadata_padding_bytes": 2,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 13038,
+  "image_sha256": "1f6ae93864c8e337b7cdab190471dda5336fb1fdbb3b6253e88ea1e203ff7340",
+  "output_image": "images/level-17/question-325.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 12201
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

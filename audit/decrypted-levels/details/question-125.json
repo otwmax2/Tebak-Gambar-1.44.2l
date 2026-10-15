@@ -1,0 +1,42 @@
+{
+  "sequence": 131,
+  "archive": "resources/assets/level/android-level-7/7c4da102d73db176888aeda4b4053039.zip",
+  "archive_sha256": "bd340fc908b5282488aa87fd79341466ffb7b21b92f8073662a01d685320ee66",
+  "global_index": 125,
+  "level": 7,
+  "question_type": "biasa",
+  "answer": "jembatan layang",
+  "metadata": "125#biasa#7#jembatan layang",
+  "encrypted_entry_name": "6899e242e5c8761648243c0000a1bc872d06c6b494fa6413c495c5d758152109",
+  "metadata_padding_bytes": 5,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 8119,
+  "image_sha256": "27331c6b9db3e25c01549ee471b87cdcf65f678d570b732b783ca92ed4d95b79",
+  "output_image": "images/level-07/question-125.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 7285
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

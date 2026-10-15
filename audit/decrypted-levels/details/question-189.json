@@ -1,0 +1,42 @@
+{
+  "sequence": 191,
+  "archive": "resources/assets/level/android-level-10/7d8aad5b1aa7f872ef25473e831ae69f.zip",
+  "archive_sha256": "290c2e71d7fe4a0d5336f33367169859991f8a5a77aa25b252b3fa6468269db9",
+  "global_index": 189,
+  "level": 10,
+  "question_type": "biasa",
+  "answer": "kejepit resleting",
+  "metadata": "189#biasa#10#kejepit resleting",
+  "encrypted_entry_name": "b3f620cf8e29f45ab356e04cb5e30f3158abc0ab2848d528517eeb94ef9c5807",
+  "metadata_padding_bytes": 2,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 10195,
+  "image_sha256": "97af83b56b04d462e6929059aefbfa1876e51e3e082f23691d505cfec77d8168",
+  "output_image": "images/level-10/question-189.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 765
+    },
+    {
+      "type": "IDAT",
+      "bytes": 9361
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

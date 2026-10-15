@@ -1,0 +1,42 @@
+{
+  "sequence": 122,
+  "archive": "resources/assets/level/android-level-7/13fb8608ff4f2b88a59fd6fac9323e90.zip",
+  "archive_sha256": "fdb1396bfd0b3b3e20b8fe27e39d06b19d6b4beb416e95185fcccd28a34a3a94",
+  "global_index": 133,
+  "level": 7,
+  "question_type": "biasa",
+  "answer": "keselamatan presiden",
+  "metadata": "133#biasa#7#keselamatan presiden",
+  "encrypted_entry_name": "4dd28a6d8c09a783425d6544e74e9f0a150c6e959d82363fc839278f419db8e2",
+  "metadata_padding_bytes": 0,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "stored",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 12697,
+  "image_sha256": "5401fd88704b6e2dcb5d46d4d054d4b8818645c9ae9ee053011bad766a67a48c",
+  "output_image": "images/level-07/question-133.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 768
+    },
+    {
+      "type": "IDAT",
+      "bytes": 11860
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}

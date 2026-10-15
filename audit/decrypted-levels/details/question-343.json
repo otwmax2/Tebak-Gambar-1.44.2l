@@ -1,0 +1,42 @@
+{
+  "sequence": 356,
+  "archive": "resources/assets/level/android-level-18/d3cef05d134333ab5d3e37951a6ec91d.zip",
+  "archive_sha256": "fe0310b9ddab89bb703c2967ab8a74689bf6c195dfdfcd79aa7bf13d635b9188",
+  "global_index": 343,
+  "level": 18,
+  "question_type": "biasa",
+  "answer": "pemerah sapi",
+  "metadata": "343#biasa#18#pemerah sapi",
+  "encrypted_entry_name": "ad9879f6990b1e0e4d0e7f6304f7372a11c0edeaf1a8d828d80a05aa29a6407e",
+  "metadata_padding_bytes": 7,
+  "zip_encryption": "WinZip AES-256",
+  "zip_compression": "deflate",
+  "zip_aes_version": 2,
+  "zip_authentication": "passed",
+  "uncompressed_bytes": 6384,
+  "image_sha256": "0b618cbfb10e8867c905ffc310debba7548b12ce2ca8ba37582722fba758d53c",
+  "output_image": "images/level-18/question-343.png",
+  "width": 400,
+  "height": 400,
+  "mode": "P",
+  "image_format": "PNG",
+  "chunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13
+    },
+    {
+      "type": "PLTE",
+      "bytes": 756
+    },
+    {
+      "type": "IDAT",
+      "bytes": 5559
+    },
+    {
+      "type": "IEND",
+      "bytes": 0
+    }
+  ],
+  "trailing_bytes": 0
+}
