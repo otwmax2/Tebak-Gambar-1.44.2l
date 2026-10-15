@@ -1,0 +1,281 @@
+{
+  "reference_commit": "50a31d40e67903255208218c93c7d92c64781653",
+  "file_count": 26536,
+  "total_bytes": 152941884,
+  "counts": {
+    "resources_files": 2292,
+    "resources_bytes": 13544803,
+    "text_files": 25215,
+    "text_lines": 5030636,
+    "smali_files": 12291,
+    "smali_bytes": 99182811,
+    "sources_files": 11952,
+    "sources_bytes": 38381724,
+    "tree.txt_files": 1,
+    "tree.txt_bytes": 1832546
+  },
+  "extensions": {
+    ".bin": 1,
+    ".gz": 1,
+    ".j0": 1,
+    ".java": 11953,
+    ".json": 1,
+    ".kotlin_builtins": 7,
+    ".mf": 1,
+    ".ogg": 11,
+    ".png": 891,
+    ".prof": 1,
+    ".properties": 39,
+    ".proto": 1,
+    ".rsa": 1,
+    ".sf": 1,
+    ".smali": 12291,
+    ".ttf": 6,
+    ".txt": 2,
+    ".u": 1,
+    ".version": 61,
+    ".xml": 865,
+    ".zip": 400
+  },
+  "java_packages": 634,
+  "components": {
+    "receiver": 15,
+    "service": 19,
+    "activity": 34,
+    "provider": 8
+  },
+  "exported_components": 13,
+  "permissions": [
+    {
+      "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+    },
+    {
+      "name": "android.permission.INTERNET"
+    },
+    {
+      "name": "android.permission.ACCESS_NETWORK_STATE"
+    },
+    {
+      "name": "android.permission.READ_EXTERNAL_STORAGE"
+    },
+    {
+      "name": "android.permission.WAKE_LOCK"
+    },
+    {
+      "name": "android.permission.VIBRATE"
+    },
+    {
+      "name": "android.permission.FOREGROUND_SERVICE"
+    },
+    {
+      "name": "com.google.android.c2dm.permission.RECEIVE"
+    },
+    {
+      "name": "com.google.android.gms.permission.AD_ID"
+    },
+    {
+      "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    },
+    {
+      "name": "android.permission.ACCESS_WIFI_STATE"
+    },
+    {
+      "name": "com.tebakgambar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    }
+  ],
+  "manifest": {
+    "versionCode": "14061",
+    "versionName": "1.44.2l",
+    "installLocation": "auto",
+    "compileSdkVersion": "34",
+    "compileSdkVersionCodename": "14",
+    "package": "com.tebakgambar",
+    "platformBuildVersionCode": "34",
+    "platformBuildVersionName": "14"
+  },
+  "sdk": {
+    "minSdkVersion": "19",
+    "targetSdkVersion": "34"
+  },
+  "application": {
+    "theme": "@android:style/Theme.NoTitleBar",
+    "label": "Tebak Gambar",
+    "icon": "@mipmap/ic_launcher",
+    "name": "com.tebakgambar.TGApplication",
+    "allowBackup": "false",
+    "hardwareAccelerated": "true",
+    "largeHeap": "true",
+    "supportsRtl": "true",
+    "fullBackupContent": "false",
+    "usesCleartextTraffic": "true",
+    "appComponentFactory": "androidx.core.app.CoreComponentFactory",
+    "enableOnBackInvokedCallback": "true"
+  },
+  "decompiler_stub_occurrences": 606,
+  "java_files_with_stubs": 435,
+  "app_java_files": 160,
+  "app_decompiler_stubs": 2,
+  "pattern_counts": {
+    "decompiler_stub": 606,
+    "decompiler_incorrect": 583,
+    "web_javascript_enabled": 8,
+    "md5": 6,
+    "web_javascript_bridge": 5,
+    "dynamic_dex": 2,
+    "body_logging": 2,
+    "web_file_access": 1,
+    "aes_cbc_nopadding": 2
+  },
+  "java_without_exact_smali": 84,
+  "smali_without_exact_java": 423,
+  "xml_errors": 0,
+  "archive_crc_status": {
+    "not_tested_encrypted": 400
+  },
+  "archive_encrypted": 400,
+  "archive_unsafe_paths": 0,
+  "png_header_errors": 0,
+  "domains": 54,
+  "largest_files": [
+    {
+      "path": "sources/com/google/android/gms/internal/ads/zzra.java",
+      "bytes": 2722121,
+      "sha256": "6a31fe4a413c435d781e70bf69a60a7e4a71de04a1ca9dcf68156f45e098eb41",
+      "extension": ".java",
+      "text_lines": 29836
+    },
+    {
+      "path": "tree.txt",
+      "bytes": 1832546,
+      "sha256": "f4eff40d350e3e1ee489745194a6e2a2a25ca64e33f543e0f83a1e1d436325f0",
+      "extension": ".txt",
+      "text_lines": 28177
+    },
+    {
+      "path": "smali/androidx/recyclerview/widget/RecyclerView.smali",
+      "bytes": 698912,
+      "sha256": "64e244d5cf3b358ebf83307a7fd2b8df07269a1564f9bb97f50ba9626baa3603",
+      "extension": ".smali",
+      "text_lines": 28482
+    },
+    {
+      "path": "smali/com/google/android/gms/measurement/internal/zzli.smali",
+      "bytes": 646312,
+      "sha256": "047109d6e49ff219191a654564fd90e89bbb845c9e836d84406a73ea8a7ab19f",
+      "extension": ".smali",
+      "text_lines": 20336
+    },
+    {
+      "path": "smali/com/google/android/gms/internal/ads/zzgrz.smali",
+      "bytes": 424586,
+      "sha256": "e3da03719b5266f76f1dd311122c583d081b89683a9bfa4cba144f26d5586976",
+      "extension": ".smali",
+      "text_lines": 19257
+    },
+    {
+      "path": "smali/androidx/datastore/preferences/protobuf/u0.smali",
+      "bytes": 416930,
+      "sha256": "6a6f7f5aa22038f4bb6f6aa40c37c84ea728f62099bb9a436c52aac604752b62",
+      "extension": ".smali",
+      "text_lines": 17150
+    },
+    {
+      "path": "smali/com/google/android/gms/internal/measurement/zzlm.smali",
+      "bytes": 371843,
+      "sha256": "59e6e0e4f6b4a5eb76d734ce8a6ea7f5fc291ea1414065cf362575604e6641fa",
+      "extension": ".smali",
+      "text_lines": 16569
+    },
+    {
+      "path": "resources/res/values/public.xml",
+      "bytes": 363266,
+      "sha256": "7fa696ef45672fb727a2d4c298067c0456cb4ea77b32ff0c32787c5092150cfc",
+      "extension": ".xml",
+      "text_lines": 4747
+    },
+    {
+      "path": "sources/com/tebakgambar/R.java",
+      "bytes": 342444,
+      "sha256": "5cf5b52e81398a608b227fda57ebe8f11f544001a0489c494805292987affe8f",
+      "extension": ".java",
+      "text_lines": 4823
+    },
+    {
+      "path": "smali/androidx/constraintlayout/widget/d.smali",
+      "bytes": 338125,
+      "sha256": "ebcd822b5e84843c97d52f5819638cff4b274ef6bb202e924ccee93a509d9212",
+      "extension": ".smali",
+      "text_lines": 13033
+    },
+    {
+      "path": "smali/com/google/android/gms/internal/firebase_auth/zzjr.smali",
+      "bytes": 338062,
+      "sha256": "4c9334c6361a58ed34ee03570461651fe06ae40c73e1a990f8ebabbf20fb6a9e",
+      "extension": ".smali",
+      "text_lines": 14055
+    },
+    {
+      "path": "smali/com/tebakgambar/question/EventQuestionActivity.smali",
+      "bytes": 330094,
+      "sha256": "c2ffb890741133c8d561f1fdf8ea052b536b4466024033fa773e674fbf4c7ccd",
+      "extension": ".smali",
+      "text_lines": 11440
+    },
+    {
+      "path": "smali/com/google/android/gms/internal/drive/zzlu.smali",
+      "bytes": 324196,
+      "sha256": "8837329a135e075251592431acc54d2fbabc36827aa45cf918afe94bd4ae1290",
+      "extension": ".smali",
+      "text_lines": 14096
+    },
+    {
+      "path": "smali/com/vungle/warren/AdLoader.smali",
+      "bytes": 305801,
+      "sha256": "9a16fcb561b96b6019862cd00cda2797b73c9df69eeb4f3128b5b8f94ba6a0e4",
+      "extension": ".smali",
+      "text_lines": 10328
+    },
+    {
+      "path": "smali/com/google/android/gms/games/internal/zzf.smali",
+      "bytes": 304961,
+      "sha256": "4f818993c25249d358c26c7f069a9d63542dd6257ecc544b683cf0b6a76ae198",
+      "extension": ".smali",
+      "text_lines": 10176
+    },
+    {
+      "path": "smali/com/google/android/material/textfield/TextInputLayout.smali",
+      "bytes": 293129,
+      "sha256": "91d74a26f6c78d95a12deaea070c4fbdbfbf003541275f6cf5062d7e329634cb",
+      "extension": ".smali",
+      "text_lines": 10998
+    },
+    {
+      "path": "smali/com/google/android/gms/internal/firebase_auth/zzp.smali",
+      "bytes": 289009,
+      "sha256": "e3e48da3ea027ef21f54b94e03fc451713c6f6a10f433b136f3854ece07e053b",
+      "extension": ".smali",
+      "text_lines": 10726
+    },
+    {
+      "path": "smali/com/vungle/warren/downloader/AssetDownloader.smali",
+      "bytes": 288530,
+      "sha256": "d631e5da89b412f43e575f500433a40540c1a5e9511246a235dc80d46f9e6281",
+      "extension": ".smali",
+      "text_lines": 10027
+    },
+    {
+      "path": "smali/n0/a.smali",
+      "bytes": 272803,
+      "sha256": "821d4b922da8d355bd4160a657ddf63148cbfe6a1e806438060328b919b3105b",
+      "extension": ".smali",
+      "text_lines": 14055
+    },
+    {
+      "path": "resources/res/values/styles.xml",
+      "bytes": 272095,
+      "sha256": "8c50cba11764ac33a0ed945def19f2d512ed35a7ff5fd1696e8142573ed483a9",
+      "extension": ".xml",
+      "text_lines": 3790
+    }
+  ]
+}

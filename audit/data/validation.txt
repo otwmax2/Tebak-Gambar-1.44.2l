@@ -1,0 +1,19 @@
+test_all_file_hashes (__main__.AuditTests.test_all_file_hashes) ... ok
+test_all_xml_parsed (__main__.AuditTests.test_all_xml_parsed) ... ok
+test_components (__main__.AuditTests.test_components) ... ok
+test_dependencies_redact_oauth_values (__main__.AuditTests.test_dependencies_redact_oauth_values) ... ok
+test_font_table_bounds (__main__.AuditTests.test_font_table_bounds) ... ok
+test_full_git_tree_coverage (__main__.AuditTests.test_full_git_tree_coverage) ... ok
+test_gzip_crc_and_length (__main__.AuditTests.test_gzip_crc_and_length) ... ok
+test_index_row_counts (__main__.AuditTests.test_index_row_counts) ... ok
+test_java_inventory (__main__.AuditTests.test_java_inventory) ... ok
+test_levels (__main__.AuditTests.test_levels) ... ok
+test_ogg_page_container_bounds (__main__.AuditTests.test_ogg_page_container_bounds) ... ok
+test_png_chunks_and_crc (__main__.AuditTests.test_png_chunks_and_crc) ... ok
+test_summary_totals (__main__.AuditTests.test_summary_totals) ... ok
+test_zip_container_metadata (__main__.AuditTests.test_zip_container_metadata) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.586s
+
+OK

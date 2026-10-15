@@ -1,0 +1,3 @@
+Reference: 50a31d40e67903255208218c93c7d92c64781653
+PASS: 13 inventory output files reproduced byte-for-byte in a temporary directory.
+No network access or application execution used.

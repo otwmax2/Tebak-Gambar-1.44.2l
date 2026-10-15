@@ -1,0 +1,101 @@
+path,metadata
+resources/META-INF/androidx.activity_activity.version,1.6.0-alpha04
+resources/META-INF/androidx.annotation_annotation-experimental.version,1.1.0
+resources/META-INF/androidx.appcompat_appcompat-resources.version,1.6.0-alpha04
+resources/META-INF/androidx.appcompat_appcompat.version,1.6.0-alpha04
+resources/META-INF/androidx.arch.core_core-runtime.version,2.1.0
+resources/META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version,1.0.0
+resources/META-INF/androidx.browser_browser.version,1.4.0
+resources/META-INF/androidx.cardview_cardview.version,1.0.0
+resources/META-INF/androidx.coordinatorlayout_coordinatorlayout.version,1.1.0
+resources/META-INF/androidx.core_core-ktx.version,1.9.0-alpha04
+resources/META-INF/androidx.core_core.version,1.9.0-alpha04
+resources/META-INF/androidx.cursoradapter_cursoradapter.version,1.0.0
+resources/META-INF/androidx.customview_customview.version,1.0.0
+resources/META-INF/androidx.databinding_baseAdapters.version,7.1.3
+resources/META-INF/androidx.databinding_library.version,7.1.3
+resources/META-INF/androidx.databinding_viewbinding.version,7.1.3
+resources/META-INF/androidx.datastore_datastore-preferences.version,1.0.0
+resources/META-INF/androidx.datastore_datastore.version,1.0.0
+resources/META-INF/androidx.documentfile_documentfile.version,1.0.0
+resources/META-INF/androidx.drawerlayout_drawerlayout.version,1.0.0
+resources/META-INF/androidx.dynamicanimation_dynamicanimation.version,1.0.0
+resources/META-INF/androidx.emoji2_emoji2-views-helper.version,1.2.0-alpha04
+resources/META-INF/androidx.emoji2_emoji2.version,1.2.0-alpha04
+resources/META-INF/androidx.exifinterface_exifinterface.version,1.2.0
+resources/META-INF/androidx.fragment_fragment.version,1.3.6
+resources/META-INF/androidx.interpolator_interpolator.version,1.0.0
+resources/META-INF/androidx.legacy_legacy-support-core-ui.version,1.0.0
+resources/META-INF/androidx.legacy_legacy-support-core-utils.version,1.0.0
+resources/META-INF/androidx.legacy_legacy-support-v4.version,1.0.0
+resources/META-INF/androidx.lifecycle_lifecycle-extensions.version,2.2.0
+resources/META-INF/androidx.lifecycle_lifecycle-livedata-core.version,2.5.0-rc01
+resources/META-INF/androidx.lifecycle_lifecycle-livedata.version,2.2.0
+resources/META-INF/androidx.lifecycle_lifecycle-process.version,2.4.1
+resources/META-INF/androidx.lifecycle_lifecycle-runtime.version,2.5.0-rc01
+resources/META-INF/androidx.lifecycle_lifecycle-service.version,2.2.0
+resources/META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version,2.5.0-rc01
+resources/META-INF/androidx.lifecycle_lifecycle-viewmodel.version,2.5.0-rc01
+resources/META-INF/androidx.loader_loader.version,1.0.0
+resources/META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version,1.0.0
+resources/META-INF/androidx.media_media.version,1.0.0
+resources/META-INF/androidx.print_print.version,1.0.0
+resources/META-INF/androidx.recyclerview_recyclerview.version,1.2.1
+resources/META-INF/androidx.room_room-runtime.version,2.4.0-alpha03
+resources/META-INF/androidx.savedstate_savedstate.version,1.2.0-rc01
+resources/META-INF/androidx.slidingpanelayout_slidingpanelayout.version,1.0.0
+resources/META-INF/androidx.sqlite_sqlite-framework.version,2.2.0-alpha01
+resources/META-INF/androidx.sqlite_sqlite.version,2.2.0-alpha01
+resources/META-INF/androidx.startup_startup-runtime.version,1.1.1
+resources/META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version,1.0.0
+resources/META-INF/androidx.tracing_tracing.version,1.0.0
+resources/META-INF/androidx.transition_transition.version,1.2.0
+resources/META-INF/androidx.vectordrawable_vectordrawable-animated.version,1.1.0
+resources/META-INF/androidx.vectordrawable_vectordrawable.version,1.1.0
+resources/META-INF/androidx.versionedparcelable_versionedparcelable.version,1.1.1
+resources/META-INF/androidx.viewpager2_viewpager2.version,1.0.0
+resources/META-INF/androidx.viewpager_viewpager.version,1.0.0
+resources/META-INF/androidx.work_work-runtime.version,2.7.0
+resources/META-INF/com.google.android.material_material.version,1.3.0
+resources/META-INF/com/android/build/gradle/app-metadata.properties,appMetadataVersion=1.1 | androidGradlePluginVersion=7.1.3
+resources/META-INF/kotlinx_coroutines_android.version,1.6.4
+resources/META-INF/kotlinx_coroutines_core.version,1.6.4
+resources/META-INF/kotlinx_coroutines_play_services.version,1.6.4
+resources/assets/oauth_consumer.properties,#twitter | twitter.com.consumer_key = [REDACTED] | twitter.com.consumer_secret = [REDACTED] |  | #facebook | graph.facebook.com.consumer_key = [REDACTED] | graph.facebook.com.consumer_secret = [REDACTED]
+resources/core.properties,version=1.10.2 | client=core | core_client=1.10.2
+resources/firebase-abt.properties,version=21.0.0 | client=firebase-abt | firebase-abt_client=21.0.0
+resources/firebase-ads.properties,version=22.0.0 | client=firebase-ads | firebase-ads_client=22.0.0
+resources/firebase-analytics.properties,version=20.1.2 | client=firebase-analytics | firebase-analytics_client=20.1.2
+resources/firebase-annotations.properties,version=16.2.0 | client=firebase-annotations | firebase-annotations_client=16.2.0
+resources/firebase-auth-interop.properties,version=19.0.0 | client=firebase-auth-interop | firebase-auth-interop_client=19.0.0
+resources/firebase-auth.properties,version=19.3.1 | client=firebase-auth | firebase-auth_client=19.3.1
+resources/firebase-config.properties,version=21.0.0 | client=firebase-config | firebase-config_client=21.0.0
+resources/firebase-dynamic-links.properties,version=19.1.0 | client=firebase-dynamic-links | firebase-dynamic-links_client=19.1.0
+resources/firebase-encoders-proto.properties,version=16.0.0 | client=firebase-encoders-proto | firebase-encoders-proto_client=16.0.0
+resources/firebase-encoders.properties,version=17.0.0 | client=firebase-encoders | firebase-encoders_client=17.0.0
+resources/firebase-iid-interop.properties,version=17.1.0 | client=firebase-iid-interop | firebase-iid-interop_client=17.1.0
+resources/firebase-measurement-connector.properties,version=19.0.0 | client=firebase-measurement-connector | firebase-measurement-connector_client=19.0.0
+resources/firebase-messaging.properties,version=22.0.0 | client=firebase-messaging | firebase-messaging_client=22.0.0
+resources/play-services-ads-base.properties,version=22.0.0 | client=play-services-ads-base | play-services-ads-base_client=22.0.0
+resources/play-services-ads-identifier.properties,version=18.0.0 | client=play-services-ads-identifier | play-services-ads-identifier_client=18.0.0
+resources/play-services-ads-lite.properties,version=22.0.0 | client=play-services-ads-lite | play-services-ads-lite_client=22.0.0
+resources/play-services-ads.properties,version=22.0.0 | client=play-services-ads | play-services-ads_client=22.0.0
+resources/play-services-appset.properties,version=16.0.1 | client=play-services-appset | play-services-appset_client=16.0.1
+resources/play-services-auth-api-phone.properties,version=18.0.1 | client=play-services-auth-api-phone | play-services-auth-api-phone_client=18.0.1
+resources/play-services-auth-base.properties,version=18.0.1 | client=play-services-auth-base | play-services-auth-base_client=18.0.1
+resources/play-services-auth.properties,version=20.2.0 | client=play-services-auth | play-services-auth_client=20.2.0
+resources/play-services-base.properties,version=18.0.1 | client=play-services-base | play-services-base_client=18.0.1
+resources/play-services-basement.properties,version=18.1.0 | client=play-services-basement | play-services-basement_client=18.1.0
+resources/play-services-cloud-messaging.properties,version=16.0.0 | client=play-services-cloud-messaging | play-services-cloud-messaging_client=16.0.0
+resources/play-services-drive.properties,version=17.0.0 | client=play-services-drive | play-services-drive_client=17.0.0
+resources/play-services-games.properties,version=22.0.1 | client=play-services-games | play-services-games_client=22.0.1
+resources/play-services-measurement-api.properties,version=20.1.2 | client=play-services-measurement-api | play-services-measurement-api_client=20.1.2
+resources/play-services-measurement-base.properties,version=20.1.2 | client=play-services-measurement-base | play-services-measurement-base_client=20.1.2
+resources/play-services-measurement-impl.properties,version=20.1.2 | client=play-services-measurement-impl | play-services-measurement-impl_client=20.1.2
+resources/play-services-measurement-sdk-api.properties,version=20.1.2 | client=play-services-measurement-sdk-api | play-services-measurement-sdk-api_client=20.1.2
+resources/play-services-measurement-sdk.properties,version=20.1.2 | client=play-services-measurement-sdk | play-services-measurement-sdk_client=20.1.2
+resources/play-services-measurement.properties,version=20.1.2 | client=play-services-measurement | play-services-measurement_client=20.1.2
+resources/play-services-stats.properties,version=17.0.2 | client=play-services-stats | play-services-stats_client=17.0.2
+resources/play-services-tasks.properties,version=18.0.2 | client=play-services-tasks | play-services-tasks_client=18.0.2
+resources/transport-api.properties,version=3.0.0 | client=transport-api | transport-api_client=3.0.0
+resources/user-messaging-platform.properties,version=2.0.0 | client=user-messaging-platform | user-messaging-platform_client=2.0.0
