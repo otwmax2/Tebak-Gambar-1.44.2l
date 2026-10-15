@@ -38,3 +38,8 @@ export function loadEnvironment(): void {
   try { process.loadEnvFile(path.join(BOT_ROOT, '.env')); }
   catch (e) { if ((e as NodeJS.ErrnoException).code !== 'ENOENT') throw e; }
 }
+
+/** Syntax only; real authentication is a separate explicit getMe probe. */
+export function validProductionToken(token: string): boolean {
+  return /^\d+:[A-Za-z0-9_-]+$/.test(token) && !['123456:OFFLINE_DEMO_ONLY', '123:MOCK_NEVER_SENT'].includes(token);
+}

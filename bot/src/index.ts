@@ -1,11 +1,16 @@
-import { loadEnvironment, readConfig } from './config.js';
+import { loadEnvironment, readConfig, validProductionToken } from './config.js';
+import { preflight } from './preflight.js';
 import { Catalog } from './catalog.js';
 import { Store } from './store.js';
 import { Engine } from './engine.js';
 import { createRuntime, COMMANDS } from './bot.js';
 async function main(): Promise<void> {
   loadEnvironment(); const config = readConfig();
-  if (!/^\d+:[A-Za-z0-9_-]+$/.test(config.token)) throw new Error('Set BOT_TOKEN securely.');
+  if (!validProductionToken(config.token)) throw new Error('Set BOT_TOKEN securely.');
+  if (config.database === ':memory:') throw new Error('Production requires persistent SQLite.');
+  const readiness = await preflight(config);
+  const failures = readiness.filter(check => check.status === 'fail');
+  if (failures.length) { console.error(JSON.stringify({event:'preflight-failure', checks:failures.map(check=>check.name)})); throw new Error('Production preflight failed.'); }
   const catalog=new Catalog(config.assetRoot), store=new Store(config.database);
   const runtime=createRuntime(new Engine(store,catalog,config),config); let stopping=false;
   const stop=():void=>{if(stopping)return;stopping=true;void runtime.close();if(runtime.bot.isRunning())void runtime.bot.stop().catch(()=>{});};

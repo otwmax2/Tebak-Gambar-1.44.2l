@@ -21,7 +21,9 @@
     "coverage:repo": "tsx scripts/map-repository.ts",
     "demo:test": "tsx scripts/test-demo-http.ts",
     "backup:compiled": "node dist/scripts/backup.js",
-    "backup:test": "npm run build && tsx scripts/test-backup.ts"
+    "backup:test": "npm run build && tsx scripts/test-backup.ts",
+    "doctor": "node dist/scripts/doctor.js",
+    "doctor:offline": "node dist/scripts/doctor.js --offline"
   },
   "dependencies": {
     "@grammyjs/auto-retry": "2.0.2",

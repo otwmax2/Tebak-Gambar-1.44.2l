@@ -16,7 +16,8 @@ Pemeriksaan lokal 15 Oktober 2026 UTC. Runtime diuji: Node.js 22.22.3, npm 11.6.
 | 22 grammY handler/API mock tests | PASS |
 | 6 image/sticker/frame/path tests | PASS |
 | 3 audio/quota/hint persistence tests | PASS |
-| **Total 72 tests** | **PASS** |
+| 11 readiness/preflight tests, read-only SQLite, mock probe API, redaction/no-network | PASS |
+| **Total 83 tests** | **PASS** |
 | Build JavaScript | PASS |
 | Lockfile clean install dengan npm 11.6.0 | PASS |
 | npm audit (all dependency types) | 0 vulnerability terlapor pada saat pemeriksaan |
@@ -59,6 +60,10 @@ npm run coverage:repo
 ```
 
 Pada instalasi awal npm melaporkan advisori pada tool test/esbuild yang dipin lebih lama. Tooling diperbarui ke Vitest 4.1.11 dan esbuild 0.28.1 override, kemudian seluruh typecheck/test/build diperiksa ulang; lockfile final tidak lagi melaporkan vulnerability. Ini status registry saat pemeriksaan, bukan klaim kode sendiri bebas semua kerentanan.
+
+## Persiapan deployment baru
+
+`npm run doctor:offline` lulus pemeriksaan lokal; token tidak tersedia dan API Telegram tetap BELUM DIUJI. Pemeriksaan default `npm run doctor` harus menolak token kosong, bukan menganggap host produksi siap. Runbook baru: [PRODUCTION.md](PRODUCTION.md). Template systemd menjalankan doctor di ExecStartPre; perubahan Docker/systemd ini belum dideploy di host nyata.
 
 ## Kriteria acceptance Telegram sebelum rilis publik
 

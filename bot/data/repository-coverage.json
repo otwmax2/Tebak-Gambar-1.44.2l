@@ -1,12 +1,12 @@
 {
-  "referenceHead": "2929bbadb3587ac9a3764cafe47c840ce67b24af",
+  "referenceHead": "6b44a8838e6c0f77a79d1feacac52c63a7e6824e",
   "scope": "all tracked + untracked nonignored working-tree paths at generation; path classification, NOT 100% semantic equivalence",
-  "filesMapped": 27422,
+  "filesMapped": 27427,
   "categories": {
     "repository metadata / documentation": 4,
     "audit, decoded metadata or downloadable evidence": 446,
     "400 decoded question images": 400,
-    "TypeScript bot / deployment / tests": 37,
+    "TypeScript bot / deployment / tests": 42,
     "Android platform declaration": 1,
     "other Android UI/font/SDK/signature/resource": 1869,
     "level metadata and quotes": 1,
@@ -20,6 +20,5 @@
   },
   "excluded": "Git internals, dependency/cache/build/runtime/credential files ignored by Git",
   "runtimeQuestions": 400,
-  "runtimeLevels": 20,
-  "referenceNote": "Published Android/decryption base; bot paths classified from the current working tree."
+  "runtimeLevels": 20
 }

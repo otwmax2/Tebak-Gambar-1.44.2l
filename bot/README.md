@@ -5,12 +5,14 @@ Implementasi mandiri sesuai pilihan pengguna: **seluruh 400 soal offline**, **lo
 ## Status yang benar-benar terverifikasi
 
 - Semua 400 gambar/metadata/jawaban dimuat, hash diperiksa dan pixel didekode.
-- **72 test lulus**, termasuk walkthrough lengkap 400 soal hingga level 20, handler grammY dengan Bot API mock, database persistence, timer/checkpoint dan media.
+- **83 test lulus**, termasuk walkthrough lengkap 400 soal hingga level 20, handler grammY dengan Bot API mock, database persistence, timer/checkpoint dan media.
 - Typecheck source + test dan build TypeScript lulus.
 - Demo lokal berjalan dengan handler grammY yang sama; **bukan koneksi Telegram live**.
 - `npm audit`: tidak ada vulnerability terlapor pada lockfile saat validasi (bukan jaminan seluruh kode bebas bug).
 - BOT_TOKEN tidak disediakan; registrasi/live polling Telegram **belum diuji**. Sandbox ini tidak mengizinkan akses jaringan ke host Telegram. Pengujian nyata harus dilakukan di server pemilik dengan token melalui environment.
 - Docker/systemd/CI disediakan, belum dijalankan sebagai deployment nyata.
+
+Panduan operasional produksi: **[PRODUCTION.md](PRODUCTION.md)** (doctor, Docker/systemd, acceptance, backup, upgrade/rollback).
 
 Lihat [FEATURE_PARITY.md](FEATURE_PARITY.md), [VALIDATION.md](VALIDATION.md), [data/repository-map.csv](data/repository-map.csv) untuk cakupan seluruh path repo.
 
@@ -37,6 +39,8 @@ Edit `.env` secara lokal, masukkan BOT_TOKEN dan ADMIN_IDS bila diperlukan. Jang
 
 ```bash
 npm run check
+npm run doctor
+# Pada host pemilik: npm run doctor -- --telegram
 npm start
 ```
 
@@ -50,7 +54,7 @@ npm run dev
 
 Pada startup bot:
 
-1. Memvalidasi konfigurasi dan 400 SHA-256 aset.
+1. Memvalidasi konfigurasi, preflight storage/schema/media dan 400 SHA-256 aset sebelum menghubungi Telegram.
 2. Membuka/migrasikan SQLite, WAL + foreign keys + busy timeout.
 3. Memanggil getMe dan menghapus webhook **tanpa drop pending updates** agar long polling dapat bekerja.
 4. Memasang menu perintah Bot API.
@@ -220,7 +224,8 @@ Backup adalah tindakan administrator, bukan `/import` JSON arbitrer dari penggun
 - `engine.ts`: state/reward/progres tanpa Telegram network dependency.
 - `bot.ts`: command, callback ownership+nonce, optional Telegram API auto-retry, reminders/outbox.
 - `media.ts`: frame/sticker serta official Telegram file download; menolak path traversal/URL input.
-- `index.ts`: produksi long polling, signal shutdown.
+- `index.ts`: produksi long polling, signal shutdown, menolak database in-memory.
+- `preflight.ts` + `scripts/doctor.ts`: readiness lokal dan probe read-only Telegram opt-in.
 - `mock-telegram.ts`, `demo.ts`: hanya simulator/test; **tidak diimpor entrypoint produksi**.
 
 SQL memakai parameter binding. Token tidak masuk SQLite, export, log atau source. Error log hanya event/type/update ID, tidak payload chat atau URL berkunci. File game lama tidak dieksekusi. Tidak menanam rahasia OAuth hasil audit dalam bot. Retry request API dibatasi; update ID dideduplikasi selama 24 jam. Dedup marker ditulis sebelum handler, sehingga crash di tengah handler bisa membuat sebagian respons tidak terkirim; gunakan `/status`/`/play` untuk pemulihan. Ini bukan transaksi exactly-once lintas jaringan Telegram.
@@ -236,6 +241,6 @@ npm run backup:test
 npm run coverage:repo
 ```
 
-72 test mencakup 41 engine, 22 handler grammY, 6 media, 3 kasus tambahan. Template GitHub Actions tersedia di `deploy/telegram-bot.workflow.yml`, belum aktif. Untuk mengaktifkan, pengelola dengan izin workflows perlu menyalinnya ke `.github/workflows/telegram-bot.yml`; koneksi GitHub sesi ini tidak memiliki izin tersebut. Hasil remote CI belum diuji. Semua test menggunakan token dummy + mock transport, tidak pernah mencoba credential Android atau Bot API produksi.
+83 test mencakup 41 engine, 22 handler grammY, 6 media, 3 kasus tambahan dan 11 preflight produksi. Template GitHub Actions tersedia di `deploy/telegram-bot.workflow.yml`, belum aktif. Untuk mengaktifkan, pengelola dengan izin workflows perlu menyalinnya ke `.github/workflows/telegram-bot.yml`; koneksi GitHub sesi ini tidak memiliki izin tersebut. Hasil remote CI belum diuji. Semua test menggunakan token dummy + mock transport, tidak pernah mencoba credential Android atau Bot API produksi.
 
 Sebelum membuka bot publik: uji getMe/start/stop, command/callback, grup dengan setting privacy, foto/stiker/audio, permission admin, notifikasi opt-in, restart/progres, 429/403 dan backup/restore pada environment pemilik. BotFather token masih diperlukan — implementasi lokal tidak bisa menggantikan itu.

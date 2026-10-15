@@ -9,6 +9,7 @@ User=tebakgambar
 Group=tebakgambar
 WorkingDirectory=/opt/tebak-gambar/bot
 EnvironmentFile=/etc/tebak-gambar.env
+ExecStartPre=/usr/bin/node /opt/tebak-gambar/bot/dist/scripts/doctor.js
 ExecStart=/usr/bin/node /opt/tebak-gambar/bot/dist/src/index.js
 Restart=on-failure
 RestartSec=10

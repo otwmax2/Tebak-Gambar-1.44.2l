@@ -4,6 +4,7 @@ Repository ini mempertahankan hasil dekompilasi APK asli beserta audit dan hasil
 
 - [Panduan bot, konfigurasi dan deployment](bot/README.md).
 - [Pemetaan fitur Android → Telegram dan batas kesetaraan](bot/FEATURE_PARITY.md).
+- [Runbook deployment produksi](bot/PRODUCTION.md).
 - [Laporan pengujian bot](bot/VALIDATION.md).
 - [Audit repository Android](audit/LAPORAN_REPO.md).
 - [Pembukaan 400/400 ZIP](audit/LAPORAN_DEKRIPSI.md).
