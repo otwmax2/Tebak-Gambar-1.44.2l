@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { DatabaseSync } from 'node:sqlite';
+import { loadEnvironment, readConfig } from '../src/config.js';
+loadEnvironment(); const config=readConfig();
+const output=process.argv[2];if(!output)throw new Error('Usage: npm run backup -- /secure/path/game-backup.sqlite');
+const target=path.resolve(output);if(target===config.database||fs.existsSync(target))throw new Error('Backup destination must be new and not the active DB');
+if(!fs.existsSync(config.database))throw new Error('Active database does not exist');
+fs.mkdirSync(path.dirname(target),{recursive:true,mode:0o700});
+const db=new DatabaseSync(config.database);db.exec('PRAGMA busy_timeout=5000');db.prepare('VACUUM INTO ?').run(target);db.close();fs.chmodSync(target,0o600);
+console.log('Consistent SQLite backup completed. Store securely; contains personal data.');

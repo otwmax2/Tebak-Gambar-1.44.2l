@@ -1,0 +1,11 @@
+# Runtime/dependencies; original Android archive remains tracked.
+node_modules/
+bot/dist/
+bot/runtime/
+bot/coverage/
+bot/.env
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc

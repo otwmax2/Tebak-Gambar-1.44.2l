@@ -1,0 +1,82 @@
+
+added 144 packages, and audited 145 packages in 2s
+
+56 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+> tebak-gambar-telegram@1.0.0 check
+> npm run typecheck && npm run assets:verify && npm test && npm run build
+
+
+> tebak-gambar-telegram@1.0.0 typecheck
+> tsc --noEmit && tsc -p tsconfig.test.json
+
+
+> tebak-gambar-telegram@1.0.0 assets:verify
+> tsx scripts/verify-assets.ts
+
+PASS: 400 image hashes, PNG metadata and full pixel decode; 20 levels.
+
+> tebak-gambar-telegram@1.0.0 test
+> vitest run
+
+
+[1m[30m[46m RUN [49m[39m[22m [36mv4.1.11 [39m[90m/home/user/Tebak-Gambar-1.44.2l/bot[39m
+
+(node:5900) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+ [32m✓[39m tests/engine.test.ts [2m([22m[2m41 tests[22m[2m)[22m[32m 232[2mms[22m[39m
+(node:5907) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+ [32m✓[39m tests/bot.test.ts [2m([22m[2m22 tests[22m[2m)[22m[33m 404[2mms[22m[39m
+ [32m✓[39m tests/media.test.ts [2m([22m[2m6 tests[22m[2m)[22m[33m 392[2mms[22m[39m
+(node:5938) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+ [32m✓[39m tests/extra.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 49[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m4 passed[39m[22m[90m (4)[39m
+[2m      Tests [22m [1m[32m72 passed[39m[22m[90m (72)[39m
+[2m   Start at [22m 08:26:02
+[2m   Duration [22m 2.02s[2m (transform 185ms, setup 0ms, import 501ms, tests 1.08s, environment 0ms)[22m
+
+
+> tebak-gambar-telegram@1.0.0 build
+> tsc
+
+
+> tebak-gambar-telegram@1.0.0 test
+> vitest run --reporter=json --outputFile=data/test-results.json
+
+(node:5994) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6025) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6032) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+JSON report written to /home/user/Tebak-Gambar-1.44.2l/bot/data/test-results.json
+
+> tebak-gambar-telegram@1.0.0 backup:test
+> npm run build && tsx scripts/test-backup.ts
+
+
+> tebak-gambar-telegram@1.0.0 build
+> tsc
+
+PASS: compiled backup, live WAL consistency, persisted score/progress, mode 600, quoted path binding and refusal to overwrite an existing backup.
+(node:6086) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+> tebak-gambar-telegram@1.0.0 demo:test
+> tsx scripts/test-demo-http.ts
+
+PASS live HTTP simulator: onboarding, callback/hint, PNG, answer, WebP, Ogg, selfie framing, export, group winner, delete/recreate and cross-cookie media isolation. NO Telegram network.
+
+> tebak-gambar-telegram@1.0.0 coverage:repo
+> tsx scripts/map-repository.ts
+
+Mapped all 27422 tracked/nonignored working-tree paths; no claim of wholesale Android SDK conversion.
+Bot gagal dimulai. Periksa BOT_TOKEN, jaringan Telegram, konflik polling, SQLite dan konfigurasi. Token tidak dicetak.
+(node:6219) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)

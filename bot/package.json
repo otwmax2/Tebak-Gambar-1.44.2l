@@ -1,0 +1,41 @@
+{
+  "name": "tebak-gambar-telegram",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standalone Telegram adaptation of the 400 bundled Tebak Gambar questions",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "assets:verify": "tsx scripts/verify-assets.ts",
+    "typecheck": "tsc --noEmit && tsc -p tsconfig.test.json",
+    "build": "tsc",
+    "start": "node dist/src/index.js",
+    "dev": "tsx src/index.ts",
+    "demo": "tsx src/demo.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "npm run typecheck && npm run assets:verify && npm test && npm run build",
+    "backup": "tsx scripts/backup.ts",
+    "coverage:repo": "tsx scripts/map-repository.ts",
+    "demo:test": "tsx scripts/test-demo-http.ts",
+    "backup:compiled": "node dist/scripts/backup.js",
+    "backup:test": "npm run build && tsx scripts/test-backup.ts"
+  },
+  "dependencies": {
+    "@grammyjs/auto-retry": "2.0.2",
+    "grammy": "1.46.0",
+    "sharp": "0.35.5"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.15",
+    "tsx": "4.21.0",
+    "typescript": "5.9.3",
+    "vitest": "4.1.11"
+  },
+  "overrides": {
+    "esbuild": "0.28.1"
+  },
+  "packageManager": "npm@11.6.0"
+}

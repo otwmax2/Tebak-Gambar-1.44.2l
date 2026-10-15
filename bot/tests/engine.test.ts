@@ -1,0 +1,65 @@
+import { beforeEach, afterEach, describe, expect, it } from 'vitest';
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
+import { readConfig } from '../src/config.js';
+import { Catalog } from '../src/catalog.js';
+import { Store } from '../src/store.js';
+import { Engine, distance, normalize, dayUTC } from '../src/engine.js';
+const config = readConfig({DATABASE_PATH: ':memory:', SHUFFLE_QUESTIONS: 'false', RATE_LIMIT_MS: '0'});
+const catalog = new Catalog(config.assetRoot);
+let store: Store, engine: Engine, clock: number;
+beforeEach(() => { clock = Date.UTC(2026, 9, 15, 1); store = new Store(':memory:'); engine = new Engine(store, catalog, config, () => clock); engine.touch(1, 'Pemain 1', 1); engine.touch(2, 'Pemain 2', 2); });
+afterEach(() => store.close());
+const solve = () => { const s = engine.start(1, 1); return engine.answer(s.id, 1, 1, catalog.get(s.question_id).answer); };
+describe('catalog and normalization', () => {
+ it('contains all 400 assets and 30 raja', () => { expect(catalog.questions).toHaveLength(400); expect(catalog.questions.filter(q => q.type === 'raja')).toHaveLength(30); });
+ it('preserves boss/checkpoint slots while shuffling', () => { for (let l=1;l<=20;l++) { const order=catalog.order(l); expect(new Set(order).size).toBe(20); expect(order[19]).toBe(l*20-1); if(l>=11) expect(order[9]).toBe((l-1)*20+9); }});
+ it('normalizes case/whitespace/Unicode', () => { expect(normalize('JAM\n TANGAN')).toBe('jamtangan'); expect(normalize('Ａ')).toBe('a'); expect(distance('Jambu BATU', 'jambu batu')).toBe(0); });
+ it('computes edit distances', () => { expect(distance('abc','adc')).toBe(1); expect(distance('ab','abc')).toBe(1); expect(distance('', 'abc')).toBe(3); });
+ it('rejects invalid config and catalog lookups', () => { expect(()=>readConfig({MAX_LIVES:'no'})).toThrow(); expect(()=>readConfig({ADMIN_IDS:'-1'})).toThrow(); expect(()=>catalog.get(-1)).toThrow(); });
+});
+describe('progression and persistence', () => {
+ it('starts first question and resuming keeps nonce', () => { const a=engine.start(1,1); expect(a.question_id).toBe(0); expect(engine.start(1,1).id).toBe(a.id); });
+ it('rejects locked and invalid selections', () => { expect(()=>engine.start(1,1,'progress',2)).toThrow(/terkunci/); expect(()=>engine.start(1,1,'progress',NaN)).toThrow(/valid/); expect(()=>engine.start(1,1,'practice',400)).toThrow(/valid/); });
+ it('correct answer advances and scores', () => { expect(solve().points).toBe(10); expect(engine.progress(1,1).position).toBe(1); expect(engine.player(1).score).toBe(10); });
+ it('near answer never consumes a life', () => { const s=engine.start(1,1); expect(engine.answer(s.id,1,1,'jambu bat').kind).toBe('near'); expect(engine.player(1).lives).toBe(5); });
+ it('wrong answer consumes one life', () => { const s=engine.start(1,1); expect(engine.answer(s.id,1,1,'zzzxxxqqq').kind).toBe('wrong'); expect(engine.player(1).lives).toBe(4); });
+ it('empty and huge answers are handled', () => { const s=engine.start(1,1); expect(()=>engine.answer(s.id,1,1,'a'.repeat(201))).toThrow(/panjang/); expect(engine.answer(s.id,1,1,'').kind).toBe('wrong'); });
+ it('zero lives closes session and rolls back', () => { solve(); const s=engine.start(1,1); for(let i=0;i<5;i++)engine.answer(s.id,1,1,'zzzxxxqqq'); expect(engine.progress(1,1).position).toBe(0); expect(engine.current(1,1)).toBeUndefined(); expect(()=>engine.start(1,1)).toThrow(/Nyawa/); });
+ it('refills at the original 10 minute fallback and caps lives', () => { engine.loseLife(1); clock+=config.refillMs-1; expect(engine.player(1).lives).toBe(4); clock++; expect(engine.player(1).lives).toBe(5); clock+=10*config.refillMs; expect(engine.player(1).lives).toBe(5); });
+ it('wall clock rollback cannot grant lives', () => { engine.loseLife(1); clock-=3600000; expect(engine.player(1).lives).toBe(4); });
+ it('completed level unlocks the next level', () => { for(let i=0;i<20;i++)solve(); expect(engine.player(1).unlocked).toBe(2); expect(engine.player(1).selected).toBe(2); expect(engine.start(1,1).question_id).toBe(20); });
+ it('completes every one of the 400 questions without omitted assets', () => { const visited:number[]=[]; for(let i=0;i<400;i++){ const s=engine.start(1,1); visited.push(s.question_id); engine.answer(s.id,1,1,catalog.get(s.question_id).answer); } expect(visited).toEqual(Array.from({length:400},(_,i)=>i)); expect(engine.progress(1,20).position).toBe(20); expect(engine.player(1).score).toBe(370*10+30*30); expect(()=>engine.start(1,1)).toThrow(/selesai/); });
+ it('checkpoint survives rollback and prevents point farming', () => { store.run('UPDATE players SET unlocked=11,selected=11 WHERE id=1'); for(let i=0;i<10;i++)solve(); expect(engine.progress(1,11).checkpoint).toBe(10); solve(); const points=engine.player(1).score; const s=engine.start(1,1); for(let i=0;i<5;i++)engine.answer(s.id,1,1,'zzzxxxqqq'); expect(engine.progress(1,11).position).toBe(10); clock+=config.refillMs; solve(); expect(engine.player(1).score).toBe(points); });
+ it('SQLite survives closing/reopening', () => { const dir=fs.mkdtempSync(path.join(os.tmpdir(),'tg-test-')); const file=path.join(dir,'game.sqlite'); const db=new Store(file); const e=new Engine(db,catalog,config,()=>clock);e.touch(9,'Nine',9); const s=e.start(9,9);e.answer(s.id,9,9,catalog.get(s.question_id).answer);db.close();const reopened=new Store(file);expect(reopened.player(9)?.score).toBe(10);reopened.close();fs.rmSync(dir,{recursive:true}); });
+});
+describe('session isolation and timers', () => {
+ it('prevents using another player callback or another chat', () => {const s=engine.start(1,1);expect(()=>engine.hint(s.id,2,1)).toThrow(/milikmu/);expect(()=>engine.answer(s.id,1,2,'jambu batu')).toThrow(/milikmu/);});
+ it('rejects old replies and solved callbacks', () => {const s=engine.start(1,1);engine.setMessage(s.id,100);expect(()=>engine.answer(s.id,1,1,'jambu batu',99)).toThrow(/lama/);engine.answer(s.id,1,1,'jambu batu',100);expect(()=>engine.hint(s.id,1,1)).toThrow();});
+ it('does not reset the raja deadline on repeated play', () => { for(let i=0;i<19;i++)solve(); const s=engine.start(1,1);clock+=1000;expect(engine.start(1,1).deadline).toBe(s.deadline); });
+ it('expires a boss before accepting the correct answer', () => { for(let i=0;i<19;i++)solve(); const s=engine.start(1,1);clock+=config.bossMs;expect(engine.answer(s.id,1,1,catalog.get(s.question_id).answer).kind).toBe('timeout');expect(engine.player(1).lives).toBe(4);});
+ it('stopping raja has a cost',()=>{for(let i=0;i<19;i++)solve(); const s=engine.start(1,1);engine.stop(s.id,1,1);expect(engine.player(1).lives).toBe(4);});
+ it('expiry is committed even if restart is refused at zero lives',()=>{for(let i=0;i<19;i++)solve();const s=engine.start(1,1);for(let i=0;i<4;i++)engine.loseLife(1);clock+=config.bossMs;expect(()=>engine.start(1,1)).toThrow(/Nyawa/);expect(engine.player(1).lives).toBe(0);expect(store.session(s.id)?.active).toBe(0);});
+ it('tick expires sessions exactly once',()=>{for(let i=0;i<19;i++)solve();engine.start(1,1);clock+=config.bossMs;engine.tick();engine.tick();expect(engine.player(1).lives).toBe(4);expect(engine.jobs()).toHaveLength(1);});
+});
+describe('rewards, hints and alternative modes', () => {
+ it('hint reveals exactly one nonspace character and consumes one credit',()=>{const s=engine.start(1,1);const h=engine.hint(s.id,1,1);expect(h.replace(/[_\s]/g,'')).toHaveLength(1);expect(engine.progress(1,1).hints).toBe(4);});
+ it('hint exhausted never goes negative',()=>{const s=engine.start(1,1);for(let i=0;i<5;i++)engine.hint(s.id,1,1);expect(()=>engine.hint(s.id,1,1)).toThrow(/habis/);expect(engine.progress(1,1).hints).toBe(0);});
+ it('disallows hints/free answers on raja',()=>{for(let i=0;i<19;i++)solve();const s=engine.start(1,1);engine.claimDaily(1);expect(()=>engine.hint(s.id,1,1)).toThrow();expect(()=>engine.answer(s.id,1,1,'',undefined,true)).toThrow();});
+ it('daily claim is once UTC day with capped free balance',()=>{engine.claimDaily(1);expect(()=>engine.claimDaily(1)).toThrow(/sudah/);for(let i=0;i<5;i++){clock+=86400000;engine.claimDaily(1);}expect(engine.player(1).free_answers).toBe(3);});
+ it('free answer is atomic, scores zero and cannot be reused',()=>{engine.claimDaily(1);const s=engine.start(1,1);expect(engine.answer(s.id,1,1,'',undefined,true).points).toBe(0);expect(engine.player(1).free_answers).toBe(0);expect(()=>engine.answer(s.id,1,1,'',undefined,true)).toThrow();});
+ it('practice has no scoring or life loss, and future questions are locked',()=>{const s=engine.start(1,1,'practice',0);engine.answer(s.id,1,1,'zzzxxxqqq');expect(engine.player(1).lives).toBe(5);engine.answer(s.id,1,1,'jambu batu');expect(engine.player(1).score).toBe(0);expect(()=>engine.start(1,1,'practice',1)).toThrow(/belum/);});
+ it('daily challenge is deterministic and award-once',()=>{const day=dayUTC(clock);expect(catalog.dailyId(day)).toBe(catalog.dailyId(day));for(let i=0;i<2;i++){const s=engine.start(1,1,'daily');engine.answer(s.id,1,1,catalog.get(s.question_id).answer);}expect(engine.player(1).score).toBe(5);});
+ it('group quiz has one winner and no private progress mutation',()=>{const s=engine.start(-100,1,'group');expect(engine.start(-100,2,'group').id).toBe(s.id);expect(engine.answer(s.id,2,-100,catalog.get(s.question_id).answer).points).toBe(5);expect(()=>engine.answer(s.id,1,-100,'x')).toThrow();expect(engine.player(2).unlocked).toBe(1);});
+ it('group stop requires initiator or moderator',()=>{const s=engine.start(-100,1,'group');expect(()=>engine.stop(s.id,2,-100)).toThrow(/pembuat/);engine.stop(s.id,2,-100,true);});
+ it('selfie reward is once per day',()=>{engine.requestPhoto(1,1);expect(engine.photoReward(1)).toBe(true);expect(engine.photoReward(1)).toBe(false);expect(engine.progress(1,1).hints).toBe(7);});
+});
+describe('privacy and durable reminders', () => {
+ it('exports only the requesting account',()=>{engine.suggest(1,'ide satu');engine.suggest(2,'ide dua');const text=JSON.stringify(engine.export(1));expect(text).toContain('ide satu');expect(text).not.toContain('ide dua');});
+ it('deletion cascades personal records and active sessions',()=>{solve();engine.suggest(1,'ide');engine.queue(1,1,'msg','job');engine.start(1,1);engine.delete(1);expect(store.player(1)).toBeUndefined();expect(store.all('SELECT * FROM progress WHERE user_id=1')).toHaveLength(0);expect(store.all('SELECT * FROM jobs WHERE user_id=1')).toHaveLength(0);expect(engine.current(1,1)).toBeUndefined();});
+ it('reminders are opt-in and only queued when fully refilled',()=>{engine.loseLife(1);clock+=config.refillMs;engine.tick();expect(engine.jobs()).toHaveLength(0);engine.reminder(1,true);engine.tick();expect(engine.jobs()).toHaveLength(1);engine.tick();expect(engine.jobs()).toHaveLength(1);});
+ it('disabling reminders removes queued notices',()=>{engine.reminder(1,true);engine.queue(1,1,'msg','key');engine.reminder(1,false);expect(engine.jobs()).toHaveLength(0);});
+ it('jobs retry with exponential backoff and permanent failure removes',()=>{engine.queue(1,1,'msg','key');const job=engine.jobs()[0]!;engine.jobFailed(job);expect(engine.jobs()).toHaveLength(0);clock+=5000;expect(engine.jobs()[0]?.attempts).toBe(1);engine.jobFailed(engine.jobs()[0]!,true);expect(engine.jobs()).toHaveLength(0);});
+ it('parameterized suggestion data cannot execute SQL',()=>{engine.suggest(1,"'; DROP TABLE players; --");expect(engine.player(1).id).toBe(1);});
+});

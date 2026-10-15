@@ -1,0 +1,3328 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "50a31d40e67903255208218c93c7d92c64781653",
+  "questions": [
+    {
+      "id": 0,
+      "level": 1,
+      "type": "biasa",
+      "answer": "jambu batu",
+      "image": "images/level-01/question-000.png",
+      "sha256": "fd6f26475e40fc097b1cb2444d9aa14ba29ff8a55b186c7ca5b9d3e05acac501"
+    },
+    {
+      "id": 1,
+      "level": 1,
+      "type": "biasa",
+      "answer": "pisau tajam",
+      "image": "images/level-01/question-001.png",
+      "sha256": "4ee4046bbdf20039c96f371be5618864e9184a15e4d4253834821dbf37535012"
+    },
+    {
+      "id": 2,
+      "level": 1,
+      "type": "biasa",
+      "answer": "jam tangan",
+      "image": "images/level-01/question-002.png",
+      "sha256": "97cd0a5d31ff69db96c2124c2601d98de602662de142aff90d25338da8277581"
+    },
+    {
+      "id": 3,
+      "level": 1,
+      "type": "biasa",
+      "answer": "mari makan",
+      "image": "images/level-01/question-003.png",
+      "sha256": "fd2c7560a07de90e59c331910c8889571166fc92bf69f4a15aaa8e8fd8cb745f"
+    },
+    {
+      "id": 4,
+      "level": 1,
+      "type": "biasa",
+      "answer": "iga bakar",
+      "image": "images/level-01/question-004.png",
+      "sha256": "7aee3de4c695c81249928f413ad886325e5534f82caf8a5217324476ab766c7e"
+    },
+    {
+      "id": 5,
+      "level": 1,
+      "type": "biasa",
+      "answer": "mati rasa",
+      "image": "images/level-01/question-005.png",
+      "sha256": "28f1e9e860a5aff53721b8c52e31210d21370fcb72e0ad3591be6edc0492ce8b"
+    },
+    {
+      "id": 6,
+      "level": 1,
+      "type": "biasa",
+      "answer": "sarung bantal",
+      "image": "images/level-01/question-006.png",
+      "sha256": "ec4893e984ff7f78d15b6543050f65b7a5d10add412032ef32c53f3869d6c121"
+    },
+    {
+      "id": 7,
+      "level": 1,
+      "type": "biasa",
+      "answer": "tenaga listrik",
+      "image": "images/level-01/question-007.png",
+      "sha256": "a9e9d3e1b977e8367f6a7f096b50dd70d80f0e09590a782656d1ab7dd476d9fe"
+    },
+    {
+      "id": 8,
+      "level": 1,
+      "type": "biasa",
+      "answer": "obat nyamuk",
+      "image": "images/level-01/question-008.png",
+      "sha256": "d450caef83c2a1bf90889075ba34eedde34853ce6316cb6a945ef77e9b65f10b"
+    },
+    {
+      "id": 9,
+      "level": 1,
+      "type": "biasa",
+      "answer": "tahi lalat",
+      "image": "images/level-01/question-009.png",
+      "sha256": "199b9dfc9dadae9f58fd4161b8fac2a954c4b45f2cbbc4dbfc8cbec5195f183b"
+    },
+    {
+      "id": 10,
+      "level": 1,
+      "type": "biasa",
+      "answer": "tuang air",
+      "image": "images/level-01/question-010.png",
+      "sha256": "79f28a0f836b3e52f372eac056335fc5d0b051896773e824efb1e033027d2144"
+    },
+    {
+      "id": 11,
+      "level": 1,
+      "type": "biasa",
+      "answer": "alas kaki",
+      "image": "images/level-01/question-011.png",
+      "sha256": "f6eca20af8b46d868b53a08c173844cd8aedf90576a1b522d280adf62afc0ea1"
+    },
+    {
+      "id": 12,
+      "level": 1,
+      "type": "biasa",
+      "answer": "minta uang",
+      "image": "images/level-01/question-012.png",
+      "sha256": "efb3ee9eda9ad2142aede8ef9a601cbd1b17185b6b127e1c6b7389845d0b2422"
+    },
+    {
+      "id": 13,
+      "level": 1,
+      "type": "biasa",
+      "answer": "tantangan seru",
+      "image": "images/level-01/question-013.png",
+      "sha256": "8a9bd25c041f34713b1302562b40e1a029168ad10ba047b002dc6b0065e305f9"
+    },
+    {
+      "id": 14,
+      "level": 1,
+      "type": "biasa",
+      "answer": "daun bayam",
+      "image": "images/level-01/question-014.png",
+      "sha256": "0ec6665aced30e1b61e8eaa6b47b44dc7fc464f47c9adb969c0ba12851ac76a0"
+    },
+    {
+      "id": 15,
+      "level": 1,
+      "type": "biasa",
+      "answer": "potongan harga",
+      "image": "images/level-01/question-015.png",
+      "sha256": "1776f6b579a70f40a7a2e450b4d03654d41cf7a9b1aadfff88a9cd2ec58a934b"
+    },
+    {
+      "id": 16,
+      "level": 1,
+      "type": "biasa",
+      "answer": "udang rebus",
+      "image": "images/level-01/question-016.png",
+      "sha256": "2b8ac697a2f48ca80140a30844940a12a601a95555ef82259e0d5da2d12e640a"
+    },
+    {
+      "id": 17,
+      "level": 1,
+      "type": "biasa",
+      "answer": "kambing guling",
+      "image": "images/level-01/question-017.png",
+      "sha256": "53fadae03f21f3676ad6d259cefd55d86405a353ffa02d3e05a502cc735d8215"
+    },
+    {
+      "id": 18,
+      "level": 1,
+      "type": "biasa",
+      "answer": "satu jalan",
+      "image": "images/level-01/question-018.png",
+      "sha256": "3c9d549d06d56f99a2fe17ed6cc71baa4aba073b8bc4e01791072c11597e9cff"
+    },
+    {
+      "id": 19,
+      "level": 1,
+      "type": "raja",
+      "answer": "aku sayang ayah",
+      "image": "images/level-01/question-019.png",
+      "sha256": "5c79effd07738721ca7588a73ee9d3ab953cb3672a941b821b6f8f38339b163c"
+    },
+    {
+      "id": 20,
+      "level": 2,
+      "type": "biasa",
+      "answer": "nasib buruk",
+      "image": "images/level-02/question-020.png",
+      "sha256": "2dc99760cc90f0a936fd1dfa2ea9cbccf3548ecd1608d4f76a61f23c3769d3a7"
+    },
+    {
+      "id": 21,
+      "level": 2,
+      "type": "biasa",
+      "answer": "tangan kesemutan",
+      "image": "images/level-02/question-021.png",
+      "sha256": "af23df54413929ab81e8a20c8eae1ece1cde4279b05016cdf3373cea682596eb"
+    },
+    {
+      "id": 22,
+      "level": 2,
+      "type": "biasa",
+      "answer": "jangka kaki",
+      "image": "images/level-02/question-022.png",
+      "sha256": "ea42f1b1ee1dbf11b68c0b13a68c749233bdc974b91af1fa9939ff56abbaac5f"
+    },
+    {
+      "id": 23,
+      "level": 2,
+      "type": "biasa",
+      "answer": "polisi tidur",
+      "image": "images/level-02/question-023.png",
+      "sha256": "bcdd24c149463790af911160b4534628415a6a357c8648b313f1783550b99639"
+    },
+    {
+      "id": 24,
+      "level": 2,
+      "type": "biasa",
+      "answer": "rumput kering",
+      "image": "images/level-02/question-024.png",
+      "sha256": "7a4b317e26764d1030369947664f241c37b111c19b5004bd7a666fcc4bc9d9ac"
+    },
+    {
+      "id": 25,
+      "level": 2,
+      "type": "biasa",
+      "answer": "minum jamu",
+      "image": "images/level-02/question-025.png",
+      "sha256": "b850c62f9f477f092cbc9c2a4e9c2e7e17a350a6a9c9225571bb60853a9f3a60"
+    },
+    {
+      "id": 26,
+      "level": 2,
+      "type": "biasa",
+      "answer": "harga pas",
+      "image": "images/level-02/question-026.png",
+      "sha256": "0e9727903a1dfaf68ee7ecd21fc98a82750716fb2d8dbde6dde1f971c8d0fe5e"
+    },
+    {
+      "id": 27,
+      "level": 2,
+      "type": "biasa",
+      "answer": "tempat makan",
+      "image": "images/level-02/question-027.png",
+      "sha256": "ede75cc13671d4584695f5a5456a091e8f9041242f81e16b55d32585d4e3d86a"
+    },
+    {
+      "id": 28,
+      "level": 2,
+      "type": "biasa",
+      "answer": "buku cerita",
+      "image": "images/level-02/question-028.png",
+      "sha256": "6e3e1292342ef7f59767effa0cb043bd82d7d28c12bdbfc35033944c672d8e59"
+    },
+    {
+      "id": 29,
+      "level": 2,
+      "type": "biasa",
+      "answer": "racun tikus",
+      "image": "images/level-02/question-029.png",
+      "sha256": "4514a3817f061c58853c1ba206b6e983b8b4ba001744205f8e5fd6fb94529ad6"
+    },
+    {
+      "id": 30,
+      "level": 2,
+      "type": "biasa",
+      "answer": "kucing belang",
+      "image": "images/level-02/question-030.png",
+      "sha256": "b3cd4a24585656deaa26581e5e9401dd04067d368c5c4c7eb1291962c2b6edf2"
+    },
+    {
+      "id": 31,
+      "level": 2,
+      "type": "biasa",
+      "answer": "hidup senang",
+      "image": "images/level-02/question-031.png",
+      "sha256": "4653a025c3cefc06959c7a943e109b718680142353d08ba1bad7166a6199af9b"
+    },
+    {
+      "id": 32,
+      "level": 2,
+      "type": "biasa",
+      "answer": "rumah tangga",
+      "image": "images/level-02/question-032.png",
+      "sha256": "1b6f3ab8419320cb298a826788009f5e807df57ede92cc45bf40c1657f8a25c5"
+    },
+    {
+      "id": 33,
+      "level": 2,
+      "type": "biasa",
+      "answer": "pulang sekolah",
+      "image": "images/level-02/question-033.png",
+      "sha256": "73526dc4420829bb5537c8c0123ac9170d7d0cd2db54ef7b3704a3789e97c1d9"
+    },
+    {
+      "id": 34,
+      "level": 2,
+      "type": "biasa",
+      "answer": "lebih baik",
+      "image": "images/level-02/question-034.png",
+      "sha256": "238e5fa795f6a7bea6004cc4d0a0610c385ccb9d3228af08950d2c80b2ee9df5"
+    },
+    {
+      "id": 35,
+      "level": 2,
+      "type": "biasa",
+      "answer": "petenis handal",
+      "image": "images/level-02/question-035.png",
+      "sha256": "6bdda16836e80a0fcb02b7287990ade6e191a5319db64684e098a9558b234fa9"
+    },
+    {
+      "id": 36,
+      "level": 2,
+      "type": "biasa",
+      "answer": "pinjam kemeja",
+      "image": "images/level-02/question-036.png",
+      "sha256": "156c99df29fa2e583e875abd8e5fb043e0ea4a74e9e72c01948cb7a553e01451"
+    },
+    {
+      "id": 37,
+      "level": 2,
+      "type": "biasa",
+      "answer": "senam otak",
+      "image": "images/level-02/question-037.png",
+      "sha256": "9f184e842a1757b40f4bb059effd4fba20ab0638fe93de64ee20a9adb3258431"
+    },
+    {
+      "id": 38,
+      "level": 2,
+      "type": "biasa",
+      "answer": "untaian bunga",
+      "image": "images/level-02/question-038.png",
+      "sha256": "df6cb41cbe0ffb41166719eb7926148bf733f4eb502fc3bfc5e1399d89bf984c"
+    },
+    {
+      "id": 39,
+      "level": 2,
+      "type": "raja",
+      "answer": "pohon rambutan roboh",
+      "image": "images/level-02/question-039.png",
+      "sha256": "ece402c3b98912473bd68ee7a51b33b94be9f0321947d0870b28b8efecb5a233"
+    },
+    {
+      "id": 40,
+      "level": 3,
+      "type": "biasa",
+      "answer": "pelampung renang",
+      "image": "images/level-03/question-040.png",
+      "sha256": "103c738272ba34044dbd617b46c8e06b97569a01101985655123368e3f90aa18"
+    },
+    {
+      "id": 41,
+      "level": 3,
+      "type": "biasa",
+      "answer": "komputer lelet",
+      "image": "images/level-03/question-041.png",
+      "sha256": "5aca43248a94aa84ba470f9d0fba37b0fd283150d6bc68d492ec0d344ab91e5c"
+    },
+    {
+      "id": 42,
+      "level": 3,
+      "type": "biasa",
+      "answer": "uang habis",
+      "image": "images/level-03/question-042.png",
+      "sha256": "4ceb42d9286d78a929e9c7effc95c205bfa39f004a353175f826a57889687628"
+    },
+    {
+      "id": 43,
+      "level": 3,
+      "type": "biasa",
+      "answer": "penduduk asli",
+      "image": "images/level-03/question-043.png",
+      "sha256": "b5d78dba36f63edc86b9f0622bff379c122f7577c5a78c745b1a2196e6c4d7a1"
+    },
+    {
+      "id": 44,
+      "level": 3,
+      "type": "biasa",
+      "answer": "rajin belajar",
+      "image": "images/level-03/question-044.png",
+      "sha256": "610c6e58c027945fe7477630535410f8207715171fc8e668d0f01bdf283e1a61"
+    },
+    {
+      "id": 45,
+      "level": 3,
+      "type": "biasa",
+      "answer": "calon penari",
+      "image": "images/level-03/question-045.png",
+      "sha256": "12ebd3d69675b26dfcc86d145aa74025cf6e8ea018d964bf80cf3a37752f394a"
+    },
+    {
+      "id": 46,
+      "level": 3,
+      "type": "biasa",
+      "answer": "batu akik",
+      "image": "images/level-03/question-046.png",
+      "sha256": "eec644547d3b2d30cdaedea1ad7dc775474265e17b9568631a5ddfb3d5a9a4d2"
+    },
+    {
+      "id": 47,
+      "level": 3,
+      "type": "biasa",
+      "answer": "panjang umur",
+      "image": "images/level-03/question-047.png",
+      "sha256": "33b5f5d106f2fe1beae6ab914fc8faff2fdab1a3a8d56183978dd7bd68ee5188"
+    },
+    {
+      "id": 48,
+      "level": 3,
+      "type": "biasa",
+      "answer": "jalan becek",
+      "image": "images/level-03/question-048.png",
+      "sha256": "c0209d5ad5b3757846e86f34b9e037985323da42d872ff73385ec02f2f63dcca"
+    },
+    {
+      "id": 49,
+      "level": 3,
+      "type": "biasa",
+      "answer": "fermentasi susu",
+      "image": "images/level-03/question-049.png",
+      "sha256": "c336fece85d3556872189bf8d917703879a9914f5859cfc0099677f8a5154417"
+    },
+    {
+      "id": 50,
+      "level": 3,
+      "type": "biasa",
+      "answer": "radiasi matahari",
+      "image": "images/level-03/question-050.png",
+      "sha256": "9d53b4e1ac0730ed067469e85fb90d37f4f353b5078414c5f0ce8658d01dbf66"
+    },
+    {
+      "id": 51,
+      "level": 3,
+      "type": "biasa",
+      "answer": "buah tangan",
+      "image": "images/level-03/question-051.png",
+      "sha256": "e9a3121854e7a52d0d4aae65c9f430c8923c7a91f619f617a3e387eb24fa2683"
+    },
+    {
+      "id": 52,
+      "level": 3,
+      "type": "biasa",
+      "answer": "patah hati",
+      "image": "images/level-03/question-052.png",
+      "sha256": "9e1ac0671d6292f57c33ddad28bb564fab695c77fb3ecd62d7d6e25cb83bec04"
+    },
+    {
+      "id": 53,
+      "level": 3,
+      "type": "biasa",
+      "answer": "sakit perut",
+      "image": "images/level-03/question-053.png",
+      "sha256": "5ce5b5d85df038b67934b4e0c3192dcad40d7924a0d44af7471d11ed5fe6794d"
+    },
+    {
+      "id": 54,
+      "level": 3,
+      "type": "biasa",
+      "answer": "menangkap ular",
+      "image": "images/level-03/question-054.png",
+      "sha256": "8c1d95e1e42e027d9ab22502dfbb2b4c516d9923a76880d6947cd495030fb9de"
+    },
+    {
+      "id": 55,
+      "level": 3,
+      "type": "biasa",
+      "answer": "kapal keruk",
+      "image": "images/level-03/question-055.png",
+      "sha256": "cb059cb90782c7551c55b60847c1857d2e6f183b8aa41efbe0f89f71d2a7f846"
+    },
+    {
+      "id": 56,
+      "level": 3,
+      "type": "biasa",
+      "answer": "daur ulang",
+      "image": "images/level-03/question-056.png",
+      "sha256": "5ea05c8417eb887eba119f77fd88c8bb0ee041dd2805596b858a97ab2c8ad14d"
+    },
+    {
+      "id": 57,
+      "level": 3,
+      "type": "biasa",
+      "answer": "darah muda",
+      "image": "images/level-03/question-057.png",
+      "sha256": "91b60b843743b00e3a22ba45e93544234fa159bc214bbf4f762cd6bad1d99547"
+    },
+    {
+      "id": 58,
+      "level": 3,
+      "type": "biasa",
+      "answer": "pancing ikan",
+      "image": "images/level-03/question-058.png",
+      "sha256": "7431e82b4bf43d2a62a3a23b6a4d4f2d4f61701ab6b64e56d37d6cf800877695"
+    },
+    {
+      "id": 59,
+      "level": 3,
+      "type": "raja",
+      "answer": "sebelas korban kebakaran",
+      "image": "images/level-03/question-059.png",
+      "sha256": "549d077e6d1e557267e5e8ac9398f336fb3ea48b40b6dfd2a3c0fda84193996b"
+    },
+    {
+      "id": 60,
+      "level": 4,
+      "type": "biasa",
+      "answer": "jamu kuat",
+      "image": "images/level-04/question-060.png",
+      "sha256": "5c2e673290d514cf2d9c109489af6dd5c453e8426a757edb1acfed7a6606e9c2"
+    },
+    {
+      "id": 61,
+      "level": 4,
+      "type": "biasa",
+      "answer": "kurang pedas",
+      "image": "images/level-04/question-061.png",
+      "sha256": "8d8196609478eba95c9234b8ef19b5f79b106935ca54ad1e895780122e08733c"
+    },
+    {
+      "id": 62,
+      "level": 4,
+      "type": "biasa",
+      "answer": "kuncir kuda",
+      "image": "images/level-04/question-062.png",
+      "sha256": "4b994bd089a12538dd9a68a03c3bbe605a84929ef4fad94091862a51da040b4d"
+    },
+    {
+      "id": 63,
+      "level": 4,
+      "type": "biasa",
+      "answer": "keramik lantai",
+      "image": "images/level-04/question-063.png",
+      "sha256": "510a4ad4cbb1fe07cf670a39c1bbb957d23b7884b21c68619bf88ac6c39756e1"
+    },
+    {
+      "id": 64,
+      "level": 4,
+      "type": "biasa",
+      "answer": "matador banteng",
+      "image": "images/level-04/question-064.png",
+      "sha256": "6eb8f8149265c93ccf48892aac52196eacacf7725a0c65cf5f08fa5c9cb8f043"
+    },
+    {
+      "id": 65,
+      "level": 4,
+      "type": "biasa",
+      "answer": "pemimpin bangsa",
+      "image": "images/level-04/question-065.png",
+      "sha256": "5aa17dd866af341cd97392c428c0352020ed5f4d35a315caddc4cbed97a3f38a"
+    },
+    {
+      "id": 66,
+      "level": 4,
+      "type": "biasa",
+      "answer": "hitung persentase",
+      "image": "images/level-04/question-066.png",
+      "sha256": "203d96787853d192e398cdbae6f45052eb29cac0c9fbcaf86b710d9d9627afd1"
+    },
+    {
+      "id": 67,
+      "level": 4,
+      "type": "biasa",
+      "answer": "tanda jasa",
+      "image": "images/level-04/question-067.png",
+      "sha256": "b909697a7acba5bdaddf9305178e69faf2d3dfca8a50cdb67598cad0c8efe35f"
+    },
+    {
+      "id": 68,
+      "level": 4,
+      "type": "biasa",
+      "answer": "bau badan",
+      "image": "images/level-04/question-068.png",
+      "sha256": "bd550ab3beafa752eadcf792c34b193a0692f1a73d62121fc1cdfa0428149dc6"
+    },
+    {
+      "id": 69,
+      "level": 4,
+      "type": "biasa",
+      "answer": "pasukan khusus",
+      "image": "images/level-04/question-069.png",
+      "sha256": "b11d93af4b16e5e03a0d5a46aa996f33824d613aeb7335a06e3ce420a832a377"
+    },
+    {
+      "id": 70,
+      "level": 4,
+      "type": "biasa",
+      "answer": "meniti waktu",
+      "image": "images/level-04/question-070.png",
+      "sha256": "94e67f69728c37b01ed628d6dbe8dfda5059c809fe81e498dce55bbb9bec2556"
+    },
+    {
+      "id": 71,
+      "level": 4,
+      "type": "biasa",
+      "answer": "pulau batam",
+      "image": "images/level-04/question-071.png",
+      "sha256": "75eab12c4c4fb5221cbbeff9841443110c5d63b965766c8b81c2668533679b89"
+    },
+    {
+      "id": 72,
+      "level": 4,
+      "type": "biasa",
+      "answer": "surat perijinan",
+      "image": "images/level-04/question-072.png",
+      "sha256": "a6a80e7675433aeae4bfb525d4359e55c0c3af4fef793c3865f6f6e9fe41023e"
+    },
+    {
+      "id": 73,
+      "level": 4,
+      "type": "biasa",
+      "answer": "tanduk sapi",
+      "image": "images/level-04/question-073.png",
+      "sha256": "5cb3275a717641650e11f17d00cd7e5d1266d8f044294ba90d549559e8bc4129"
+    },
+    {
+      "id": 74,
+      "level": 4,
+      "type": "biasa",
+      "answer": "angkat kaki",
+      "image": "images/level-04/question-074.png",
+      "sha256": "4a23d8064f50389e3b377153d9735937ebb1f1336656a0b73aff3597b9c9457c"
+    },
+    {
+      "id": 75,
+      "level": 4,
+      "type": "biasa",
+      "answer": "gelang perak",
+      "image": "images/level-04/question-075.png",
+      "sha256": "4eea9610a0421fd48a6736bf3cda048e335b74ff05b4f8f2b329c684d2ea5637"
+    },
+    {
+      "id": 76,
+      "level": 4,
+      "type": "biasa",
+      "answer": "gagal jantung",
+      "image": "images/level-04/question-076.png",
+      "sha256": "7d2ef5168c798921b4f9329a5565adf50aa9ba0cd54fe34426c2f9cca98847f4"
+    },
+    {
+      "id": 77,
+      "level": 4,
+      "type": "biasa",
+      "answer": "kopi susu",
+      "image": "images/level-04/question-077.png",
+      "sha256": "5a89f3229cc44b4829c8dbbd165fdd2e654197057195903e9d3aad250d1166d4"
+    },
+    {
+      "id": 78,
+      "level": 4,
+      "type": "biasa",
+      "answer": "datang petaka",
+      "image": "images/level-04/question-078.png",
+      "sha256": "dba79460451920e97b1df18a0d1363c90043fa2f7929750b353428df586d86f8"
+    },
+    {
+      "id": 79,
+      "level": 4,
+      "type": "raja",
+      "answer": "kita harus hormati bunda",
+      "image": "images/level-04/question-079.png",
+      "sha256": "dc3f3767f25c4f3fa1e591e46103d9bbab5ef091e67f5ac71d78ceef24d49f7a"
+    },
+    {
+      "id": 80,
+      "level": 5,
+      "type": "biasa",
+      "answer": "cakar kucing",
+      "image": "images/level-05/question-080.png",
+      "sha256": "bb38bc764f34c7f5033b8a629225f6ad7a321e9349de8515f6119ad3a576deba"
+    },
+    {
+      "id": 81,
+      "level": 5,
+      "type": "biasa",
+      "answer": "penyumbatan pipa",
+      "image": "images/level-05/question-081.png",
+      "sha256": "6676d9eb750ca905d7a3dab6b44b412b3a0a04f00dbe078d850bc67360dc9aff"
+    },
+    {
+      "id": 82,
+      "level": 5,
+      "type": "biasa",
+      "answer": "tarif bulanan",
+      "image": "images/level-05/question-082.png",
+      "sha256": "4c49dc0107fcee3904c2aa80f6594375ee7bcc875787be4ae1aa71e08cbe0e3e"
+    },
+    {
+      "id": 83,
+      "level": 5,
+      "type": "biasa",
+      "answer": "tahan amarah",
+      "image": "images/level-05/question-083.png",
+      "sha256": "4991e4959a8a2d8b2af98a34e743948ad2fc1b02e83581f91ec0233faf183b69"
+    },
+    {
+      "id": 84,
+      "level": 5,
+      "type": "biasa",
+      "answer": "tanah air",
+      "image": "images/level-05/question-084.png",
+      "sha256": "0d3ecc3f19b03624a862a866e38cc5d958121bbb704717f188061323cbf13926"
+    },
+    {
+      "id": 85,
+      "level": 5,
+      "type": "biasa",
+      "answer": "pintu tobat",
+      "image": "images/level-05/question-085.png",
+      "sha256": "aca4c661fda0f143c705ab21fd0dee55fc30deacb377a01ce8d67ed08ac546a9"
+    },
+    {
+      "id": 86,
+      "level": 5,
+      "type": "biasa",
+      "answer": "ukuran sepatu",
+      "image": "images/level-05/question-086.png",
+      "sha256": "f1fac22bba319d14c0b76b37163f7baf9ac5c176415ed6a92eaaae6b379dfeff"
+    },
+    {
+      "id": 87,
+      "level": 5,
+      "type": "biasa",
+      "answer": "beruang kutub",
+      "image": "images/level-05/question-087.png",
+      "sha256": "a506a713cb40b0bc59b59b47a1dfac9d4fea34c222df4a01351cc90a6fb58cf4"
+    },
+    {
+      "id": 88,
+      "level": 5,
+      "type": "biasa",
+      "answer": "angkatan perang",
+      "image": "images/level-05/question-088.png",
+      "sha256": "fdf203acd70c73e282b6248843fc733a4874b2343c2c225a74a207fbbdd5c734"
+    },
+    {
+      "id": 89,
+      "level": 5,
+      "type": "biasa",
+      "answer": "kartu nama",
+      "image": "images/level-05/question-089.png",
+      "sha256": "d87093afd9ffef01cd0c88b9d113f1ecb9c887cc810fd732b73d9207ae19156a"
+    },
+    {
+      "id": 90,
+      "level": 5,
+      "type": "biasa",
+      "answer": "piring terbang",
+      "image": "images/level-05/question-090.png",
+      "sha256": "0e413f4e4fc06fa0acc12fc911347cd241af6138b6d04ff8bb0328ea90693afb"
+    },
+    {
+      "id": 91,
+      "level": 5,
+      "type": "biasa",
+      "answer": "kerangka rumah",
+      "image": "images/level-05/question-091.png",
+      "sha256": "f9b07e17f41d12910b578c7593d68b5ffa38f45f23a37892055e45deaa05b46e"
+    },
+    {
+      "id": 92,
+      "level": 5,
+      "type": "biasa",
+      "answer": "asah golok",
+      "image": "images/level-05/question-092.png",
+      "sha256": "951a2d1633092284c01c44b194d2c5a4ae0d0a4a79fbe1b2f1b699fbb252bb04"
+    },
+    {
+      "id": 93,
+      "level": 5,
+      "type": "biasa",
+      "answer": "kritik tajam",
+      "image": "images/level-05/question-093.png",
+      "sha256": "8be4ea3e6ef43f0f57408541da364305ac5855e25bc7b0bab31b6f5845aeae6b"
+    },
+    {
+      "id": 94,
+      "level": 5,
+      "type": "biasa",
+      "answer": "laba bisnis",
+      "image": "images/level-05/question-094.png",
+      "sha256": "d418ddf5071f393cac3447e2880ed4a3829682efa31269db2a2e962a3dcc60e4"
+    },
+    {
+      "id": 95,
+      "level": 5,
+      "type": "biasa",
+      "answer": "satelit indonesia",
+      "image": "images/level-05/question-095.png",
+      "sha256": "9952ed43359c9d2f5069032453fc20bb33017dbeffd309e448dfd8427a367d42"
+    },
+    {
+      "id": 96,
+      "level": 5,
+      "type": "biasa",
+      "answer": "dekorasi ruang",
+      "image": "images/level-05/question-096.png",
+      "sha256": "6804a12c08f48880456d926230ceb1e9dbfb49793b204cbaac6c90821de24c36"
+    },
+    {
+      "id": 97,
+      "level": 5,
+      "type": "biasa",
+      "answer": "calon mertua",
+      "image": "images/level-05/question-097.png",
+      "sha256": "814490e54e834be77e9bed48a7fca60ee1596c7aab5e11021e485da84d6d1a2d"
+    },
+    {
+      "id": 98,
+      "level": 5,
+      "type": "biasa",
+      "answer": "demam tinggi",
+      "image": "images/level-05/question-098.png",
+      "sha256": "a4e10a3494c5077dca3235ba0bea2f6f32e5e22aa2affb902fb79559ea9ca8ce"
+    },
+    {
+      "id": 99,
+      "level": 5,
+      "type": "raja",
+      "answer": "kerajinan buatan warga kampung",
+      "image": "images/level-05/question-099.png",
+      "sha256": "f98f11a7b01f4650d47983375e5fd68ffc787ba9bac3f97c9c40a63b67eb0743"
+    },
+    {
+      "id": 100,
+      "level": 6,
+      "type": "biasa",
+      "answer": "kacang polong",
+      "image": "images/level-06/question-100.png",
+      "sha256": "88a2d3324adeb7f9b679e4102bfc3e22c7b474a83846c5e58494d98f357c450a"
+    },
+    {
+      "id": 101,
+      "level": 6,
+      "type": "biasa",
+      "answer": "bunga imitasi",
+      "image": "images/level-06/question-101.png",
+      "sha256": "0f9c279260a1a120e1eb3a4f44e1e5c5221c301be9c2003d771207d7b703cd79"
+    },
+    {
+      "id": 102,
+      "level": 6,
+      "type": "biasa",
+      "answer": "kepala suku",
+      "image": "images/level-06/question-102.png",
+      "sha256": "293e7997ebd2c2a8247e8b29b87675cc4340e6d28685b9586d9168e71376b4af"
+    },
+    {
+      "id": 103,
+      "level": 6,
+      "type": "biasa",
+      "answer": "kawan serumah",
+      "image": "images/level-06/question-103.png",
+      "sha256": "dbe2bb0a64f2eb3ff678aabd47f4bf7bf2b441f43d74221f6c25600468fd8a88"
+    },
+    {
+      "id": 104,
+      "level": 6,
+      "type": "biasa",
+      "answer": "gigit jari",
+      "image": "images/level-06/question-104.png",
+      "sha256": "f6d4d70e1989ebd0b7fd81248ce591d2398039cf81c0d10dd05df2ae4641066b"
+    },
+    {
+      "id": 105,
+      "level": 6,
+      "type": "biasa",
+      "answer": "bandar tekor",
+      "image": "images/level-06/question-105.png",
+      "sha256": "de1858786d645890c15c9cb1e33de963d423141aa159f3e5305842f745b25a05"
+    },
+    {
+      "id": 106,
+      "level": 6,
+      "type": "biasa",
+      "answer": "koreksi guru",
+      "image": "images/level-06/question-106.png",
+      "sha256": "2bad5d9e924048fb4575296b0138bfd7531cb7e1bdb8a0b43533eabcf0a7428b"
+    },
+    {
+      "id": 107,
+      "level": 6,
+      "type": "biasa",
+      "answer": "wajah kusam",
+      "image": "images/level-06/question-107.png",
+      "sha256": "1c43ca7c058a1f81613a061779c359ec9a982522e2b56cf57d5542de0fbc54ca"
+    },
+    {
+      "id": 108,
+      "level": 6,
+      "type": "biasa",
+      "answer": "kolam susu",
+      "image": "images/level-06/question-108.png",
+      "sha256": "88b8fbc514357258cfae458c357d2a0e7bfbd8b8a523260c9db7565a65b7cd9d"
+    },
+    {
+      "id": 109,
+      "level": 6,
+      "type": "biasa",
+      "answer": "merakit sepeda",
+      "image": "images/level-06/question-109.png",
+      "sha256": "718418f3b91c3be012246dc66cf1ff0668db0640b500d49870de1a2ec701c7cc"
+    },
+    {
+      "id": 110,
+      "level": 6,
+      "type": "biasa",
+      "answer": "nafas cinta",
+      "image": "images/level-06/question-110.png",
+      "sha256": "93a086018a354dbb27f39df57114e29602f5b162560df5bdeb9c416b7115a7ab"
+    },
+    {
+      "id": 111,
+      "level": 6,
+      "type": "biasa",
+      "answer": "dua anak",
+      "image": "images/level-06/question-111.png",
+      "sha256": "cb4b59e5b81cb750f5a8e7fdd8c6e7126eb43ee90367aae35f504164c422e0ec"
+    },
+    {
+      "id": 112,
+      "level": 6,
+      "type": "biasa",
+      "answer": "sekitar pasar",
+      "image": "images/level-06/question-112.png",
+      "sha256": "e81ef01bc8b9ff879b5675145c27e8bb1b0f24d92714cbaa3543875cc6244665"
+    },
+    {
+      "id": 113,
+      "level": 6,
+      "type": "biasa",
+      "answer": "hutan gundul",
+      "image": "images/level-06/question-113.png",
+      "sha256": "a40ed7da972ac01542aa52394fc806e5ccbee3676ce310bf0d29011037f137aa"
+    },
+    {
+      "id": 114,
+      "level": 6,
+      "type": "biasa",
+      "answer": "gulali matang",
+      "image": "images/level-06/question-114.png",
+      "sha256": "d498f779bb449a72a9ecada3a616ac97ea2be9bab836aeb72ceabe3060712c46"
+    },
+    {
+      "id": 115,
+      "level": 6,
+      "type": "biasa",
+      "answer": "mobil mobilan",
+      "image": "images/level-06/question-115.png",
+      "sha256": "359b0a8c1f78023734b0c7208f2acc5506c2cda3eb3843c1ef49acd2d67e47b3"
+    },
+    {
+      "id": 116,
+      "level": 6,
+      "type": "biasa",
+      "answer": "bendera partai",
+      "image": "images/level-06/question-116.png",
+      "sha256": "b7d9ca3d1c453bd8727f8b8c9c5fcbc538f27ee00b87edc39b90c1516a280ec8"
+    },
+    {
+      "id": 117,
+      "level": 6,
+      "type": "biasa",
+      "answer": "borong baju",
+      "image": "images/level-06/question-117.png",
+      "sha256": "6972e544d7a67d7c01b981a7755082005efa78d690bc7d4a7fdf07ba15fa896c"
+    },
+    {
+      "id": 118,
+      "level": 6,
+      "type": "biasa",
+      "answer": "tidur siang",
+      "image": "images/level-06/question-118.png",
+      "sha256": "7a7b55c08041bbf6fba8ba810b81fc24e96e72c6dd49e148d3ecdb9b04df4a3b"
+    },
+    {
+      "id": 119,
+      "level": 6,
+      "type": "raja",
+      "answer": "supir mobil tinja sedang kecapekan",
+      "image": "images/level-06/question-119.png",
+      "sha256": "327c332d5e74e4d9f9a6ad1b0ad49cbbe5cf5e40a85026b73e7f8c07aedb5ded"
+    },
+    {
+      "id": 120,
+      "level": 7,
+      "type": "biasa",
+      "answer": "koperasi mandiri",
+      "image": "images/level-07/question-120.png",
+      "sha256": "9209a47cbc05244354d262a9d60106ab355e845bbc6e6a7eff92bc39727ed6e8"
+    },
+    {
+      "id": 121,
+      "level": 7,
+      "type": "biasa",
+      "answer": "baling pesawat",
+      "image": "images/level-07/question-121.png",
+      "sha256": "fec0f2c18356885f9db98a2d7388a0719e965e6b54eaa3c31acbcfe0d9069cb8"
+    },
+    {
+      "id": 122,
+      "level": 7,
+      "type": "biasa",
+      "answer": "malam kelabu",
+      "image": "images/level-07/question-122.png",
+      "sha256": "46445b9057bda09ab985e11e7bf0056ad74e30a4599db18f54a6689f12d7f968"
+    },
+    {
+      "id": 123,
+      "level": 7,
+      "type": "biasa",
+      "answer": "gudang lampion",
+      "image": "images/level-07/question-123.png",
+      "sha256": "3404500d77a5d47484e3305f0d6ce6f4a4fcce63619f1bfc2cf275ca890497bf"
+    },
+    {
+      "id": 124,
+      "level": 7,
+      "type": "biasa",
+      "answer": "lapang dada",
+      "image": "images/level-07/question-124.png",
+      "sha256": "884d033cafede9999319a2343ed5b7a86419b4499c417e6d3275d6f4d60c94d7"
+    },
+    {
+      "id": 125,
+      "level": 7,
+      "type": "biasa",
+      "answer": "jembatan layang",
+      "image": "images/level-07/question-125.png",
+      "sha256": "27331c6b9db3e25c01549ee471b87cdcf65f678d570b732b783ca92ed4d95b79"
+    },
+    {
+      "id": 126,
+      "level": 7,
+      "type": "biasa",
+      "answer": "sedot wc",
+      "image": "images/level-07/question-126.png",
+      "sha256": "596cbb9400cdb5ddedd0f9e1b14157ad2c4266a5a9be087db33e20fb02270805"
+    },
+    {
+      "id": 127,
+      "level": 7,
+      "type": "biasa",
+      "answer": "sambal kecap",
+      "image": "images/level-07/question-127.png",
+      "sha256": "79fc2359db3705c533f5fc043d83b09bd7c6ab1c49103211385863dfe8c20645"
+    },
+    {
+      "id": 128,
+      "level": 7,
+      "type": "biasa",
+      "answer": "belum dewasa",
+      "image": "images/level-07/question-128.png",
+      "sha256": "39f0b2795758207ee3d72babf3f0448dcba24926ab1b13ea66c13aafb09d737b"
+    },
+    {
+      "id": 129,
+      "level": 7,
+      "type": "biasa",
+      "answer": "gejala awal",
+      "image": "images/level-07/question-129.png",
+      "sha256": "e8087c469656004ab9583f44f538be54b072b480944b42a3dc7c31def5ac792b"
+    },
+    {
+      "id": 130,
+      "level": 7,
+      "type": "biasa",
+      "answer": "anjing tetangga",
+      "image": "images/level-07/question-130.png",
+      "sha256": "417504423d6dc448086196f6e3ecc91ba202e5516dd55111dcc39bcfa901f31d"
+    },
+    {
+      "id": 131,
+      "level": 7,
+      "type": "biasa",
+      "answer": "daun pandan",
+      "image": "images/level-07/question-131.png",
+      "sha256": "8f8705bb8dcbb2e593a566dcad5f7b0d4037529f983d5eb3427d59d43801e938"
+    },
+    {
+      "id": 132,
+      "level": 7,
+      "type": "biasa",
+      "answer": "bunga sakura",
+      "image": "images/level-07/question-132.png",
+      "sha256": "25fbe0d442a87f66bb4885303ea33d09b7db2881f2fdc627f2c84a9944a92b68"
+    },
+    {
+      "id": 133,
+      "level": 7,
+      "type": "biasa",
+      "answer": "keselamatan presiden",
+      "image": "images/level-07/question-133.png",
+      "sha256": "5401fd88704b6e2dcb5d46d4d054d4b8818645c9ae9ee053011bad766a67a48c"
+    },
+    {
+      "id": 134,
+      "level": 7,
+      "type": "biasa",
+      "answer": "solidaritas buruh",
+      "image": "images/level-07/question-134.png",
+      "sha256": "ddb0d9a510fb3515edadd6dd2ac156c7a991853d477c99864f15446bdbe13b4b"
+    },
+    {
+      "id": 135,
+      "level": 7,
+      "type": "biasa",
+      "answer": "keong racun",
+      "image": "images/level-07/question-135.png",
+      "sha256": "6abcc7541958a6d807f0086e60765647db581a20e9268f9559b8901fd057ccc0"
+    },
+    {
+      "id": 136,
+      "level": 7,
+      "type": "biasa",
+      "answer": "darah tinggi",
+      "image": "images/level-07/question-136.png",
+      "sha256": "ca49aa6c9238346301ca7fa8c073822bc6cb3e4e9ddc0a4070a5b1cc9a6e7c58"
+    },
+    {
+      "id": 137,
+      "level": 7,
+      "type": "biasa",
+      "answer": "buah bibir",
+      "image": "images/level-07/question-137.png",
+      "sha256": "61703c7f634e2a5cec97b5d07280c16bea39b6c14b2472971e4c68035893965d"
+    },
+    {
+      "id": 138,
+      "level": 7,
+      "type": "biasa",
+      "answer": "kualitas film",
+      "image": "images/level-07/question-138.png",
+      "sha256": "74ab08a6d34d973ad510b8f5f751256cae642bc5dadc6fbc77627c9924a14c35"
+    },
+    {
+      "id": 139,
+      "level": 7,
+      "type": "raja",
+      "answer": "tak tahu arah jalan pulang",
+      "image": "images/level-07/question-139.png",
+      "sha256": "238d8126376f9edaa22d465996f340dc3d70a12cd497eec0b659ce0380106825"
+    },
+    {
+      "id": 140,
+      "level": 8,
+      "type": "biasa",
+      "answer": "berat baja",
+      "image": "images/level-08/question-140.png",
+      "sha256": "6d0fa34e2f3ec8219ec6fa35332dc7bb2897c694921c78134bd01dec98863bb4"
+    },
+    {
+      "id": 141,
+      "level": 8,
+      "type": "biasa",
+      "answer": "rekening gendut",
+      "image": "images/level-08/question-141.png",
+      "sha256": "ec225fb73e7c2548c823ffa3cfacbea71f3cbbd46e4555328a8cd7e8385206b7"
+    },
+    {
+      "id": 142,
+      "level": 8,
+      "type": "biasa",
+      "answer": "upil jorok",
+      "image": "images/level-08/question-142.png",
+      "sha256": "7bbff82ff5b5d281431597c3bceeca7f57e50e80c4f608360288a0ba44623417"
+    },
+    {
+      "id": 143,
+      "level": 8,
+      "type": "biasa",
+      "answer": "pohon keramat",
+      "image": "images/level-08/question-143.png",
+      "sha256": "02eeb66d4531eeec3040ade9988e809e2989ea8cccfc16fcd87885c62f6b3a20"
+    },
+    {
+      "id": 144,
+      "level": 8,
+      "type": "biasa",
+      "answer": "akal bulus",
+      "image": "images/level-08/question-144.png",
+      "sha256": "1fe8f75ab14f840c0694374c447dabb806d2dae4b55e5325ff7ab826b2eac813"
+    },
+    {
+      "id": 145,
+      "level": 8,
+      "type": "biasa",
+      "answer": "patroli gabungan",
+      "image": "images/level-08/question-145.png",
+      "sha256": "e2691eae0f5f0035299b376066301e441dac8760f0126ba043e56ce65668ab2e"
+    },
+    {
+      "id": 146,
+      "level": 8,
+      "type": "biasa",
+      "answer": "relakan pergi",
+      "image": "images/level-08/question-146.png",
+      "sha256": "1a17c9d85b69695f1384314e02107d502c3b055117c2fa0208161cd742091fcf"
+    },
+    {
+      "id": 147,
+      "level": 8,
+      "type": "biasa",
+      "answer": "lidah buaya",
+      "image": "images/level-08/question-147.png",
+      "sha256": "ecb83700f6a5ed9061c984f4ad7f99822e9e8791a22900eb2c08edbf27d45ebc"
+    },
+    {
+      "id": 148,
+      "level": 8,
+      "type": "biasa",
+      "answer": "pangkuan ibunda",
+      "image": "images/level-08/question-148.png",
+      "sha256": "e29e733c52d9243c83fc4de811afaf0d1317e80fc5633a32d20f6ea92de8caee"
+    },
+    {
+      "id": 149,
+      "level": 8,
+      "type": "biasa",
+      "answer": "gulat jepang",
+      "image": "images/level-08/question-149.png",
+      "sha256": "7fe8bad0469a9f90f8c77e97aca949ab42fcc4799458047013186acebb4da117"
+    },
+    {
+      "id": 150,
+      "level": 8,
+      "type": "biasa",
+      "answer": "keracunan formalin",
+      "image": "images/level-08/question-150.png",
+      "sha256": "1ae5e1eaf66b1575e140f4a8ed1bc7d46a3f03247b4c3776db8ed7162224a972"
+    },
+    {
+      "id": 151,
+      "level": 8,
+      "type": "biasa",
+      "answer": "tendang selangkangan",
+      "image": "images/level-08/question-151.png",
+      "sha256": "2c617397822bce185f2449c45ca6bca11a3b1b1a115efab1f5e5f83720a0db1d"
+    },
+    {
+      "id": 152,
+      "level": 8,
+      "type": "biasa",
+      "answer": "menanak nasi",
+      "image": "images/level-08/question-152.png",
+      "sha256": "8814581a85f6f4cf97b94b03f721415af1290837ad0b5a0e2db707b5e2183548"
+    },
+    {
+      "id": 153,
+      "level": 8,
+      "type": "biasa",
+      "answer": "kencing manis",
+      "image": "images/level-08/question-153.png",
+      "sha256": "865ce4472cf4b9a227fc36ba70d82eb1049365abc0aab6c91156a3aac93a63b4"
+    },
+    {
+      "id": 154,
+      "level": 8,
+      "type": "biasa",
+      "answer": "pasang parabola",
+      "image": "images/level-08/question-154.png",
+      "sha256": "fabab33eb778ae8edb144a0c776394e8f9318491bb99a28a59c3acd18757b5a8"
+    },
+    {
+      "id": 155,
+      "level": 8,
+      "type": "biasa",
+      "answer": "lingkaran setan",
+      "image": "images/level-08/question-155.png",
+      "sha256": "b58399bfe9596a405bf0537f448a695fa6f8475dd5b55bca995301d88dd92045"
+    },
+    {
+      "id": 156,
+      "level": 8,
+      "type": "biasa",
+      "answer": "semesta raya",
+      "image": "images/level-08/question-156.png",
+      "sha256": "1d9175e14c4c05d80eeacaa1ce0e8e6d7f8af72ff7394d9834e0369a1f657481"
+    },
+    {
+      "id": 157,
+      "level": 8,
+      "type": "biasa",
+      "answer": "masa reformasi",
+      "image": "images/level-08/question-157.png",
+      "sha256": "872e3c5d307f0db754c8ad91329f4a3fa95f353c1ac369d659d5044d3885075d"
+    },
+    {
+      "id": 158,
+      "level": 8,
+      "type": "biasa",
+      "answer": "distribusi gas",
+      "image": "images/level-08/question-158.png",
+      "sha256": "9d1257f6a6d58049744ac3d991edde1a4d2a362103215ddb298bbbe40a418c6f"
+    },
+    {
+      "id": 159,
+      "level": 8,
+      "type": "raja",
+      "answer": "saudagar kopi berusaha merayu raja",
+      "image": "images/level-08/question-159.png",
+      "sha256": "6ee2fc5f7caaadc91e1e8d2b435c4fd1b133cf1584821dbc40336b2461c93ba5"
+    },
+    {
+      "id": 160,
+      "level": 9,
+      "type": "biasa",
+      "answer": "struktur kristal",
+      "image": "images/level-09/question-160.png",
+      "sha256": "66250b4c4a9fe1dd91537697b46465e93cb61930557721fc2fd86f6bd6640ea1"
+    },
+    {
+      "id": 161,
+      "level": 9,
+      "type": "biasa",
+      "answer": "babi ngorok",
+      "image": "images/level-09/question-161.png",
+      "sha256": "4e6b1df1d663db2539b48b484c1dfee6ae7caba401411d10d9190bd2f71f7650"
+    },
+    {
+      "id": 162,
+      "level": 9,
+      "type": "biasa",
+      "answer": "informasi cuaca",
+      "image": "images/level-09/question-162.png",
+      "sha256": "6247181306ab9cf535784f6a9e16e20ce2686c5b2e2e13e258b5ba2c52a4ebb2"
+    },
+    {
+      "id": 163,
+      "level": 9,
+      "type": "biasa",
+      "answer": "anggaran tipis",
+      "image": "images/level-09/question-163.png",
+      "sha256": "bd0e6659d6dc53d62492f7033e69604cd42da0faf14913032567235819a07ff0"
+    },
+    {
+      "id": 164,
+      "level": 9,
+      "type": "biasa",
+      "answer": "tuang kopi",
+      "image": "images/level-09/question-164.png",
+      "sha256": "39f11b00e582b3ccc145518343f5294fb8d3cad515e98b27031ca48b60a71afd"
+    },
+    {
+      "id": 165,
+      "level": 9,
+      "type": "biasa",
+      "answer": "buku ekonomi",
+      "image": "images/level-09/question-165.png",
+      "sha256": "606eb40a7d2583416f7746804d139b35ff529762fcb055d32b892bb1e1884702"
+    },
+    {
+      "id": 166,
+      "level": 9,
+      "type": "biasa",
+      "answer": "kapten kapal",
+      "image": "images/level-09/question-166.png",
+      "sha256": "2e4dfac4ede0a27f295ac51505a1271e82e22c8a7218b4e845a850d64c5df3eb"
+    },
+    {
+      "id": 167,
+      "level": 9,
+      "type": "biasa",
+      "answer": "roti kadaluarsa",
+      "image": "images/level-09/question-167.png",
+      "sha256": "c2a49ca92c3772590c6bbb88c699fc7c09d5fa738f5d6eddc27b0f83a94648f3"
+    },
+    {
+      "id": 168,
+      "level": 9,
+      "type": "biasa",
+      "answer": "seperti pelangi",
+      "image": "images/level-09/question-168.png",
+      "sha256": "3ea84ecc9989a6b87afffb50763b7c601b1ad0bea548f2ab3d2611cb56bf2f15"
+    },
+    {
+      "id": 169,
+      "level": 9,
+      "type": "biasa",
+      "answer": "perintah atasan",
+      "image": "images/level-09/question-169.png",
+      "sha256": "b5a67aa3f319171c7886f006dbd05d0705df6f746a6edbdcc46af0a9e8c2f480"
+    },
+    {
+      "id": 170,
+      "level": 9,
+      "type": "biasa",
+      "answer": "nina bobo",
+      "image": "images/level-09/question-170.png",
+      "sha256": "69ce5aa9ea0921e90e3a1581c708a909fdaedb2d9ac37f50273f626c94eb0fe7"
+    },
+    {
+      "id": 171,
+      "level": 9,
+      "type": "biasa",
+      "answer": "kebelet pipis",
+      "image": "images/level-09/question-171.png",
+      "sha256": "96adae52d23f3efa32e7d134f5c888b8548bc4cf91e3e9a70cf5e26321e6e444"
+    },
+    {
+      "id": 172,
+      "level": 9,
+      "type": "biasa",
+      "answer": "isu pengasingan",
+      "image": "images/level-09/question-172.png",
+      "sha256": "1e2ccf9a0cd9ae253a2c91a66434175ef0764f068dfbad4ea5adc8a07ed3c0ac"
+    },
+    {
+      "id": 173,
+      "level": 9,
+      "type": "biasa",
+      "answer": "bisikan lembut",
+      "image": "images/level-09/question-173.png",
+      "sha256": "6a7835f0cfd56773cbd52b7d04ca2120e836a899b942fb90bc4069b164cd2dda"
+    },
+    {
+      "id": 174,
+      "level": 9,
+      "type": "biasa",
+      "answer": "sedang pameran",
+      "image": "images/level-09/question-174.png",
+      "sha256": "48c17a7e3bdd22ae64daa95b26c8076fb2540e65b4028e916746bbd5286c8362"
+    },
+    {
+      "id": 175,
+      "level": 9,
+      "type": "biasa",
+      "answer": "kuasa presiden",
+      "image": "images/level-09/question-175.png",
+      "sha256": "f41fa7fa666acc0eb404ca79a830ce3fa935e9816eeabf677efac7e79718040e"
+    },
+    {
+      "id": 176,
+      "level": 9,
+      "type": "biasa",
+      "answer": "perempuan pilihanku",
+      "image": "images/level-09/question-176.png",
+      "sha256": "74048dd02f69c72ed7f388b236ab1ed3ce6407344bf4cadc7165c7c8e2b2c36e"
+    },
+    {
+      "id": 177,
+      "level": 9,
+      "type": "biasa",
+      "answer": "sup jagung",
+      "image": "images/level-09/question-177.png",
+      "sha256": "1f5bf1e74d4ca3854cc75cceebb7bbe0a249b75e7c1dd339a33c574478eec148"
+    },
+    {
+      "id": 178,
+      "level": 9,
+      "type": "biasa",
+      "answer": "selalu sayang",
+      "image": "images/level-09/question-178.png",
+      "sha256": "56ca42afad6aae322869a6c7f0d666b8b2e5ede5d5c4d8ad0f14f541b493fa08"
+    },
+    {
+      "id": 179,
+      "level": 9,
+      "type": "raja",
+      "answer": "semangka dipotong separuh pakai pisau",
+      "image": "images/level-09/question-179.png",
+      "sha256": "954c1fb346153792aa42c9f5e07ebbe1d29538bbdae4584f8a5a42383a6749df"
+    },
+    {
+      "id": 180,
+      "level": 10,
+      "type": "biasa",
+      "answer": "pelatih anjing",
+      "image": "images/level-10/question-180.png",
+      "sha256": "064a22524b3683d0ea59b341f8275a6a25cd8b9a94f6e4bf1545d0f22d6ac524"
+    },
+    {
+      "id": 181,
+      "level": 10,
+      "type": "biasa",
+      "answer": "rasa empati",
+      "image": "images/level-10/question-181.png",
+      "sha256": "275184a56a7067b6ed321c257cb452693f2e21818a935a19b7de201e9dcc8495"
+    },
+    {
+      "id": 182,
+      "level": 10,
+      "type": "biasa",
+      "answer": "cukup bosan",
+      "image": "images/level-10/question-182.png",
+      "sha256": "fa31413b6bf0c887f41c3ba7f05bcccbb96cda65d8d49810e3697f7403533e24"
+    },
+    {
+      "id": 183,
+      "level": 10,
+      "type": "biasa",
+      "answer": "penyusutan aset",
+      "image": "images/level-10/question-183.png",
+      "sha256": "ff9d179e069406090b55bb549da19ec9546143676c8d7bf7eec52abd3248f4a9"
+    },
+    {
+      "id": 184,
+      "level": 10,
+      "type": "biasa",
+      "answer": "laris manis",
+      "image": "images/level-10/question-184.png",
+      "sha256": "401e712a2634143d1a033ece3ba52bbd35bf32c65c34132881c125ef555a5e29"
+    },
+    {
+      "id": 185,
+      "level": 10,
+      "type": "biasa",
+      "answer": "jejaka tua",
+      "image": "images/level-10/question-185.png",
+      "sha256": "76a238af2a86513dc2d62d800d946c6d19bc39afbbde6e380d80068ead6d3f7c"
+    },
+    {
+      "id": 186,
+      "level": 10,
+      "type": "biasa",
+      "answer": "kode pos",
+      "image": "images/level-10/question-186.png",
+      "sha256": "13dcca68622c14b9d75daf8329a25c8f8339c31a6c76fb2fcf1cf5ba3cfa7286"
+    },
+    {
+      "id": 187,
+      "level": 10,
+      "type": "biasa",
+      "answer": "jatuh bangun",
+      "image": "images/level-10/question-187.png",
+      "sha256": "f15672225b38396da208a943b16b9c07dbb1e8c21f2a2b10bac6f31104fb0acc"
+    },
+    {
+      "id": 188,
+      "level": 10,
+      "type": "biasa",
+      "answer": "kecantikan wajah",
+      "image": "images/level-10/question-188.png",
+      "sha256": "fafdcea5c596f08c5d1b0647fc40d24c1d2e33882f5d16b82ed805fb97994c83"
+    },
+    {
+      "id": 189,
+      "level": 10,
+      "type": "biasa",
+      "answer": "kejepit resleting",
+      "image": "images/level-10/question-189.png",
+      "sha256": "97af83b56b04d462e6929059aefbfa1876e51e3e082f23691d505cfec77d8168"
+    },
+    {
+      "id": 190,
+      "level": 10,
+      "type": "biasa",
+      "answer": "angkat tangan",
+      "image": "images/level-10/question-190.png",
+      "sha256": "08a8438fb0d417ffe0e359ac4c69a6524fa777d28fa9ff9cf416ab0cf8240a78"
+    },
+    {
+      "id": 191,
+      "level": 10,
+      "type": "biasa",
+      "answer": "mendadak mimisan",
+      "image": "images/level-10/question-191.png",
+      "sha256": "26a1b4a5a8a2910dd34138643b8f70511a8e879f4ff3fc706e07759c4fbe8245"
+    },
+    {
+      "id": 192,
+      "level": 10,
+      "type": "biasa",
+      "answer": "relokasi narapidana",
+      "image": "images/level-10/question-192.png",
+      "sha256": "c154a7a3fca0be335f242ecdb68b4b97fa09b6950223d0eb34c6d9ae12cc764c"
+    },
+    {
+      "id": 193,
+      "level": 10,
+      "type": "biasa",
+      "answer": "nota hutang",
+      "image": "images/level-10/question-193.png",
+      "sha256": "94a85800525bf5869be4228217f740624d545e06250764ecfd625032ad858108"
+    },
+    {
+      "id": 194,
+      "level": 10,
+      "type": "biasa",
+      "answer": "induksi magnet",
+      "image": "images/level-10/question-194.png",
+      "sha256": "6756d97891a0086beacde99cfd003636c792dbe165f32e8a1cdd385d74022b28"
+    },
+    {
+      "id": 195,
+      "level": 10,
+      "type": "biasa",
+      "answer": "hak cipta",
+      "image": "images/level-10/question-195.png",
+      "sha256": "2825e3fb02f0aabccc435c3206b3ae810ab64e7789f83b73b4eaa589daea646e"
+    },
+    {
+      "id": 196,
+      "level": 10,
+      "type": "biasa",
+      "answer": "anak panglima",
+      "image": "images/level-10/question-196.png",
+      "sha256": "778a63c04437933924dd70314f2ce43dd78eb917a81122fc389fcdf335a9b9d0"
+    },
+    {
+      "id": 197,
+      "level": 10,
+      "type": "biasa",
+      "answer": "tes laboratorium",
+      "image": "images/level-10/question-197.png",
+      "sha256": "c57c632961118b73db15397dc5156385b4d1017998d4bef068bbde90a5b0a7b7"
+    },
+    {
+      "id": 198,
+      "level": 10,
+      "type": "biasa",
+      "answer": "sekoper liontin",
+      "image": "images/level-10/question-198.png",
+      "sha256": "106d250e7a3f73f00173b55168aa4e09bd24e915bf2f8966871205621a073459"
+    },
+    {
+      "id": 199,
+      "level": 10,
+      "type": "raja",
+      "answer": "serdadu gagah diangkat jadi komandan",
+      "image": "images/level-10/question-199.png",
+      "sha256": "d9527fbf58180bbaa4642b92b35b86be1a94d0b877e58ef604daa562643bbd1e"
+    },
+    {
+      "id": 200,
+      "level": 11,
+      "type": "biasa",
+      "answer": "pendidikan jasmani",
+      "image": "images/level-11/question-200.png",
+      "sha256": "025f7dde0121ed9c4b4437327de4ff138ee1efae59dc3c48007ba32905f161af"
+    },
+    {
+      "id": 201,
+      "level": 11,
+      "type": "biasa",
+      "answer": "garis polisi",
+      "image": "images/level-11/question-201.png",
+      "sha256": "3d7a98de8f86a6c280ffde1514515f7c46f1443de42af4cdd9734a4bf1aa6bde"
+    },
+    {
+      "id": 202,
+      "level": 11,
+      "type": "biasa",
+      "answer": "kirim bunga",
+      "image": "images/level-11/question-202.png",
+      "sha256": "f7c531d9033c6543cf0112b151f8b163e1a2738cf5e06318f7a1a59ec06888bd"
+    },
+    {
+      "id": 203,
+      "level": 11,
+      "type": "biasa",
+      "answer": "motivasi belajar",
+      "image": "images/level-11/question-203.png",
+      "sha256": "8cc815e315de674aad74ab941c6d587d2044f4cf99a5d1b6084449f09cf1cc51"
+    },
+    {
+      "id": 204,
+      "level": 11,
+      "type": "biasa",
+      "answer": "aku pucat",
+      "image": "images/level-11/question-204.png",
+      "sha256": "b315c8af018aea7c7a74c8515bfe9fd75b63ffd263f784e6fbb76fb4eecfd7a1"
+    },
+    {
+      "id": 205,
+      "level": 11,
+      "type": "biasa",
+      "answer": "toko borgol",
+      "image": "images/level-11/question-205.png",
+      "sha256": "b3bea4ece2d678a1cbefe90f4c2e80c8640addd8749034a3d6c83084de09c8e0"
+    },
+    {
+      "id": 206,
+      "level": 11,
+      "type": "biasa",
+      "answer": "tisu mobil",
+      "image": "images/level-11/question-206.png",
+      "sha256": "99c3454769ec0bb2741a233121fe0df38aa43838e45e34123faeacb1328497bf"
+    },
+    {
+      "id": 207,
+      "level": 11,
+      "type": "biasa",
+      "answer": "sekuat tenaga",
+      "image": "images/level-11/question-207.png",
+      "sha256": "dab8956c5e1affae691a5f74d6bcb30e76e217687a3c226dbbbd84f30c2d7c15"
+    },
+    {
+      "id": 208,
+      "level": 11,
+      "type": "biasa",
+      "answer": "kulit pisang",
+      "image": "images/level-11/question-208.png",
+      "sha256": "1eeb3e90909a120b93824a33fe35fcb21306880499ca3a4865cc4ffedc340426"
+    },
+    {
+      "id": 209,
+      "level": 11,
+      "type": "raja",
+      "answer": "tukang bubur ayam sekarang naik pelaminan",
+      "image": "images/level-11/question-209.png",
+      "sha256": "899b54c493081897eb7e78c0e00108028e598f8f91bae31928becbd1d53e3a67"
+    },
+    {
+      "id": 210,
+      "level": 11,
+      "type": "biasa",
+      "answer": "sumbangan donatur",
+      "image": "images/level-11/question-210.png",
+      "sha256": "c7f80aafca573b6d6be1ba436e97125c3a5031f99bc43a6b9002b96af3b6a0a4"
+    },
+    {
+      "id": 211,
+      "level": 11,
+      "type": "biasa",
+      "answer": "titik dua",
+      "image": "images/level-11/question-211.png",
+      "sha256": "9d034ff2acd0c31079193560cd26d4f0f06e59711bb0dcababe8fab890bdac24"
+    },
+    {
+      "id": 212,
+      "level": 11,
+      "type": "biasa",
+      "answer": "kembar siam",
+      "image": "images/level-11/question-212.png",
+      "sha256": "e08dc2b91811b49d1cb3736b611ddba60bda582535d9aa55a3f0e21896cc9139"
+    },
+    {
+      "id": 213,
+      "level": 11,
+      "type": "biasa",
+      "answer": "rumput liar",
+      "image": "images/level-11/question-213.png",
+      "sha256": "df1e7c01ea90b25147c1c8965e4b247dc1f6d43733d7cf85c5a9d7345efbd99e"
+    },
+    {
+      "id": 214,
+      "level": 11,
+      "type": "biasa",
+      "answer": "tangan kosong",
+      "image": "images/level-11/question-214.png",
+      "sha256": "c5be99246d7d483332c466c37cc25091472994b1fde48fa4732633bfe08b5886"
+    },
+    {
+      "id": 215,
+      "level": 11,
+      "type": "biasa",
+      "answer": "apelku busuk",
+      "image": "images/level-11/question-215.png",
+      "sha256": "9bd3ad1883b63f99e14bfb0b029140656900684b389517e38fc133c85b9798e1"
+    },
+    {
+      "id": 216,
+      "level": 11,
+      "type": "biasa",
+      "answer": "mami papi",
+      "image": "images/level-11/question-216.png",
+      "sha256": "ed0e207e434d990d852799c281102e7dd76ad906aea220be52fbb4dabfed8a34"
+    },
+    {
+      "id": 217,
+      "level": 11,
+      "type": "biasa",
+      "answer": "berusaha pahami",
+      "image": "images/level-11/question-217.png",
+      "sha256": "8c5b92a120eef1fd4a82e5fe29b162a7eb9fde28e5856affc2ba3d59b29e6fed"
+    },
+    {
+      "id": 218,
+      "level": 11,
+      "type": "biasa",
+      "answer": "kurang waras",
+      "image": "images/level-11/question-218.png",
+      "sha256": "27b8b5097bf7a8c23f994d073d25b89aff662fa65738c312e232420fe7883043"
+    },
+    {
+      "id": 219,
+      "level": 11,
+      "type": "raja",
+      "answer": "jangan kamu paksakan bila tak cinta",
+      "image": "images/level-11/question-219.png",
+      "sha256": "7741cd9ef728b136c5f5ecc0010f53aaf8ee6c71537bb61ced7dd65fabd6e2c6"
+    },
+    {
+      "id": 220,
+      "level": 12,
+      "type": "biasa",
+      "answer": "kecamatan maju",
+      "image": "images/level-12/question-220.png",
+      "sha256": "b8dc173f36c88409ba3801ec784a76dbb8598238a429bd0c64b7357831d8bb24"
+    },
+    {
+      "id": 221,
+      "level": 12,
+      "type": "biasa",
+      "answer": "bagian langka",
+      "image": "images/level-12/question-221.png",
+      "sha256": "bf4450a03b54f60264737618e21e19fa65afea007c1360ff2b069c9fa3fc173e"
+    },
+    {
+      "id": 222,
+      "level": 12,
+      "type": "biasa",
+      "answer": "kalkulasi putaran",
+      "image": "images/level-12/question-222.png",
+      "sha256": "9e19677dee976db574fd81a08108e41fdb167c3456200fbd1b55504d8fa0ef91"
+    },
+    {
+      "id": 223,
+      "level": 12,
+      "type": "biasa",
+      "answer": "baju melayu",
+      "image": "images/level-12/question-223.png",
+      "sha256": "09463b9a88407b9c58176442e2803ad13aa0b74b59a792ba889b96770f4f20e9"
+    },
+    {
+      "id": 224,
+      "level": 12,
+      "type": "biasa",
+      "answer": "panjang kartu",
+      "image": "images/level-12/question-224.png",
+      "sha256": "e407dae187d2db0357da3cd7938c7b8098b0dfff01939398226d976144394576"
+    },
+    {
+      "id": 225,
+      "level": 12,
+      "type": "biasa",
+      "answer": "banting raket",
+      "image": "images/level-12/question-225.png",
+      "sha256": "313d5199a445a52efa8a3ca34c6d9517e1b52991e1dcd9905f637cbf41c5ed27"
+    },
+    {
+      "id": 226,
+      "level": 12,
+      "type": "biasa",
+      "answer": "kota besar",
+      "image": "images/level-12/question-226.png",
+      "sha256": "4f255f926c11f9aa88f8320119870ea2f860257ed688b5eb0cf30b028dea533c"
+    },
+    {
+      "id": 227,
+      "level": 12,
+      "type": "biasa",
+      "answer": "tarik kesimpulan",
+      "image": "images/level-12/question-227.png",
+      "sha256": "bc22d6289cf28b044bc28d432126a8b96abe349d44b2213ee8f0a2fd1aeb4d53"
+    },
+    {
+      "id": 228,
+      "level": 12,
+      "type": "biasa",
+      "answer": "surya tenggelam",
+      "image": "images/level-12/question-228.png",
+      "sha256": "92f12c917d094759302afd79c76b40a56852c92585a040197b0dfa837278886d"
+    },
+    {
+      "id": 229,
+      "level": 12,
+      "type": "raja",
+      "answer": "belajar keras siang malam sampai pusing",
+      "image": "images/level-12/question-229.png",
+      "sha256": "f52d16648928479cf22d8b50f2c47bbbf7933965033f7c467b961354733b2b6a"
+    },
+    {
+      "id": 230,
+      "level": 12,
+      "type": "biasa",
+      "answer": "layar kaca",
+      "image": "images/level-12/question-230.png",
+      "sha256": "1e69c95e5606c86042c01c4675bcd1dca11e5d6f54456c2255c8fc9cbc25d257"
+    },
+    {
+      "id": 231,
+      "level": 12,
+      "type": "biasa",
+      "answer": "pedangdut ganteng",
+      "image": "images/level-12/question-231.png",
+      "sha256": "598f5af7316e010be6a8b592abacb801528404fea03accf89dbaef30f01ace80"
+    },
+    {
+      "id": 232,
+      "level": 12,
+      "type": "biasa",
+      "answer": "saksi bisu",
+      "image": "images/level-12/question-232.png",
+      "sha256": "a7dd1d26cc6c436642dbe1475db105967e8f2debd1c81da78afb5fadcd77bbd9"
+    },
+    {
+      "id": 233,
+      "level": 12,
+      "type": "biasa",
+      "answer": "kamera rusak",
+      "image": "images/level-12/question-233.png",
+      "sha256": "c12483f3731e50fb523dc8b2646897e8d95cfa45ccfaa5e2eaa070016b2fd3c5"
+    },
+    {
+      "id": 234,
+      "level": 12,
+      "type": "biasa",
+      "answer": "harga lontong",
+      "image": "images/level-12/question-234.png",
+      "sha256": "857574acb091a096e79d2b4bba410e477800d869b0269eb9cc8871fe3bdd1e69"
+    },
+    {
+      "id": 235,
+      "level": 12,
+      "type": "biasa",
+      "answer": "beban dosaku",
+      "image": "images/level-12/question-235.png",
+      "sha256": "3b9aff8120eecce64cab15953be34c77d3f52e4e6eadb3c97737629284462fc2"
+    },
+    {
+      "id": 236,
+      "level": 12,
+      "type": "biasa",
+      "answer": "harga solar",
+      "image": "images/level-12/question-236.png",
+      "sha256": "b1d9c9d917aa88d004e9dc2d4d093bbc48c3ea14021abbd58d347c3c9735ca2e"
+    },
+    {
+      "id": 237,
+      "level": 12,
+      "type": "biasa",
+      "answer": "nama warga",
+      "image": "images/level-12/question-237.png",
+      "sha256": "b9840bb649f90f9ea6dad384c4ee911398150e0a222ecd093aa68e6af8d06712"
+    },
+    {
+      "id": 238,
+      "level": 12,
+      "type": "biasa",
+      "answer": "cari jawaban",
+      "image": "images/level-12/question-238.png",
+      "sha256": "29ee92a26e9b68aa8676d400bdf8a2d169ec0c19bca177a34eb21f7c792f979a"
+    },
+    {
+      "id": 239,
+      "level": 12,
+      "type": "raja",
+      "answer": "surat edaran asli penangkapan pejabat nakal",
+      "image": "images/level-12/question-239.png",
+      "sha256": "692c6b6ef0611efa96f32924a83ea9310cdf9fb9c83b6c71bfbfe8b0ac135d93"
+    },
+    {
+      "id": 240,
+      "level": 13,
+      "type": "biasa",
+      "answer": "hormati gadis",
+      "image": "images/level-13/question-240.png",
+      "sha256": "374f6d6c2921ff0ae516f4de030fc36144ed4c728780883fb18a7c24c0d41548"
+    },
+    {
+      "id": 241,
+      "level": 13,
+      "type": "biasa",
+      "answer": "keluarga nelayan",
+      "image": "images/level-13/question-241.png",
+      "sha256": "abd0b30a7560ef43bdcfe24b5d25441d9fb44b350ee88e90ea323fa108aea2d3"
+    },
+    {
+      "id": 242,
+      "level": 13,
+      "type": "biasa",
+      "answer": "sifat baik",
+      "image": "images/level-13/question-242.png",
+      "sha256": "0c55dcce5581d872abc461d515e8b72f819772d0ba24bfd98903b7fad722cfc4"
+    },
+    {
+      "id": 243,
+      "level": 13,
+      "type": "biasa",
+      "answer": "pusat evaluasi",
+      "image": "images/level-13/question-243.png",
+      "sha256": "c5ef0ab190ae684dd301e58c7df9c32fd856b1dd441caf8643fa41ca75ef8dd8"
+    },
+    {
+      "id": 244,
+      "level": 13,
+      "type": "biasa",
+      "answer": "pria dungu",
+      "image": "images/level-13/question-244.png",
+      "sha256": "f2d66da7ba2162ef7961fe7081620ede1061186f17f745fa524a8a828b5aac88"
+    },
+    {
+      "id": 245,
+      "level": 13,
+      "type": "biasa",
+      "answer": "perusahaan kecil",
+      "image": "images/level-13/question-245.png",
+      "sha256": "0ddcfc675fea3d6665ae0b193acb20a27221fc69c99e04882780272354a0e2cb"
+    },
+    {
+      "id": 246,
+      "level": 13,
+      "type": "biasa",
+      "answer": "darah panas",
+      "image": "images/level-13/question-246.png",
+      "sha256": "e2632076b01ef7b2ab01b4f7ade027ef0e1af3c2b7cf7306a44a9041099e5b45"
+    },
+    {
+      "id": 247,
+      "level": 13,
+      "type": "biasa",
+      "answer": "cerita imajinasi",
+      "image": "images/level-13/question-247.png",
+      "sha256": "028d11df47afe3a60349d35dd8d3fc2bff723e0454cb6127c8c41f113fc12d60"
+    },
+    {
+      "id": 248,
+      "level": 13,
+      "type": "biasa",
+      "answer": "hubungan memanas",
+      "image": "images/level-13/question-248.png",
+      "sha256": "ddc479a611e89f5f286e3a6f79057c442248b2b75f034884c5a2a2ce52bc6a34"
+    },
+    {
+      "id": 249,
+      "level": 13,
+      "type": "raja",
+      "answer": "presiden prihatin nasib penduduk miskin",
+      "image": "images/level-13/question-249.png",
+      "sha256": "7627bf70432be8ab592bf83b3cf67288d4e3057b19f11ed35bcd336843fe4647"
+    },
+    {
+      "id": 250,
+      "level": 13,
+      "type": "biasa",
+      "answer": "baca pikiran",
+      "image": "images/level-13/question-250.png",
+      "sha256": "4b0eaecec4406dfc7e7806e9cbac55e6fc7b736628e1d8043c5a906d5228efd7"
+    },
+    {
+      "id": 251,
+      "level": 13,
+      "type": "biasa",
+      "answer": "baskom air",
+      "image": "images/level-13/question-251.png",
+      "sha256": "bf9c3972d721ecf692c210929a67a08ce177e6d43ee17cdf11a12d6faf6236f7"
+    },
+    {
+      "id": 252,
+      "level": 13,
+      "type": "biasa",
+      "answer": "obati kesepian",
+      "image": "images/level-13/question-252.png",
+      "sha256": "22c1883bc274a5914599ab50d110de241381208722a4fdd62b43f07b4865f182"
+    },
+    {
+      "id": 253,
+      "level": 13,
+      "type": "biasa",
+      "answer": "koin tipis",
+      "image": "images/level-13/question-253.png",
+      "sha256": "08303f85b5e0412aa6aff38cd0f0da9faa7d96b18e4c93e392e3dba23f88912e"
+    },
+    {
+      "id": 254,
+      "level": 13,
+      "type": "biasa",
+      "answer": "pantauan polisi",
+      "image": "images/level-13/question-254.png",
+      "sha256": "a1b5eac461ebd547cd34be930eb3ffc1b60572c5bc082719a7932786cd1f4f8e"
+    },
+    {
+      "id": 255,
+      "level": 13,
+      "type": "biasa",
+      "answer": "rambut keriting",
+      "image": "images/level-13/question-255.png",
+      "sha256": "183e60504d7a76056263e204370fcf1a9f76af2767133e7cca28a3ac7e673789"
+    },
+    {
+      "id": 256,
+      "level": 13,
+      "type": "biasa",
+      "answer": "bahan tulisan",
+      "image": "images/level-13/question-256.png",
+      "sha256": "f8555c6796020076b3974de6532188426c2103b2722b268a169569cd9fbe42ff"
+    },
+    {
+      "id": 257,
+      "level": 13,
+      "type": "biasa",
+      "answer": "pelanggaran berat",
+      "image": "images/level-13/question-257.png",
+      "sha256": "41137ff00ec5028e6d910047efcc72bc964b474bcc114b45961792e7258b7032"
+    },
+    {
+      "id": 258,
+      "level": 13,
+      "type": "biasa",
+      "answer": "pinjam bantal",
+      "image": "images/level-13/question-258.png",
+      "sha256": "068bc47a0ee1a6e76614dc821e370fbf6e0f46a55ccdae957aecbf292d69aa2a"
+    },
+    {
+      "id": 259,
+      "level": 13,
+      "type": "raja",
+      "answer": "gadis bisu merangkul guling ketika tidur",
+      "image": "images/level-13/question-259.png",
+      "sha256": "b9103748768abcdeadf720cfd989d0b1e372423e108befbdf3b2ab5dcfbba172"
+    },
+    {
+      "id": 260,
+      "level": 14,
+      "type": "biasa",
+      "answer": "macan ompong",
+      "image": "images/level-14/question-260.png",
+      "sha256": "888f055178bc2595e9b0bd25029e55955833abb086dbf820901a58bad4f6dcfa"
+    },
+    {
+      "id": 261,
+      "level": 14,
+      "type": "biasa",
+      "answer": "mangkok kokoh",
+      "image": "images/level-14/question-261.png",
+      "sha256": "f4de57497dfbb7fc22f4821ccbfc197ee7407ef697dab82f65e1c1a4ab40b4ce"
+    },
+    {
+      "id": 262,
+      "level": 14,
+      "type": "biasa",
+      "answer": "pelukan mama",
+      "image": "images/level-14/question-262.png",
+      "sha256": "aa936b0d27d70cfcf1137043eca439f112187ea3705eb0d561ab6279e143c0d7"
+    },
+    {
+      "id": 263,
+      "level": 14,
+      "type": "biasa",
+      "answer": "dua peristiwa",
+      "image": "images/level-14/question-263.png",
+      "sha256": "4c5e33926706028be395a468657a7e191801ba62b1f4787d349274b0b86a49d6"
+    },
+    {
+      "id": 264,
+      "level": 14,
+      "type": "biasa",
+      "answer": "api panas",
+      "image": "images/level-14/question-264.png",
+      "sha256": "60a1636668db35198c7fed9238c215f59f81bd5a6748c031fa1a3b3c780fd809"
+    },
+    {
+      "id": 265,
+      "level": 14,
+      "type": "biasa",
+      "answer": "racun serangga",
+      "image": "images/level-14/question-265.png",
+      "sha256": "4d16ef0f8f35625b5c32622d94e6cd2369d04d81e6a685936616177ec5ba36e6"
+    },
+    {
+      "id": 266,
+      "level": 14,
+      "type": "biasa",
+      "answer": "bisa pusing",
+      "image": "images/level-14/question-266.png",
+      "sha256": "63f4b484958461e77109046b07a8d7bc0bf83f22e506b2a5c2a5ee142ecf9894"
+    },
+    {
+      "id": 267,
+      "level": 14,
+      "type": "biasa",
+      "answer": "tersipu malu",
+      "image": "images/level-14/question-267.png",
+      "sha256": "1e09cd24c5eb6841b9e218a33176ecee9961a67012d09ed761773fbbf8300291"
+    },
+    {
+      "id": 268,
+      "level": 14,
+      "type": "biasa",
+      "answer": "tular penyakit",
+      "image": "images/level-14/question-268.png",
+      "sha256": "f31111b4bc439c41b74d1bbecd62423586fee0254c9c82ed0840521b5399bc80"
+    },
+    {
+      "id": 269,
+      "level": 14,
+      "type": "raja",
+      "answer": "rona wajah alami ratu kecantikan dunia",
+      "image": "images/level-14/question-269.png",
+      "sha256": "b1cdfd188bca92f75553af7184a777d47f44fef0aef1968f3b87899fdbf7db3a"
+    },
+    {
+      "id": 270,
+      "level": 14,
+      "type": "biasa",
+      "answer": "tanggal tua",
+      "image": "images/level-14/question-270.png",
+      "sha256": "ae6d2116731cc6fb128ebbb045d4f58e87537b60736c62563195269b4868762a"
+    },
+    {
+      "id": 271,
+      "level": 14,
+      "type": "biasa",
+      "answer": "lapangan kerja",
+      "image": "images/level-14/question-271.png",
+      "sha256": "67cb1588bf7464e076b46ca042b07f2bdcc7e8cf9cc931b603c7d0411aa8c72c"
+    },
+    {
+      "id": 272,
+      "level": 14,
+      "type": "biasa",
+      "answer": "kaki perawat",
+      "image": "images/level-14/question-272.png",
+      "sha256": "9debd0d588c3e6815e9a91306a2dc62d7a6547620619c68980f8cab3bc5c423d"
+    },
+    {
+      "id": 273,
+      "level": 14,
+      "type": "biasa",
+      "answer": "pangkat polisi",
+      "image": "images/level-14/question-273.png",
+      "sha256": "c6eb1d1b7a40cbeb03dd92040cddb7f891408dd31b55771c1669ff93c5b8cb37"
+    },
+    {
+      "id": 274,
+      "level": 14,
+      "type": "biasa",
+      "answer": "gapura jawa",
+      "image": "images/level-14/question-274.png",
+      "sha256": "5917f8f0d1d42655d9f1c0093f5c3198827c0aeabd1899a5ecbc5fa5482f8c54"
+    },
+    {
+      "id": 275,
+      "level": 14,
+      "type": "biasa",
+      "answer": "ibuku pandai",
+      "image": "images/level-14/question-275.png",
+      "sha256": "695975eda0c65a15c841c5049822227a2c2416b1a99049a3401cc067d3f61aef"
+    },
+    {
+      "id": 276,
+      "level": 14,
+      "type": "biasa",
+      "answer": "ombak tenang",
+      "image": "images/level-14/question-276.png",
+      "sha256": "0f1a1f6d06613503110c8ec11b227a17b9f814637711347315ee6e859156871d"
+    },
+    {
+      "id": 277,
+      "level": 14,
+      "type": "biasa",
+      "answer": "hidung belang",
+      "image": "images/level-14/question-277.png",
+      "sha256": "a737371b4f10ecd2a9efc5769b44c7e74181f0bb8f84847743517a3ee087b270"
+    },
+    {
+      "id": 278,
+      "level": 14,
+      "type": "biasa",
+      "answer": "lorong waktu",
+      "image": "images/level-14/question-278.png",
+      "sha256": "9f0098b7b69926932cd261016a130abc2b28b850a7594c82f31f615349072b74"
+    },
+    {
+      "id": 279,
+      "level": 14,
+      "type": "raja",
+      "answer": "mulut tuan tanah bau semur jengkol",
+      "image": "images/level-14/question-279.png",
+      "sha256": "40749b746be8218056f67671373273f63ef6e96ab3ac66a8789b2bab43e0d36c"
+    },
+    {
+      "id": 280,
+      "level": 15,
+      "type": "biasa",
+      "answer": "injak gas",
+      "image": "images/level-15/question-280.png",
+      "sha256": "794d3e7e3b0447dc32761cc0c4e3adf3494c4933139bef4ad407a4e42e698dbd"
+    },
+    {
+      "id": 281,
+      "level": 15,
+      "type": "biasa",
+      "answer": "angkara murka",
+      "image": "images/level-15/question-281.png",
+      "sha256": "3f7af5fb966dbad7afe228c51bd4b5ead2f865a04e1d81268eaa0bb0ff082ea2"
+    },
+    {
+      "id": 282,
+      "level": 15,
+      "type": "biasa",
+      "answer": "petaka suram",
+      "image": "images/level-15/question-282.png",
+      "sha256": "106f16d1e3614c02745e62abe4a900ee4e18c68bea70d5e9d5d6fc7b4dc3417b"
+    },
+    {
+      "id": 283,
+      "level": 15,
+      "type": "biasa",
+      "answer": "cuma rahasia",
+      "image": "images/level-15/question-283.png",
+      "sha256": "cefe0dbc9bc1ef702203e955c80cdbaa3cdbc6e064bb325e81490652be2e1655"
+    },
+    {
+      "id": 284,
+      "level": 15,
+      "type": "biasa",
+      "answer": "banyak mulut",
+      "image": "images/level-15/question-284.png",
+      "sha256": "d2b35af6ef57f64189d688bff2319e28553ae027f67cc30205ae319881484f47"
+    },
+    {
+      "id": 285,
+      "level": 15,
+      "type": "biasa",
+      "answer": "dilanda musibah",
+      "image": "images/level-15/question-285.png",
+      "sha256": "0c7ec4c7fa72cdd3eea5c416088cfbd1ba0ada6ca1713f036db3c88a61a1aab5"
+    },
+    {
+      "id": 286,
+      "level": 15,
+      "type": "biasa",
+      "answer": "lukai badan",
+      "image": "images/level-15/question-286.png",
+      "sha256": "5dde9d0057134ad97104bb4d79852401e6287e32ee4d817a9edd58d28f3d2ca1"
+    },
+    {
+      "id": 287,
+      "level": 15,
+      "type": "biasa",
+      "answer": "muka tembok",
+      "image": "images/level-15/question-287.png",
+      "sha256": "9de586920d196414452b8f4514e13e89026440799bc759f1eb20596ba9bff25e"
+    },
+    {
+      "id": 288,
+      "level": 15,
+      "type": "biasa",
+      "answer": "jangan begadang",
+      "image": "images/level-15/question-288.png",
+      "sha256": "b3af5edef8fac2c68edbbc0449b4e9ba6b6d79a80e0a0bf671e89a59bc19c66f"
+    },
+    {
+      "id": 289,
+      "level": 15,
+      "type": "raja",
+      "answer": "nenek minta aku jangan merokok lagi",
+      "image": "images/level-15/question-289.png",
+      "sha256": "f1d413106e401457ab9d62530551f6082104ca7feddd1be74dce3a25a54a4735"
+    },
+    {
+      "id": 290,
+      "level": 15,
+      "type": "biasa",
+      "answer": "komposisi cairan",
+      "image": "images/level-15/question-290.png",
+      "sha256": "3ca87f4340db8843ed433a8b4f6d5a9cff60155926a0f1f6b78c212ed4b5a745"
+    },
+    {
+      "id": 291,
+      "level": 15,
+      "type": "biasa",
+      "answer": "koreksi otomatis",
+      "image": "images/level-15/question-291.png",
+      "sha256": "424be4b717871c59f18c0dfa18bfe7de7c2651ad043cb908cb6c662218a5f31c"
+    },
+    {
+      "id": 292,
+      "level": 15,
+      "type": "biasa",
+      "answer": "kedok terbuka",
+      "image": "images/level-15/question-292.png",
+      "sha256": "acf3c880d5b6f8722fef68748712b52a3dc803265d5d6145ddda3a73f41b0f87"
+    },
+    {
+      "id": 293,
+      "level": 15,
+      "type": "biasa",
+      "answer": "pameran komputer",
+      "image": "images/level-15/question-293.png",
+      "sha256": "818b3fbee47dde0ca04f1e4acbce3b72b471ff40e3efe49102edae644ed62d30"
+    },
+    {
+      "id": 294,
+      "level": 15,
+      "type": "biasa",
+      "answer": "kutub selatan",
+      "image": "images/level-15/question-294.png",
+      "sha256": "1853d071de3e041fb604d59bbcfbfc3b431c2f5632e6cf88dc1152210c62de79"
+    },
+    {
+      "id": 295,
+      "level": 15,
+      "type": "biasa",
+      "answer": "tekanan batin",
+      "image": "images/level-15/question-295.png",
+      "sha256": "9ae4beebb0254b0c94bf629f3c974f81159086ddade0b0ef29cc4ede6cada696"
+    },
+    {
+      "id": 296,
+      "level": 15,
+      "type": "biasa",
+      "answer": "buaya darat",
+      "image": "images/level-15/question-296.png",
+      "sha256": "7f4dd22cb553a2460ca4cb3d49069b511af38910037b567cab9bae9e85675dae"
+    },
+    {
+      "id": 297,
+      "level": 15,
+      "type": "biasa",
+      "answer": "prasangka buruk",
+      "image": "images/level-15/question-297.png",
+      "sha256": "5f1da3486e358472b5f12034a5b795007cc92ded44339de499ea0dd04fdefe4d"
+    },
+    {
+      "id": 298,
+      "level": 15,
+      "type": "biasa",
+      "answer": "pilot handal",
+      "image": "images/level-15/question-298.png",
+      "sha256": "66bf0d67101e44a12ac4507739712281836f212a2dd8b1591e100f7e3354b9fd"
+    },
+    {
+      "id": 299,
+      "level": 15,
+      "type": "raja",
+      "answer": "pemimpin harus hadapi kelicikan warga kapitalis",
+      "image": "images/level-15/question-299.png",
+      "sha256": "ebe6fbfab0068bd3cc143dc83c9fc1a898a0736a869c536442fe79b59fdae3fe"
+    },
+    {
+      "id": 300,
+      "level": 16,
+      "type": "biasa",
+      "answer": "asa pasti",
+      "image": "images/level-16/question-300.png",
+      "sha256": "35478ab26e42b67323258f665719dcbed768f443ad357d0e32282f5feddb1fe0"
+    },
+    {
+      "id": 301,
+      "level": 16,
+      "type": "biasa",
+      "answer": "disambar halilintar",
+      "image": "images/level-16/question-301.png",
+      "sha256": "95376463e0dba21584c94aa327027efdf6afbdfccfb674009f92948321f1b024"
+    },
+    {
+      "id": 302,
+      "level": 16,
+      "type": "biasa",
+      "answer": "pecat komisaris",
+      "image": "images/level-16/question-302.png",
+      "sha256": "7c5b8ac8de3efd7b407f8f174bf2d1af3f3b6a6a987b7e7b09132acdac348065"
+    },
+    {
+      "id": 303,
+      "level": 16,
+      "type": "biasa",
+      "answer": "cuma sepele",
+      "image": "images/level-16/question-303.png",
+      "sha256": "7be9f65b1ae32f480ef8ee08c518d948d0bf59fa3db72bd129e41e9ac48238b4"
+    },
+    {
+      "id": 304,
+      "level": 16,
+      "type": "biasa",
+      "answer": "balita bungkuk",
+      "image": "images/level-16/question-304.png",
+      "sha256": "3423059c14ddbb34b1c1ad9785947bc67eaa2a8d20601fd55d35797d50b97f35"
+    },
+    {
+      "id": 305,
+      "level": 16,
+      "type": "biasa",
+      "answer": "biodata supir",
+      "image": "images/level-16/question-305.png",
+      "sha256": "6d0a114401555e5a3cfa89b59c392ff51496f2e5b62b477c5c916b63097e2cb4"
+    },
+    {
+      "id": 306,
+      "level": 16,
+      "type": "biasa",
+      "answer": "demam menggigil",
+      "image": "images/level-16/question-306.png",
+      "sha256": "d8f93e17ce792eaa8fa5f9033430506a753409b90cdeeb4f7e69f47bd25c7eca"
+    },
+    {
+      "id": 307,
+      "level": 16,
+      "type": "biasa",
+      "answer": "bandar ekstasi",
+      "image": "images/level-16/question-307.png",
+      "sha256": "fa8e9b3963c5679dd61375cb54c9fb1ace777df028957dcd1d13a9d0d8d45d9b"
+    },
+    {
+      "id": 308,
+      "level": 16,
+      "type": "biasa",
+      "answer": "buang muka",
+      "image": "images/level-16/question-308.png",
+      "sha256": "5e58e61919f47e7b7d123099ac82408d0aeedd1070d8c51cee3c65dcca95922c"
+    },
+    {
+      "id": 309,
+      "level": 16,
+      "type": "raja",
+      "answer": "maling mobil menangis meratapi nasib pilu",
+      "image": "images/level-16/question-309.png",
+      "sha256": "b13dc9b066099d1d29c12a11fbca57d66c5d4104d4581da88fea6d08a0348c7e"
+    },
+    {
+      "id": 310,
+      "level": 16,
+      "type": "biasa",
+      "answer": "kelipatan ribuan",
+      "image": "images/level-16/question-310.png",
+      "sha256": "be17e8b16248b0f13dcde2297c77a0e204e2af13fa9b474e2578245c8c9ad6bd"
+    },
+    {
+      "id": 311,
+      "level": 16,
+      "type": "biasa",
+      "answer": "daun salam",
+      "image": "images/level-16/question-311.png",
+      "sha256": "b33b66439d9c2dc0a6cdb209686b63290b13b42379b37d0ebf4bc8ca4a252edc"
+    },
+    {
+      "id": 312,
+      "level": 16,
+      "type": "biasa",
+      "answer": "meski disakiti",
+      "image": "images/level-16/question-312.png",
+      "sha256": "7abdd10ac41d0ab2e53b19a74d183058628f135dff7e2083adb310f9d3c9c549"
+    },
+    {
+      "id": 313,
+      "level": 16,
+      "type": "biasa",
+      "answer": "aura jahat",
+      "image": "images/level-16/question-313.png",
+      "sha256": "6a408934617ad490d0fc5b03751f18be36821f5a28cee0a2db3841a6722f88d6"
+    },
+    {
+      "id": 314,
+      "level": 16,
+      "type": "biasa",
+      "answer": "penambang kuat",
+      "image": "images/level-16/question-314.png",
+      "sha256": "8b811647eb66ae69f811975f6dc3a3b5eef363e63d276ae4fe81b32d5cb6629c"
+    },
+    {
+      "id": 315,
+      "level": 16,
+      "type": "biasa",
+      "answer": "absen teratur",
+      "image": "images/level-16/question-315.png",
+      "sha256": "a89b1985d90e82ee312e55638ef230c1b67824893169c561df541ac3eab322c2"
+    },
+    {
+      "id": 316,
+      "level": 16,
+      "type": "biasa",
+      "answer": "frekuensi getaran",
+      "image": "images/level-16/question-316.png",
+      "sha256": "8ceae505ecbde5c4047681e24863f78e7f61eba0a5d530ed30fd0308898157b9"
+    },
+    {
+      "id": 317,
+      "level": 16,
+      "type": "biasa",
+      "answer": "bau kakus",
+      "image": "images/level-16/question-317.png",
+      "sha256": "d06d1a5dbad1f15cfe500cd892ccfc66cae527a2882029d4e31996bd2046e5c1"
+    },
+    {
+      "id": 318,
+      "level": 16,
+      "type": "biasa",
+      "answer": "pementasan wayang",
+      "image": "images/level-16/question-318.png",
+      "sha256": "b845c24f05f2a5c79ce63666bba3c9d5b03f25be170ac69a05b402767343eed9"
+    },
+    {
+      "id": 319,
+      "level": 16,
+      "type": "raja",
+      "answer": "kaki berdarah ditabrak tukang becak amatir",
+      "image": "images/level-16/question-319.png",
+      "sha256": "afc7a7801a16db593d105cdfdff54acc52e06bca078e9f93d50c6357ae959071"
+    },
+    {
+      "id": 320,
+      "level": 17,
+      "type": "biasa",
+      "answer": "fase kemoterapi",
+      "image": "images/level-17/question-320.png",
+      "sha256": "5fe11764bb844225e7fad8fd329b11428c9ca61f61edcb84495e8f9f79c8fd0b"
+    },
+    {
+      "id": 321,
+      "level": 17,
+      "type": "biasa",
+      "answer": "listrik mati",
+      "image": "images/level-17/question-321.png",
+      "sha256": "da29f23d6b8b64a10987b7fe1f1944c62d60b793c2db05bacc1da635cf674b5d"
+    },
+    {
+      "id": 322,
+      "level": 17,
+      "type": "biasa",
+      "answer": "sedot wc",
+      "image": "images/level-17/question-322.png",
+      "sha256": "10a37212cb01318da884f48db546614759dab2ce1d83254834412c51e08f7b18"
+    },
+    {
+      "id": 323,
+      "level": 17,
+      "type": "biasa",
+      "answer": "cucu panglima",
+      "image": "images/level-17/question-323.png",
+      "sha256": "f3f54a7dbdc96191a58739ef6e363955990cedb48e5952df790eaf96f9607148"
+    },
+    {
+      "id": 324,
+      "level": 17,
+      "type": "biasa",
+      "answer": "kopi alami",
+      "image": "images/level-17/question-324.png",
+      "sha256": "b85563dc5cf21c68a3a98453358bfe74c6614ca8373a9c139a37f720bbaa036e"
+    },
+    {
+      "id": 325,
+      "level": 17,
+      "type": "biasa",
+      "answer": "makalah akuntansi",
+      "image": "images/level-17/question-325.png",
+      "sha256": "1f6ae93864c8e337b7cdab190471dda5336fb1fdbb3b6253e88ea1e203ff7340"
+    },
+    {
+      "id": 326,
+      "level": 17,
+      "type": "biasa",
+      "answer": "bersilat lidah",
+      "image": "images/level-17/question-326.png",
+      "sha256": "2678c91bc632c8f2d00aa70ffa17df9ad428cc1db38995a636b96e30ff14062f"
+    },
+    {
+      "id": 327,
+      "level": 17,
+      "type": "biasa",
+      "answer": "pelangsing perut",
+      "image": "images/level-17/question-327.png",
+      "sha256": "569bfca77ef7d50c6ca76a14cb856f16ab31c62343061c89725229a2f4235a9a"
+    },
+    {
+      "id": 328,
+      "level": 17,
+      "type": "biasa",
+      "answer": "pisah rumah",
+      "image": "images/level-17/question-328.png",
+      "sha256": "da932b5303a0535d8b68a42abee40f2a0d62ee7cfb901df75b68bf8eea10efc0"
+    },
+    {
+      "id": 329,
+      "level": 17,
+      "type": "raja",
+      "answer": "mari panjatkan doa supaya kita selamat",
+      "image": "images/level-17/question-329.png",
+      "sha256": "8e7f0520fbfc38f28835dde819c1b7057ae608e9dc69e12a7a1d1995f4d9c034"
+    },
+    {
+      "id": 330,
+      "level": 17,
+      "type": "biasa",
+      "answer": "diborgol serdadu",
+      "image": "images/level-17/question-330.png",
+      "sha256": "315ea25de790bb73f27e1c7a26f6553fb92ef65d586dd4e0dc30758576cad7ab"
+    },
+    {
+      "id": 331,
+      "level": 17,
+      "type": "biasa",
+      "answer": "datang bulan",
+      "image": "images/level-17/question-331.png",
+      "sha256": "3419d70be96ea75ebc06c89bab62ddd47cd245afe4572c81772a8d5585f255cb"
+    },
+    {
+      "id": 332,
+      "level": 17,
+      "type": "biasa",
+      "answer": "hantu penasaran",
+      "image": "images/level-17/question-332.png",
+      "sha256": "14aab13b0d92926c2d7829fb08917176c009cac1ee407a3a7216bcc2b4473d41"
+    },
+    {
+      "id": 333,
+      "level": 17,
+      "type": "biasa",
+      "answer": "sponsor bank",
+      "image": "images/level-17/question-333.png",
+      "sha256": "6541d11106f60e5b2659e7cb2e6a4bd561d5d977f567afca63eb207f739c249a"
+    },
+    {
+      "id": 334,
+      "level": 17,
+      "type": "biasa",
+      "answer": "jasa murah",
+      "image": "images/level-17/question-334.png",
+      "sha256": "9aa9ce5148025574403b6853e86d91175b5b01ef1a8b5f3564f5af075d1290d1"
+    },
+    {
+      "id": 335,
+      "level": 17,
+      "type": "biasa",
+      "answer": "pelurus akidah",
+      "image": "images/level-17/question-335.png",
+      "sha256": "e006752309c8d7fa49ced3acf6947b407e9ca9f63e5a56f211b6f11d6fdebb10"
+    },
+    {
+      "id": 336,
+      "level": 17,
+      "type": "biasa",
+      "answer": "rangkul lawan",
+      "image": "images/level-17/question-336.png",
+      "sha256": "3cc5722dc9d21f3b3e06e6b199ffd8fed36b628b6a6bbe089caac1852053febe"
+    },
+    {
+      "id": 337,
+      "level": 17,
+      "type": "biasa",
+      "answer": "garis bawah",
+      "image": "images/level-17/question-337.png",
+      "sha256": "da4a743e9ece5a0022a255370c0a2eaf11e49f1c218e9f103366da60b387d836"
+    },
+    {
+      "id": 338,
+      "level": 17,
+      "type": "biasa",
+      "answer": "pesan minuman",
+      "image": "images/level-17/question-338.png",
+      "sha256": "1297bafd876b39c1779e92ac6a7452f190f9f61afae5ac22440c51d3eb1b6975"
+    },
+    {
+      "id": 339,
+      "level": 17,
+      "type": "raja",
+      "answer": "seratus lampu tempel bersinar terang benderang",
+      "image": "images/level-17/question-339.png",
+      "sha256": "d4b7db96e20e0d297c3cb1fff338d4baef75202caa9d49c5d15a5f1524da9b8e"
+    },
+    {
+      "id": 340,
+      "level": 18,
+      "type": "biasa",
+      "answer": "kertas loak",
+      "image": "images/level-18/question-340.png",
+      "sha256": "5d8eeb2f58c88563b170d888627f3ef9334f93643175c261761bc0cff76bb558"
+    },
+    {
+      "id": 341,
+      "level": 18,
+      "type": "biasa",
+      "answer": "keranjingan bola",
+      "image": "images/level-18/question-341.png",
+      "sha256": "7609a13e21ae6ed0f87e95547de6782ef22783c2a8e65e26eb396c364833ab94"
+    },
+    {
+      "id": 342,
+      "level": 18,
+      "type": "biasa",
+      "answer": "petik apel",
+      "image": "images/level-18/question-342.png",
+      "sha256": "912a94aa7cb8f2486f4b1ac1a69bbe7192ea8bc7a6e9dae0375ea68d555cb313"
+    },
+    {
+      "id": 343,
+      "level": 18,
+      "type": "biasa",
+      "answer": "pemerah sapi",
+      "image": "images/level-18/question-343.png",
+      "sha256": "0b618cbfb10e8867c905ffc310debba7548b12ce2ca8ba37582722fba758d53c"
+    },
+    {
+      "id": 344,
+      "level": 18,
+      "type": "biasa",
+      "answer": "susun serangan",
+      "image": "images/level-18/question-344.png",
+      "sha256": "c68051374141ef4833c838ffdfddb788a214e54f0e2b96419f028c4e7eca99aa"
+    },
+    {
+      "id": 345,
+      "level": 18,
+      "type": "biasa",
+      "answer": "lahar panas",
+      "image": "images/level-18/question-345.png",
+      "sha256": "275333fe8c9cd87752f2c65eb25fd4de22a9eba202758ca27fbe48c9dc241ff5"
+    },
+    {
+      "id": 346,
+      "level": 18,
+      "type": "biasa",
+      "answer": "ruang kapal",
+      "image": "images/level-18/question-346.png",
+      "sha256": "4b9852fffd3c67425f9c6e176af6dcc7703c2188fc755c2d3b1956e31d66b92a"
+    },
+    {
+      "id": 347,
+      "level": 18,
+      "type": "biasa",
+      "answer": "gagal diskusi",
+      "image": "images/level-18/question-347.png",
+      "sha256": "f981aa765963a26d34d21d8b0487cd39ba1a7e05cc1996d8ab163ab825701559"
+    },
+    {
+      "id": 348,
+      "level": 18,
+      "type": "biasa",
+      "answer": "bintang kecil",
+      "image": "images/level-18/question-348.png",
+      "sha256": "d8ae47203f9a84afc9b09b34272024df14ff46bf579cec87a6e054381c8d2354"
+    },
+    {
+      "id": 349,
+      "level": 18,
+      "type": "raja",
+      "answer": "tetangga kepergok bawa sekoper permata curian",
+      "image": "images/level-18/question-349.png",
+      "sha256": "580951add6b92b2523804757f8dbbd99cbe4719a3fcb6af02e9e223782b14bca"
+    },
+    {
+      "id": 350,
+      "level": 18,
+      "type": "biasa",
+      "answer": "isu miring",
+      "image": "images/level-18/question-350.png",
+      "sha256": "3a572bdd51e195fa7c423ab06d5d9a891b4abeec5f1b8e21ca20a20d209e93d2"
+    },
+    {
+      "id": 351,
+      "level": 18,
+      "type": "biasa",
+      "answer": "melatih gajah",
+      "image": "images/level-18/question-351.png",
+      "sha256": "fe04c3d09dea656ba34624e9895a4b0ea19be13e7f7238638bd0547d01f910d2"
+    },
+    {
+      "id": 352,
+      "level": 18,
+      "type": "biasa",
+      "answer": "putar film",
+      "image": "images/level-18/question-352.png",
+      "sha256": "283aa197d05dc0b3fdae3e36fd83b2d5dd34203bef76376a79c1d86974ef4bed"
+    },
+    {
+      "id": 353,
+      "level": 18,
+      "type": "biasa",
+      "answer": "lirik puitis",
+      "image": "images/level-18/question-353.png",
+      "sha256": "1a913bb94427afb753d55228b242526437f8b4db31905f2c24a252766ce912b8"
+    },
+    {
+      "id": 354,
+      "level": 18,
+      "type": "biasa",
+      "answer": "kejutan duka",
+      "image": "images/level-18/question-354.png",
+      "sha256": "ad7cd20f97265029868b73f63d7a5b46d0c5c192a09f1c11a2f004d4e23291e7"
+    },
+    {
+      "id": 355,
+      "level": 18,
+      "type": "biasa",
+      "answer": "biro dagang",
+      "image": "images/level-18/question-355.png",
+      "sha256": "e174461b7dd7f4fd499917488f22a20e1f0e7cf3ebd878a218786d0d94933938"
+    },
+    {
+      "id": 356,
+      "level": 18,
+      "type": "biasa",
+      "answer": "adu domba",
+      "image": "images/level-18/question-356.png",
+      "sha256": "823d300b0de5a73897f1591cf089978fa9ebe377ca9350b54f0d0b89007aa273"
+    },
+    {
+      "id": 357,
+      "level": 18,
+      "type": "biasa",
+      "answer": "bayi tengkurap",
+      "image": "images/level-18/question-357.png",
+      "sha256": "f85ad322708720982644133920fb4cd682ac542d41724b5bfa8a9f36b45a7a41"
+    },
+    {
+      "id": 358,
+      "level": 18,
+      "type": "biasa",
+      "answer": "alat berat",
+      "image": "images/level-18/question-358.png",
+      "sha256": "f6f349fdc1c621995b101a359351f403e76523e856041129cb7d9576d9d36fdd"
+    },
+    {
+      "id": 359,
+      "level": 18,
+      "type": "raja",
+      "answer": "para jawara silat bakar catatan keramat",
+      "image": "images/level-18/question-359.png",
+      "sha256": "6b455e0607006dfd2c7884a09f9913d61cc8b997079ca8cfa6d28bc4b733ff81"
+    },
+    {
+      "id": 360,
+      "level": 19,
+      "type": "biasa",
+      "answer": "tulang belakang",
+      "image": "images/level-19/question-360.png",
+      "sha256": "813f62b930b2f9dd458755e53f4d68142b2982f040fe886a03e54811d93cfbc0"
+    },
+    {
+      "id": 361,
+      "level": 19,
+      "type": "biasa",
+      "answer": "umpan silang",
+      "image": "images/level-19/question-361.png",
+      "sha256": "4d65652b4a598b83cfac6f43e9e57a0d9469e47917cd7da3b0bae5c96d408c3b"
+    },
+    {
+      "id": 362,
+      "level": 19,
+      "type": "biasa",
+      "answer": "huruf romawi",
+      "image": "images/level-19/question-362.png",
+      "sha256": "f5929dcad079c740f2c730ebbd848688a03cf6b91e8fa537e89ef30f0bbf9675"
+    },
+    {
+      "id": 363,
+      "level": 19,
+      "type": "biasa",
+      "answer": "pembantu asing",
+      "image": "images/level-19/question-363.png",
+      "sha256": "1549960ff8949624af0e9950a03529d1e90bd39a6478c62a2f0f7def2f61de3a"
+    },
+    {
+      "id": 364,
+      "level": 19,
+      "type": "biasa",
+      "answer": "kantor kua",
+      "image": "images/level-19/question-364.png",
+      "sha256": "6ecb15e8722b3d5f645684bac3e993dca58ec71761bb1f78e4f3c8e7bfb5ac87"
+    },
+    {
+      "id": 365,
+      "level": 19,
+      "type": "biasa",
+      "answer": "usir nyamuk",
+      "image": "images/level-19/question-365.png",
+      "sha256": "b70af4ab91705911e656d91e94b16bbbd031df3f4aaedf30337bba21e33ee04c"
+    },
+    {
+      "id": 366,
+      "level": 19,
+      "type": "biasa",
+      "answer": "imigran gelap",
+      "image": "images/level-19/question-366.png",
+      "sha256": "684c6e0a34608ca0e4b3e1e82c1597c323c7441eb6a9425a99c58d1e45f013e8"
+    },
+    {
+      "id": 367,
+      "level": 19,
+      "type": "biasa",
+      "answer": "setan terkutuk",
+      "image": "images/level-19/question-367.png",
+      "sha256": "b68526a650c002296956e64d3ed2440885c2c54e75f4f56e5589954db9583dce"
+    },
+    {
+      "id": 368,
+      "level": 19,
+      "type": "biasa",
+      "answer": "bayar hutang",
+      "image": "images/level-19/question-368.png",
+      "sha256": "bbc1fb6ce14c53a6130ff7ea56116d1f67da074260423e070c22677b9d883637"
+    },
+    {
+      "id": 369,
+      "level": 19,
+      "type": "raja",
+      "answer": "hati akan tenang bila rajin ibadah",
+      "image": "images/level-19/question-369.png",
+      "sha256": "6a76380c1c206731a882d27049e53ff1cef77c835191eb3d746a94f0448e3d8b"
+    },
+    {
+      "id": 370,
+      "level": 19,
+      "type": "biasa",
+      "answer": "jejaka lunglai",
+      "image": "images/level-19/question-370.png",
+      "sha256": "7360a5848acc479f429bb76bf76719d10e36a8d6191e4b4ffcdb3c4dc7554e10"
+    },
+    {
+      "id": 371,
+      "level": 19,
+      "type": "biasa",
+      "answer": "tiga persen",
+      "image": "images/level-19/question-371.png",
+      "sha256": "433c6a7637eaf27e6b8a9c2802cb8f2f3111f94523a651c29fb02184e283dd11"
+    },
+    {
+      "id": 372,
+      "level": 19,
+      "type": "biasa",
+      "answer": "peristiwa ganjil",
+      "image": "images/level-19/question-372.png",
+      "sha256": "9fd6a5e9ef1a7c2bbe01846e9ef2c455627f0e3b3ad77f4dc1050f8a1b37ddab"
+    },
+    {
+      "id": 373,
+      "level": 19,
+      "type": "biasa",
+      "answer": "saluran tanggul",
+      "image": "images/level-19/question-373.png",
+      "sha256": "b7f89a664b3445edb95e5117110e287d3604aed6cd6537139557fafb50852813"
+    },
+    {
+      "id": 374,
+      "level": 19,
+      "type": "biasa",
+      "answer": "mendarah daging",
+      "image": "images/level-19/question-374.png",
+      "sha256": "c83feece0c17fdb95ab6e3bb597e844c47b2b26417f72c0993faa89197983312"
+    },
+    {
+      "id": 375,
+      "level": 19,
+      "type": "biasa",
+      "answer": "perang komandan",
+      "image": "images/level-19/question-375.png",
+      "sha256": "116ef99dca20fa756b4ae4137f9721865d42fbbd64806cad5d35d23b95002572"
+    },
+    {
+      "id": 376,
+      "level": 19,
+      "type": "biasa",
+      "answer": "garis bangsawan",
+      "image": "images/level-19/question-376.png",
+      "sha256": "2e40159317439c8189cb8a96a4d981c2df829fca7deba0bfc1ffd1f02fb2eeb3"
+    },
+    {
+      "id": 377,
+      "level": 19,
+      "type": "biasa",
+      "answer": "urusan dunia",
+      "image": "images/level-19/question-377.png",
+      "sha256": "db84672dee1acc9b63f89772717eb3985855ece9227a61280406157b72088c09"
+    },
+    {
+      "id": 378,
+      "level": 19,
+      "type": "biasa",
+      "answer": "panjang tangan",
+      "image": "images/level-19/question-378.png",
+      "sha256": "5508c8f3338769f25be10c2aabe0fc24cf26ae3785d08dd051099373bdf3c654"
+    },
+    {
+      "id": 379,
+      "level": 19,
+      "type": "raja",
+      "answer": "uang pinjaman dari bapak calon bupati",
+      "image": "images/level-19/question-379.png",
+      "sha256": "9a799ac6bb35eae007576c4ad7849e6b57cacc672d007dd831e55e39b8a09c8b"
+    },
+    {
+      "id": 380,
+      "level": 20,
+      "type": "biasa",
+      "answer": "disusupi maling",
+      "image": "images/level-20/question-380.png",
+      "sha256": "931406de56f57b980359f54d29403c3fa1a85c49bfbabdb57b9730e542f4fb0e"
+    },
+    {
+      "id": 381,
+      "level": 20,
+      "type": "biasa",
+      "answer": "bunga angsuran",
+      "image": "images/level-20/question-381.png",
+      "sha256": "1d0ddeba028f1acb57288e8423a482596ca0b111330df55eb77bb279ecaa5530"
+    },
+    {
+      "id": 382,
+      "level": 20,
+      "type": "biasa",
+      "answer": "laba kotor",
+      "image": "images/level-20/question-382.png",
+      "sha256": "60eea79152a6579d13baf897ce994340dba15a3418256aff51291fe184a5ed37"
+    },
+    {
+      "id": 383,
+      "level": 20,
+      "type": "biasa",
+      "answer": "zebra liar",
+      "image": "images/level-20/question-383.png",
+      "sha256": "0b467fa77255d165bb861e4bbb7f6cff0e37afa4c3df57c2be4e7832cf5e085b"
+    },
+    {
+      "id": 384,
+      "level": 20,
+      "type": "biasa",
+      "answer": "opera sabun",
+      "image": "images/level-20/question-384.png",
+      "sha256": "2adfcb0a90689353f52f47dd7036cc3e456fd8f26263bfec0b8b83915353a44f"
+    },
+    {
+      "id": 385,
+      "level": 20,
+      "type": "biasa",
+      "answer": "ringan tangan",
+      "image": "images/level-20/question-385.png",
+      "sha256": "5837227cb7c6010c763d4bfb06921b7c5f7895bfad6048306aeb5c6bbf69b632"
+    },
+    {
+      "id": 386,
+      "level": 20,
+      "type": "biasa",
+      "answer": "harap tenang",
+      "image": "images/level-20/question-386.png",
+      "sha256": "f3dc7e94fb8d4cb733b34d724a9f60bf9038d55102f13aa84c47436db420bcab"
+    },
+    {
+      "id": 387,
+      "level": 20,
+      "type": "biasa",
+      "answer": "setelan busana",
+      "image": "images/level-20/question-387.png",
+      "sha256": "799ac3007bd59a6f08a4c77061a81d2dc880afa76a0255d77119a4d6f056e7f9"
+    },
+    {
+      "id": 388,
+      "level": 20,
+      "type": "biasa",
+      "answer": "sedang kagumi",
+      "image": "images/level-20/question-388.png",
+      "sha256": "5d731b154a6fca13b5a28489b76371b6c08c11039a337f3876255de783b15883"
+    },
+    {
+      "id": 389,
+      "level": 20,
+      "type": "raja",
+      "answer": "penyusutan anggaran yang kurang memihak rakyat",
+      "image": "images/level-20/question-389.png",
+      "sha256": "234ae486db6cffeace3f47c35d2c68438450dc895faa1d60c76919d71ad113b9"
+    },
+    {
+      "id": 390,
+      "level": 20,
+      "type": "biasa",
+      "answer": "petinggi polisi",
+      "image": "images/level-20/question-390.png",
+      "sha256": "3b49059c30abb0437c79eb9b41a1a381e95cc3caf1c2a797dcee0702545f05fd"
+    },
+    {
+      "id": 391,
+      "level": 20,
+      "type": "biasa",
+      "answer": "dongkrak popularitas",
+      "image": "images/level-20/question-391.png",
+      "sha256": "3a41f9eca91931d888ca87a8c39809a53588d442ef8aaaa056fb7e9c25d745fa"
+    },
+    {
+      "id": 392,
+      "level": 20,
+      "type": "biasa",
+      "answer": "buah pikiran",
+      "image": "images/level-20/question-392.png",
+      "sha256": "fabce22efb8a49a6c6539e1b87e379fae917f289b67e819885704211dee0b40d"
+    },
+    {
+      "id": 393,
+      "level": 20,
+      "type": "biasa",
+      "answer": "tindakan positif",
+      "image": "images/level-20/question-393.png",
+      "sha256": "4dbd9c7daaf7dfe8416e58a9af479041f19dcee4550490bff7262c7025a8bea7"
+    },
+    {
+      "id": 394,
+      "level": 20,
+      "type": "biasa",
+      "answer": "jauhi ular",
+      "image": "images/level-20/question-394.png",
+      "sha256": "3aa4b1c12d9b68ee85ed295bfef753e20fa10e9884d5df087260df0947a2500d"
+    },
+    {
+      "id": 395,
+      "level": 20,
+      "type": "biasa",
+      "answer": "kosmetik mama",
+      "image": "images/level-20/question-395.png",
+      "sha256": "56304b110902336d6b51e906b897c35e460f7707548961a17fcb512817035448"
+    },
+    {
+      "id": 396,
+      "level": 20,
+      "type": "biasa",
+      "answer": "kamar tidur",
+      "image": "images/level-20/question-396.png",
+      "sha256": "f004d7e1dbd7849e22b0e750c92e6e50ebc9732a14cac903dc21ba883698b548"
+    },
+    {
+      "id": 397,
+      "level": 20,
+      "type": "biasa",
+      "answer": "meja rumahan",
+      "image": "images/level-20/question-397.png",
+      "sha256": "4b1aba895ca7d96286432fd43210cc40a3af85eab662d6eaecff15f28e312a4d"
+    },
+    {
+      "id": 398,
+      "level": 20,
+      "type": "biasa",
+      "answer": "asli manado",
+      "image": "images/level-20/question-398.png",
+      "sha256": "974b7585838833958e168d6ff31cb0d9363583e319a115cb993cb80a0b2b0e3f"
+    },
+    {
+      "id": 399,
+      "level": 20,
+      "type": "raja",
+      "answer": "remaja pria pecinta budidaya bunga teratai",
+      "image": "images/level-20/question-399.png",
+      "sha256": "c08b23a54ee3c7cb10dcb908f0b0b67c9c30a1548230a8aa331abdf8d0f2ecdc"
+    }
+  ],
+  "levels": [
+    {
+      "id": 1,
+      "title": "Level 1",
+      "quote": "Kamu dapat melakukan apapun yang kamu suka saat menggunakan imajinasimu!",
+      "subtitle": ""
+    },
+    {
+      "id": 2,
+      "title": "Level 2",
+      "quote": "Tidak ada keberhasilan tanpa kerja keras. Let's work hard today!",
+      "subtitle": ""
+    },
+    {
+      "id": 3,
+      "title": "Level 3",
+      "quote": "Semua peluang keberhasilan, akan selalu dihantui oleh kemungkinan gagal.",
+      "subtitle": ""
+    },
+    {
+      "id": 4,
+      "title": "Level 4",
+      "quote": "Kita adalah apa yang kita kerjakan berulang-ulang. Karena itu, keunggulan bukanlah suatu perbuatan, melainkan sebuah kebiasaan.",
+      "subtitle": ""
+    },
+    {
+      "id": 5,
+      "title": "Level 5",
+      "quote": "Kemenangan terbesar adalah mampu mengalahkan diri sendiri.",
+      "subtitle": ""
+    },
+    {
+      "id": 6,
+      "title": "Level 6",
+      "quote": "Lebih baik menyalakan lilin kecil daripada mengutuk kegelapan.",
+      "subtitle": ""
+    },
+    {
+      "id": 7,
+      "title": "Level 7",
+      "quote": "Hanya dengan bersyukur hidup kita terasa sempurna.",
+      "subtitle": ""
+    },
+    {
+      "id": 8,
+      "title": "Level 8",
+      "quote": "Kalau kamu terus berfikir dan tak melakukan apa-apa, kamu akan tertinggal jauh.",
+      "subtitle": ""
+    },
+    {
+      "id": 9,
+      "title": "Level 9",
+      "quote": "aku PASTI sukses, kalau tidak sukses PASTI bukan aku.",
+      "subtitle": ""
+    },
+    {
+      "id": 10,
+      "title": "Level 10",
+      "quote": "disaat kita tidak bisa memaafkan diri kita sendiri, disaat itulah kita menyakiti diri kita sendiri. ",
+      "subtitle": ""
+    },
+    {
+      "id": 11,
+      "title": "Level 11",
+      "quote": "Jangan menganggap remeh diri sendiri, karena setiap orang memiliki potensi yang tak terhingga. ",
+      "subtitle": ""
+    },
+    {
+      "id": 12,
+      "title": "Level 12",
+      "quote": "Jangan menunggu orang yang tepat menghampiri hidupmu, lebih baik jadilah orang yang tepat yang menghampiri hidup seseorang. ",
+      "subtitle": ""
+    },
+    {
+      "id": 13,
+      "title": "Level 13",
+      "quote": "Sahabat itu seperti bintang, dia memang tidak selalu terlihat. Tapi dia selalu ada untukmu. ",
+      "subtitle": ""
+    },
+    {
+      "id": 14,
+      "title": "Level 14",
+      "quote": "ada banyak hal yang mesti kita lakukan tanpa harus didasari sebuah alasan, tapi cukup ketulusan. ",
+      "subtitle": ""
+    },
+    {
+      "id": 15,
+      "title": "Level 15",
+      "quote": "Mereka yang berkata buruk tuk menjatuhkanmu, sebenarnya malah membuatmu semakin kuat setiap hari. ",
+      "subtitle": ""
+    },
+    {
+      "id": 16,
+      "title": "Level 16",
+      "quote": "Kamu mungkin belum sehebat harapanmu, namun kamu tidaklah selemah yang kamu pikirkan ",
+      "subtitle": ""
+    },
+    {
+      "id": 17,
+      "title": "Level 17",
+      "quote": "Keajaiban adalah kata lain dari kerja keras ",
+      "subtitle": ""
+    },
+    {
+      "id": 18,
+      "title": "Level 18",
+      "quote": "Jika tidak ada sesuatu yang diperjuangkan, tidak akan ada yang dicapai. ",
+      "subtitle": ""
+    },
+    {
+      "id": 19,
+      "title": "Level 19",
+      "quote": "Kita tidak akan pernah tahu apa yang kita miliki hingga itu menghilang. ",
+      "subtitle": ""
+    },
+    {
+      "id": 20,
+      "title": "Level 20",
+      "quote": "Kepercayaan diri adalah rahasia pertama kesuksesan ",
+      "subtitle": ""
+    }
+  ]
+}

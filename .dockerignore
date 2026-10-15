@@ -1,0 +1,12 @@
+.git
+**/node_modules
+**/dist
+**/runtime
+**/coverage
+**/.env
+**/.env.*
+**/__pycache__
+sources
+smali
+audit/downloads
+tree.txt

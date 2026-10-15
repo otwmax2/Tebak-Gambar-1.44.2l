@@ -1,0 +1,14 @@
+import { expect, it, vi } from 'vitest';
+import sharp from 'sharp';
+import { Media } from '../src/media.js';
+import { readConfig } from '../src/config.js';
+import { Catalog } from '../src/catalog.js';
+const config=readConfig();const media=new Media(config);
+it('composites every bundled unlocked selfie frame',async()=>{const photo=await sharp({create:{width:800,height:600,channels:3,background:'#1f79a5'}}).jpeg().toBuffer();for(let level=1;level<=19;level+=2){const result=await media.frame(photo,level);const info=await sharp(result).metadata();expect(info.width).toBe(500);expect(info.height).toBe(500);expect(info.format).toBe('jpeg');}});
+it('creates Telegram-compatible WebP stickers',async()=>{const result=await media.sticker(new Catalog(config.assetRoot).imagePath(0));const info=await sharp(result).metadata();expect(Math.max(info.width!,info.height!)).toBe(512);expect(info.format).toBe('webp');expect(result.length).toBeLessThan(512*1024);});
+it('rejects invalid frame IDs and oversize payloads',async()=>{await expect(media.frame(Buffer.alloc(config.photoMaxBytes+1),1)).rejects.toThrow('besar');await expect(media.frame(Buffer.alloc(1),2)).rejects.toThrow('ganjil');});
+it('rejects file path traversal and arbitrary URLs without fetching',async()=>{for(const p of ['../secret','https://evil.test/photo','/photos/foo'])await expect(media.download(p)).rejects.toThrow('valid');});
+
+it('places the actual photograph inside the transparent frame window',async()=>{const photo=await sharp({create:{width:500,height:500,channels:3,background:'#1f79a5'}}).png().toBuffer();const result=await media.frame(photo,1);const pixel=await sharp(result).extract({left:120,top:250,width:1,height:1}).raw().toBuffer();expect(Math.abs(pixel[0]!-31)).toBeLessThan(8);expect(Math.abs(pixel[1]!-121)).toBeLessThan(8);expect(Math.abs(pixel[2]!-165)).toBeLessThan(8);});
+
+it('bounded photo download cancels oversized streams/headers and uses only official Telegram URL',async()=>{const capped=new Media({...config,token:'123:MOCK_NEVER_SENT',photoMaxBytes:1024});let cancelled=false;try{vi.stubGlobal('fetch',vi.fn(async(url:string,init:RequestInit)=>{expect(url).toBe('https://api.telegram.org/file/bot123:MOCK_NEVER_SENT/photos/photo.jpg');expect(init.redirect).toBe('error');return new Response(new ReadableStream({start(controller){controller.enqueue(new Uint8Array(1025));},cancel(){cancelled=true;}}));}));await expect(capped.download('photos/photo.jpg')).rejects.toThrow('besar');expect(cancelled).toBe(true);cancelled=false;vi.stubGlobal('fetch',async()=>new Response(new ReadableStream({cancel(){cancelled=true;}}),{headers:{'Content-Length':'1025'}}));await expect(capped.download('photos/photo.jpg')).rejects.toThrow('besar');expect(cancelled).toBe(true);vi.stubGlobal('fetch',async()=>new Response(new Uint8Array([1,2,3])));expect(await capped.download('photos/photo.jpg')).toEqual(Buffer.from([1,2,3]));}finally{vi.unstubAllGlobals();}});

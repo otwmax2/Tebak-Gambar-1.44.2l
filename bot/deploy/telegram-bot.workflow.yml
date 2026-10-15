@@ -1,0 +1,26 @@
+name: Telegram bot checks
+on:
+  push:
+    paths: ['bot/**', 'audit/decrypted-levels/images/**', 'resources/res/drawable/level_*.png', 'resources/res/raw/*.ogg', '.github/workflows/telegram-bot.yml']
+  pull_request:
+    paths: ['bot/**', 'audit/decrypted-levels/images/**', 'resources/res/drawable/level_*.png', 'resources/res/raw/*.ogg', '.github/workflows/telegram-bot.yml']
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: bot/package-lock.json
+      - run: npm install --global npm@11.6.0
+      - run: npm ci
+        working-directory: bot
+      - run: npm run check
+        working-directory: bot
+      - run: npm audit --audit-level=low
+        working-directory: bot

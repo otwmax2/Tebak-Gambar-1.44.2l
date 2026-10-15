@@ -1,0 +1,23 @@
+[Unit]
+Description=Tebak Gambar Telegram bot (grammY long polling)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=tebakgambar
+Group=tebakgambar
+WorkingDirectory=/opt/tebak-gambar/bot
+EnvironmentFile=/etc/tebak-gambar.env
+ExecStart=/usr/bin/node /opt/tebak-gambar/bot/dist/src/index.js
+Restart=on-failure
+RestartSec=10
+TimeoutStopSec=30
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/tebak-gambar/bot/runtime
+
+[Install]
+WantedBy=multi-user.target
