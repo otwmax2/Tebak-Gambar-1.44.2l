@@ -853,6 +853,7 @@
 "bot/FEATURE_PARITY.md","TypeScript bot / deployment / tests","active implementation or tooling","bot/"
 "bot/PRODUCTION.md","TypeScript bot / deployment / tests","active implementation or tooling","bot/"
 "bot/README.md","TypeScript bot / deployment / tests","active implementation or tooling","bot/"
+"bot/TERMUX.md","TypeScript bot / deployment / tests","active implementation or tooling","bot/"
 "bot/VALIDATION.md","TypeScript bot / deployment / tests","active implementation or tooling","bot/"
 "bot/compose.yaml","TypeScript bot / deployment / tests","active implementation or tooling","bot/"
 "bot/data/catalog.json","TypeScript bot / deployment / tests","active implementation or tooling","bot/"

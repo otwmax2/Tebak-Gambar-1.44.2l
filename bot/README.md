@@ -12,6 +12,8 @@ Implementasi mandiri sesuai pilihan pengguna: **seluruh 400 soal offline**, **lo
 - BOT_TOKEN tidak disediakan; registrasi/live polling Telegram **belum diuji**. Sandbox ini tidak mengizinkan akses jaringan ke host Telegram. Pengujian nyata harus dilakukan di server pemilik dengan token melalui environment.
 - Docker/systemd/CI disediakan, belum dijalankan sebagai deployment nyata.
 
+Panduan Android tanpa root: **[TERMUX.md](TERMUX.md)** (Debian PRoot + Node 22, langkah awal–akhir).
+
 Panduan operasional produksi: **[PRODUCTION.md](PRODUCTION.md)** (doctor, Docker/systemd, acceptance, backup, upgrade/rollback).
 
 Lihat [FEATURE_PARITY.md](FEATURE_PARITY.md), [VALIDATION.md](VALIDATION.md), [data/repository-map.csv](data/repository-map.csv) untuk cakupan seluruh path repo.
