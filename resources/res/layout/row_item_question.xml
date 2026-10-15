@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/row_item_question_0"
+    android:padding="@dimen/size_layout_row_soal_padding"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:background="@drawable/selector_button_green_1"
+        android:layout_width="@dimen/size_button_width_number"
+        android:layout_height="@dimen/size_button_height_number">
+        <com.tebakgambar.component.CustomTextView
+            android:textSize="@dimen/size_text_row_soal"
+            android:textStyle="bold"
+            android:textColor="@color/color_dark_green_1"
+            android:gravity="center"
+            android:id="@+id/textViewSoal"
+            android:visibility="gone"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerInParent="true"
+            custom:typeface="dimbo"/>
+        <ImageView
+            android:id="@+id/imageViewLock"
+            android:layout_width="@dimen/size_imageview_width"
+            android:layout_height="@dimen/size_imageview_height"
+            android:layout_margin="@dimen/size_layout_row_soal_padding"
+            android:src="@drawable/ic_gembok"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</RelativeLayout>

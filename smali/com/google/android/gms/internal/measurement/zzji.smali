@@ -1,0 +1,4 @@
+###### Class com.google.android.gms.internal.measurement.zzji (com.google.android.gms.internal.measurement.zzji)
+.class public final synthetic Lcom/google/android/gms/internal/measurement/zzji;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-measurement-base@@20.1.2"

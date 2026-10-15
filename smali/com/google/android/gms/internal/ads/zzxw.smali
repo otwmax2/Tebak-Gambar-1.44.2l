@@ -1,0 +1,4 @@
+###### Class com.google.android.gms.internal.ads.zzxw (com.google.android.gms.internal.ads.zzxw)
+.class public interface abstract Lcom/google/android/gms/internal/ads/zzxw;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-ads@@22.0.0"

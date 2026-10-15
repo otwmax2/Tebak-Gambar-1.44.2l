@@ -1,0 +1,22 @@
+###### Class com.google.android.gms.internal.ads.zzfws (com.google.android.gms.internal.ads.zzfws)
+.class public interface abstract Lcom/google/android/gms/internal/ads/zzfws;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-ads@@22.0.0"
+
+
+# virtual methods
+.method public abstract a([B[B)V
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/GeneralSecurityException;
+        }
+    .end annotation
+.end method
+
+.method public abstract a0([B)[B
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/GeneralSecurityException;
+        }
+    .end annotation
+.end method

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:padding="@dimen/size_padding_wrapper_content_quotes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_button_sosial_media"
+        android:src="@drawable/ic_kardus_imajinasi"
+        android:layout_centerInParent="true"/>
+    <com.tebakgambar.component.CustomTextView
+        android:textSize="@dimen/size_text_button"
+        android:textColor="@color/official_punya_id_gray"
+        android:gravity="center"
+        android:id="@+id/textViewIntel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size_margin_left_right_global"
+        android:layout_marginTop="@dimen/size_margin_top_bottom_button"
+        android:layout_marginRight="@dimen/size_margin_left_right_global"
+        android:layout_marginBottom="5dp"
+        android:text="@string/label_optimized"
+        android:layout_alignParentBottom="true"
+        custom:typeface="captamerica"/>
+</RelativeLayout>

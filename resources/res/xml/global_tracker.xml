@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ga_trackingId">UA-43355789-1
+    </string>
+    <string name="ga_appName">Tebak Gambar
+    </string>
+    <string name="ga_appVersion">1.5
+    </string>
+    <integer name="ga_dispatchPeriod">1800
+    </integer>
+    <screenName name="com.google.android.gms.analytics.samples.mobileplayground.ScreenviewFragment">GoogleAnalyticsExample ScreenViewSampleScreen
+    </screenName>
+    <bool name="ga_dryRun">false
+    </bool>
+</resources>

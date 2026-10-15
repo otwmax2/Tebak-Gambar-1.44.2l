@@ -1,0 +1,12 @@
+package com.google.android.gms.internal.auth;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-auth-base@@17.1.4 */
+/* JADX INFO: loaded from: classes2.dex */
+public final /* synthetic */ class zzcr {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final /* synthetic */ zzcr f21418a = new zzcr();
+
+    private /* synthetic */ zzcr() {
+    }
+}

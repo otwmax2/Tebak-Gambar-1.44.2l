@@ -1,0 +1,55 @@
+###### Class com.google.android.gms.internal.ads.zzgir (com.google.android.gms.internal.ads.zzgir)
+.class public final Lcom/google/android/gms/internal/ads/zzgir;
+.super Lcom/google/android/gms/internal/ads/zzgqi;
+.source "com.google.android.gms:play-services-ads@@22.0.0"
+
+# interfaces
+.implements Lcom/google/android/gms/internal/ads/zzgrx;
+
+
+# direct methods
+.method private constructor <init>()V
+    .registers 2
+
+    .line 1
+    invoke-static {}, Lcom/google/android/gms/internal/ads/zzgis;->K()Lcom/google/android/gms/internal/ads/zzgis;
+
+    move-result-object v0
+
+    invoke-direct {p0, v0}, Lcom/google/android/gms/internal/ads/zzgqi;-><init>(Lcom/google/android/gms/internal/ads/zzgqm;)V
+
+    return-void
+.end method
+
+.method synthetic constructor <init>(Lcom/google/android/gms/internal/ads/zzgiq;)V
+    .registers 2
+
+    .line 2
+    invoke-static {}, Lcom/google/android/gms/internal/ads/zzgis;->K()Lcom/google/android/gms/internal/ads/zzgis;
+
+    move-result-object p1
+
+    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/zzgqi;-><init>(Lcom/google/android/gms/internal/ads/zzgqm;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final o(I)Lcom/google/android/gms/internal/ads/zzgir;
+    .registers 3
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzgqi;->m()V
+
+    iget-object p1, p0, Lcom/google/android/gms/internal/ads/zzgqi;->p:Lcom/google/android/gms/internal/ads/zzgqm;
+
+    .line 2
+    check-cast p1, Lcom/google/android/gms/internal/ads/zzgis;
+
+    const/16 v0, 0x40
+
+    invoke-static {p1, v0}, Lcom/google/android/gms/internal/ads/zzgis;->M(Lcom/google/android/gms/internal/ads/zzgis;I)V
+
+    return-object p0
+.end method

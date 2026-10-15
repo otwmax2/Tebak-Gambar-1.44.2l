@@ -1,0 +1,25 @@
+package com.google.android.gms.internal.ads;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-ads@@22.0.0 */
+/* JADX INFO: loaded from: classes2.dex */
+public final class zzcnr implements zzgwy {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    private final zzgxl f13605a;
+
+    public zzcnr(zzgxl zzgxlVar) {
+        this.f13605a = zzgxlVar;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzgxl
+    public final /* bridge */ /* synthetic */ Object zzb() {
+        try {
+            return new JSONObject(((zzcrc) this.f13605a).a().A);
+        } catch (JSONException unused) {
+            return null;
+        }
+    }
+}

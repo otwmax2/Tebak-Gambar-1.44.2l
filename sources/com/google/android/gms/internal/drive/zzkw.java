@@ -1,0 +1,31 @@
+package com.google.android.gms.internal.drive;
+
+import java.util.Iterator;
+import java.util.Map;
+
+/* JADX INFO: loaded from: classes2.dex */
+final class zzkw<K> implements Iterator<Map.Entry<K, Object>> {
+
+    /* JADX INFO: renamed from: o, reason: collision with root package name */
+    private Iterator<Map.Entry<K, Object>> f22212o;
+
+    public zzkw(Iterator<Map.Entry<K, Object>> it) {
+        this.f22212o = it;
+    }
+
+    @Override // java.util.Iterator
+    public final boolean hasNext() {
+        return this.f22212o.hasNext();
+    }
+
+    @Override // java.util.Iterator
+    public final /* synthetic */ Object next() {
+        Map.Entry<K, Object> next = this.f22212o.next();
+        return next.getValue() instanceof zzkt ? new zzkv(next) : next;
+    }
+
+    @Override // java.util.Iterator
+    public final void remove() {
+        this.f22212o.remove();
+    }
+}

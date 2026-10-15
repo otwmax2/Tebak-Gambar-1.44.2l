@@ -1,0 +1,30 @@
+package com.google.android.gms.ads.internal.client;
+
+import android.os.Parcel;
+import android.os.RemoteException;
+import com.google.android.gms.internal.ads.zzasw;
+import com.google.android.gms.internal.ads.zzasx;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-ads-lite@@22.0.0 */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class zzbj extends zzasw implements zzbk {
+    public zzbj() {
+        super("com.google.android.gms.ads.internal.client.IAdLoadCallback");
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzasw
+    protected final boolean Ra(int i10, Parcel parcel, Parcel parcel2, int i11) throws RemoteException {
+        if (i10 == 1) {
+            a();
+        } else {
+            if (i10 != 2) {
+                return false;
+            }
+            zze zzeVar = (zze) zzasx.a(parcel, zze.CREATOR);
+            zzasx.c(parcel);
+            b1(zzeVar);
+        }
+        parcel2.writeNoException();
+        return true;
+    }
+}

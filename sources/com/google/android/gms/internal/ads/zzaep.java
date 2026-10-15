@@ -1,0 +1,13 @@
+package com.google.android.gms.internal.ads;
+
+import java.io.IOException;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-ads@@22.0.0 */
+/* JADX INFO: loaded from: classes2.dex */
+interface zzaep {
+    void a(zzaeo zzaeoVar);
+
+    boolean b(zzzv zzzvVar) throws IOException;
+
+    void zzb();
+}

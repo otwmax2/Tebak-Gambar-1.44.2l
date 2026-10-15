@@ -1,0 +1,14 @@
+###### Class com.google.android.gms.internal.ads.zzggc (com.google.android.gms.internal.ads.zzggc)
+.class public Lcom/google/android/gms/internal/ads/zzggc;
+.super Lcom/google/android/gms/internal/ads/zzfwu;
+.source "com.google.android.gms:play-services-ads@@22.0.0"
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Lcom/google/android/gms/internal/ads/zzfwu;-><init>()V
+
+    return-void
+.end method

@@ -1,0 +1,157 @@
+###### Class com.google.android.gms.internal.ads.zzfaa (com.google.android.gms.internal.ads.zzfaa)
+.class public final Lcom/google/android/gms/internal/ads/zzfaa;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-ads@@22.0.0"
+
+
+# static fields
+.field static a:Lcom/google/android/gms/tasks/Task;
+    .annotation build Lcom/google/android/gms/common/util/VisibleForTesting;
+    .end annotation
+
+    .annotation build Ljavax/annotation/concurrent/GuardedBy;
+        value = "lock"
+    .end annotation
+.end field
+
+.field public static b:Lcom/google/android/gms/appset/AppSetIdClient;
+    .annotation build Lcom/google/android/gms/common/util/VisibleForTesting;
+    .end annotation
+
+    .annotation build Ljavax/annotation/concurrent/GuardedBy;
+        value = "lock"
+    .end annotation
+.end field
+
+.field private static final c:Ljava/lang/Object;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    new-instance v0, Ljava/lang/Object;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    sput-object v0, Lcom/google/android/gms/internal/ads/zzfaa;->c:Ljava/lang/Object;
+
+    return-void
+.end method
+
+.method public static a(Landroid/content/Context;)Lcom/google/android/gms/tasks/Task;
+    .registers 2
+
+    const/4 v0, 0x0
+
+    .line 1
+    invoke-static {p0, v0}, Lcom/google/android/gms/internal/ads/zzfaa;->b(Landroid/content/Context;Z)V
+
+    sget-object p0, Lcom/google/android/gms/internal/ads/zzfaa;->c:Ljava/lang/Object;
+
+    monitor-enter p0
+
+    :try_start_7
+    sget-object v0, Lcom/google/android/gms/internal/ads/zzfaa;->a:Lcom/google/android/gms/tasks/Task;
+
+    .line 2
+    monitor-exit p0
+
+    return-object v0
+
+    :catchall_b
+    move-exception v0
+
+    .line 3
+    monitor-exit p0
+    :try_end_d
+    .catchall {:try_start_7 .. :try_end_d} :catchall_b
+
+    throw v0
+.end method
+
+.method public static b(Landroid/content/Context;Z)V
+    .registers 4
+
+    .line 1
+    sget-object v0, Lcom/google/android/gms/internal/ads/zzfaa;->c:Ljava/lang/Object;
+
+    monitor-enter v0
+
+    :try_start_3
+    sget-object v1, Lcom/google/android/gms/internal/ads/zzfaa;->b:Lcom/google/android/gms/appset/AppSetIdClient;
+
+    if-nez v1, :cond_d
+
+    invoke-static {p0}, Lcom/google/android/gms/appset/AppSet;->a(Landroid/content/Context;)Lcom/google/android/gms/appset/AppSetIdClient;
+
+    move-result-object p0
+
+    sput-object p0, Lcom/google/android/gms/internal/ads/zzfaa;->b:Lcom/google/android/gms/appset/AppSetIdClient;
+
+    :cond_d
+    sget-object p0, Lcom/google/android/gms/internal/ads/zzfaa;->a:Lcom/google/android/gms/tasks/Task;
+
+    if-eqz p0, :cond_29
+
+    .line 2
+    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;->s()Z
+
+    move-result p0
+
+    if-eqz p0, :cond_1f
+
+    sget-object p0, Lcom/google/android/gms/internal/ads/zzfaa;->a:Lcom/google/android/gms/tasks/Task;
+
+    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;->t()Z
+
+    move-result p0
+
+    if-eqz p0, :cond_29
+
+    :cond_1f
+    if-eqz p1, :cond_39
+
+    sget-object p0, Lcom/google/android/gms/internal/ads/zzfaa;->a:Lcom/google/android/gms/tasks/Task;
+
+    .line 3
+    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;->s()Z
+
+    move-result p0
+
+    if-eqz p0, :cond_39
+
+    :cond_29
+    sget-object p0, Lcom/google/android/gms/internal/ads/zzfaa;->b:Lcom/google/android/gms/appset/AppSetIdClient;
+
+    const-string p1, "the appSetIdClient shouldn\'t be null"
+
+    .line 4
+    invoke-static {p0, p1}, Lcom/google/android/gms/common/internal/Preconditions;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/google/android/gms/appset/AppSetIdClient;
+
+    .line 5
+    invoke-interface {p0}, Lcom/google/android/gms/appset/AppSetIdClient;->a()Lcom/google/android/gms/tasks/Task;
+
+    move-result-object p0
+
+    sput-object p0, Lcom/google/android/gms/internal/ads/zzfaa;->a:Lcom/google/android/gms/tasks/Task;
+
+    .line 6
+    :cond_39
+    monitor-exit v0
+
+    return-void
+
+    :catchall_3b
+    move-exception p0
+
+    monitor-exit v0
+    :try_end_3d
+    .catchall {:try_start_3 .. :try_end_3d} :catchall_3b
+
+    throw p0
+.end method

@@ -1,0 +1,11 @@
+package com.google.android.gms.internal.drive;
+
+import com.google.android.gms.drive.metadata.SearchableMetadataField;
+import com.google.android.gms.drive.metadata.internal.AppVisibleCustomProperties;
+
+/* JADX INFO: loaded from: classes2.dex */
+public final class zzhv extends zzid implements SearchableMetadataField<AppVisibleCustomProperties> {
+    public zzhv(int i10) {
+        super(5000000);
+    }
+}

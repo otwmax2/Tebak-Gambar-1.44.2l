@@ -1,0 +1,4 @@
+###### Class com.google.android.gms.internal.ads.zzbfy (com.google.android.gms.internal.ads.zzbfy)
+.class public final synthetic Lcom/google/android/gms/internal/ads/zzbfy;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-ads-lite@@22.0.0"

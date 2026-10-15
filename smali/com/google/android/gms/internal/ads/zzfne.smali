@@ -1,0 +1,32 @@
+###### Class com.google.android.gms.internal.ads.zzfne (com.google.android.gms.internal.ads.zzfne)
+.class abstract Lcom/google/android/gms/internal/ads/zzfne;
+.super Lcom/google/android/gms/internal/ads/zzfnc;
+.source "com.google.android.gms:play-services-ads-lite@@22.0.0"
+
+
+# instance fields
+.field private final o:Ljava/lang/String;
+
+
+# direct methods
+.method constructor <init>(Ljava/lang/String;)V
+    .registers 2
+
+    invoke-direct {p0}, Lcom/google/android/gms/internal/ads/zzfnc;-><init>()V
+
+    const-string p1, "CharMatcher.none()"
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/ads/zzfne;->o:Ljava/lang/String;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final toString()Ljava/lang/String;
+    .registers 2
+
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzfne;->o:Ljava/lang/String;
+
+    return-object v0
+.end method

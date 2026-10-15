@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/activity_slider_0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:tag="binding_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+    <com.tebakgambar.component.CustomButton
+        android:textSize="@dimen/size_text_button_green"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/buttonNext"
+        android:tag="binding_2"
+        android:paddingLeft="28dp"
+        android:paddingTop="@dimen/size_padding_button_bottom"
+        android:paddingRight="28dp"
+        android:paddingBottom="@dimen/size_padding_button_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:maxLines="1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:innerShadowColor="@color/color_yellow1"
+        app:innerShadowRadius="2"
+        app:strokeJoinStyle="bevel"
+        app:typeface="avengeance"/>
+</RelativeLayout>

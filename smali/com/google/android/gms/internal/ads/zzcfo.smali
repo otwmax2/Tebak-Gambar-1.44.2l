@@ -1,0 +1,142 @@
+###### Class com.google.android.gms.internal.ads.zzcfo (com.google.android.gms.internal.ads.zzcfo)
+.class public final Lcom/google/android/gms/internal/ads/zzcfo;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-ads@@22.0.0"
+
+
+# static fields
+.field private static final a:Ljava/util/regex/Pattern;
+
+.field private static final b:Ljava/util/regex/Pattern;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 2
+
+    const-string v0, "^\\uFEFF?\\s*(\\s*<!--([^-]|(?!-->))*-->)*\\s*<!DOCTYPE(\\s)+html(|(\\s)+[^>]*)>"
+
+    const/4 v1, 0x2
+
+    invoke-static {v0, v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;I)Ljava/util/regex/Pattern;
+
+    move-result-object v0
+
+    sput-object v0, Lcom/google/android/gms/internal/ads/zzcfo;->a:Ljava/util/regex/Pattern;
+
+    const-string v0, "^\\uFEFF?\\s*(\\s*<!--([^-]|(?!-->))*-->)*?\\s*<!DOCTYPE[^>]*>"
+
+    invoke-static {v0, v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;I)Ljava/util/regex/Pattern;
+
+    move-result-object v0
+
+    sput-object v0, Lcom/google/android/gms/internal/ads/zzcfo;->b:Ljava/util/regex/Pattern;
+
+    return-void
+.end method
+
+.method public static varargs a(Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/String;
+    .registers 6
+
+    .line 1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    sget-object v1, Lcom/google/android/gms/internal/ads/zzcfo;->a:Ljava/util/regex/Pattern;
+
+    .line 2
+    invoke-virtual {v1, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+
+    move-result-object v1
+
+    .line 3
+    invoke-virtual {v1}, Ljava/util/regex/Matcher;->find()Z
+
+    move-result v2
+
+    const/4 v3, 0x0
+
+    if-eqz v2, :cond_31
+
+    .line 4
+    invoke-virtual {v1}, Ljava/util/regex/Matcher;->end()I
+
+    move-result v1
+
+    .line 5
+    invoke-virtual {p0, v3, v1}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    :goto_1d
+    if-gtz v3, :cond_29
+
+    .line 6
+    aget-object v2, p1, v3
+
+    if-eqz v2, :cond_26
+
+    .line 7
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    :cond_26
+    add-int/lit8 v3, v3, 0x1
+
+    goto :goto_1d
+
+    .line 8
+    :cond_29
+    invoke-virtual {p0, v1}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    goto :goto_4c
+
+    :cond_31
+    sget-object v1, Lcom/google/android/gms/internal/ads/zzcfo;->b:Ljava/util/regex/Pattern;
+
+    .line 9
+    invoke-virtual {v1, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+
+    move-result-object v1
+
+    .line 10
+    invoke-virtual {v1}, Ljava/util/regex/Matcher;->find()Z
+
+    move-result v1
+
+    if-nez v1, :cond_49
+
+    :goto_3d
+    if-gtz v3, :cond_49
+
+    .line 11
+    aget-object v1, p1, v3
+
+    if-eqz v1, :cond_46
+
+    .line 12
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    :cond_46
+    add-int/lit8 v3, v3, 0x1
+
+    goto :goto_3d
+
+    .line 13
+    :cond_49
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 14
+    :goto_4c
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method

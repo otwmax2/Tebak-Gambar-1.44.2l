@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:background="@color/color_main"
+    android:paddingLeft="@dimen/size_padding_wrapper_content"
+    android:paddingRight="@dimen/size_padding_wrapper_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.tebakgambar.component.CustomTextView
+        android:textSize="@dimen/size_text"
+        android:textStyle="bold"
+        android:textColor="@color/color_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_loading"
+        android:layout_centerInParent="true"
+        custom:typeface="dimbo"/>
+    <ImageView
+        android:id="@+id/imageViewAds"
+        android:visibility="gone"
+        android:layout_width="@dimen/size_question_biasa_width"
+        android:layout_height="@dimen/size_question_biasa_height"
+        android:layout_centerInParent="true"/>
+    <com.tebakgambar.component.CustomButton
+        android:textSize="@dimen/size_text_button_green"
+        android:textStyle="bold"
+        android:textColor="@color/color_yellow1"
+        android:gravity="center"
+        android:id="@+id/buttonLewati"
+        android:background="@drawable/selector_button_green_1"
+        android:paddingLeft="25dp"
+        android:paddingTop="@dimen/size_padding_button_bottom"
+        android:paddingRight="25dp"
+        android:paddingBottom="@dimen/size_padding_button_bottom"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lewati"
+        android:layout_above="@+id/imageViewAds"
+        custom:innerShadowColor="@color/color_yellow1"
+        custom:innerShadowRadius="2"
+        custom:strokeJoinStyle="bevel"
+        custom:typeface="dimbo"/>
+</RelativeLayout>

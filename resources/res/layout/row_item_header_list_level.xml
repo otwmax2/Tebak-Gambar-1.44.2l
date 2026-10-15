@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/linearLayoutWrapperLoading"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/relativeLayoutTop"
+    android:layout_centerHorizontal="true">
+    <com.tebakgambar.component.CustomTextView
+        android:textSize="@dimen/size_row_text_level_special"
+        android:textStyle="bold"
+        android:textColor="@color/color_white"
+        android:gravity="bottom|center_horizontal"
+        android:id="@+id/textViewLoading"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size_row_margin_left_right"
+        android:layout_marginTop="@dimen/size_row_margin_top"
+        android:layout_marginRight="@dimen/size_row_margin_left_right"
+        android:text="@string/label_loading"
+        custom:typeface="avengeance"/>
+</LinearLayout>

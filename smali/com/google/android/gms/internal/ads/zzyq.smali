@@ -1,0 +1,4 @@
+###### Class com.google.android.gms.internal.ads.zzyq (com.google.android.gms.internal.ads.zzyq)
+.class public final synthetic Lcom/google/android/gms/internal/ads/zzyq;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-ads@@22.0.0"

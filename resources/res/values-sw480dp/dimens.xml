@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_button_sound">45dp</dimen>
+    <dimen name="size_logo_home">150dp</dimen>
+    <dimen name="size_margin_top_button_main">10dp</dimen>
+    <dimen name="size_padding_bottom_button_main">15dp</dimen>
+    <dimen name="size_padding_bottom_wrapper_button">0dp</dimen>
+    <dimen name="size_padding_top_button_main">15dp</dimen>
+    <dimen name="size_row_text_level_special_margin_top">-6dp</dimen>
+    <dimen name="size_row_text_level_sub">20sp</dimen>
+    <dimen name="size_text">30sp</dimen>
+    <dimen name="size_text_button">18sp</dimen>
+    <dimen name="size_text_tebakgambar_motto_home">60dp</dimen>
+    <dimen name="size_textview_credit_textsize">25sp</dimen>
+</resources>

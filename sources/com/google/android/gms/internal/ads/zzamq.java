@@ -1,0 +1,40 @@
+package com.google.android.gms.internal.ads;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-ads@@22.0.0 */
+/* JADX INFO: loaded from: classes2.dex */
+public final class zzamq extends zzgqm implements zzgrx {
+    private static final zzamq zzb;
+    private int zzd;
+    private int zze = 2;
+
+    static {
+        zzamq zzamqVar = new zzamq();
+        zzb = zzamqVar;
+        zzgqm.A(zzamq.class, zzamqVar);
+    }
+
+    private zzamq() {
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzgqm
+    protected final Object F(int i10, Object obj, Object obj2) {
+        int i11 = i10 - 1;
+        if (i11 == 0) {
+            return (byte) 1;
+        }
+        if (i11 == 2) {
+            return zzgqm.x(zzb, "\u0001\u0001\u0000\u0001\u001b\u001b\u0001\u0000\u0000\u0000\u001bဌ\u0000", new Object[]{"zzd", "zze", zzamr.f9518a});
+        }
+        if (i11 == 3) {
+            return new zzamq();
+        }
+        zzamm zzammVar = null;
+        if (i11 == 4) {
+            return new zzamp(zzammVar);
+        }
+        if (i11 != 5) {
+            return null;
+        }
+        return zzb;
+    }
+}

@@ -1,0 +1,4 @@
+###### Class com.google.android.gms.internal.ads.zzcip (com.google.android.gms.internal.ads.zzcip)
+.class public final synthetic Lcom/google/android/gms/internal/ads/zzcip;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-ads@@22.0.0"

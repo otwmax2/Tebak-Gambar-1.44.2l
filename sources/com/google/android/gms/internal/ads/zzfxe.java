@@ -1,0 +1,13 @@
+package com.google.android.gms.internal.ads;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-ads@@22.0.0 */
+/* JADX INFO: loaded from: classes2.dex */
+final class zzfxe {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    final /* synthetic */ zzgcu f18817a;
+
+    zzfxe(zzgcu zzgcuVar) {
+        this.f18817a = zzgcuVar;
+    }
+}

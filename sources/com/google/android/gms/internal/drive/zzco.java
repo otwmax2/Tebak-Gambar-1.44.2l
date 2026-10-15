@@ -1,0 +1,22 @@
+package com.google.android.gms.internal.drive;
+
+import android.os.RemoteException;
+import com.google.android.gms.common.api.Api;
+import com.google.android.gms.common.api.ApiException;
+import com.google.android.gms.common.api.Status;
+import com.google.android.gms.common.api.internal.TaskApiCall;
+import com.google.android.gms.drive.DriveFolder;
+import com.google.android.gms.tasks.TaskCompletionSource;
+
+/* JADX INFO: loaded from: classes2.dex */
+final class zzco extends TaskApiCall<zzaw, DriveFolder> {
+    @Override // com.google.android.gms.common.api.internal.TaskApiCall
+    protected final /* synthetic */ void b(Api.AnyClient anyClient, TaskCompletionSource<DriveFolder> taskCompletionSource) throws RemoteException {
+        zzaw zzawVar = (zzaw) anyClient;
+        if (zzawVar.s0() == null) {
+            taskCompletionSource.b(new ApiException(new Status(10, "Drive#SCOPE_APPFOLDER must be requested")));
+        } else {
+            taskCompletionSource.c(new zzbs(zzawVar.s0()));
+        }
+    }
+}

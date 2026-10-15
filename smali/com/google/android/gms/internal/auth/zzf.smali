@@ -1,0 +1,7 @@
+###### Class com.google.android.gms.internal.auth.zzf (com.google.android.gms.internal.auth.zzf)
+.class public interface abstract Lcom/google/android/gms/internal/auth/zzf;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-auth-base@@17.1.4"
+
+# interfaces
+.implements Landroid/os/IInterface;

@@ -1,0 +1,9 @@
+###### Class com.vungle.warren.utility.TimeoutProvider (com.vungle.warren.utility.TimeoutProvider)
+.class public interface abstract Lcom/vungle/warren/utility/TimeoutProvider;
+.super Ljava/lang/Object;
+.source "TimeoutProvider.java"
+
+
+# virtual methods
+.method public abstract getTimeout()J
+.end method

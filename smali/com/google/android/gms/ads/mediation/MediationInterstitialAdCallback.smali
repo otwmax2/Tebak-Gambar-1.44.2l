@@ -1,0 +1,7 @@
+###### Class com.google.android.gms.ads.mediation.MediationInterstitialAdCallback (com.google.android.gms.ads.mediation.MediationInterstitialAdCallback)
+.class public interface abstract Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-ads-lite@@22.0.0"
+
+# interfaces
+.implements Lcom/google/android/gms/ads/mediation/MediationAdCallback;

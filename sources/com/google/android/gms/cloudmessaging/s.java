@@ -1,0 +1,21 @@
+package com.google.android.gms.cloudmessaging;
+
+import android.os.Bundle;
+import com.google.android.gms.tasks.SuccessContinuation;
+import com.google.android.gms.tasks.Task;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-cloud-messaging@@16.0.0 */
+/* JADX INFO: loaded from: classes.dex */
+final /* synthetic */ class s implements SuccessContinuation {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    static final SuccessContinuation f6878a = new s();
+
+    private s() {
+    }
+
+    @Override // com.google.android.gms.tasks.SuccessContinuation
+    public final Task a(Object obj) {
+        return Rpc.c((Bundle) obj);
+    }
+}

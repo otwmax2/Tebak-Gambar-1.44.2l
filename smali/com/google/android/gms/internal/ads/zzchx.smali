@@ -1,0 +1,4 @@
+###### Class com.google.android.gms.internal.ads.zzchx (com.google.android.gms.internal.ads.zzchx)
+.class public final synthetic Lcom/google/android/gms/internal/ads/zzchx;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-ads@@22.0.0"

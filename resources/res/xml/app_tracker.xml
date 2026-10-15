@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ga_trackingId">UA-43355789-1
+    </string>
+    <bool name="ga_autoActivityTracking">true
+    </bool>
+    <bool name="ga_reportUncaughtExceptions">true
+    </bool>
+    <string name="ga_appName">Tebak Gambar
+    </string>
+    <string name="ga_appVersion">1.5
+    </string>
+    <bool name="ga_debug">true
+    </bool>
+    <item
+        format="integer"
+        name="ga_dispatchPeriod"
+        type="integer">120
+    </item>
+    <string name="ga_sampleFrequency">90
+    </string>
+    <bool name="ga_anonymizeIp">true
+    </bool>
+    <bool name="ga_dryRun">false
+    </bool>
+    <integer name="ga_sessionTimeout">300
+    </integer>
+    <string name="com.tebakgambar">TebakGambar
+    </string>
+    <string name="com.tebakgambar.home.HomeActivity">Home Activity
+    </string>
+    <string name="com.tebakgambar.sendquestion.SendQuestionActivity">Kirim Soal Activity
+    </string>
+    <string name="com.tebakgambar.levelselection.LevelSelectionActivity">Pilih Level Activity
+    </string>
+    <string name="com.tebakgambar.levelselection.QuestionSelectionActivity">Pilih Soal Activity
+    </string>
+    <string name="com.tebakgambar.QuotesActivity">Quote Activity
+    </string>
+    <string name="com.tebakgambar.question.RegularQuestionActivity">Soal Activity
+    </string>
+    <string name="com.tebakgambar.story.StoryActivity">Splash Activity
+    </string>
+    <string name="com.tebakgambar.splash.SplashActivity">Story Activity
+    </string>
+    <string name="com.tebakgambar.AdsActivity">Ads Activity
+    </string>
+    <string name="com.tebakgambar.AturanIndonesiaFlightActivity">Aturan Activity
+    </string>
+    <string name="com.tebakgambar.howtoplay.HowToPlayActivity">Cara Bermain Activity
+    </string>
+    <string name="com.tebakgambar.selfie.SelfieFrameChooserActivity">Choose Frame Activity
+    </string>
+    <string name="com.tebakgambar.selfie.EditFrameActivity">Edit Frame Activity
+    </string>
+</resources>

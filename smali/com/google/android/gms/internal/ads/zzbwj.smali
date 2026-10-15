@@ -1,0 +1,4 @@
+###### Class com.google.android.gms.internal.ads.zzbwj (com.google.android.gms.internal.ads.zzbwj)
+.class public final synthetic Lcom/google/android/gms/internal/ads/zzbwj;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-ads@@22.0.0"

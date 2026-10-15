@@ -1,0 +1,12 @@
+###### Class com.google.android.gms.auth.api.credentials.CredentialRequestResult (com.google.android.gms.auth.api.credentials.CredentialRequestResult)
+.class public interface abstract Lcom/google/android/gms/auth/api/credentials/CredentialRequestResult;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-auth@@20.2.0"
+
+# interfaces
+.implements Lcom/google/android/gms/common/api/Result;
+
+
+# annotations
+.annotation runtime Ljava/lang/Deprecated;
+.end annotation

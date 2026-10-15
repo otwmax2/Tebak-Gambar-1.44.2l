@@ -1,0 +1,182 @@
+###### Class com.google.android.gms.games.SnapshotsClient (com.google.android.gms.games.SnapshotsClient)
+.class public interface abstract Lcom/google/android/gms/games/SnapshotsClient;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-games@@21.0.0"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/gms/games/SnapshotsClient$SnapshotContentUnavailableApiException;,
+        Lcom/google/android/gms/games/SnapshotsClient$DataOrConflict;,
+        Lcom/google/android/gms/games/SnapshotsClient$SnapshotConflict;,
+        Lcom/google/android/gms/games/SnapshotsClient$ResolutionPolicy;
+    }
+.end annotation
+
+###### Class com.google.android.gms.games.SnapshotsClient.DataOrConflict (com.google.android.gms.games.SnapshotsClient$DataOrConflict)
+.class public final Lcom/google/android/gms/games/SnapshotsClient$DataOrConflict;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-games@@21.0.0"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/android/gms/games/SnapshotsClient;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "DataOrConflict"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
+
+
+# instance fields
+.field private final a:Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "TT;"
+        }
+    .end annotation
+.end field
+
+.field private final b:Lcom/google/android/gms/games/SnapshotsClient$SnapshotConflict;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/Object;Lcom/google/android/gms/games/SnapshotsClient$SnapshotConflict;)V
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;",
+            "Lcom/google/android/gms/games/SnapshotsClient$SnapshotConflict;",
+            ")V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    iput-object p1, p0, Lcom/google/android/gms/games/SnapshotsClient$DataOrConflict;->a:Ljava/lang/Object;
+
+    .line 3
+    iput-object p2, p0, Lcom/google/android/gms/games/SnapshotsClient$DataOrConflict;->b:Lcom/google/android/gms/games/SnapshotsClient$SnapshotConflict;
+
+    return-void
+.end method
+
+###### Class com.google.android.gms.games.SnapshotsClient.ResolutionPolicy (com.google.android.gms.games.SnapshotsClient$ResolutionPolicy)
+.class public interface abstract annotation Lcom/google/android/gms/games/SnapshotsClient$ResolutionPolicy;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-games@@21.0.0"
+
+# interfaces
+.implements Ljava/lang/annotation/Annotation;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/android/gms/games/SnapshotsClient;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x2609
+    name = "ResolutionPolicy"
+.end annotation
+
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->SOURCE:Ljava/lang/annotation/RetentionPolicy;
+.end annotation
+
+###### Class com.google.android.gms.games.SnapshotsClient.SnapshotConflict (com.google.android.gms.games.SnapshotsClient$SnapshotConflict)
+.class public final Lcom/google/android/gms/games/SnapshotsClient$SnapshotConflict;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-games@@21.0.0"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/android/gms/games/SnapshotsClient;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "SnapshotConflict"
+.end annotation
+
+
+# instance fields
+.field private final a:Lcom/google/android/gms/games/snapshot/Snapshot;
+
+.field private final b:Ljava/lang/String;
+
+.field private final c:Lcom/google/android/gms/games/snapshot/Snapshot;
+
+.field private final d:Lcom/google/android/gms/games/snapshot/SnapshotContents;
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/android/gms/games/snapshot/Snapshot;Ljava/lang/String;Lcom/google/android/gms/games/snapshot/Snapshot;Lcom/google/android/gms/games/snapshot/SnapshotContents;)V
+    .registers 5
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    iput-object p1, p0, Lcom/google/android/gms/games/SnapshotsClient$SnapshotConflict;->a:Lcom/google/android/gms/games/snapshot/Snapshot;
+
+    .line 3
+    iput-object p2, p0, Lcom/google/android/gms/games/SnapshotsClient$SnapshotConflict;->b:Ljava/lang/String;
+
+    .line 4
+    iput-object p3, p0, Lcom/google/android/gms/games/SnapshotsClient$SnapshotConflict;->c:Lcom/google/android/gms/games/snapshot/Snapshot;
+
+    .line 5
+    iput-object p4, p0, Lcom/google/android/gms/games/SnapshotsClient$SnapshotConflict;->d:Lcom/google/android/gms/games/snapshot/SnapshotContents;
+
+    return-void
+.end method
+
+###### Class com.google.android.gms.games.SnapshotsClient.SnapshotContentUnavailableApiException (com.google.android.gms.games.SnapshotsClient$SnapshotContentUnavailableApiException)
+.class public final Lcom/google/android/gms/games/SnapshotsClient$SnapshotContentUnavailableApiException;
+.super Lcom/google/android/gms/common/api/ApiException;
+.source "com.google.android.gms:play-services-games@@21.0.0"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/android/gms/games/SnapshotsClient;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "SnapshotContentUnavailableApiException"
+.end annotation
+
+
+# instance fields
+.field protected final p:Lcom/google/android/gms/games/snapshot/SnapshotMetadata;
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/android/gms/common/api/Status;Lcom/google/android/gms/games/snapshot/SnapshotMetadata;)V
+    .registers 3
+
+    .line 1
+    invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/ApiException;-><init>(Lcom/google/android/gms/common/api/Status;)V
+
+    .line 2
+    iput-object p2, p0, Lcom/google/android/gms/games/SnapshotsClient$SnapshotContentUnavailableApiException;->p:Lcom/google/android/gms/games/snapshot/SnapshotMetadata;
+
+    return-void
+.end method

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>v1_inAppRating_isShown
+        </key>
+        <value>true
+        </value>
+    </entry>
+    <entry>
+        <key>v1_inAppRating_nextEligibleSubmitInDays
+        </key>
+        <value>365
+        </value>
+    </entry>
+</defaultsMap>

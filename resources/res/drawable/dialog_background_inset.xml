@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/bg_dialog_bantuan"
+    android:insetLeft="@dimen/size_button_level_margin_left"
+    android:insetRight="@dimen/size_button_level_margin_left"
+    android:insetTop="@dimen/size_button_level_margin_left"
+    android:insetBottom="@dimen/size_button_level_margin_left"/>

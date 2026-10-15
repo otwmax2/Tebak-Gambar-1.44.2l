@@ -1,0 +1,18 @@
+###### Class com.google.android.gms.internal.games.zzbu (com.google.android.gms.internal.games.zzbu)
+.class public final Lcom/google/android/gms/internal/games/zzbu;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-games@@21.0.0"
+
+# interfaces
+.implements Lcom/google/android/gms/games/leaderboard/Leaderboards;
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

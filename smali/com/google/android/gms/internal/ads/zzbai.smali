@@ -1,0 +1,4 @@
+###### Class com.google.android.gms.internal.ads.zzbai (com.google.android.gms.internal.ads.zzbai)
+.class public final synthetic Lcom/google/android/gms/internal/ads/zzbai;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-ads-base@@22.0.0"

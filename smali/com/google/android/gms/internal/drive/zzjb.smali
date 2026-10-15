@@ -1,0 +1,24 @@
+###### Class com.google.android.gms.internal.drive.zzjb (com.google.android.gms.internal.drive.zzjb)
+.class public abstract Lcom/google/android/gms/internal/drive/zzjb;
+.super Ljava/lang/Object;
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract a([BII)V
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method

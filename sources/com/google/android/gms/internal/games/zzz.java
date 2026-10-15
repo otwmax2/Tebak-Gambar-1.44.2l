@@ -1,0 +1,20 @@
+package com.google.android.gms.internal.games;
+
+import android.os.RemoteException;
+import com.google.android.gms.common.api.Api;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-games@@21.0.0 */
+/* JADX INFO: loaded from: classes2.dex */
+final class zzz extends zzaa {
+
+    /* JADX INFO: renamed from: t, reason: collision with root package name */
+    private final /* synthetic */ String f23252t;
+
+    /* JADX INFO: renamed from: u, reason: collision with root package name */
+    private final /* synthetic */ int f23253u;
+
+    @Override // com.google.android.gms.common.api.internal.BaseImplementation.ApiMethodImpl
+    public final /* synthetic */ void s(Api.AnyClient anyClient) throws RemoteException {
+        ((com.google.android.gms.games.internal.zzf) anyClient).A1(null, this.f23252t, this.f23253u);
+    }
+}

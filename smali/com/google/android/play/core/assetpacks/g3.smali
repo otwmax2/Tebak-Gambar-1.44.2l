@@ -1,0 +1,72 @@
+###### Class com.google.android.play.core.assetpacks.g3 (com.google.android.play.core.assetpacks.g3)
+.class public final Lcom/google/android/play/core/assetpacks/g3;
+.super Ljava/lang/Object;
+.source "com.google.android.play:core@@1.10.2"
+
+# interfaces
+.implements Lv4/c0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lv4/c0<",
+        "Lcom/google/android/play/core/assetpacks/f3;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field private final a:Lv4/c0;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lv4/c0<",
+            "Lcom/google/android/play/core/assetpacks/e0;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Lv4/c0;)V
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lv4/c0<",
+            "Lcom/google/android/play/core/assetpacks/e0;",
+            ">;)V"
+        }
+    .end annotation
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/google/android/play/core/assetpacks/g3;->a:Lv4/c0;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic zza()Ljava/lang/Object;
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/play/core/assetpacks/g3;->a:Lv4/c0;
+
+    invoke-interface {v0}, Lv4/c0;->zza()Ljava/lang/Object;
+
+    move-result-object v0
+
+    .line 2
+    new-instance v1, Lcom/google/android/play/core/assetpacks/f3;
+
+    check-cast v0, Lcom/google/android/play/core/assetpacks/e0;
+
+    invoke-direct {v1, v0}, Lcom/google/android/play/core/assetpacks/f3;-><init>(Lcom/google/android/play/core/assetpacks/e0;)V
+
+    return-object v1
+.end method

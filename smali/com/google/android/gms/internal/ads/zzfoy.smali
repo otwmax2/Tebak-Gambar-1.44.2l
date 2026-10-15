@@ -1,0 +1,22 @@
+###### Class com.google.android.gms.internal.ads.zzfoy (com.google.android.gms.internal.ads.zzfoy)
+.class final Lcom/google/android/gms/internal/ads/zzfoy;
+.super Lcom/google/android/gms/internal/ads/zzfpe;
+.source "com.google.android.gms:play-services-ads@@22.0.0"
+
+# interfaces
+.implements Ljava/util/RandomAccess;
+
+
+# direct methods
+.method constructor <init>(Lcom/google/android/gms/internal/ads/zzfpf;Ljava/lang/Object;Ljava/util/List;Lcom/google/android/gms/internal/ads/zzfpc;)V
+    .registers 5
+    .param p3    # Ljava/util/List;
+        .annotation runtime Ljavax/annotation/CheckForNull;
+        .end annotation
+    .end param
+
+    .line 1
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/android/gms/internal/ads/zzfpe;-><init>(Lcom/google/android/gms/internal/ads/zzfpf;Ljava/lang/Object;Ljava/util/List;Lcom/google/android/gms/internal/ads/zzfpc;)V
+
+    return-void
+.end method

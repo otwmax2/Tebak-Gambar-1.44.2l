@@ -1,0 +1,12 @@
+###### Class com.google.android.gms.internal.ads.zzfgz (com.google.android.gms.internal.ads.zzfgz)
+.class public interface abstract Lcom/google/android/gms/internal/ads/zzfgz;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-ads@@22.0.0"
+
+# interfaces
+.implements Lcom/google/android/gms/internal/ads/zzfha;
+
+
+# virtual methods
+.method public abstract zza()V
+.end method

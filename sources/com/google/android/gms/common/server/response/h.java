@@ -1,0 +1,10 @@
+package com.google.android.gms.common.server.response;
+
+import java.math.BigDecimal;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-base@@18.0.1 */
+/* JADX INFO: loaded from: classes.dex */
+final class h implements i<BigDecimal> {
+    h() {
+    }
+}
