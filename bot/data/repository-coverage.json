@@ -1,12 +1,12 @@
 {
-  "referenceHead": "420bb4b088d04d8717221039b3ebf3502e41e0d6",
+  "referenceHead": "6551919ac82219cb6212fd59f0dc3f1af52d9a27",
   "scope": "all tracked + untracked nonignored working-tree paths at generation; path classification, NOT 100% semantic equivalence",
-  "filesMapped": 27436,
+  "filesMapped": 27441,
   "categories": {
     "repository metadata / documentation": 4,
     "audit, decoded metadata or downloadable evidence": 446,
     "400 decoded question images": 400,
-    "TypeScript bot / deployment / tests": 51,
+    "TypeScript bot / deployment / tests": 56,
     "Android platform declaration": 1,
     "other Android UI/font/SDK/signature/resource": 1869,
     "level metadata and quotes": 1,

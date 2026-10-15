@@ -6,7 +6,7 @@
 
 Jangan memasang dependency bot langsung di lingkungan native Termux: bot memakai `node:sqlite` dan Sharp, sedangkan native Termux memakai Android/Bionic. Debian memberi lingkungan Linux/glibc yang sesuai dengan binary Node/Sharp. Panduan ini berfokus pada perangkat **64-bit ARM64 (`aarch64`) atau x86_64**, bukan menjanjikan support semua HP 32-bit.
 
-**Batas bukti:** kode bot memiliki 117 test lulus di sandbox Linux. Flag test hemat worker di bawah juga diuji di sandbox. Instalasi PRoot/Termux dan koneksi Telegram **belum diuji pada HP pengguna**. PRoot bukan VM/sekuriti container penuh, dan Android dapat menghentikan proses background; jangan menganggap HP sebagai server 24/7 dengan SLA.
+**Batas bukti:** kode bot 1.2.0 memiliki 145 test lulus di sandbox Linux. Pengguna telah melaporkan 1.1.0 lulus 117 tes pada Debian ARM64 dan berhasil polling; 1.2.0 membutuhkan pengujian ulang HP. Flag test hemat worker di bawah juga diuji di sandbox. Instalasi PRoot/Termux dan koneksi Telegram **belum diuji pada HP pengguna**. PRoot bukan VM/sekuriti container penuh, dan Android dapat menghentikan proses background; jangan menganggap HP sebagai server 24/7 dengan SLA.
 
 Perintah dibagi berdasarkan tempatnya: **TERMUX**, **DEBIAN ROOT**, atau **DEBIAN USER tebak**. Jangan menukar `pkg` dan `apt`.
 
@@ -163,7 +163,7 @@ npm run build
 npm run doctor:offline
 ```
 
-Test dibatasi satu worker dan timeout 60 detik per test untuk mengurangi beban/risiko Android phantom-process limit. Jangan menafsirkan timeout/test failure sebagai sukses; catat error yang telah disensor. Target suite saat panduan dibuat: **117 test**, seluruh **400 gambar/20 level** tervalidasi.
+Test dibatasi satu worker dan timeout 60 detik per test untuk mengurangi beban/risiko Android phantom-process limit. Jangan menafsirkan timeout/test failure sebagai sukses; catat error yang telah disensor. Target suite 1.2.0: **145 test**, seluruh **400 gambar/20 level** tervalidasi.
 
 `doctor:offline` tidak mengakses Telegram. Warning BOT_TOKEN/ADMIN_IDS kosong wajar sebelum konfigurasi. Tidak adanya FAIL lokal bukan bukti bot sudah online.
 
@@ -424,3 +424,11 @@ Launcher `bash deploy/termux-run.sh` mengaktifkan NVM 22 lalu menjalankan build,
 Startup kini memiliki lock singleton lokal di file DB `.instance.sqlite`. File boleh tetap ada setelah stop/crash; lock kernel dilepas otomatis. **Jangan hapus/ganti file lock ketika proses mungkin berjalan**, termasuk ketika muncul error konflik. Guard tidak mendeteksi poller di HP/server lain atau DB berbeda dengan token sama. Native API timeout default 45 detik, opsional `API_TIMEOUT_SECONDS=35..120`. Backup menolak target yang sudah ada; pilih nama baru, jangan memaksa overwrite.
 
 Suite 117 tes juga diuji pada Node minimum 22.13.0 Linux x64; bukan bukti PRoot/ARM64/Android fisik. Gunakan Node 22 patch terbaru dari NVM dan lakukan acceptance di HP sendiri.
+
+## 18. Upgrade 1.2.0 — sesuai log pengguna
+
+Panduan khusus instalasi dengan user **tebak-gambar-bot**, distro **tg-debian**, session **tebak-gambar-bot** tersedia di [RELEASE_1_2.md](RELEASE_1_2.md#4-update-sesuai-lingkungan-pada-log-anda). Jangan membuat user baru bila instalasi lama memakai nama ini. Contoh awal panduan memakai user tebak; pilih sesuai instalasi, jangan berganti home/database.
+
+Hindari launcher yang barisnya menyatu `set -e exec ...`. Jalankan script repo langsung dari tmux sesuai panduan khusus, atau buat launcher dengan `bash deploy/termux-launcher.sh`; bila launcher lama ada gunakan `--replace` hanya setelah meninjau (otomatis backup, mode 600). Script baru mode 700 dan memisahkan set/exec.
+
+Prepare sekarang memeriksa lock lokal versi terpasang jika build guard tersedia, sebelum npm. Ini pemeriksaan sesaat, bukan penguncian seluruh update. Stop dan jangan start kembali selama install/build. `/version` menunjukkan versi/runtime. Target suite 145 tes; jangan menganggap 117 hasil lama sebagai bukti 1.2.0 selesai.

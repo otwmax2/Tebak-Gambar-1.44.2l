@@ -28,3 +28,13 @@ simulator lokal atau unit test. Bukti lokal tersedia di ../VALIDATION.md.
 - [ ] Daily/selfie cap dan UTC-day benar; waktu host sinkron.
 - [ ] Ctrl+C/SIGTERM tidak meninggalkan poller; restart membaca progres lama; pending outbox diteruskan.
 - [ ] Untuk Android, uji launcher/tmux/reboot dan pembatasan baterai secara nyata; jangan menganggap hasil Linux sebagai hasil HP.
+
+## Acceptance 1.2.0
+
+- [ ] 145 tes/8 file, typecheck, format, aset, build, backup dan HTTP lulus.
+- [ ] `/version` menunjukkan build baru; menu tidak reset deadline.
+- [ ] Tombol soal aktif melanjutkan progress; soal lama practice; masa depan terkunci.
+- [ ] Alias/tombol sound bekerja dan batch command diberi petunjuk.
+- [ ] Setelah delete, privacy/help/menu/version/status dan stale delete tidak membuat profil. Uji memakai akun disposable.
+- [ ] Launcher execute sungguhan; home/user/database sama dengan instalasi lama.
+- [ ] Ulang acceptance Telegram ARM64. Bukti log 1.1.0 bukan bukti hasil 1.2.0.

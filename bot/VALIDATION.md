@@ -18,14 +18,16 @@ Pemeriksaan lokal 15 Oktober 2026 UTC. Runtime diuji: Node.js 22.22.3 dan 22.13.
 | 3 audio/quota/hint persistence tests | PASS |
 | 11 readiness/preflight tests, read-only SQLite, mock probe API, redaction/no-network | PASS |
 | 20 regression tests: lock/crash, backup, migration, transaction, catalog, reward | PASS |
-| **Total 117 tests** | **PASS** |
+| 22 feedback tests: navigasi, akun setelah delete, audio, leaderboard, cap selfie | PASS |
+| 6 shell/prepare tests: execute launcher, backup, symlink, active instance | PASS |
+| **Total 145 tests** | **PASS** |
 | Build JavaScript | PASS |
 | Lockfile clean install dengan npm 11.6.0 | PASS |
 | npm audit (all dependency types) | 0 vulnerability terlapor pada saat pemeriksaan |
 | Live simulator HTTP: onboarding, callback, PNG, WebP, Ogg, selfie, export, grup, delete/recreate, media ownership | PASS |
 | Compiled backup pada DB aktif/WAL: progres, score, permissions, quoted path, refuse overwrite | PASS |
 | Production start tanpa BOT_TOKEN | Ditolak, fail closed; token tidak dicetak |
-| Telegram live API / BotFather registration | **BELUM DIUJI** |
+| Telegram live API / polling 1.2.0 | **BELUM DIUJI** oleh pengembang; bukti pengguna 1.1.0 dicatat di bawah |
 | Docker image/compose di host deployment | **BELUM DIUJI** |
 | systemd service / remote CI | **BELUM DIUJI** |
 | Load testing multi-user/multi-instance | **BELUM DIUJI** |
@@ -87,3 +89,9 @@ GitHub menolak push workflow aktif karena koneksi GitHub App sesi ini tidak memi
 Rincian perubahan: [UPGRADE.md](UPGRADE.md). Bukti suite minimum Node disimpan di `data/test-results-node22-min.json`. Baseline 83 tes menjadi 117; rincian: engine 41, bot 34, upgrade 20, media 8, ekstra 3, preflight 11. SIGKILL memakai proses anak OS nyata; timeout outbox 25s memakai virtual clock, bukan uji latensi WAN.
 
 HTTP integration juga memverifikasi penolakan foreign Origin/content-type dan cookie Secure/Partitioned. Shell helper Termux diperiksa dengan `bash -n`, --help, launcher doctor offline dan eksekusi prepare penuh pada fixture Linux yang membuktikan .env/runtime/score lama tetap utuh; belum dibuktikan lewat instalasi HP/boot nyata. Tidak ada klaim live Telegram, Docker/systemd atau Actions telah dijalankan. Native SQLite ExperimentalWarning dan punycode DeprecationWarning pada Node minimum bukan failure.
+
+## Upgrade 1.2.0 dan bukti pengguna
+
+[Laporan lengkap](RELEASE_1_2.md). Total sekarang 145 tes/8 file (117 baseline + 22 feedback + 6 Termux). JSON/log utama diganti hasil 1.2.0. Bukan penambahan angka pada hasil lama. Helper launcher benar-benar dieksekusi di fixture dengan path spasi; prepare diuji menolak pemilik lock aktif melalui proses Node terpisah sebelum npx.
+
+Log privat pengguna menunjukkan 1.1.0 berhasil: Node 22.23.3 Linux ARM64, 117 tes lulus, verifikasi Telegram getMe/getWebhookInfo, start polling, dan chat privat. Pengguna melaporkan uji grup tanpa detail transkrip grup. Tidak ada klaim seluruh acceptance/uptime/restore sudah terbukti. Log mentah/export tidak dikomit. Hasil tersebut tidak otomatis berlaku untuk 1.2.0; lakukan acceptance ulang.

@@ -2,18 +2,18 @@
 
 Implementasi mandiri sesuai pilihan pengguna: **seluruh 400 soal offline**, **long polling**. Dibangun pada branch sesi yang sama; arsip Android, Smali dan ZIP sumber tidak diubah.
 
-## Upgrade 1.1.0
+## Upgrade 1.2.0
 
-Laporan perubahan dan penerapan: **[UPGRADE.md](UPGRADE.md)**. Mencakup perbaikan engine/reward, privasi grup, crash-safe local instance lock, backup, API/shutdown, katalog/media, HTTP demo, formatter dan helper Termux.
+Tindak lanjut log ARM64/chat dan panduan update sesuai user `tebak-gambar-bot`: **[RELEASE_1_2.md](RELEASE_1_2.md)**. Menambahkan navigasi progress/practice yang jelas, audio alias/tombol, perlindungan akun setelah delete dan generator launcher. Riwayat 1.1.0: **[UPGRADE.md](UPGRADE.md)**. Mencakup perbaikan engine/reward, privasi grup, crash-safe local instance lock, backup, API/shutdown, katalog/media, HTTP demo, formatter dan helper Termux.
 
 ## Status yang benar-benar terverifikasi
 
 - Semua 400 gambar/metadata/jawaban dimuat, hash diperiksa dan pixel didekode.
-- **117 test lulus**, termasuk walkthrough lengkap 400 soal hingga level 20, handler grammY dengan Bot API mock, database persistence, timer/checkpoint dan media.
+- **145 test lulus**, termasuk walkthrough lengkap 400 soal hingga level 20, handler grammY dengan Bot API mock, database persistence, timer/checkpoint dan media.
 - Typecheck source + test dan build TypeScript lulus.
 - Demo lokal berjalan dengan handler grammY yang sama; **bukan koneksi Telegram live**.
 - `npm audit`: tidak ada vulnerability terlapor pada lockfile saat validasi (bukan jaminan seluruh kode bebas bug).
-- BOT_TOKEN tidak disediakan; registrasi/live polling Telegram **belum diuji**. Sandbox ini tidak mengizinkan akses jaringan ke host Telegram. Pengujian nyata harus dilakukan di server pemilik dengan token melalui environment.
+- Token tidak diberikan kepada pengembang. Pengguna mengirim log **1.1.0**: 117 tes lulus pada Linux ARM64/Node 22.23.3, getMe/getWebhookInfo berhasil dan polling berjalan; pengguna melaporkan uji grup. **1.2.0** diuji lokal dan perlu acceptance ulang di HP. Sandbox tidak mengakses Telegram. Log/export mentah tidak dipublikasikan.
 - Docker/systemd/CI disediakan, belum dijalankan sebagai deployment nyata.
 
 Panduan Android tanpa root: **[TERMUX.md](TERMUX.md)** (Debian PRoot + Node 22, langkah awal–akhir).
@@ -32,12 +32,14 @@ Lihat [FEATURE_PARITY.md](FEATURE_PARITY.md), [VALIDATION.md](VALIDATION.md), [d
 
 ## 2. Mulai di server
 
+Perintah di bagian ini untuk instalasi baru. Instalasi lama: backup/stop dahulu dan ikuti [panduan upgrade](RELEASE_1_2.md#4-update-sesuai-lingkungan-pada-log-anda). Jangan menimpa `.env` lama.
+
 Dari root repository:
 
 ```bash
 cd bot
 npx --yes npm@11.6.0 ci
-cp .env.example .env
+(umask 077; set -o noclobber; cat .env.example > .env)
 chmod 600 .env
 ```
 

@@ -214,3 +214,7 @@ Helper backup diuji dengan DB aktif/WAL, tetapi restore **belum dieksekusi pada 
 | Aktif tapi tidak respons | Periksa network/API, konflik polling dan log; proses hidup tidak cukup sebagai health proof |
 
 Tidak ada pemantauan HTTP publik, external alerting atau jaminan SLA yang diam-diam ditambahkan. Integrasikan monitor host/log sesuai kebijakan pengelola tanpa membocorkan token atau data akun.
+
+## Versi 1.2.0
+
+[Laporan dan acceptance](RELEASE_1_2.md). Schema tetap 2; tidak ada penghapusan massal/migrasi destruktif. Informational commands tidak membuat ulang akun setelah delete; aksi permainan/opt-in/saran eksplisit dapat membuat akun baru. Ranking memfilter ID nonpositif dan skor nol tanpa menghapus record lama. Tambahkan uji tombol ▶️/✅ soal, alias/tombol audio, menu saat boss, version dan delete/privacy pada smoke test. Log ARM64/Telegram pengguna adalah bukti 1.1.0, bukan acceptance otomatis untuk rilis ini.

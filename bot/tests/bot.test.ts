@@ -14,10 +14,11 @@ const cfg = readConfig({
   ADMIN_IDS: '99',
   RATE_LIMIT_MS: '0',
 });
+const sharedCatalog = new Catalog(cfg.assetRoot);
 let store: Store, engine: Engine, runtime: Runtime, mock: MockTelegram, n: number;
 beforeEach(() => {
   store = new Store(':memory:');
-  engine = new Engine(store, new Catalog(cfg.assetRoot), cfg);
+  engine = new Engine(store, sharedCatalog, cfg);
   runtime = createRuntime(engine, cfg, { botInfo: DEMO_BOT, rateLimit: false });
   mock = new MockTelegram();
   mock.attach(runtime.bot);

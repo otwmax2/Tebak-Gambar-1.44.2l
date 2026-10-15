@@ -10,8 +10,13 @@ import { Engine, GameError } from './engine.js';
 import type { Config } from './config.js';
 import type { Session } from './store.js';
 import { Media } from './media.js';
+import { SOUND_NAMES, resolveSound } from './audio.js';
 export const COMMANDS = [
   ['start', 'Menu dan onboarding'],
+  ['menu', 'Menu tanpa menghentikan soal'],
+  ['next', 'Lanjutkan progres'],
+  ['cancel', 'Batalkan input selfie'],
+  ['version', 'Versi bot dan runtime'],
   ['play', 'Lanjutkan permainan'],
   ['levels', 'Pilih level'],
   ['questions', 'Daftar soal terbuka'],
@@ -37,7 +42,7 @@ export const COMMANDS = [
   ['help', 'Aturan'],
   ['privacy', 'Privasi'],
 ] as const;
-const HELP = `🎮 Tebak Gambar · 400 soal / 20 level\n\n/play [level] — mulai/lanjut; /next — berikutnya\n/levels /questions — navigasi\nKetik jawaban tanpa /. Spasi/kapital diabaikan. Typo 1–2 karakter: hampir benar, tanpa penalti.\n/hint — satu huruf; /freeanswer — pakai saldo (soal biasa saja)\n/status — nyawa/hint/progres\n/daily — hadiah sekali per hari UTC\n/challenge — soal harian, tanpa mengubah progres\n/practice [nomor 1–400] — latihan soal terbuka, tanpa nyawa/skor\n/group — kuis grup, jawaban benar pertama menang\n/stop — keluar; meninggalkan raja mengurangi nyawa\n/selfie [level ganjil] — foto berframe, +2 hint sekali sehari\n/sticker /share /sound [nama] /quote /achievements /leaderboard\n/suggest ide — inbox pengelola bot\n/reminders on|off — pengingat, default OFF\n/export /delete /privacy — data pribadi\n\nRaja default 60 detik, tanpa hint/free answer. Level 11+ mempunyai checkpoint pada soal ke-10. Nyawa habis: kembali ke checkpoint. Skor progres yang sama tidak bisa difarm.\nTidak ada iklan/Firebase/OAuth/API game lama. Metadata level 21–64 tidak memiliki soal lokal.\nAdmin privat: /admin /suggestions /broadcast teks (opt-in).`;
+const HELP = `🎮 Tebak Gambar · 400 soal / 20 level\n\n/menu — menu tanpa menghentikan soal; /version — versi\n/play [level] — mulai/lanjut; /next — berikutnya\n/levels /questions — navigasi\nKetik jawaban tanpa /. Spasi/kapital diabaikan. Typo 1–2 karakter: hampir benar, tanpa penalti.\n/hint — satu huruf; /freeanswer — pakai saldo (soal biasa saja)\n/status — nyawa/hint/progres\n/daily — hadiah sekali per hari UTC\n/challenge — soal harian, tanpa mengubah progres\n/practice [nomor 1–400] — latihan soal terbuka, tanpa nyawa/skor\n/group — kuis grup, jawaban benar pertama menang\n/stop — keluar; meninggalkan raja mengurangi nyawa\n/selfie [level ganjil] — foto berframe, +2 hint sekali sehari\n/sticker /share /sound [nama] /quote /achievements /leaderboard\n/suggest ide — inbox pengelola bot\n/reminders on|off — pengingat, default OFF\n/export /delete /privacy — data pribadi\n\nRaja default 60 detik, tanpa hint/free answer. Level 11+ mempunyai checkpoint pada soal ke-10. Nyawa habis: kembali ke checkpoint. Skor progres yang sama tidak bisa difarm.\nTidak ada iklan/Firebase/OAuth/API game lama. Metadata level 21–64 tidak memiliki soal lokal.\nAdmin privat: /admin /suggestions /broadcast teks (opt-in).`;
 export interface BotOptions {
   apiTransformer?: Transformer;
   botInfo?: UserFromGetMe;
@@ -111,11 +116,42 @@ export function createRuntime(engine: Engine, config: Config, options: BotOption
         if (ctx.callbackQuery) await ctx.answerCallbackQuery();
         return;
       }
-      engine.touch(
-        ctx.from.id,
-        [ctx.from.first_name, ctx.from.last_name].filter(Boolean).join(' '),
-        ctx.chat.type === 'private' ? ctx.chat.id : undefined,
-      );
+      // Informational commands and stale buttons must not recreate a deleted account.
+      const command = /^\/([a-z0-9_]+)(?:@([A-Za-z0-9_]+))?(?:\s|$)/.exec(ctx.message?.text ?? '');
+      const gameCommand =
+        command &&
+        (!command[2] || command[2].toLowerCase() === ctx.me.username.toLowerCase()) &&
+        [
+          'start',
+          'play',
+          'next',
+          'levels',
+          'level',
+          'questions',
+          'daily',
+          'challenge',
+          'practice',
+          'group',
+          'selfie',
+          'frame',
+          'suggest',
+          'feedback',
+          'reminders',
+        ].includes(command[1]!);
+      const action = ctx.callbackQuery?.data?.split(':')[0];
+      const gameButton =
+        action !== undefined && ['play', 'level', 'practice', 'question', 'daily'].includes(action);
+      const groupAnswer =
+        ctx.chat.type !== 'private' &&
+        ctx.message?.text !== undefined &&
+        !ctx.message.text.startsWith('/') &&
+        engine.current(ctx.chat.id, ctx.from.id)?.mode === 'group';
+      if (engine.store.player(ctx.from.id) || gameCommand || gameButton || groupAnswer)
+        engine.touch(
+          ctx.from.id,
+          [ctx.from.first_name, ctx.from.last_name].filter(Boolean).join(' '),
+          ctx.chat.type === 'private' ? ctx.chat.id : undefined,
+        );
     }
     try {
       await next();
@@ -233,6 +269,11 @@ export function createRuntime(engine: Engine, config: Config, options: BotOption
       await question(ctx, engine.start(ctx.chat.id, uid(ctx), 'practice', Number(arg.slice(2))));
       return;
     }
+    if (arg) throw new GameError('Tautan mulai tidak valid. Gunakan /menu untuk kembali.');
+    await menu(ctx);
+  });
+  async function menu(ctx: Context): Promise<void> {
+    privateOnly(ctx);
     await ctx.reply(
       '🎮 Selamat datang! 400 soal · 20 level · progres otomatis dengan akun Telegram.\nKetuk Mulai atau baca /help. /privacy menjelaskan data yang disimpan.',
       {
@@ -243,6 +284,16 @@ export function createRuntime(engine: Engine, config: Config, options: BotOption
           .text('📖 Cara main', 'help')
           .text('🎁 Harian', 'daily'),
       },
+    );
+  }
+  bot.command('menu', (ctx) => menu(ctx));
+  bot.command('version', async (ctx) => {
+    privateOnly(ctx);
+    const pkg = JSON.parse(fs.readFileSync(path.join(BOT_ROOT, 'package.json'), 'utf8')) as {
+      version: string;
+    };
+    await ctx.reply(
+      `Tebak Gambar v${pkg.version} · Node ${process.versions.node} · ${process.platform}/${process.arch}\n400 soal · 20 level · long polling · schema 2`,
     );
   });
   bot.command(['help', 'howto'], (ctx) => ctx.reply(HELP));
@@ -258,13 +309,13 @@ export function createRuntime(engine: Engine, config: Config, options: BotOption
       kb = new InlineKeyboard();
     (JSON.parse(progress.order_json) as number[]).forEach((qid, pos) => {
       kb.text(
-        `${pos < progress.position ? '✅' : pos === progress.position ? '▶️' : '🔒'} ${pos + 1}`,
-        `practice:${qid}`,
+        `${pos < progress.position ? '✅' : pos === progress.position ? '▶️' : '🔒'} ${pos + 1} · #${qid + 1}`,
+        pos > progress.position ? 'locked' : `question:${qid}`,
       );
       if (pos % 4 === 3) kb.row();
     });
     await ctx.reply(
-      `Soal level ${p.selected}. Tombol mengikuti urutan permainan; soal di depan progres terkunci.`,
+      `Soal level ${p.selected}. Urutan · #nomor gambar. ▶️ melanjutkan progres; ✅ untuk latihan tanpa skor; 🔒 belum terbuka.`,
       { reply_markup: kb },
     );
   });
@@ -310,10 +361,12 @@ export function createRuntime(engine: Engine, config: Config, options: BotOption
   bot.command('stop', (ctx) => stop(ctx));
   bot.command('leaderboard', (ctx) =>
     ctx.reply(
-      `🏆 Papan skor\n${engine
-        .leaderboard()
-        .map((r, i) => `${i + 1}. ${r.name} — ${r.score}`)
-        .join('\n')}\nLatihan tidak memberi poin; progres soal yang sama dinilai sekali.`,
+      `🏆 Papan skor\n${
+        engine
+          .leaderboard()
+          .map((r, i) => `${i + 1}. ${r.name} — ${r.score}`)
+          .join('\n') || 'Belum ada pemain dengan poin.'
+      }\nLatihan tidak memberi poin; progres soal yang sama dinilai sekali.`,
     ),
   );
   bot.command('achievements', async (ctx) => {
@@ -337,24 +390,33 @@ export function createRuntime(engine: Engine, config: Config, options: BotOption
       caption: `Tebak gambar ini! #${q.id + 1} · Level ${q.level}\nhttps://t.me/${ctx.me.username}?start=q_${q.id}\nLatihan memerlukan soal yang sudah terbuka.`,
     });
   });
-  bot.command('sound', async (ctx) => {
+  async function sound(ctx: Context, requested = ''): Promise<void> {
     privateOnly(ctx);
-    const root = path.join(BOT_ROOT, '../resources/res/raw');
-    const sounds = fs.readdirSync(root).filter((name) => name.endsWith('.ogg'));
-    const requested = ctx.match.trim();
-    if (!requested) {
+    if (!requested.trim()) {
+      const keyboard = new InlineKeyboard();
+      for (const name of SOUND_NAMES)
+        keyboard.text(name.replace(/^sound_/, ''), `sound:${name}`).row();
       await ctx.reply(
         'Suara tersedia (file Ogg):\n' +
-          sounds.map((name) => '/sound ' + name.replace('.ogg', '')).join('\n'),
+          SOUND_NAMES.map((name) => '/sound ' + name).join('\n') +
+          '\nAlias juga diterima, misalnya /sound checkpoint. Kirim satu perintah per pesan.',
+        { reply_markup: keyboard },
       );
       return;
     }
-    const filename = requested.endsWith('.ogg') ? requested : requested + '.ogg';
-    if (!sounds.includes(filename)) throw new GameError('Suara tidak ditemukan. Gunakan /sound.');
-    await ctx.replyWithDocument(new InputFile(path.join(root, filename)), {
-      caption: 'Audio asli game (Ogg), dikirim sebagai file; playback tergantung klien Telegram.',
-    });
-  });
+    if (/[\r\n]/.test(requested))
+      throw new GameError('Kirim satu perintah /sound per pesan, atau pilih tombol audio.');
+    const name = resolveSound(requested);
+    if (!name) throw new GameError('Suara tidak ditemukan. Gunakan /sound atau /sound checkpoint.');
+    await acknowledge(ctx);
+    await ctx.replyWithDocument(
+      new InputFile(path.join(BOT_ROOT, '../resources/res/raw', name + '.ogg')),
+      {
+        caption: 'Audio asli game (Ogg), dikirim sebagai file; playback tergantung klien Telegram.',
+      },
+    );
+  }
+  bot.command('sound', (ctx) => sound(ctx, ctx.match));
   bot.command('sticker', async (ctx) => {
     privateOnly(ctx);
     await ctx.replyWithSticker(
@@ -402,9 +464,12 @@ export function createRuntime(engine: Engine, config: Config, options: BotOption
     await ctx.replyWithPhoto(new InputFile(bytes, 'selfie-frame.jpg'), {
       caption: 'Selfie Tebak Gambar — simpan atau bagikan.',
     });
+    const before = engine.progress(uid(ctx), engine.player(uid(ctx)).selected).hints;
+    const claimed = engine.photoReward(uid(ctx));
+    const gained = engine.progress(uid(ctx), engine.player(uid(ctx)).selected).hints - before;
     await ctx.reply(
-      engine.photoReward(uid(ctx))
-        ? '💡 Bonus selfie +2 hint.'
+      claimed
+        ? `💡 Bonus selfie +${gained} hint.${gained < 2 ? ' Saldo hint mencapai batas 100.' : ''}`
         : 'Frame selesai; bonus hari ini sudah diambil.',
     );
   });
@@ -422,7 +487,7 @@ export function createRuntime(engine: Engine, config: Config, options: BotOption
   });
   bot.command('privacy', (ctx) =>
     ctx.reply(
-      'Bot menyimpan ID/nama Telegram, progres, nyawa, skor, hint, hadiah, pengingat dan ide di SQLite pengelola. Foto selfie hanya diproses di memori; Telegram tetap memproses media. Tidak ada Firebase, analytics, iklan atau OAuth. Pengingat default OFF. /export untuk unduh data; /delete untuk hapus data bot (bukan riwayat pesan Telegram). Papan skor menampilkan nama dan skor.',
+      'Bot menyimpan ID/nama Telegram, progres, nyawa, skor, hint, hadiah, pengingat dan ide di SQLite pengelola. Foto selfie hanya diproses di memori; Telegram tetap memproses media. Tidak ada Firebase, analytics, iklan atau OAuth. Pengingat default OFF. /export untuk unduh data; /delete untuk hapus data bot (bukan riwayat pesan Telegram). Papan skor menampilkan nama dan skor. Perintah informasi tidak membuat akun ulang setelah /delete; aksi permainan/opt-in/saran dapat membuat akun baru.',
     ),
   );
   bot.command('export', async (ctx) => {
@@ -437,6 +502,10 @@ export function createRuntime(engine: Engine, config: Config, options: BotOption
   });
   bot.command(['delete', 'reset'], async (ctx) => {
     privateOnly(ctx);
+    if (!engine.store.player(uid(ctx))) {
+      await ctx.reply('Tidak ada data akun yang perlu dihapus. /start jika ingin bermain kembali.');
+      return;
+    }
     const nonce = randomBytes(8).toString('hex');
     for (const [id, c] of confirms) if (c.expires <= engine.now()) confirms.delete(id);
     if (confirms.size >= 10000)
@@ -448,7 +517,7 @@ export function createRuntime(engine: Engine, config: Config, options: BotOption
   });
   bot.command('admin', async (ctx) => {
     admin(ctx);
-    const n = engine.store.get<{ n: number }>('SELECT COUNT(*) n FROM players')!.n;
+    const n = engine.store.get<{ n: number }>('SELECT COUNT(*) n FROM players WHERE id>0')!.n;
     await ctx.reply(
       `Admin: ${n} pemain\n/suggestions — 10 ide terakhir\n/broadcast teks — hanya opt-in`,
     );
@@ -481,12 +550,42 @@ export function createRuntime(engine: Engine, config: Config, options: BotOption
     const data = ctx.callbackQuery.data;
     if (
       Buffer.byteLength(data) > 64 ||
-      !/^(?:(?:play|levels|help|daily|status|keep)|(?:hint|free|stop|next|delete):[a-f0-9]{16}|level:[1-9]\d?|practice:(?:0|[1-9]\d{0,2}))$/.test(
+      !/^(?:(?:play|levels|help|daily|status|keep|menu|locked)|(?:hint|free|stop|next|delete):[a-f0-9]{16}|level:[1-9]\d?|(?:practice|question):(?:0|[1-9]\d{0,2})|sound:[a-z0-9_]{1,40})$/.test(
         data,
       )
     )
       throw new GameError('Tombol tidak dikenal atau format tidak valid.');
     const [action, value] = data.split(':');
+    if (action === 'locked')
+      throw new GameError('Soal belum terbuka. Lanjutkan progres dengan /play.');
+    if (action === 'menu') {
+      await acknowledge(ctx);
+      await menu(ctx);
+      return;
+    }
+    if (action === 'sound') {
+      await sound(ctx, value);
+      return;
+    }
+    if (action === 'question') {
+      privateOnly(ctx);
+      const qid = Number(value);
+      if (!Number.isInteger(qid) || qid < 0 || qid > 399)
+        throw new GameError('Nomor soal tidak valid. Gunakan /questions.');
+      const q = engine.catalog.get(qid),
+        p = engine.progress(uid(ctx), q.level);
+      const pos = (JSON.parse(p.order_json) as number[]).indexOf(qid);
+      await question(
+        ctx,
+        engine.start(
+          ctx.chat.id,
+          uid(ctx),
+          pos === p.position ? 'progress' : 'practice',
+          pos === p.position ? q.level : qid,
+        ),
+      );
+      return;
+    }
     if (action === 'delete') {
       privateOnly(ctx);
       const c = confirms.get(uid(ctx));

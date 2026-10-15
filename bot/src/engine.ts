@@ -271,9 +271,17 @@ export class Engine {
         this.expire(s);
         return { kind: 'timeout', lives: this.player(user).lives, question: q, session: s };
       }
-      if (free && (s.mode !== 'progress' || q.type !== 'biasa' || p.free_answers < 1))
+      if (free && s.mode !== 'progress')
         throw new GameError(
-          'Free answer hanya untuk soal biasa dalam progres dan membutuhkan saldo.',
+          'Free answer hanya untuk progres privat. Mode latihan/tantangan tidak memakai saldo. Gunakan /stop lalu /play.',
+        );
+      if (free && q.type !== 'biasa')
+        throw new GameError(
+          'Soal raja tidak mendukung free answer. Jawab sendiri sebelum waktu habis.',
+        );
+      if (free && p.free_answers < 1)
+        throw new GameError(
+          'Saldo free answer kosong. Ambil /daily jika hadiah hari ini belum diambil; lihat /status.',
         );
       if (free) this.store.run('UPDATE players SET free_answers=free_answers-1 WHERE id=?', user);
       const delta = free ? 0 : distance(text, q.answer);
@@ -467,7 +475,9 @@ export class Engine {
     );
   }
   leaderboard(): { name: string; score: number }[] {
-    return this.store.all('SELECT name,score FROM players ORDER BY score DESC,id LIMIT 10');
+    return this.store.all(
+      'SELECT name,score FROM players WHERE id>0 AND score>0 ORDER BY score DESC,id LIMIT 10',
+    );
   }
   export(user: number): object {
     return {

@@ -118,9 +118,20 @@ async function main() {
   );
   const deletion = await send('/delete');
   assert.equal((await callback(deletion.events[0]!.buttons[0]![0]!.callback_data!)).player, null);
+  assert.equal((await send('/privacy')).player, null);
+  const version = await send('/version');
+  assert.equal(version.player, null);
+  assert.match(version.events[0]!.text, /Tebak Gambar v\d+\.\d+\.\d+/);
+  assert.equal((await send('/menu')).player, null);
   assert.equal((await send('/start')).player?.score, 0);
+  const questions = await send('/questions');
+  const resume = questions.events[0]!.buttons[0]![0]!.callback_data!;
+  assert.match(resume, /^question:\d+$/);
+  assert.ok((await callback(resume)).events.some((e) => e.text.includes('Mode: progress')));
+  const alias = await send('/sound checkpoint');
+  assert.ok(alias.events.some((e) => e.method === 'sendDocument' && e.upload));
   console.log(
-    'PASS live HTTP simulator: onboarding, callback/hint, PNG, answer, WebP, Ogg, selfie framing, export, group winner, delete/recreate and cross-cookie media isolation, cross-origin/content-type rejection and HTTPS partitioned cookies. NO Telegram network.',
+    'PASS live HTTP simulator: onboarding, callback/hint, PNG, answer, WebP, Ogg, selfie framing, export, group winner, delete/recreate and cross-cookie media isolation, cross-origin/content-type rejection and HTTPS partitioned cookies, no profile resurrection, version/menu, scored question resume and audio alias. NO Telegram network.',
   );
 }
 main().catch((error) => {
