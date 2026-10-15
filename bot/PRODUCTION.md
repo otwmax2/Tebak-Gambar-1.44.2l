@@ -8,6 +8,14 @@ Panduan ini tidak mengeksekusi SSH, meminta password/SSH key, menggunakan creden
 
 Pilih **satu** jalur operasi: Docker Compose (direkomendasikan untuk host yang memiliki Docker) **atau** systemd. Jangan menjalankan keduanya untuk token yang sama.
 
+## Guard dan timeout versi 1.1.0
+
+[Laporan upgrade](UPGRADE.md). Startup memegang exclusive SQLite lock di file terpisah `DATABASE_PATH + .instance.sqlite` melalui path kanonik. File ini tetap ada setelah stop: **jangan hapus/ganti/rotasi ketika ada proses yang mungkin hidup**. Crash melepaskan lock kernel; tidak perlu membersihkan file stale. Hanya filesystem lokal/path DB sama yang terlindungi, bukan token di server/DB lain. Tetap satu poller untuk satu token.
+
+`API_TIMEOUT_SECONDS` default 45, rentang 35–120 detik. Plugin tidak me-retry HTTP error tanpa batas; polling menangani reconnect tersendiri. SIGINT/SIGTERM membatalkan request biasa/init; outbox in-flight mempunyai grace 25 detik, lalu di-abort dan tetap pending. Tidak menjamin delivery exactly-once atau menyelesaikan CPU native dalam grace.
+
+Backup membuat file tujuan eksklusif mode 600 sebelum menulis dan memverifikasi quick_check; nama yang sudah ada ditolak. Jangan menjalankan instalasi dependency/update saat bot masih aktif. Schema tetap 1/2, indeks baru idempotent. Runtime menolak versi schema masa depan sebelum mutasi.
+
 ## A. Checklist host dan rahasia
 
 - Linux dengan disk persisten, akun layanan khusus, Node 22.13+ LTS bila tidak memakai Docker. Runtime harus terpelihara dengan update keamanan.

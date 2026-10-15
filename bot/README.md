@@ -2,10 +2,14 @@
 
 Implementasi mandiri sesuai pilihan pengguna: **seluruh 400 soal offline**, **long polling**. Dibangun pada branch sesi yang sama; arsip Android, Smali dan ZIP sumber tidak diubah.
 
+## Upgrade 1.1.0
+
+Laporan perubahan dan penerapan: **[UPGRADE.md](UPGRADE.md)**. Mencakup perbaikan engine/reward, privasi grup, crash-safe local instance lock, backup, API/shutdown, katalog/media, HTTP demo, formatter dan helper Termux.
+
 ## Status yang benar-benar terverifikasi
 
 - Semua 400 gambar/metadata/jawaban dimuat, hash diperiksa dan pixel didekode.
-- **83 test lulus**, termasuk walkthrough lengkap 400 soal hingga level 20, handler grammY dengan Bot API mock, database persistence, timer/checkpoint dan media.
+- **117 test lulus**, termasuk walkthrough lengkap 400 soal hingga level 20, handler grammY dengan Bot API mock, database persistence, timer/checkpoint dan media.
 - Typecheck source + test dan build TypeScript lulus.
 - Demo lokal berjalan dengan handler grammY yang sama; **bukan koneksi Telegram live**.
 - `npm audit`: tidak ada vulnerability terlapor pada lockfile saat validasi (bukan jaminan seluruh kode bebas bug).
@@ -20,7 +24,7 @@ Lihat [FEATURE_PARITY.md](FEATURE_PARITY.md), [VALIDATION.md](VALIDATION.md), [d
 
 ## 1. Prasyarat
 
-- Node.js **22.13+**, diuji dengan **22.22.3**. Modul built-in `node:sqlite` pada Node 22 masih mengeluarkan experimental warning; ini bukan kegagalan test. Jangan gunakan Node 18/20 untuk implementasi ini.
+- Node.js **22.13+**, diuji dengan **22.22.3 dan minimum 22.13.0 pada Linux x64** (gunakan patch terbaru Node 22 LTS untuk deployment). Modul built-in `node:sqlite` pada Node 22 masih mengeluarkan experimental warning; ini bukan kegagalan test. Jangan gunakan Node 18/20 untuk implementasi ini.
 - npm **11.6.0** (dipin melalui packageManager). npm 10.9.8 di sandbox mengalami error `edgesOut` ketika menyelesaikan dependency tree; npm 11.6.0 berhasil.
 - Token bot milik pengelola, dibuat melalui BotFather. **Jangan kirim token ke chat, jangan commit `.env`**.
 - Seluruh repository tersedia, terutama `audit/decrypted-levels/images/` dan resource frame/audio. Bot tidak dapat dijalankan dari folder `bot/` yang dipisahkan tanpa aset tersebut.
@@ -243,6 +247,6 @@ npm run backup:test
 npm run coverage:repo
 ```
 
-83 test mencakup 41 engine, 22 handler grammY, 6 media, 3 kasus tambahan dan 11 preflight produksi. Template GitHub Actions tersedia di `deploy/telegram-bot.workflow.yml`, belum aktif. Untuk mengaktifkan, pengelola dengan izin workflows perlu menyalinnya ke `.github/workflows/telegram-bot.yml`; koneksi GitHub sesi ini tidak memiliki izin tersebut. Hasil remote CI belum diuji. Semua test menggunakan token dummy + mock transport, tidak pernah mencoba credential Android atau Bot API produksi.
+117 test mencakup 41 engine, 22 handler grammY, 6 media, 3 kasus tambahan dan 11 preflight produksi. Template GitHub Actions tersedia di `deploy/telegram-bot.workflow.yml`, belum aktif. Untuk mengaktifkan, pengelola dengan izin workflows perlu menyalinnya ke `.github/workflows/telegram-bot.yml`; koneksi GitHub sesi ini tidak memiliki izin tersebut. Hasil remote CI belum diuji. Semua test menggunakan token dummy + mock transport, tidak pernah mencoba credential Android atau Bot API produksi.
 
 Sebelum membuka bot publik: uji getMe/start/stop, command/callback, grup dengan setting privacy, foto/stiker/audio, permission admin, notifikasi opt-in, restart/progres, 429/403 dan backup/restore pada environment pemilik. BotFather token masih diperlukan — implementasi lokal tidak bisa menggantikan itu.

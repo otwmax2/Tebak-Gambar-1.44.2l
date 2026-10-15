@@ -1,6 +1,6 @@
 # Hasil validasi implementasi bot
 
-Pemeriksaan lokal 15 Oktober 2026 UTC. Runtime diuji: Node.js 22.22.3, npm 11.6.0, TypeScript 5.9.3, grammY 1.46.0, Sharp 0.35.5, Vitest 4.1.11.
+Pemeriksaan lokal 15 Oktober 2026 UTC. Runtime diuji: Node.js 22.22.3 dan 22.13.0 (Linux x64), npm 11.6.0, TypeScript 5.9.3, grammY 1.46.0, Sharp 0.35.5, Vitest 4.1.11.
 
 ## Bukti
 
@@ -13,11 +13,12 @@ Pemeriksaan lokal 15 Oktober 2026 UTC. Runtime diuji: Node.js 22.22.3, npm 11.6.
 | Semua 20 level dan 30 raja | PASS |
 | Walkthrough engine seluruh 400 soal, score final, tamat level 20 | PASS |
 | 41 engine tests | PASS |
-| 22 grammY handler/API mock tests | PASS |
-| 6 image/sticker/frame/path tests | PASS |
+| 34 grammY handler/API mock tests | PASS |
+| 8 image/sticker/frame/path tests | PASS |
 | 3 audio/quota/hint persistence tests | PASS |
 | 11 readiness/preflight tests, read-only SQLite, mock probe API, redaction/no-network | PASS |
-| **Total 83 tests** | **PASS** |
+| 20 regression tests: lock/crash, backup, migration, transaction, catalog, reward | PASS |
+| **Total 117 tests** | **PASS** |
 | Build JavaScript | PASS |
 | Lockfile clean install dengan npm 11.6.0 | PASS |
 | npm audit (all dependency types) | 0 vulnerability terlapor pada saat pemeriksaan |
@@ -80,3 +81,9 @@ Tidak ada token nyata digunakan di test/demo. Perbedaan dengan Android dirinci d
 ## Status publikasi CI
 
 GitHub menolak push workflow aktif karena koneksi GitHub App sesi ini tidak memiliki izin `workflows`. YAML disimpan sebagai template `deploy/telegram-bot.workflow.yml`, bukan workflow aktif. Kode bot dan template tetap dapat dipublikasikan; pengelola berizin dapat mengaktifkannya kemudian.
+
+## Upgrade 1.1.0
+
+Rincian perubahan: [UPGRADE.md](UPGRADE.md). Bukti suite minimum Node disimpan di `data/test-results-node22-min.json`. Baseline 83 tes menjadi 117; rincian: engine 41, bot 34, upgrade 20, media 8, ekstra 3, preflight 11. SIGKILL memakai proses anak OS nyata; timeout outbox 25s memakai virtual clock, bukan uji latensi WAN.
+
+HTTP integration juga memverifikasi penolakan foreign Origin/content-type dan cookie Secure/Partitioned. Shell helper Termux diperiksa dengan `bash -n`, --help, launcher doctor offline dan eksekusi prepare penuh pada fixture Linux yang membuktikan .env/runtime/score lama tetap utuh; belum dibuktikan lewat instalasi HP/boot nyata. Tidak ada klaim live Telegram, Docker/systemd atau Actions telah dijalankan. Native SQLite ExperimentalWarning dan punycode DeprecationWarning pada Node minimum bukan failure.

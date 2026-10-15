@@ -17,3 +17,14 @@ Jangan menulis token, isi .env, data export pemain atau URL API berkunci di sini
 
 Template ini bukan bukti deployment. Jangan mengganti status menjadi PASS berdasarkan
 simulator lokal atau unit test. Bukti lokal tersedia di ../VALIDATION.md.
+
+## Tambahan acceptance 1.1.0 di host nyata
+
+- [ ] Seluruh 117 tes lokal + format/typecheck/aset/build lulus; audit ditinjau.
+- [ ] Stop sebelum update, backup privat tidak overwrite, snapshot diuji di lingkungan terpisah.
+- [ ] Instance kedua di path DB sama ditolak; jangan menghapus file `.instance.sqlite` untuk memaksa start. Token tidak dipakai server/DB lain.
+- [ ] Status/achievements/quote/cancel selfie tidak memperlihatkan data personal di grup.
+- [ ] Callback photo/hint mendapat ACK, tombol kedaluwarsa/akun lain ditolak.
+- [ ] Daily/selfie cap dan UTC-day benar; waktu host sinkron.
+- [ ] Ctrl+C/SIGTERM tidak meninggalkan poller; restart membaca progres lama; pending outbox diteruskan.
+- [ ] Untuk Android, uji launcher/tmux/reboot dan pembatasan baterai secara nyata; jangan menganggap hasil Linux sebagai hasil HP.

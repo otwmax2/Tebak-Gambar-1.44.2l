@@ -1,81 +1,88 @@
+Validation 2026-10-15T12:57:14Z
+v22.22.3
+11.6.0
 
-added 144 packages, and audited 145 packages in 2s
+added 143 packages, and audited 144 packages in 2s
 
-56 packages are looking for funding
+55 packages are looking for funding
   run `npm fund` for details
 
 found 0 vulnerabilities
 
-> tebak-gambar-telegram@1.0.0 check
-> npm run typecheck && npm run assets:verify && npm test && npm run build
+> tebak-gambar-telegram@1.1.0 format:check
+> prettier --check "src/**/*.ts" "scripts/**/*.ts" "tests/**/*.ts"
 
+Checking formatting...
+All matched files use Prettier code style!
 
-> tebak-gambar-telegram@1.0.0 typecheck
+> tebak-gambar-telegram@1.1.0 typecheck
 > tsc --noEmit && tsc -p tsconfig.test.json
 
 
-> tebak-gambar-telegram@1.0.0 assets:verify
+> tebak-gambar-telegram@1.1.0 assets:verify
 > tsx scripts/verify-assets.ts
 
 PASS: 400 image hashes, PNG metadata and full pixel decode; 20 levels.
 
-> tebak-gambar-telegram@1.0.0 test
-> vitest run
+> tebak-gambar-telegram@1.1.0 test
+> vitest run --reporter=default --reporter=json --outputFile=data/test-results.json
 
 
 [1m[30m[46m RUN [49m[39m[22m [36mv4.1.11 [39m[90m/home/user/Tebak-Gambar-1.44.2l/bot[39m
 
-(node:7804) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(node:6887) ExperimentalWarning: SQLite is an experimental feature and might change at any time
 (Use `node --trace-warnings ...` to show where the warning was created)
- [32m✓[39m tests/engine.test.ts [2m([22m[2m41 tests[22m[2m)[22m[32m 273[2mms[22m[39m
-(node:7811) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+ [32m✓[39m tests/preflight.test.ts [2m([22m[2m11 tests[22m[2m)[22m[33m 5214[2mms[22m[39m
+   [33m[2m✓[22m[39m validates local assets and new storage without any network or game database creation [33m 399[2mms[22m[39m
+   [33m[2m✓[22m[39m requires token in production; offline mode makes absence a warning [33m 733[2mms[22m[39m
+   [33m[2m✓[22m[39m rejects in-memory production databases and Node versions below 22.13 [33m 382[2mms[22m[39m
+   [33m[2m✓[22m[39m detects unwriteable database directory (a file used as parent) [33m 367[2mms[22m[39m
+   [33m[2m✓[22m[39m inspects a live SQLite WAL database read-only without changing player state [33m 754[2mms[22m[39m
+   [33m[2m✓[22m[39m refuses corrupt database and unknown future migration versions [33m 743[2mms[22m[39m
+   [33m[2m✓[22m[39m recognizes schema 1 needing startup migration without migrating during inspection [33m 378[2mms[22m[39m
+   [33m[2m✓[22m[39m only explicit Telegram probe uses injected read-only API methods and warns about webhook/privacy [33m 725[2mms[22m[39m
+   [33m[2m✓[22m[39m never probes Telegram with invalid token and redacts keyed API failures [33m 727[2mms[22m[39m
+(node:6902) ExperimentalWarning: SQLite is an experimental feature and might change at any time
 (Use `node --trace-warnings ...` to show where the warning was created)
- [32m✓[39m tests/bot.test.ts [2m([22m[2m22 tests[22m[2m)[22m[33m 439[2mms[22m[39m
-(node:7826) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+ [32m✓[39m tests/bot.test.ts [2m([22m[2m34 tests[22m[2m)[22m[33m 1024[2mms[22m[39m
+ [32m✓[39m tests/media.test.ts [2m([22m[2m8 tests[22m[2m)[22m[33m 515[2mms[22m[39m
+   [33m[2m✓[22m[39m composites every bundled unlocked selfie frame [33m 318[2mms[22m[39m
+(node:6933) ExperimentalWarning: SQLite is an experimental feature and might change at any time
 (Use `node --trace-warnings ...` to show where the warning was created)
- [32m✓[39m tests/preflight.test.ts [2m([22m[2m11 tests[22m[2m)[22m[33m 4740[2mms[22m[39m
-   [33m[2m✓[22m[39m validates local assets and new storage without any network or game database creation [33m 328[2mms[22m[39m
-   [33m[2m✓[22m[39m requires token in production; offline mode makes absence a warning [33m 630[2mms[22m[39m
-   [33m[2m✓[22m[39m rejects in-memory production databases and Node versions below 22.13 [33m 340[2mms[22m[39m
-   [33m[2m✓[22m[39m detects unwriteable database directory (a file used as parent) [33m 326[2mms[22m[39m
-   [33m[2m✓[22m[39m inspects a live SQLite WAL database read-only without changing player state [33m 674[2mms[22m[39m
-   [33m[2m✓[22m[39m refuses corrupt database and unknown future migration versions [33m 709[2mms[22m[39m
-   [33m[2m✓[22m[39m recognizes schema 1 needing startup migration without migrating during inspection [33m 365[2mms[22m[39m
-   [33m[2m✓[22m[39m only explicit Telegram probe uses injected read-only API methods and warns about webhook/privacy [33m 709[2mms[22m[39m
-   [33m[2m✓[22m[39m never probes Telegram with invalid token and redacts keyed API failures [33m 655[2mms[22m[39m
- [32m✓[39m tests/media.test.ts [2m([22m[2m6 tests[22m[2m)[22m[33m 440[2mms[22m[39m
-   [33m[2m✓[22m[39m composites every bundled unlocked selfie frame [33m 326[2mms[22m[39m
-(node:7857) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+ [32m✓[39m tests/engine.test.ts [2m([22m[2m41 tests[22m[2m)[22m[33m 327[2mms[22m[39m
+(node:6940) ExperimentalWarning: SQLite is an experimental feature and might change at any time
 (Use `node --trace-warnings ...` to show where the warning was created)
- [32m✓[39m tests/extra.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 49[2mms[22m[39m
+ [32m✓[39m tests/upgrade.test.ts [2m([22m[2m20 tests[22m[2m)[22m[33m 306[2mms[22m[39m
+(node:6964) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+ [32m✓[39m tests/extra.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 93[2mms[22m[39m
 
-[2m Test Files [22m [1m[32m5 passed[39m[22m[90m (5)[39m
-[2m      Tests [22m [1m[32m83 passed[39m[22m[90m (83)[39m
-[2m   Start at [22m 08:54:58
-[2m   Duration [22m 7.15s[2m (transform 179ms, setup 0ms, import 613ms, tests 5.94s, environment 0ms)[22m
+[2m Test Files [22m [1m[32m6 passed[39m[22m[90m (6)[39m
+[2m      Tests [22m [1m[32m117 passed[39m[22m[90m (117)[39m
+[2m   Start at [22m 12:57:24
+[2m   Duration [22m 9.01s[2m (transform 239ms, setup 0ms, import 799ms, tests 7.48s, environment 1ms)[22m
 
+JSON report written to /home/user/Tebak-Gambar-1.44.2l/bot/data/test-results.json
 
-> tebak-gambar-telegram@1.0.0 build
+> tebak-gambar-telegram@1.1.0 build
 > tsc
 
 
-> tebak-gambar-telegram@1.0.0 test
-> vitest run --reporter=json --outputFile=data/test-results.json
+> tebak-gambar-telegram@1.1.0 backup:test
+> npm run build && tsx scripts/test-backup.ts
 
-(node:7913) ExperimentalWarning: SQLite is an experimental feature and might change at any time
-(Use `node --trace-warnings ...` to show where the warning was created)
-(node:7943) ExperimentalWarning: SQLite is an experimental feature and might change at any time
-(Use `node --trace-warnings ...` to show where the warning was created)
-(node:7959) ExperimentalWarning: SQLite is an experimental feature and might change at any time
-(Use `node --trace-warnings ...` to show where the warning was created)
-(node:7966) ExperimentalWarning: SQLite is an experimental feature and might change at any time
-(Use `node --trace-warnings ...` to show where the warning was created)
-JSON report written to /home/user/Tebak-Gambar-1.44.2l/bot/data/test-results.json
 
-> tebak-gambar-telegram@1.0.0 doctor:offline
+> tebak-gambar-telegram@1.1.0 build
+> tsc
+
+PASS: compiled backup, live WAL consistency, persisted score/progress, mode 600, quoted path binding and refusal to overwrite an existing backup.
+(node:7037) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+> tebak-gambar-telegram@1.1.0 doctor:offline
 > node dist/scripts/doctor.js --offline
 
-(node:7990) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(node:7071) ExperimentalWarning: SQLite is an experimental feature and might change at any time
 (Use `node --trace-warnings ...` to show where the warning was created)
 PASS node: Node.js 22.13+ diperlukan; gunakan LTS yang didukung.
 WARN token: BOT_TOKEN kosong, tidak valid, atau token simulasi; isi secara lokal.
@@ -85,32 +92,80 @@ PASS frames: 10 frame 500×500 dengan alpha tersedia.
 PASS sounds: 11 file Ogg asli tersedia.
 PASS storage: Direktori database dapat ditulis oleh akun proses ini.
 PASS database: Belum ada database; startup akan membuat schema baru.
-WARN single-instance: Doctor tidak membuktikan ketiadaan poller lain. Gunakan satu proses untuk token/database ini.
+WARN single-instance: Startup mengunci satu instance lokal per path DB; doctor tidak membuktikan ketiadaan poller remote/token yang sama. Gunakan satu proses.
+WARN telegram: Tidak ada akses jaringan. Jalankan doctor --telegram pada server pemilik untuk verifikasi API read-only.
+Local checks passed. Warnings and live acceptance still require operator review.
+(node:7086) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+PASS node: Node.js 22.13+ diperlukan; gunakan LTS yang didukung.
+WARN token: BOT_TOKEN kosong, tidak valid, atau token simulasi; isi secara lokal.
+WARN admins: ADMIN_IDS kosong: fitur admin tidak dapat digunakan.
+PASS questions: 400 hash gambar dan manifest 20 level valid.
+PASS frames: 10 frame 500×500 dengan alpha tersedia.
+PASS sounds: 11 file Ogg asli tersedia.
+PASS storage: Direktori database dapat ditulis oleh akun proses ini.
+PASS database: Belum ada database; startup akan membuat schema baru.
+WARN single-instance: Startup mengunci satu instance lokal per path DB; doctor tidak membuktikan ketiadaan poller remote/token yang sama. Gunakan satu proses.
 WARN telegram: Tidak ada akses jaringan. Jalankan doctor --telegram pada server pemilik untuk verifikasi API read-only.
 Local checks passed. Warnings and live acceptance still require operator review.
 
-> tebak-gambar-telegram@1.0.0 backup:test
-> npm run build && tsx scripts/test-backup.ts
-
-
-> tebak-gambar-telegram@1.0.0 build
-> tsc
-
-PASS: compiled backup, live WAL consistency, persisted score/progress, mode 600, quoted path binding and refusal to overwrite an existing backup.
-(node:8046) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+Minimum runtime verification (Node version printed by executable):
+v22.13.0
+(node:7194) ExperimentalWarning: SQLite is an experimental feature and might change at any time
 (Use `node --trace-warnings ...` to show where the warning was created)
+(node:7194) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(node:7255) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:7255) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(node:7294) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7305) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7335) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7335) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+JSON report written to /home/user/Tebak-Gambar-1.44.2l/bot/data/test-results-node22-min.json
+(node:7377) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7377) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+PASS node: Node.js 22.13+ diperlukan; gunakan LTS yang didukung.
+WARN token: BOT_TOKEN kosong, tidak valid, atau token simulasi; isi secara lokal.
+WARN admins: ADMIN_IDS kosong: fitur admin tidak dapat digunakan.
+PASS questions: 400 hash gambar dan manifest 20 level valid.
+PASS frames: 10 frame 500×500 dengan alpha tersedia.
+PASS sounds: 11 file Ogg asli tersedia.
+PASS storage: Direktori database dapat ditulis oleh akun proses ini.
+PASS database: Belum ada database; startup akan membuat schema baru.
+WARN single-instance: Startup mengunci satu instance lokal per path DB; doctor tidak membuktikan ketiadaan poller remote/token yang sama. Gunakan satu proses.
+WARN telegram: Tidak ada akses jaringan. Jalankan doctor --telegram pada server pemilik untuk verifikasi API read-only.
+Local checks passed. Warnings and live acceptance still require operator review.
 
-> tebak-gambar-telegram@1.0.0 coverage:repo
-> tsx scripts/map-repository.ts
+Full termux-prepare fixture run on Linux x64 (NOT Android):
+> node dist/scripts/doctor.js --offline
 
-Mapped all 27427 tracked/nonignored working-tree paths; no claim of wholesale Android SDK conversion.
+(node:7556) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+PASS node: Node.js 22.13+ diperlukan; gunakan LTS yang didukung.
+WARN token: BOT_TOKEN kosong, tidak valid, atau token simulasi; isi secara lokal.
+WARN admins: ADMIN_IDS kosong: fitur admin tidak dapat digunakan.
+PASS questions: 400 hash gambar dan manifest 20 level valid.
+PASS frames: 10 frame 500×500 dengan alpha tersedia.
+PASS sounds: 11 file Ogg asli tersedia.
+PASS storage: Direktori database dapat ditulis oleh akun proses ini.
+PASS database-write: File database dapat ditulis oleh akun proses ini (tanpa mengubah data).
+PASS database: SQLite quick_check/FK dan schema 1–2 valid (tidak dimigrasikan oleh doctor).
+WARN single-instance: Startup mengunci satu instance lokal per path DB; doctor tidak membuktikan ketiadaan poller remote/token yang sama. Gunakan satu proses.
+WARN telegram: Tidak ada akses jaringan. Jalankan doctor --telegram pada server pemilik untuk verifikasi API read-only.
+Local checks passed. Warnings and live acceptance still require operator review.
+Prepared locally. Edit .env privately, run doctor --telegram on your device, then termux-run.sh. No live Telegram test was performed.
+PASS .env hash/runtime marker unchanged; existing SQLite fixture score=17 preserved.
 
-PASS: 83 tests, CLI fail-closed, no token leakage, npm audit 0, 27427 repository paths mapped, documentation links valid. No live Telegram deployment.
-
-> tebak-gambar-telegram@1.0.0 demo:test
+> tebak-gambar-telegram@1.1.0 demo:test
 > tsx scripts/test-demo-http.ts
 
-PASS live HTTP simulator: onboarding, callback/hint, PNG, answer, WebP, Ogg, selfie framing, export, group winner, delete/recreate and cross-cookie media isolation. NO Telegram network.
-PASS production entrypoint rejects unsupported future schema without creating/migrating game tables or reaching Telegram initialization.
-(node:8312) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+PASS live HTTP simulator: onboarding, callback/hint, PNG, answer, WebP, Ogg, selfie framing, export, group winner, delete/recreate and cross-cookie media isolation, cross-origin/content-type rejection and HTTPS partitioned cookies. NO Telegram network.
+
+Production startup with empty BOT_TOKEN intentionally rejected (exit 1), before Telegram or game DB creation:
+Bot gagal dimulai. Periksa BOT_TOKEN, jaringan Telegram, konflik polling, SQLite dan konfigurasi. Token tidak dicetak.
+(node:7647) ExperimentalWarning: SQLite is an experimental feature and might change at any time
 (Use `node --trace-warnings ...` to show where the warning was created)
